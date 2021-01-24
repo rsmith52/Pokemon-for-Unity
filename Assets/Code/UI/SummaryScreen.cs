@@ -62,6 +62,8 @@ namespace UI
         };
 
         private static readonly float ICON_ANIM_TIME = 0.25f;
+        private static readonly float SPRITE_ANIM_TIME = 0.1f;
+        private static readonly float ANIM_SPRITE_SIZE_MULT = 3f;
 
         private static readonly Color32 DARK_BG_COLOR = Constants.DARK_BG_TEXT_COLOR;
         private static readonly Color32 LIGHT_BG_COLOR = Constants.LIGHT_BG_TEXT_COLOR;
@@ -191,12 +193,16 @@ namespace UI
 
         private SummaryPages current_page;
         private Pokemon.Pokemon current_pokemon;
+        private Sprite[] pokemon_frames;
         public int pokemon_selection;
         public bool in_pc;
         public bool learning_move;
 
-        private float anim_time;
-        private int anim_frame;
+        private float icon_anim_time;
+        private int icon_anim_frame;
+        private bool pokemon_changed;
+        private float sprite_anim_time;
+        private int sprite_anim_frame;
 
         private bool page_changed;
         private bool awaiting_input;
@@ -224,6 +230,7 @@ namespace UI
 
             // Ready for interaction
             page_changed = true;
+            pokemon_changed = true;
             awaiting_input = true;
         }
 
@@ -327,6 +334,7 @@ namespace UI
                         else
                             pokemon_selection += 1;
                         page_changed = true;
+                        pokemon_changed = true;
                     }
                 }
                 else if (Input.GetKeyDown(KeyCode.UpArrow))
@@ -370,6 +378,7 @@ namespace UI
                         else
                             pokemon_selection -= 1;
                         page_changed = true;
+                        pokemon_changed = true;
                     }
                         
                 }
@@ -433,19 +442,46 @@ namespace UI
             if (current_page == SummaryPages.MoveDetail)
             {
                 // Animate pokemon_icons
-                anim_time += Time.deltaTime;
+                icon_anim_time += Time.deltaTime;
                 // Keep icons animated
-                if (anim_time > ICON_ANIM_TIME)
+                if (icon_anim_time > ICON_ANIM_TIME)
                 {
-                    anim_time = 0;
-                    anim_frame = (anim_frame + 1) % 2;
-                    move_detail_poke_icon.sprite = Specie.GetPokemonIcon((uint)current_pokemon.species, anim_frame, current_pokemon.form_id);
+                    icon_anim_time = 0;
+                    icon_anim_frame = (icon_anim_frame + 1) % 2;
+                    move_detail_poke_icon.sprite = Specie.GetPokemonIcon((uint)current_pokemon.species, icon_anim_frame, current_pokemon.form_id);
                 }
             }
 
             // Build/Show current page
             if (page_changed)
                 BuildCurrentPage();
+
+            // Update pokemon sprite if using animated pokemon sprites
+            if (pokemon_changed && Settings.ANIMATED_SPRITES)
+            {
+                if (!in_pc)
+                    current_pokemon = party.pokemon[pokemon_selection];
+
+                Specie species = current_pokemon.GetSpecieData();
+                pokemon_frames = Specie.GetPokemonAnimFrames(species.national_dex, current_pokemon.gender, current_pokemon.is_shiny, false, current_pokemon.form_id);
+                sprite_anim_frame = 0;
+                pokemon_sprite.sprite = pokemon_frames[sprite_anim_frame];
+                pokemon_sprite.SetNativeSize();
+                pokemon_sprite.rectTransform.SetSizeWithCurrentAnchors(RectTransform.Axis.Horizontal, ANIM_SPRITE_SIZE_MULT * pokemon_sprite.rectTransform.sizeDelta.x);
+                pokemon_sprite.rectTransform.SetSizeWithCurrentAnchors(RectTransform.Axis.Vertical, ANIM_SPRITE_SIZE_MULT * pokemon_sprite.rectTransform.sizeDelta.y);
+                pokemon_changed = false;
+            }
+            // Animate pokemon sprite if using animated pokemon sprites
+            if (Settings.ANIMATED_SPRITES)
+            {
+                sprite_anim_time += Time.deltaTime;
+                if (sprite_anim_time > SPRITE_ANIM_TIME)
+                {
+                    sprite_anim_time = 0;
+                    sprite_anim_frame = (sprite_anim_frame + 1) % pokemon_frames.Length;
+                    pokemon_sprite.sprite = pokemon_frames[sprite_anim_frame];
+                }
+            }
         }
 
         #endregion
@@ -521,6 +557,7 @@ namespace UI
 
         private void HideAllPages()
         {
+            HideGeneralComponents();
             for (int i = 0; i < Enum.GetValues(typeof(SummaryPages)).Length; i++)
                 HidePage((SummaryPages)i);
         }
@@ -537,7 +574,8 @@ namespace UI
             level.text = pokemon.level.ToString();
             pokemon_sprite.enabled = true;
             Specie species = pokemon.GetSpecieData();
-            pokemon_sprite.sprite = Specie.GetPokemonSprite(species.national_dex, pokemon.gender, pokemon.is_shiny, false, 0, pokemon.form_id);
+            if (!Settings.ANIMATED_SPRITES)
+                pokemon_sprite.sprite = Specie.GetPokemonSprite(species.national_dex, pokemon.gender, pokemon.is_shiny, false, pokemon.form_id);
             for (int i = 0; i < Constants.NUM_MARKINGS; i++)
             {
                 markings[i].enabled = true;
@@ -693,7 +731,14 @@ namespace UI
             skills_labels.enabled = true;
             skills_labels.text = "";
             for (int i = 1; i < SKILLS_TEXT.Length; i++)
-                skills_labels.text += SKILLS_TEXT[i] + '\n';
+            {
+                if ((int)Nature.GetBoostedStat(pokemon.nature) - 1 == i)
+                    skills_labels.text += "<color=red>" + SKILLS_TEXT[i] + "</color>\n";
+                else if ((int)Nature.GetHinderedStat(pokemon.nature) - 1 == i)
+                    skills_labels.text += "<color=blue>" + SKILLS_TEXT[i] + "</color>\n";
+                else
+                    skills_labels.text += SKILLS_TEXT[i] + '\n';
+            }
             skills_values.enabled = true;
             skills_values.text = "";
             skills_values.text += pokemon.stats.ATK.ToString() + '\n';

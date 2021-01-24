@@ -135,7 +135,7 @@ namespace Pokemon
         {
             uint[] exp_table = GetExpTable(growth_rate);
 
-            if (level < 1 || level > Settings.MAX_LEVEL || exp_table == null)
+            if (level < 1 || level > Constants.MAX_LEVEL || exp_table == null)
                 return uint.MaxValue;
 
             return exp_table[level - 1];
@@ -148,7 +148,7 @@ namespace Pokemon
                 return 0;
 
             uint highest_level_found = 0;
-            for (uint i = 0; i < Settings.MAX_LEVEL; i++)
+            for (uint i = 0; i < Constants.MAX_LEVEL; i++)
             {
                 if (current_exp >= exp_table[i])
                     highest_level_found = i + 1;
@@ -162,7 +162,7 @@ namespace Pokemon
             uint[] exp_table = GetExpTable(growth_rate);
             uint current_level = GetLevelFromExp(current_exp, growth_rate);
 
-            if (exp_table == null || current_level == Settings.MAX_LEVEL)
+            if (exp_table == null || current_level == Constants.MAX_LEVEL)
                 return 0;
 
             uint next_level_exp = GetLevelTotalExp((uint)current_level + 1, growth_rate);
@@ -174,7 +174,7 @@ namespace Pokemon
             uint[] exp_table = GetExpTable(growth_rate);
             uint current_level = GetLevelFromExp(current_exp, growth_rate);
 
-            if (exp_table == null || current_level == Settings.MAX_LEVEL)
+            if (exp_table == null || current_level == Constants.MAX_LEVEL)
                 return 0;
 
             uint this_level_total_exp = GetLevelTotalExp(current_level, growth_rate);

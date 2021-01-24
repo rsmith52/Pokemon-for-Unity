@@ -28,9 +28,11 @@ namespace Utilities
 
         #region Pokemon
 
+        public static readonly int MAX_LEVEL = 100;
         public static readonly int PARTY_SIZE = 6;
         public static readonly int NUM_MARKINGS = 6;
         public static readonly int NUM_MOVES = 4;
+
         public static readonly string MALE = "♂";
         public static readonly string FEMALE = "♀";
         public static readonly string MALE_TEXT = "<color=blue>" + MALE + "</color>";

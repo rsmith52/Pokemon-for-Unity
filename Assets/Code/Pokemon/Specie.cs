@@ -1003,7 +1003,7 @@ namespace Pokemon
         }
 
         public static Sprite GetPokemonSprite(uint dex_number, Genders gender = Genders.Male, bool is_shiny = false,
-            bool is_back = false, int frame = 0, uint form_id = 0)
+            bool is_back = false, uint form_id = 0)
         {
             string poke_sprite_path = Settings.POKEMON_SPRITE_PATH;
             string local_path = Path.GetFileName(poke_sprite_path);
@@ -1030,7 +1030,7 @@ namespace Pokemon
 
             try
             {
-                return Resources.LoadAll<Sprite>(file_path)[frame];
+                return Resources.LoadAll<Sprite>(file_path)[0];
             }
             catch
             {
@@ -1039,7 +1039,50 @@ namespace Pokemon
                     file_path += 's';
                 if (is_back)
                     file_path += 'b';
-                return Resources.LoadAll<Sprite>(file_path)[frame];
+                return Resources.LoadAll<Sprite>(file_path)[0];
+            }
+        }
+
+        public static Sprite[] GetPokemonAnimFrames(uint dex_number, Genders gender = Genders.Male, bool is_shiny = false,
+            bool is_back = false, uint form_id = 0)
+        {
+            string poke_sprite_path = Settings.POKEMON_ANIM_SPRITE_PATH;
+            string local_path = Path.GetFileName(poke_sprite_path);
+
+            string file_name = dex_number.ToString().PadLeft(3, '0');
+
+            // check for female form
+            if (gender == Genders.Female)
+            {
+                string female_file_name = file_name + 'f';
+                string female_file_path = Path.Combine(poke_sprite_path, female_file_name);
+                if (File.Exists(female_file_path))
+                    file_name = female_file_name;
+            }
+
+            if (is_shiny)
+                file_name += 's';
+            if (is_back)
+                file_name += 'b';
+            if (form_id != 0)
+                file_name += '_' + form_id.ToString();
+
+            string file_path = Path.Combine(local_path, file_name);
+
+            try
+            {
+                Sprite[] frames = Resources.LoadAll<Sprite>(file_path);
+                Sprite test_access = frames[0];
+                return frames;
+            }
+            catch
+            {
+                file_path = Path.Combine(local_path, Settings.POKEMON_MISSING_ANIM_SPRITE);
+                if (is_shiny)
+                    file_path += 's';
+                if (is_back)
+                    file_path += 'b';
+                return Resources.LoadAll<Sprite>(file_path);
             }
         }
 

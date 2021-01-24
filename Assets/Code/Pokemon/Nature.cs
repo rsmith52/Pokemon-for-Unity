@@ -70,7 +70,7 @@
             else if (nature == Natures.Bold || nature == Natures.Relaxed ||
                 nature == Natures.Impish || nature == Natures.Lax)
                 return Stats.Defense;
-            else if (nature == Natures.Timid || nature == Natures.Impish ||
+            else if (nature == Natures.Timid || nature == Natures.Hasty ||
                 nature == Natures.Jolly || nature == Natures.Naive)
                 return Stats.Speed;
             else if (nature == Natures.Modest || nature == Natures.Mild ||
