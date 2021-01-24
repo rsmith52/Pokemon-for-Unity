@@ -75,6 +75,11 @@ namespace UI
         private static readonly float MOVE_SEL_OFFSET = 200f * 0.4266667f;
 
         private static readonly int NUM_RIBBONS = 12;
+        private static readonly int NUM_RIBBONS_IN_ROW = 4;
+        private static readonly int NUM_RIBBONS_IN_COL = 3;
+
+        private static readonly float RIBBON_SEL_OFFSET_X = 214f * 0.48f;
+        private static readonly float RIBBON_SEL_OFFSET_Y = 212f * 0.4266667f;
 
         #endregion
 
@@ -139,6 +144,10 @@ namespace UI
         public Image[] ribbons_sprites = new Image[NUM_RIBBONS];
         public Text ribbons_count;
         public Text ribbons_count_num;
+        public Image ribbon_sel;
+        public Image ribbon_details_panel;
+        public Text ribbon_name;
+        public Text ribbon_desc;
 
         [Header("Egg Screen")]
         public Image egg_bg;
@@ -178,6 +187,7 @@ namespace UI
         private PlayerTrainer player;
         private Party party;
         private MoveSlot temp_move_slot;
+        private int[] poke_ribbons;
 
         private SummaryPages current_page;
         private Pokemon.Pokemon current_pokemon;
@@ -193,6 +203,8 @@ namespace UI
         private int selected_move;
         private bool swapping_moves;
         private int marked_move;
+        private bool ribbon_details;
+        private int selected_ribbon;
 
         #endregion
 
@@ -220,23 +232,59 @@ namespace UI
             // Get player input
             if (awaiting_input)
             {
-                if (Input.GetKeyDown(KeyCode.RightArrow) && current_page != SummaryPages.MoveDetail)
+                if (Input.GetKeyDown(KeyCode.RightArrow))
                 {
-                    HidePage(current_page);
-                    if ((int)current_page == SUMMARY_PAGES.Length - 1)
-                        current_page = (SummaryPages)0;
-                    else
-                        current_page += 1;
-                    page_changed = true;
+                    if (current_page != SummaryPages.MoveDetail && !ribbon_details)
+                    {
+                        HidePage(current_page);
+                        if ((int)current_page == SUMMARY_PAGES.Length - 1)
+                            current_page = (SummaryPages)0;
+                        else
+                            current_page += 1;
+                        page_changed = true;
+                    }
+                    else if (ribbon_details)
+                    {
+                        if (selected_ribbon % NUM_RIBBONS_IN_ROW == NUM_RIBBONS_IN_ROW - 1)
+                        {
+                            selected_ribbon -= (NUM_RIBBONS_IN_ROW - 1);
+                            for (int i = 0; i < NUM_RIBBONS_IN_ROW - 1; i++)
+                                RibbonSelLeft();
+                        }
+                        else
+                        {
+                            selected_ribbon += 1;
+                            RibbonSelRight();
+                        }
+                        UpdateRibbonsScreen(current_pokemon);
+                    }
                 }
-                else if (Input.GetKeyDown(KeyCode.LeftArrow) && current_page != SummaryPages.MoveDetail)
+                else if (Input.GetKeyDown(KeyCode.LeftArrow))
                 {
-                    HidePage(current_page);
-                    if ((int)current_page == 0)
-                        current_page = (SummaryPages)(SUMMARY_PAGES.Length - 1);
-                    else
-                        current_page -= 1;
-                    page_changed = true;
+                    if (current_page != SummaryPages.MoveDetail && !ribbon_details)
+                    {
+                        HidePage(current_page);
+                        if ((int)current_page == 0)
+                            current_page = (SummaryPages)(SUMMARY_PAGES.Length - 1);
+                        else
+                            current_page -= 1;
+                        page_changed = true;
+                    }
+                    else if (ribbon_details)
+                    {
+                        if (selected_ribbon % NUM_RIBBONS_IN_ROW == 0)
+                        {
+                            selected_ribbon += (NUM_RIBBONS_IN_ROW - 1);
+                            for (int i = 0; i < NUM_RIBBONS_IN_ROW - 1; i++)
+                                RibbonSelRight();
+                        }
+                        else
+                        {
+                            selected_ribbon -= 1;
+                            RibbonSelLeft();
+                        }
+                        UpdateRibbonsScreen(current_pokemon);
+                    }
                 }
                 else if (Input.GetKeyDown(KeyCode.DownArrow))
                 {
@@ -255,6 +303,21 @@ namespace UI
                             selected_move += 1;
                         }
                         UpdateMoveDetailsScreen(current_pokemon);
+                    }
+                    else if (ribbon_details)
+                    {
+                        if (selected_ribbon >= NUM_RIBBONS - NUM_RIBBONS_IN_ROW)
+                        {
+                            selected_ribbon -= (NUM_RIBBONS_IN_COL - 1) * NUM_RIBBONS_IN_ROW;
+                            for (int i = 1; i < NUM_RIBBONS_IN_COL; i++)
+                                RibbonSelUp();
+                        }
+                        else
+                        {
+                            selected_ribbon += NUM_RIBBONS_IN_ROW;
+                            RibbonSelDown();
+                        }
+                        UpdateRibbonsScreen(current_pokemon);
                     }
                     else
                     {
@@ -283,6 +346,21 @@ namespace UI
                             selected_move -= 1;
                         }
                         UpdateMoveDetailsScreen(current_pokemon);
+                    }
+                    else if (ribbon_details)
+                    {
+                        if (selected_ribbon < NUM_RIBBONS_IN_ROW)
+                        {
+                            selected_ribbon += (NUM_RIBBONS_IN_COL - 1) * NUM_RIBBONS_IN_ROW;
+                            for (int i = 1; i < NUM_RIBBONS_IN_COL; i++)
+                                RibbonSelDown();
+                        }
+                        else
+                        {
+                            selected_ribbon -= NUM_RIBBONS_IN_ROW;
+                            RibbonSelUp();
+                        }
+                        UpdateRibbonsScreen(current_pokemon);
                     }
                     else
                     {
@@ -317,6 +395,12 @@ namespace UI
                         UnmarkMarkedMove();
                         BuildCurrentPage();
                     }
+                    else if (current_page == SummaryPages.Ribbons)
+                    {
+                        ribbon_details = true;
+                        selected_ribbon = 0;
+                        UpdateRibbonsScreen(current_pokemon);
+                    }
                 }
                 else if (Input.GetKeyDown(KeyCode.X))
                 {
@@ -327,10 +411,19 @@ namespace UI
                         current_page = SummaryPages.Moves;
                         page_changed = true;
                     }
-                    else if(current_page == SummaryPages.MoveDetail)
+                    else if (current_page == SummaryPages.MoveDetail)
                     {
                         swapping_moves = false;
                         UnmarkMarkedMove();
+                    }
+                    else if (current_page == SummaryPages.Ribbons && ribbon_details)
+                    {
+                        ribbon_details = false;
+                        for (int i = 0; i < selected_ribbon % NUM_RIBBONS_IN_ROW; i++)
+                            RibbonSelLeft();
+                        for (int i = 0; i < selected_ribbon / NUM_RIBBONS_IN_ROW; i++)
+                            RibbonSelUp();
+                        BuildCurrentPage();
                     }
                     else
                         CloseMenu();
@@ -349,7 +442,6 @@ namespace UI
                     move_detail_poke_icon.sprite = Specie.GetPokemonIcon((uint)current_pokemon.species, anim_frame, current_pokemon.form_id);
                 }
             }
-            
 
             // Build/Show current page
             if (page_changed)
@@ -690,7 +782,7 @@ namespace UI
             BuildGeneralComponents(pokemon);
 
             // Ribbons Components
-            int[] poke_ribbons = pokemon.GetRibbonSet(NUM_RIBBONS, 0);
+            poke_ribbons = pokemon.GetRibbonSet(NUM_RIBBONS, 0);
 
             int num_ribbons = 0;
             for (int i = 0; i < NUM_RIBBONS; i++)
@@ -708,6 +800,33 @@ namespace UI
             ribbons_count.text = NUM_RIBBONS_TEXT;
             ribbons_count_num.enabled = true;
             ribbons_count_num.text = pokemon.GetNumRibbons().ToString();
+
+            ribbon_details = false;
+            ribbon_sel.enabled = false;
+            ribbon_details_panel.enabled = false;
+            ribbon_name.enabled = false;
+            ribbon_desc.enabled = false;
+        }
+
+        private void UpdateRibbonsScreen(Pokemon.Pokemon pokemon)
+        {
+            item_icon.enabled = false;
+            item.enabled = false;
+            item_name.enabled = false;
+            for (int i = 0; i < Constants.NUM_MARKINGS; i++)
+                markings[i].enabled = false;
+
+            ribbon_sel.enabled = true;
+            ribbon_details_panel.enabled = true;
+            ribbon_name.enabled = true;
+            ribbon_name.text = "";
+            ribbon_desc.enabled = true;
+            ribbon_desc.text = "";
+            if (poke_ribbons[selected_ribbon] >= 0)
+            {
+                ribbon_name.text = Ribbons.RIBBON_NAMES[poke_ribbons[selected_ribbon]];
+                ribbon_desc.text = Ribbons.RIBBON_DESCRIPTIONS[poke_ribbons[selected_ribbon]];
+            }
         }
 
         private void HideRibbonsScreen()
@@ -718,6 +837,27 @@ namespace UI
                 ribbons_sprites[i].enabled = false;
             ribbons_count.enabled = false;
             ribbons_count_num.enabled = false;
+            ribbon_sel.enabled = false;
+            ribbon_details_panel.enabled = false;
+            ribbon_name.enabled = false;
+            ribbon_desc.enabled = false;
+        }
+
+        private void RibbonSelRight()
+        {
+            ribbon_sel.rectTransform.Translate(Vector3.right * RIBBON_SEL_OFFSET_X);
+        }
+        private void RibbonSelLeft()
+        {
+            ribbon_sel.rectTransform.Translate(Vector3.left * RIBBON_SEL_OFFSET_X);
+        }
+        private void RibbonSelDown()
+        {
+            ribbon_sel.rectTransform.Translate(Vector3.down * RIBBON_SEL_OFFSET_Y);
+        }
+        private void RibbonSelUp()
+        {
+            ribbon_sel.rectTransform.Translate(Vector3.up * RIBBON_SEL_OFFSET_Y);
         }
 
         private void BuildMoveDetailScreen(Pokemon.Pokemon pokemon)
