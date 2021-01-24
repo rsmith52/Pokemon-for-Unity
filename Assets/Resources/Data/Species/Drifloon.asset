@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Drifloon
+  m_EditorClassIdentifier: 
+  national_dex: 425
+  types: 0800000003000000
+  base_stats:
+    HP: 90
+    ATK: 50
+    DEF: 34
+    SP_ATK: 60
+    SP_DEF: 44
+    SPD: 70
+  gender_rate: 3
+  growth_rate: 5
+  base_exp: 70
+  effort_values:
+    HP: 1
+    ATK: 0
+    DEF: 0
+    SP_ATK: 0
+    SP_DEF: 0
+    SPD: 0
+  rareness: 125
+  happiness: 70
+  abilities: 0200000099000000
+  hidden_ability: 1f000000
+  moves:
+  - level: 1
+    move: 77
+  - level: 1
+    move: 300
+  - level: 4
+    move: 23
+  - level: 8
+    move: 203
+  - level: 13
+    move: 170
+  - level: 16
+    move: 329
+  - level: 20
+    move: 324
+  - level: 25
+    move: 466
+  - level: 27
+    move: 223
+  - level: 32
+    move: 485
+  - level: 32
+    move: 459
+  - level: 36
+    move: 415
+  - level: 40
+    move: 14
+  - level: 44
+    move: 32
+  - level: 50
+    move: 140
+  evolutions:
+  - evolution: 426
+    evolution_method: 1
+    parameter: 28
+  egg_moves: 2c00000047000000620000006300000066000000d0000000ed00000023010000f10100001d020000
+  egg_groups: 0a000000
+  steps_to_hatch: 7680
+  height: 0.4
+  weight: 1.2
+  color: 7
+  shape: 3
+  habitat: 0
+  regional_dexes: 
+  kind: Balloon
+  pokedex_entry: "A Pok\xE9mon formed by the spirits of people and Pok\xE9mon. It
+    loves damp, humid seasons."
+  wild_item_common: 0
+  wild_item_uncommon: 0
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: 2
+  battler_player_y: 0
+  battler_enemy_x: 4
+  battler_enemy_y: -5
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 1

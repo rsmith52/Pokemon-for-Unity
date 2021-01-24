@@ -1,0 +1,104 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Shuckle
+  m_EditorClassIdentifier: 
+  national_dex: 213
+  types: 0700000006000000
+  base_stats:
+    HP: 20
+    ATK: 10
+    DEF: 230
+    SP_ATK: 10
+    SP_DEF: 230
+    SPD: 5
+  gender_rate: 3
+  growth_rate: 3
+  base_exp: 177
+  effort_values:
+    HP: 0
+    ATK: 0
+    DEF: 1
+    SP_ATK: 0
+    SP_DEF: 1
+    SPD: 0
+  rareness: 190
+  happiness: 70
+  abilities: 8700000026000000
+  hidden_ability: 11000000
+  moves:
+  - level: 1
+    move: 615
+  - level: 1
+    move: 549
+  - level: 1
+    move: 77
+  - level: 1
+    move: 36
+  - level: 1
+    move: 395
+  - level: 5
+    move: 134
+  - level: 9
+    move: 554
+  - level: 12
+    move: 473
+  - level: 16
+    move: 400
+  - level: 20
+    move: 378
+  - level: 23
+    move: 390
+  - level: 27
+    move: 186
+  - level: 31
+    move: 346
+  - level: 34
+    move: 422
+  - level: 38
+    move: 388
+  - level: 42
+    move: 55
+  - level: 45
+    move: 344
+  - level: 45
+    move: 199
+  - level: 49
+    move: 468
+  - level: 53
+    move: 615
+  evolutions: []
+  egg_moves: 040000000600000097000000de00000002010000380100008101000092010000e7010000
+  egg_groups: 02000000
+  steps_to_hatch: 5120
+  height: 0.6
+  weight: 20.5
+  color: 3
+  shape: 13
+  habitat: 4
+  regional_dexes: 00000000a8000000
+  kind: Mold
+  pokedex_entry: A Shuckle hides under rocks, keeping its body concealed inside its
+    shell while eating stored berries. The berries mix with its body fluids to become
+    a juice.
+  wild_item_common: 17
+  wild_item_uncommon: 17
+  wild_item_rare: 17
+  form_name: 
+  incense: 0
+  battler_player_x: 1
+  battler_player_y: 0
+  battler_enemy_x: 2
+  battler_enemy_y: 22
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 2

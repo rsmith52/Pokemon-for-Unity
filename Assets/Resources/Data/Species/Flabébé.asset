@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: "Flab\xE9b\xE9"
+  m_EditorClassIdentifier: 
+  national_dex: 669
+  types: 1200000000000000
+  base_stats:
+    HP: 44
+    ATK: 38
+    DEF: 39
+    SP_ATK: 61
+    SP_DEF: 79
+    SPD: 42
+  gender_rate: 6
+  growth_rate: 1
+  base_exp: 61
+  effort_values:
+    HP: 0
+    ATK: 0
+    DEF: 0
+    SP_ATK: 0
+    SP_DEF: 1
+    SPD: 0
+  rareness: 225
+  happiness: 70
+  abilities: af000000
+  hidden_ability: be000000
+  moves:
+  - level: 1
+    move: 493
+  - level: 1
+    move: 530
+  - level: 6
+    move: 576
+  - level: 10
+    move: 273
+  - level: 15
+    move: 369
+  - level: 20
+    move: 548
+  - level: 22
+    move: 279
+  - level: 24
+    move: 583
+  - level: 28
+    move: 605
+  - level: 33
+    move: 20
+  - level: 37
+    move: 596
+  - level: 41
+    move: 597
+  - level: 45
+    move: 332
+  - level: 48
+    move: 452
+  evolutions:
+  - evolution: 670
+    evolution_method: 1
+    parameter: 19
+  egg_moves: 3e0000003f00000050000000a0020000
+  egg_groups: 05000000
+  steps_to_hatch: 5120
+  height: 0.1
+  weight: 0.1
+  color: 9
+  shape: 3
+  habitat: 0
+  regional_dexes: 
+  kind: Single Bloom
+  pokedex_entry: When it finds a flower it likes, it dwells on that flower its whole
+    life long. It floats in the wind's embrace with an untroubled heart.
+  wild_item_common: 0
+  wild_item_uncommon: 0
+  wild_item_rare: 0
+  form_name: Red Flower
+  incense: 0
+  battler_player_x: 0
+  battler_player_y: 0
+  battler_enemy_x: 0
+  battler_enemy_y: 0
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 2

@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Prinplup
+  m_EditorClassIdentifier: 
+  national_dex: 394
+  types: 0b00000000000000
+  base_stats:
+    HP: 64
+    ATK: 66
+    DEF: 68
+    SP_ATK: 81
+    SP_DEF: 76
+    SPD: 50
+  gender_rate: 1
+  growth_rate: 3
+  base_exp: 142
+  effort_values:
+    HP: 0
+    ATK: 0
+    DEF: 0
+    SP_ATK: 2
+    SP_DEF: 0
+    SPD: 0
+  rareness: 45
+  happiness: 70
+  abilities: 93000000
+  hidden_ability: 16000000
+  moves:
+  - level: 0
+    move: 293
+  - level: 1
+    move: 293
+  - level: 1
+    move: 493
+  - level: 1
+    move: 196
+  - level: 1
+    move: 54
+  - level: 4
+    move: 196
+  - level: 8
+    move: 54
+  - level: 11
+    move: 538
+  - level: 15
+    move: 330
+  - level: 19
+    move: 53
+  - level: 24
+    move: 36
+  - level: 28
+    move: 180
+  - level: 33
+    move: 52
+  - level: 37
+    move: 542
+  - level: 42
+    move: 306
+  - level: 46
+    move: 122
+  - level: 50
+    move: 233
+  evolutions:
+  - evolution: 395
+    evolution_method: 1
+    parameter: 36
+  egg_moves: 
+  egg_groups: 0100000004000000
+  steps_to_hatch: 5120
+  height: 0.8
+  weight: 23
+  color: 2
+  shape: 5
+  habitat: 0
+  regional_dexes: 
+  kind: Penguin
+  pokedex_entry: It lives alone, away from others. Apparently, every one of them
+    believes it is the most important.
+  wild_item_common: 0
+  wild_item_uncommon: 0
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: 2
+  battler_player_y: 0
+  battler_enemy_x: 0
+  battler_enemy_y: 13
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 2

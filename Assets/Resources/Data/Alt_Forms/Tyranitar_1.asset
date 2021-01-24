@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 253d169095ab8450397d87b75daa8002, type: 3}
+  m_Name: Tyranitar_1
+  m_EditorClassIdentifier: 
+  base_species: 248
+  form_name: Mega Tyranitar
+  form_id: 1
+  types: 
+  base_stats:
+    HP: 100
+    ATK: 164
+    DEF: 150
+    SP_ATK: 95
+    SP_DEF: 120
+    SPD: 71
+  base_exp: 0
+  effort_values:
+    HP: 0
+    ATK: 0
+    DEF: 0
+    SP_ATK: 0
+    SP_DEF: 0
+    SPD: 0
+  rareness: 0
+  happiness: 0
+  abilities: 
+  hidden_ability: 6d000000
+  moves: []
+  evolutions: []
+  egg_moves: 
+  egg_groups: 
+  steps_to_hatch: 0
+  height: 2.5
+  weight: 255
+  color: 0
+  shape: 0
+  habitat: 0
+  kind: 
+  pokedex_entry: "Due to the colossal power poured into it, this Pok\xE9mon's back
+    split right open. Its destructive instincts are the only thing keeping it moving."
+  wild_item_common: 0
+  wild_item_uncommon: 0
+  wild_item_rare: 0
+  battler_player_x: 0
+  battler_player_y: 0
+  battler_enemy_x: 0
+  battler_enemy_y: 0
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 0
+  mega_stone: 597
+  mega_move: 0
+  mega_message: 
+  unmega_form_id: 0
+  pokedex_form_id: 0

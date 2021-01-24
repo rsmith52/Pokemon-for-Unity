@@ -1,0 +1,113 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Volcarona
+  m_EditorClassIdentifier: 
+  national_dex: 637
+  types: 070000000a000000
+  base_stats:
+    HP: 85
+    ATK: 60
+    DEF: 65
+    SP_ATK: 135
+    SP_DEF: 105
+    SPD: 100
+  gender_rate: 3
+  growth_rate: 2
+  base_exp: 248
+  effort_values:
+    HP: 0
+    ATK: 0
+    DEF: 0
+    SP_ATK: 3
+    SP_DEF: 0
+    SPD: 0
+  rareness: 15
+  happiness: 70
+  abilities: 1e000000
+  hidden_ability: 8a000000
+  moves:
+  - level: 0
+    move: 364
+  - level: 1
+    move: 364
+  - level: 1
+    move: 150
+  - level: 1
+    move: 231
+  - level: 1
+    move: 365
+  - level: 1
+    move: 220
+  - level: 1
+    move: 163
+  - level: 1
+    move: 505
+  - level: 1
+    move: 14
+  - level: 1
+    move: 56
+  - level: 1
+    move: 161
+  - level: 1
+    move: 133
+  - level: 1
+    move: 472
+  - level: 1
+    move: 1
+  - level: 1
+    move: 203
+  - level: 10
+    move: 1
+  - level: 20
+    move: 203
+  - level: 30
+    move: 156
+  - level: 40
+    move: 543
+  - level: 50
+    move: 426
+  - level: 60
+    move: 220
+  - level: 70
+    move: 56
+  - level: 80
+    move: 365
+  - level: 90
+    move: 231
+  - level: 100
+    move: 150
+  evolutions: []
+  egg_moves: 
+  egg_groups: 02000000
+  steps_to_hatch: 10240
+  height: 1.6
+  weight: 46
+  color: 9
+  shape: 12
+  habitat: 0
+  regional_dexes: 
+  kind: Sun
+  pokedex_entry: A sea of fire engulfs the surroundings of their battles, since they
+    use their six wings to scatter their ember scales.
+  wild_item_common: 334
+  wild_item_uncommon: 334
+  wild_item_rare: 334
+  form_name: 
+  incense: 0
+  battler_player_x: 0
+  battler_player_y: 0
+  battler_enemy_x: 3
+  battler_enemy_y: 2
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 3

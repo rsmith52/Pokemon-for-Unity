@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Dratini
+  m_EditorClassIdentifier: 
+  national_dex: 147
+  types: 1000000000000000
+  base_stats:
+    HP: 41
+    ATK: 64
+    DEF: 45
+    SP_ATK: 50
+    SP_DEF: 50
+    SPD: 50
+  gender_rate: 3
+  growth_rate: 2
+  base_exp: 60
+  effort_values:
+    HP: 0
+    ATK: 1
+    DEF: 0
+    SP_ATK: 0
+    SP_DEF: 0
+    SPD: 0
+  rareness: 45
+  happiness: 35
+  abilities: 73000000
+  hidden_ability: 49000000
+  moves:
+  - level: 1
+    move: 554
+  - level: 1
+    move: 266
+  - level: 5
+    move: 509
+  - level: 11
+    move: 523
+  - level: 15
+    move: 117
+  - level: 21
+    move: 436
+  - level: 25
+    move: 10
+  - level: 31
+    move: 119
+  - level: 35
+    move: 18
+  - level: 41
+    move: 118
+  - level: 45
+    move: 400
+  - level: 51
+    move: 115
+  - level: 55
+    move: 325
+  - level: 61
+    move: 234
+  evolutions:
+  - evolution: 148
+    evolution_method: 1
+    parameter: 30
+  egg_moves: 10000000710000007300000074000000760000008e000000d0000000fd00000032010000e201000019020000
+  egg_groups: 010000000d000000
+  steps_to_hatch: 10240
+  height: 1.8
+  weight: 3.3
+  color: 2
+  shape: 1
+  habitat: 9
+  regional_dexes: 93000000f6000000
+  kind: Dragon
+  pokedex_entry: A Dratini continually molts and sloughs off its old skin. It does
+    so because the life energy within its body steadily builds to reach uncontrollable
+    levels.
+  wild_item_common: 0
+  wild_item_uncommon: 86
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: -2
+  battler_player_y: 0
+  battler_enemy_x: -3
+  battler_enemy_y: 19
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 2

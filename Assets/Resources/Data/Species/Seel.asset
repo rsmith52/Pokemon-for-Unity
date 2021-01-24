@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Seel
+  m_EditorClassIdentifier: 
+  national_dex: 86
+  types: 0b00000000000000
+  base_stats:
+    HP: 65
+    ATK: 45
+    DEF: 55
+    SP_ATK: 45
+    SP_DEF: 70
+    SPD: 45
+  gender_rate: 3
+  growth_rate: 1
+  base_exp: 65
+  effort_values:
+    HP: 0
+    ATK: 0
+    DEF: 0
+    SP_ATK: 0
+    SP_DEF: 1
+    SPD: 0
+  rareness: 190
+  happiness: 70
+  abilities: 910000002f000000
+  hidden_ability: 31000000
+  moves:
+  - level: 1
+    move: 211
+  - level: 3
+    move: 196
+  - level: 7
+    move: 538
+  - level: 11
+    move: 246
+  - level: 13
+    move: 134
+  - level: 17
+    move: 243
+  - level: 21
+    move: 378
+  - level: 23
+    move: 17
+  - level: 27
+    move: 27
+  - level: 31
+    move: 16
+  - level: 33
+    move: 52
+  - level: 37
+    move: 498
+  - level: 41
+    move: 104
+  - level: 43
+    move: 18
+  - level: 47
+    move: 239
+  - level: 51
+    move: 400
+  - level: 53
+    move: 205
+  evolutions:
+  - evolution: 87
+    evolution_method: 1
+    parameter: 34
+  egg_moves: 3202000066000000860000008a00000090000000e4000000f5000000fd0000000b0100004b010000a9010000b4010000b7010000cb010000d2010000e501000019020000
+  egg_groups: 0100000004000000
+  steps_to_hatch: 5120
+  height: 1.1
+  weight: 90
+  color: 9
+  shape: 2
+  habitat: 7
+  regional_dexes: 56000000b2000000
+  kind: Sea Lion
+  pokedex_entry: Seel hunt for prey in frigid, ice-covered seas. When it needs to
+    breathe, it punches a hole through the ice with the sharply protruding section
+    of its head.
+  wild_item_common: 0
+  wild_item_uncommon: 0
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: -8
+  battler_player_y: 0
+  battler_enemy_x: 4
+  battler_enemy_y: 17
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 3

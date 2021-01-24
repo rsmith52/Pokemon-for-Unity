@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Victini
+  m_EditorClassIdentifier: 
+  national_dex: 494
+  types: 0e0000000a000000
+  base_stats:
+    HP: 100
+    ATK: 100
+    DEF: 100
+    SP_ATK: 100
+    SP_DEF: 100
+    SPD: 100
+  gender_rate: 7
+  growth_rate: 2
+  base_exp: 270
+  effort_values:
+    HP: 3
+    ATK: 0
+    DEF: 0
+    SP_ATK: 0
+    SP_DEF: 0
+    SPD: 0
+  rareness: 3
+  happiness: 100
+  abilities: 9b000000
+  hidden_ability: 
+  moves:
+  - level: 1
+    move: 408
+  - level: 1
+    move: 170
+  - level: 1
+    move: 76
+  - level: 1
+    move: 248
+  - level: 1
+    move: 362
+  - level: 9
+    move: 136
+  - level: 17
+    move: 211
+  - level: 25
+    move: 160
+  - level: 33
+    move: 382
+  - level: 41
+    move: 159
+  - level: 49
+    move: 559
+  - level: 57
+    move: 249
+  - level: 65
+    move: 111
+  - level: 73
+    move: 163
+  - level: 81
+    move: 151
+  - level: 89
+    move: 469
+  - level: 97
+    move: 326
+  evolutions: []
+  egg_moves: 
+  egg_groups: 0e000000
+  steps_to_hatch: 30720
+  height: 0.4
+  weight: 4
+  color: 3
+  shape: 11
+  habitat: 0
+  regional_dexes: 
+  kind: Victory
+  pokedex_entry: "This Pok\xE9mon brings victory. It is said that Trainers with Victini
+    always win, regardless of the type of encounter."
+  wild_item_common: 0
+  wild_item_uncommon: 0
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: 0
+  battler_player_y: 0
+  battler_enemy_x: -3
+  battler_enemy_y: 22
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 2

@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0e2f304d0cf34fdb8ffbbad6ab28291, type: 3}
+  m_Name: Kebia Berry
+  m_EditorClassIdentifier: 
+  item_id: 430
+  plural_name: Kebia Berries
+  bag_pocket: 4
+  price: 20
+  description: "Weakens a supereffective Poison-type attack against the holding Pok\xE9mon."
+  out_of_battle_use: 0
+  in_battle_use: 0
+  special_item_type: 5
+  move_taught: 0

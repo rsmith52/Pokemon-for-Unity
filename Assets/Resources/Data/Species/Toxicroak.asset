@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Toxicroak
+  m_EditorClassIdentifier: 
+  national_dex: 454
+  types: 0400000002000000
+  base_stats:
+    HP: 83
+    ATK: 106
+    DEF: 65
+    SP_ATK: 86
+    SP_DEF: 65
+    SPD: 85
+  gender_rate: 3
+  growth_rate: 1
+  base_exp: 172
+  effort_values:
+    HP: 0
+    ATK: 2
+    DEF: 0
+    SP_ATK: 0
+    SP_DEF: 0
+    SPD: 0
+  rareness: 75
+  happiness: 70
+  abilities: 060000001a000000
+  hidden_ability: 5e000000
+  moves:
+  - level: 1
+    move: 23
+  - level: 1
+    move: 312
+  - level: 1
+    move: 339
+  - level: 3
+    move: 312
+  - level: 8
+    move: 339
+  - level: 10
+    move: 499
+  - level: 15
+    move: 360
+  - level: 17
+    move: 148
+  - level: 22
+    move: 381
+  - level: 24
+    move: 484
+  - level: 29
+    move: 309
+  - level: 31
+    move: 478
+  - level: 36
+    move: 528
+  - level: 41
+    move: 314
+  - level: 49
+    move: 337
+  - level: 54
+    move: 440
+  - level: 58
+    move: 562
+  - level: 62
+    move: 166
+  evolutions: []
+  egg_moves: 
+  egg_groups: 07000000
+  steps_to_hatch: 5120
+  height: 1.3
+  weight: 44.4
+  color: 2
+  shape: 11
+  habitat: 0
+  regional_dexes: 
+  kind: Toxic Mouth
+  pokedex_entry: Its knuckle claws secrete a toxin so vile that even a scratch could
+    prove fatal.
+  wild_item_common: 0
+  wild_item_uncommon: 28
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: 0
+  battler_player_y: 0
+  battler_enemy_x: -1
+  battler_enemy_y: 13
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 2

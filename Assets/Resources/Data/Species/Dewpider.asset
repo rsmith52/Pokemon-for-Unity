@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Dewpider
+  m_EditorClassIdentifier: 
+  national_dex: 751
+  types: 0b00000007000000
+  base_stats:
+    HP: 38
+    ATK: 40
+    DEF: 52
+    SP_ATK: 40
+    SP_DEF: 72
+    SPD: 27
+  gender_rate: 3
+  growth_rate: 1
+  base_exp: 54
+  effort_values:
+    HP: 0
+    ATK: 0
+    DEF: 0
+    SP_ATK: 0
+    SP_DEF: 1
+    SPD: 0
+  rareness: 200
+  happiness: 70
+  abilities: e7000000
+  hidden_ability: 9e000000
+  moves:
+  - level: 1
+    move: 538
+  - level: 1
+    move: 54
+  - level: 5
+    move: 589
+  - level: 8
+    move: 456
+  - level: 13
+    move: 55
+  - level: 16
+    move: 53
+  - level: 21
+    move: 38
+  - level: 24
+    move: 17
+  - level: 29
+    move: 264
+  - level: 32
+    move: 89
+  - level: 37
+    move: 645
+  - level: 40
+    move: 302
+  - level: 45
+    move: 644
+  - level: 48
+    move: 138
+  evolutions:
+  - evolution: 752
+    evolution_method: 1
+    parameter: 22
+  egg_moves: 1b00000058010000cb01000067020000d2010000
+  egg_groups: 0100000002000000
+  steps_to_hatch: 3840
+  height: 0.3
+  weight: 4
+  color: 4
+  shape: 6
+  habitat: 0
+  regional_dexes: 
+  kind: Water Bubble
+  pokedex_entry: When two Dewpider meet, they display their water bubbles to each
+    other. Then the one with the smaller bubble gets out of the other's way.
+  wild_item_common: 0
+  wild_item_uncommon: 221
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: 0
+  battler_player_y: 0
+  battler_enemy_x: 0
+  battler_enemy_y: 0
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 2

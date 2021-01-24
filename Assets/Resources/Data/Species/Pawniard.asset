@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Pawniard
+  m_EditorClassIdentifier: 
+  national_dex: 624
+  types: 1100000009000000
+  base_stats:
+    HP: 45
+    ATK: 85
+    DEF: 70
+    SP_ATK: 40
+    SP_DEF: 40
+    SPD: 60
+  gender_rate: 3
+  growth_rate: 1
+  base_exp: 68
+  effort_values:
+    HP: 0
+    ATK: 1
+    DEF: 0
+    SP_ATK: 0
+    SP_DEF: 0
+    SPD: 0
+  rareness: 120
+  happiness: 35
+  abilities: 1600000037000000
+  hidden_ability: 60000000
+  moves:
+  - level: 1
+    move: 406
+  - level: 6
+    move: 266
+  - level: 9
+    move: 181
+  - level: 14
+    move: 513
+  - level: 17
+    move: 148
+  - level: 22
+    move: 405
+  - level: 25
+    move: 293
+  - level: 30
+    move: 437
+  - level: 33
+    move: 22
+  - level: 38
+    move: 294
+  - level: 41
+    move: 132
+  - level: 46
+    move: 251
+  - level: 49
+    move: 320
+  - level: 54
+    move: 252
+  - level: 57
+    move: 490
+  - level: 62
+    move: 201
+  evolutions:
+  - evolution: 625
+    evolution_method: 1
+    parameter: 52
+  egg_moves: d30000001d01000062010000680100006b0100007d010000cf010000de010000
+  egg_groups: 07000000
+  steps_to_hatch: 5120
+  height: 0.5
+  weight: 10.2
+  color: 1
+  shape: 11
+  habitat: 0
+  regional_dexes: 
+  kind: Sharp Blade
+  pokedex_entry: They fight at Bisharp's command. They cling to their prey and inflict
+    damage by sinking their blades into it.
+  wild_item_common: 0
+  wild_item_uncommon: 0
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: 2
+  battler_player_y: 0
+  battler_enemy_x: 0
+  battler_enemy_y: 26
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 2

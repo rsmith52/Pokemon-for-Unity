@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Trapinch
+  m_EditorClassIdentifier: 
+  national_dex: 328
+  types: 0500000000000000
+  base_stats:
+    HP: 45
+    ATK: 100
+    DEF: 45
+    SP_ATK: 45
+    SP_DEF: 45
+    SPD: 10
+  gender_rate: 3
+  growth_rate: 3
+  base_exp: 58
+  effort_values:
+    HP: 0
+    ATK: 1
+    DEF: 0
+    SP_ATK: 0
+    SP_DEF: 0
+    SPD: 0
+  rareness: 255
+  happiness: 70
+  abilities: 3000000007000000
+  hidden_ability: 74000000
+  moves:
+  - level: 1
+    move: 401
+  - level: 1
+    move: 38
+  - level: 1
+    move: 148
+  - level: 1
+    move: 36
+  - level: 5
+    move: 312
+  - level: 8
+    move: 58
+  - level: 12
+    move: 402
+  - level: 15
+    move: 388
+  - level: 19
+    move: 101
+  - level: 22
+    move: 89
+  - level: 26
+    move: 126
+  - level: 29
+    move: 149
+  - level: 33
+    move: 127
+  - level: 36
+    move: 403
+  - level: 40
+    move: 481
+  - level: 43
+    move: 234
+  - level: 47
+    move: 157
+  evolutions:
+  - evolution: 329
+    evolution_method: 1
+    parameter: 35
+  egg_moves: 370000007e000000880000009e000000aa000000b5000000cb000000360100006a010000a9010000
+  egg_groups: 02000000
+  steps_to_hatch: 5120
+  height: 0.7
+  weight: 15
+  color: 6
+  shape: 13
+  habitat: 6
+  regional_dexes: 
+  kind: Ant Pit
+  pokedex_entry: Its big jaws crunch through boulders. Because its head is so big,
+    it has a hard time getting back upright if it tips over onto its back.
+  wild_item_common: 0
+  wild_item_uncommon: 343
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: 0
+  battler_player_y: 0
+  battler_enemy_x: -2
+  battler_enemy_y: 25
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 2

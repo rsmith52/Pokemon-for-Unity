@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Swellow
+  m_EditorClassIdentifier: 
+  national_dex: 277
+  types: 0100000003000000
+  base_stats:
+    HP: 60
+    ATK: 85
+    DEF: 60
+    SP_ATK: 75
+    SP_DEF: 50
+    SPD: 125
+  gender_rate: 3
+  growth_rate: 3
+  base_exp: 159
+  effort_values:
+    HP: 0
+    ATK: 0
+    DEF: 0
+    SP_ATK: 0
+    SP_DEF: 0
+    SPD: 2
+  rareness: 45
+  happiness: 70
+  abilities: 27000000
+  hidden_ability: 70000000
+  moves:
+  - level: 1
+    move: 50
+  - level: 1
+    move: 12
+  - level: 1
+    move: 334
+  - level: 1
+    move: 330
+  - level: 1
+    move: 196
+  - level: 1
+    move: 170
+  - level: 1
+    move: 362
+  - level: 5
+    move: 170
+  - level: 9
+    move: 362
+  - level: 13
+    move: 547
+  - level: 17
+    move: 110
+  - level: 21
+    move: 7
+  - level: 27
+    move: 363
+  - level: 33
+    move: 10
+  - level: 39
+    move: 12
+  - level: 45
+    move: 135
+  - level: 51
+    move: 50
+  - level: 57
+    move: 382
+  evolutions: []
+  egg_moves: 
+  egg_groups: 03000000
+  steps_to_hatch: 3840
+  height: 0.7
+  weight: 19.8
+  color: 2
+  shape: 8
+  habitat: 3
+  regional_dexes: 
+  kind: Swallow
+  pokedex_entry: A Swellow dives upon prey from far above. It never misses its targets.
+    It takes to the skies in search of lands with a warm climate.
+  wild_item_common: 0
+  wild_item_uncommon: 0
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: -4
+  battler_player_y: 0
+  battler_enemy_x: 5
+  battler_enemy_y: -5
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 3

@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Abra
+  m_EditorClassIdentifier: 
+  national_dex: 63
+  types: 0e00000000000000
+  base_stats:
+    HP: 25
+    ATK: 20
+    DEF: 15
+    SP_ATK: 105
+    SP_DEF: 55
+    SPD: 90
+  gender_rate: 2
+  growth_rate: 3
+  base_exp: 62
+  effort_values:
+    HP: 0
+    ATK: 0
+    DEF: 0
+    SP_ATK: 1
+    SP_DEF: 0
+    SPD: 0
+  rareness: 200
+  happiness: 70
+  abilities: 8c00000037000000
+  hidden_ability: 46000000
+  moves:
+  - level: 1
+    move: 503
+  evolutions:
+  - evolution: 64
+    evolution_method: 1
+    parameter: 16
+  egg_moves: 0d0000001f000000860000009b000000c7000000c8000000f200000002010000900200005a01000063010000ae010000fb010000
+  egg_groups: 07000000
+  steps_to_hatch: 5120
+  height: 0.9
+  weight: 19.5
+  color: 6
+  shape: 5
+  habitat: 8
+  regional_dexes: 3f00000059000000
+  kind: Psi
+  pokedex_entry: "A Pok\xE9mon that sleeps 18 hours a day. Observation revealed that
+    it uses Teleport to change its location once every hour."
+  wild_item_common: 0
+  wild_item_uncommon: 380
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: 3
+  battler_player_y: 0
+  battler_enemy_x: 0
+  battler_enemy_y: 25
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 2

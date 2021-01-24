@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Pinsir
+  m_EditorClassIdentifier: 
+  national_dex: 127
+  types: 0700000000000000
+  base_stats:
+    HP: 65
+    ATK: 125
+    DEF: 100
+    SP_ATK: 55
+    SP_DEF: 70
+    SPD: 85
+  gender_rate: 3
+  growth_rate: 2
+  base_exp: 175
+  effort_values:
+    HP: 0
+    ATK: 2
+    DEF: 0
+    SP_ATK: 0
+    SP_DEF: 0
+    SPD: 0
+  rareness: 45
+  happiness: 70
+  abilities: 300000004b000000
+  hidden_ability: 4e000000
+  moves:
+  - level: 1
+    move: 529
+  - level: 1
+    move: 170
+  - level: 4
+    move: 37
+  - level: 8
+    move: 413
+  - level: 11
+    move: 207
+  - level: 15
+    move: 381
+  - level: 18
+    move: 531
+  - level: 22
+    move: 107
+  - level: 26
+    move: 51
+  - level: 29
+    move: 556
+  - level: 33
+    move: 476
+  - level: 36
+    move: 470
+  - level: 40
+    move: 490
+  - level: 43
+    move: 505
+  - level: 47
+    move: 481
+  - level: 50
+    move: 201
+  evolutions: []
+  egg_moves: 370000004800000095000000940000009e000000b40000001c0100006a010000e1010000
+  egg_groups: 02000000
+  steps_to_hatch: 6400
+  height: 1.5
+  weight: 55
+  color: 6
+  shape: 11
+  habitat: 2
+  regional_dexes: 7f00000071000000
+  kind: Stag Beetle
+  pokedex_entry: Their pincers are strong enough to shatter thick logs. Because they
+    dislike cold, Pinsir burrow and sleep under the ground on chilly nights.
+  wild_item_common: 0
+  wild_item_uncommon: 0
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: 5
+  battler_player_y: 0
+  battler_enemy_x: -3
+  battler_enemy_y: 10
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 3

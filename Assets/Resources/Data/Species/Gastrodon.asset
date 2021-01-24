@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Gastrodon
+  m_EditorClassIdentifier: 
+  national_dex: 423
+  types: 0b00000005000000
+  base_stats:
+    HP: 111
+    ATK: 83
+    DEF: 68
+    SP_ATK: 92
+    SP_DEF: 82
+    SPD: 39
+  gender_rate: 3
+  growth_rate: 1
+  base_exp: 166
+  effort_values:
+    HP: 2
+    ATK: 0
+    DEF: 0
+    SP_ATK: 0
+    SP_DEF: 0
+    SPD: 0
+  rareness: 75
+  happiness: 70
+  abilities: 8500000086000000
+  hidden_ability: 6b000000
+  moves:
+  - level: 1
+    move: 312
+  - level: 1
+    move: 311
+  - level: 1
+    move: 207
+  - level: 1
+    move: 537
+  - level: 2
+    move: 311
+  - level: 4
+    move: 207
+  - level: 7
+    move: 537
+  - level: 11
+    move: 309
+  - level: 16
+    move: 224
+  - level: 22
+    move: 367
+  - level: 29
+    move: 44
+  - level: 41
+    move: 313
+  - level: 54
+    move: 372
+  evolutions: []
+  egg_moves: 
+  egg_groups: 010000000a000000
+  steps_to_hatch: 5120
+  height: 0.9
+  weight: 29.9
+  color: 7
+  shape: 1
+  habitat: 0
+  regional_dexes: 
+  kind: Sea Slug
+  pokedex_entry: It has a pliable body without any bones. If any part of its body
+    is torn off, it grows right back.
+  wild_item_common: 0
+  wild_item_uncommon: 0
+  wild_item_rare: 0
+  form_name: West Sea
+  incense: 0
+  battler_player_x: -6
+  battler_player_y: 0
+  battler_enemy_x: -1
+  battler_enemy_y: 15
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 3

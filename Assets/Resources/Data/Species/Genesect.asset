@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Genesect
+  m_EditorClassIdentifier: 
+  national_dex: 649
+  types: 0700000009000000
+  base_stats:
+    HP: 71
+    ATK: 120
+    DEF: 95
+    SP_ATK: 120
+    SP_DEF: 95
+    SPD: 99
+  gender_rate: 7
+  growth_rate: 2
+  base_exp: 270
+  effort_values:
+    HP: 0
+    ATK: 1
+    DEF: 0
+    SP_ATK: 1
+    SP_DEF: 0
+    SPD: 1
+  rareness: 3
+  happiness: 0
+  abilities: 17000000
+  hidden_ability: 
+  moves:
+  - level: 1
+    move: 577
+  - level: 1
+    move: 500
+  - level: 1
+    move: 362
+  - level: 1
+    move: 282
+  - level: 1
+    move: 293
+  - level: 1
+    move: 407
+  - level: 7
+    move: 181
+  - level: 11
+    move: 269
+  - level: 18
+    move: 160
+  - level: 22
+    move: 281
+  - level: 29
+    move: 437
+  - level: 33
+    move: 294
+  - level: 40
+    move: 425
+  - level: 44
+    move: 517
+  - level: 51
+    move: 556
+  - level: 55
+    move: 56
+  - level: 62
+    move: 427
+  - level: 66
+    move: 558
+  - level: 73
+    move: 234
+  - level: 77
+    move: 414
+  evolutions: []
+  egg_moves: 
+  egg_groups: 0e000000
+  steps_to_hatch: 30720
+  height: 1.5
+  weight: 82.5
+  color: 7
+  shape: 11
+  habitat: 0
+  regional_dexes: 
+  kind: Paleozoic
+  pokedex_entry: "This ancient bug Pok\xE9mon was altered by Team Plasma. They upgraded
+    the cannon on its back."
+  wild_item_common: 0
+  wild_item_uncommon: 0
+  wild_item_rare: 0
+  form_name: Normal
+  incense: 0
+  battler_player_x: 0
+  battler_player_y: 0
+  battler_enemy_x: -3
+  battler_enemy_y: 18
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 3

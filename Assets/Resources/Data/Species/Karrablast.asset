@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Karrablast
+  m_EditorClassIdentifier: 
+  national_dex: 588
+  types: 0700000000000000
+  base_stats:
+    HP: 50
+    ATK: 75
+    DEF: 45
+    SP_ATK: 40
+    SP_DEF: 45
+    SPD: 60
+  gender_rate: 3
+  growth_rate: 1
+  base_exp: 63
+  effort_values:
+    HP: 0
+    ATK: 1
+    DEF: 0
+    SP_ATK: 0
+    SP_DEF: 0
+    SPD: 0
+  rareness: 200
+  happiness: 70
+  abilities: 8a00000073000000
+  hidden_ability: 53000000
+  moves:
+  - level: 1
+    move: 330
+  - level: 4
+    move: 266
+  - level: 8
+    move: 136
+  - level: 13
+    move: 181
+  - level: 16
+    move: 180
+  - level: 20
+    move: 211
+  - level: 25
+    move: 146
+  - level: 28
+    move: 56
+  - level: 32
+    move: 437
+  - level: 37
+    move: 498
+  - level: 40
+    move: 405
+  - level: 44
+    move: 556
+  - level: 49
+    move: 158
+  - level: 52
+    move: 490
+  - level: 56
+    move: 111
+  evolutions:
+  - evolution: 589
+    evolution_method: 59
+    parameter: SHELMET
+  egg_moves: 37000000540000007b00000094000000e300000002010000220100006801000097010000
+  egg_groups: 02000000
+  steps_to_hatch: 3840
+  height: 0.5
+  weight: 5.9
+  color: 2
+  shape: 11
+  habitat: 0
+  regional_dexes: 
+  kind: Clamping
+  pokedex_entry: "When they feel threatened, they spit an acidic liquid to drive
+    attackers away. This Pok\xE9mon targets Shelmet."
+  wild_item_common: 0
+  wild_item_uncommon: 0
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: 1
+  battler_player_y: 0
+  battler_enemy_x: 2
+  battler_enemy_y: 32
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 1

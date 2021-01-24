@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Raikou
+  m_EditorClassIdentifier: 
+  national_dex: 243
+  types: 0d00000000000000
+  base_stats:
+    HP: 90
+    ATK: 85
+    DEF: 75
+    SP_ATK: 115
+    SP_DEF: 100
+    SPD: 115
+  gender_rate: 7
+  growth_rate: 2
+  base_exp: 261
+  effort_values:
+    HP: 0
+    ATK: 0
+    DEF: 0
+    SP_ATK: 1
+    SP_DEF: 0
+    SPD: 2
+  rareness: 3
+  happiness: 35
+  abilities: 60000000
+  hidden_ability: 37000000
+  moves:
+  - level: 1
+    move: 141
+  - level: 1
+    move: 103
+  - level: 1
+    move: 38
+  - level: 1
+    move: 266
+  - level: 8
+    move: 508
+  - level: 15
+    move: 384
+  - level: 22
+    move: 362
+  - level: 29
+    move: 455
+  - level: 36
+    move: 375
+  - level: 43
+    move: 89
+  - level: 50
+    move: 506
+  - level: 57
+    move: 103
+  - level: 64
+    move: 141
+  - level: 71
+    move: 367
+  - level: 78
+    move: 61
+  - level: 85
+    move: 510
+  evolutions: []
+  egg_moves: 
+  egg_groups: 0e000000
+  steps_to_hatch: 20480
+  height: 1.9
+  weight: 178
+  color: 3
+  shape: 7
+  habitat: 3
+  regional_dexes: 00000000f3000000
+  kind: Thunder
+  pokedex_entry: Raikou embodies the speed of lightning. Its roars send shock waves
+    shuddering through the air and ground as if lightning bolts were crashing down.
+  wild_item_common: 0
+  wild_item_uncommon: 0
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: -4
+  battler_player_y: 0
+  battler_enemy_x: 5
+  battler_enemy_y: 12
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 3

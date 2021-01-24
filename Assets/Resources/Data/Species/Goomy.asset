@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Goomy
+  m_EditorClassIdentifier: 
+  national_dex: 704
+  types: 1000000000000000
+  base_stats:
+    HP: 45
+    ATK: 50
+    DEF: 35
+    SP_ATK: 55
+    SP_DEF: 75
+    SPD: 40
+  gender_rate: 3
+  growth_rate: 2
+  base_exp: 60
+  effort_values:
+    HP: 0
+    ATK: 0
+    DEF: 0
+    SP_ATK: 0
+    SP_DEF: 1
+    SPD: 0
+  rareness: 45
+  happiness: 35
+  abilities: 6f0000002f000000
+  hidden_ability: b2000000
+  moves:
+  - level: 1
+    move: 493
+  - level: 1
+    move: 54
+  - level: 5
+    move: 1
+  - level: 9
+    move: 349
+  - level: 13
+    move: 36
+  - level: 18
+    move: 113
+  - level: 25
+    move: 367
+  - level: 28
+    move: 158
+  - level: 32
+    move: 44
+  - level: 38
+    move: 313
+  - level: 42
+    move: 116
+  evolutions:
+  - evolution: 705
+    evolution_method: 1
+    parameter: 40
+  egg_moves: 02000000540000005c00000088000000fd00000054010000
+  egg_groups: 0d000000
+  steps_to_hatch: 10240
+  height: 0.3
+  weight: 2.8
+  color: 7
+  shape: 1
+  habitat: 0
+  regional_dexes: 
+  kind: Soft Tissue
+  pokedex_entry: Its source of protection is its slimy, germ-laden mucous membrane.
+    Anyone who touches it needs some thorough hand-washing.
+  wild_item_common: 0
+  wild_item_uncommon: 324
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: 0
+  battler_player_y: 0
+  battler_enemy_x: 0
+  battler_enemy_y: 0
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 2

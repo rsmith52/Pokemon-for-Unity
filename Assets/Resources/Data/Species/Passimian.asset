@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Passimian
+  m_EditorClassIdentifier: 
+  national_dex: 766
+  types: 0200000000000000
+  base_stats:
+    HP: 100
+    ATK: 120
+    DEF: 90
+    SP_ATK: 40
+    SP_DEF: 60
+    SPD: 80
+  gender_rate: 3
+  growth_rate: 2
+  base_exp: 172
+  effort_values:
+    HP: 0
+    ATK: 2
+    DEF: 0
+    SP_ATK: 0
+    SP_DEF: 0
+    SPD: 0
+  rareness: 45
+  happiness: 70
+  abilities: da000000
+  hidden_ability: 16000000
+  moves:
+  - level: 1
+    move: 493
+  - level: 4
+    move: 266
+  - level: 8
+    move: 389
+  - level: 11
+    move: 170
+  - level: 15
+    move: 33
+  - level: 18
+    move: 405
+  - level: 22
+    move: 498
+  - level: 25
+    move: 35
+  - level: 29
+    move: 505
+  - level: 32
+    move: 57
+  - level: 36
+    move: 111
+  - level: 39
+    move: 167
+  - level: 43
+    move: 72
+  - level: 46
+    move: 382
+  - level: 50
+    move: 189
+  evolutions: []
+  egg_moves: 95000000fc0000006a0100006b0100009d01000013020000
+  egg_groups: 04000000
+  steps_to_hatch: 5120
+  height: 2
+  weight: 82.8
+  color: 9
+  shape: 5
+  habitat: 0
+  regional_dexes: 
+  kind: Teamwork
+  pokedex_entry: Berries are its weapons as well as the staple of its diet. The one
+    that can throw a berry the farthest is the boss of the troop.
+  wild_item_common: 0
+  wild_item_uncommon: 0
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: 0
+  battler_player_y: 0
+  battler_enemy_x: 0
+  battler_enemy_y: 0
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 2

@@ -1,0 +1,113 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Gardevoir
+  m_EditorClassIdentifier: 
+  national_dex: 282
+  types: 0e00000012000000
+  base_stats:
+    HP: 68
+    ATK: 65
+    DEF: 65
+    SP_ATK: 125
+    SP_DEF: 115
+    SPD: 80
+  gender_rate: 3
+  growth_rate: 2
+  base_exp: 233
+  effort_values:
+    HP: 0
+    ATK: 0
+    DEF: 0
+    SP_ATK: 3
+    SP_DEF: 0
+    SPD: 0
+  rareness: 45
+  happiness: 35
+  abilities: 8c00000095000000
+  hidden_ability: 8f000000
+  moves:
+  - level: 1
+    move: 597
+  - level: 1
+    move: 469
+  - level: 1
+    move: 596
+  - level: 1
+    move: 216
+  - level: 1
+    move: 196
+  - level: 1
+    move: 76
+  - level: 1
+    move: 110
+  - level: 1
+    move: 503
+  - level: 4
+    move: 76
+  - level: 6
+    move: 110
+  - level: 9
+    move: 503
+  - level: 11
+    move: 569
+  - level: 14
+    move: 548
+  - level: 17
+    move: 279
+  - level: 19
+    move: 215
+  - level: 23
+    move: 571
+  - level: 26
+    move: 61
+  - level: 31
+    move: 352
+  - level: 35
+    move: 247
+  - level: 40
+    move: 185
+  - level: 44
+    move: 63
+  - level: 49
+    move: 237
+  - level: 53
+    move: 121
+  - level: 58
+    move: 469
+  - level: 62
+    move: 597
+  evolutions: []
+  egg_moves: 
+  egg_groups: 0a000000
+  steps_to_hatch: 5120
+  height: 1.6
+  weight: 48.4
+  color: 9
+  shape: 11
+  habitat: 8
+  regional_dexes: 
+  kind: Embrace
+  pokedex_entry: It apparently does not feel the pull of gravity because it supports
+    itself with psychic power. It will give its life to protect its trainer.
+  wild_item_common: 0
+  wild_item_uncommon: 0
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: -5
+  battler_player_y: 0
+  battler_enemy_x: 0
+  battler_enemy_y: 7
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 3

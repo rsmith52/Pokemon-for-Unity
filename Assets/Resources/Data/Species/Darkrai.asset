@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Darkrai
+  m_EditorClassIdentifier: 
+  national_dex: 491
+  types: 1100000000000000
+  base_stats:
+    HP: 70
+    ATK: 90
+    DEF: 90
+    SP_ATK: 135
+    SP_DEF: 90
+    SPD: 125
+  gender_rate: 7
+  growth_rate: 2
+  base_exp: 270
+  effort_values:
+    HP: 0
+    ATK: 0
+    DEF: 0
+    SP_ATK: 2
+    SP_DEF: 0
+    SPD: 1
+  rareness: 3
+  happiness: 0
+  abilities: 08000000
+  hidden_ability: 
+  moves:
+  - level: 1
+    move: 324
+  - level: 1
+    move: 102
+  - level: 11
+    move: 362
+  - level: 20
+    move: 237
+  - level: 29
+    move: 148
+  - level: 38
+    move: 321
+  - level: 47
+    move: 110
+  - level: 57
+    move: 208
+  - level: 66
+    move: 95
+  - level: 75
+    move: 314
+  - level: 84
+    move: 121
+  - level: 93
+    move: 94
+  evolutions: []
+  egg_moves: 
+  egg_groups: 0e000000
+  steps_to_hatch: 30720
+  height: 1.5
+  weight: 50.5
+  color: 5
+  shape: 11
+  habitat: 0
+  regional_dexes: 
+  kind: Pitch-Black
+  pokedex_entry: It can lull people to sleep and make them dream. It is active during
+    nights of the new moon.
+  wild_item_common: 0
+  wild_item_uncommon: 0
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: 0
+  battler_player_y: 0
+  battler_enemy_x: -2
+  battler_enemy_y: 1
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 2

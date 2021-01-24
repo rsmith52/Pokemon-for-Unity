@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Kabutops
+  m_EditorClassIdentifier: 
+  national_dex: 141
+  types: 060000000b000000
+  base_stats:
+    HP: 60
+    ATK: 115
+    DEF: 105
+    SP_ATK: 65
+    SP_DEF: 70
+    SPD: 80
+  gender_rate: 1
+  growth_rate: 1
+  base_exp: 173
+  effort_values:
+    HP: 0
+    ATK: 2
+    DEF: 0
+    SP_ATK: 0
+    SP_DEF: 0
+    SPD: 0
+  rareness: 45
+  happiness: 70
+  abilities: 8b00000009000000
+  hidden_ability: a0000000
+  moves:
+  - level: 0
+    move: 437
+  - level: 1
+    move: 437
+  - level: 1
+    move: 320
+  - level: 1
+    move: 149
+  - level: 1
+    move: 406
+  - level: 1
+    move: 207
+  - level: 1
+    move: 1
+  - level: 1
+    move: 266
+  - level: 6
+    move: 1
+  - level: 11
+    move: 266
+  - level: 16
+    move: 310
+  - level: 21
+    move: 401
+  - level: 26
+    move: 136
+  - level: 31
+    move: 16
+  - level: 36
+    move: 287
+  - level: 45
+    move: 294
+  - level: 54
+    move: 15
+  - level: 63
+    move: 555
+  - level: 72
+    move: 320
+  evolutions: []
+  egg_moves: 
+  egg_groups: 0100000008000000
+  steps_to_hatch: 7680
+  height: 1.3
+  weight: 40.5
+  color: 6
+  shape: 5
+  habitat: 7
+  regional_dexes: 8d000000e4000000
+  kind: Shellfish
+  pokedex_entry: Kabutops once swam underwater to hunt for prey. It was apparently
+    evolving from being a water dweller to living on land as evident from changes
+    in its gills and legs.
+  wild_item_common: 0
+  wild_item_uncommon: 0
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: 7
+  battler_player_y: 0
+  battler_enemy_x: 2
+  battler_enemy_y: 9
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 3

@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Sneasel
+  m_EditorClassIdentifier: 
+  national_dex: 215
+  types: 110000000f000000
+  base_stats:
+    HP: 55
+    ATK: 95
+    DEF: 55
+    SP_ATK: 35
+    SP_DEF: 75
+    SPD: 115
+  gender_rate: 3
+  growth_rate: 3
+  base_exp: 86
+  effort_values:
+    HP: 0
+    ATK: 0
+    DEF: 0
+    SP_ATK: 0
+    SP_DEF: 0
+    SPD: 1
+  rareness: 60
+  happiness: 35
+  abilities: 370000003d000000
+  hidden_ability: 59000000
+  moves:
+  - level: 1
+    move: 406
+  - level: 1
+    move: 266
+  - level: 1
+    move: 499
+  - level: 8
+    move: 362
+  - level: 10
+    move: 148
+  - level: 14
+    move: 246
+  - level: 16
+    move: 182
+  - level: 20
+    move: 10
+  - level: 22
+    move: 293
+  - level: 25
+    move: 226
+  - level: 28
+    move: 33
+  - level: 32
+    move: 407
+  - level: 35
+    move: 437
+  - level: 40
+    move: 448
+  - level: 44
+    move: 359
+  - level: 47
+    move: 243
+  evolutions:
+  - evolution: 461
+    evolution_method: 40
+    parameter: RAZORCLAW
+  egg_moves: 150000001d00000026000000540000005a0000006b0000009000000095000000ae000000f2000000f3000000f40000006701000068010000cc010000a1020000
+  egg_groups: 04000000
+  steps_to_hatch: 5120
+  height: 0.9
+  weight: 28
+  color: 5
+  shape: 5
+  habitat: 2
+  regional_dexes: 00000000da000000
+  kind: Sharp Claw
+  pokedex_entry: A Sneasel scales trees by punching its hooked claws into the bark.
+    It seeks out unguarded nests and steals eggs for food while the parents are away.
+  wild_item_common: 0
+  wild_item_uncommon: 279
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: -3
+  battler_player_y: 0
+  battler_enemy_x: 0
+  battler_enemy_y: 18
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 2

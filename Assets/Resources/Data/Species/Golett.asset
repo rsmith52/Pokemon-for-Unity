@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Golett
+  m_EditorClassIdentifier: 
+  national_dex: 622
+  types: 0500000008000000
+  base_stats:
+    HP: 59
+    ATK: 74
+    DEF: 50
+    SP_ATK: 35
+    SP_DEF: 50
+    SPD: 35
+  gender_rate: 7
+  growth_rate: 1
+  base_exp: 61
+  effort_values:
+    HP: 0
+    ATK: 1
+    DEF: 0
+    SP_ATK: 0
+    SP_DEF: 0
+    SPD: 0
+  rareness: 190
+  happiness: 70
+  abilities: 3b0000003e000000
+  hidden_ability: 53000000
+  moves:
+  - level: 1
+    move: 341
+  - level: 1
+    move: 23
+  - level: 1
+    move: 97
+  - level: 5
+    move: 312
+  - level: 9
+    move: 395
+  - level: 13
+    move: 418
+  - level: 17
+    move: 251
+  - level: 21
+    move: 669
+  - level: 25
+    move: 289
+  - level: 30
+    move: 283
+  - level: 35
+    move: 125
+  - level: 40
+    move: 319
+  - level: 45
+    move: 92
+  - level: 50
+    move: 127
+  - level: 55
+    move: 206
+  - level: 61
+    move: 171
+  evolutions:
+  - evolution: 623
+    evolution_method: 1
+    parameter: 43
+  egg_moves: 
+  egg_groups: 09000000
+  steps_to_hatch: 6400
+  height: 1
+  weight: 92
+  color: 4
+  shape: 11
+  habitat: 0
+  regional_dexes: 
+  kind: Automaton
+  pokedex_entry: "These Pok\xE9mon are thought to have been created by the science
+    of an ancient and mysterious civilization."
+  wild_item_common: 0
+  wild_item_uncommon: 187
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: 1
+  battler_player_y: 0
+  battler_enemy_x: 1
+  battler_enemy_y: 20
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 2

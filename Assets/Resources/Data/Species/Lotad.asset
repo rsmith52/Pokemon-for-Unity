@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Lotad
+  m_EditorClassIdentifier: 
+  national_dex: 270
+  types: 0b0000000c000000
+  base_stats:
+    HP: 40
+    ATK: 30
+    DEF: 30
+    SP_ATK: 40
+    SP_DEF: 50
+    SPD: 30
+  gender_rate: 3
+  growth_rate: 3
+  base_exp: 44
+  effort_values:
+    HP: 0
+    ATK: 0
+    DEF: 0
+    SP_ATK: 0
+    SP_DEF: 1
+    SPD: 0
+  rareness: 255
+  happiness: 70
+  abilities: 8b00000063000000
+  hidden_ability: 58000000
+  moves:
+  - level: 1
+    move: 23
+  - level: 3
+    move: 196
+  - level: 6
+    move: 1
+  - level: 9
+    move: 54
+  - level: 12
+    move: 315
+  - level: 15
+    move: 306
+  - level: 18
+    move: 287
+  - level: 21
+    move: 53
+  - level: 24
+    move: 316
+  - level: 27
+    move: 367
+  - level: 30
+    move: 188
+  - level: 33
+    move: 559
+  - level: 36
+    move: 137
+  evolutions:
+  - evolution: 271
+    evolution_method: 1
+    parameter: 14
+  egg_moves: 540000009e000000bc0000000901000071010000e7010000ec010000f50100000002000017020000
+  egg_groups: 0100000006000000
+  steps_to_hatch: 3840
+  height: 0.5
+  weight: 2.6
+  color: 4
+  shape: 13
+  habitat: 9
+  regional_dexes: 
+  kind: Water Weed
+  pokedex_entry: "This Pok\xE9mon lives in ponds with clean water. It is known to
+    ferry small Pok\xE9mon across ponds by carrying them on the broad leaf on its
+    head."
+  wild_item_common: 0
+  wild_item_uncommon: 208
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: 0
+  battler_player_y: 0
+  battler_enemy_x: 1
+  battler_enemy_y: 27
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 2

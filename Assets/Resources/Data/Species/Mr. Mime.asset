@@ -1,0 +1,114 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Mr. Mime
+  m_EditorClassIdentifier: 
+  national_dex: 122
+  types: 0e00000012000000
+  base_stats:
+    HP: 40
+    ATK: 45
+    DEF: 65
+    SP_ATK: 100
+    SP_DEF: 120
+    SPD: 90
+  gender_rate: 3
+  growth_rate: 1
+  base_exp: 161
+  effort_values:
+    HP: 0
+    ATK: 0
+    DEF: 0
+    SP_ATK: 0
+    SP_DEF: 2
+    SPD: 0
+  rareness: 45
+  happiness: 70
+  abilities: 7f0000001d000000
+  hidden_ability: 8e000000
+  moves:
+  - level: 1
+    move: 596
+  - level: 1
+    move: 279
+  - level: 1
+    move: 363
+  - level: 1
+    move: 544
+  - level: 1
+    move: 345
+  - level: 1
+    move: 200
+  - level: 1
+    move: 31
+  - level: 1
+    move: 341
+  - level: 1
+    move: 76
+  - level: 4
+    move: 80
+  - level: 8
+    move: 286
+  - level: 11
+    move: 109
+  - level: 15
+    move: 298
+  - level: 15
+    move: 358
+  - level: 18
+    move: 134
+  - level: 22
+    move: 268
+  - level: 22
+    move: 375
+  - level: 25
+    move: 350
+  - level: 29
+    move: 477
+  - level: 32
+    move: 373
+  - level: 36
+    move: 519
+  - level: 39
+    move: 352
+  - level: 43
+    move: 393
+  - level: 46
+    move: 32
+  - level: 50
+    move: 400
+  evolutions: []
+  egg_moves: 4b00000090000000b9000000ed000000f6000000160100002a0100003a01000058010000f50100000702000016020000
+  egg_groups: 07000000
+  steps_to_hatch: 6400
+  height: 1.3
+  weight: 54.5
+  color: 10
+  shape: 11
+  habitat: 8
+  regional_dexes: 7a0000009e000000
+  kind: Barrier
+  pokedex_entry: A Mr. Mime is a master of pantomime. It can convince others that
+    something unseeable actually exists. Once believed, the imaginary object does
+    become real.
+  wild_item_common: 0
+  wild_item_uncommon: 0
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: 5
+  battler_player_y: 0
+  battler_enemy_x: -1
+  battler_enemy_y: 13
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 2

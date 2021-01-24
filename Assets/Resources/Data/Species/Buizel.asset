@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Buizel
+  m_EditorClassIdentifier: 
+  national_dex: 418
+  types: 0b00000000000000
+  base_stats:
+    HP: 55
+    ATK: 65
+    DEF: 35
+    SP_ATK: 60
+    SP_DEF: 30
+    SPD: 85
+  gender_rate: 3
+  growth_rate: 1
+  base_exp: 66
+  effort_values:
+    HP: 0
+    ATK: 0
+    DEF: 0
+    SP_ATK: 0
+    SP_DEF: 0
+    SPD: 1
+  rareness: 190
+  happiness: 70
+  abilities: 8b000000
+  hidden_ability: 9f000000
+  moves:
+  - level: 1
+    move: 453
+  - level: 4
+    move: 196
+  - level: 7
+    move: 538
+  - level: 11
+    move: 362
+  - level: 15
+    move: 535
+  - level: 18
+    move: 360
+  - level: 21
+    move: 488
+  - level: 24
+    move: 16
+  - level: 27
+    move: 107
+  - level: 31
+    move: 542
+  - level: 35
+    move: 371
+  - level: 38
+    move: 18
+  - level: 41
+    move: 10
+  - level: 45
+    move: 233
+  evolutions:
+  - evolution: 419
+    evolution_method: 1
+    parameter: 26
+  egg_moves: 1100000012000000200000006d000000b5000000b6000000d3000000de0000001c0100003801000043010000b5010000c2010000e9010000ef010000
+  egg_groups: 0100000004000000
+  steps_to_hatch: 5120
+  height: 0.7
+  weight: 29.5
+  color: 6
+  shape: 7
+  habitat: 0
+  regional_dexes: 
+  kind: Sea Weasel
+  pokedex_entry: It has a flotation sac that is like an inflatable collar. It floats
+    on water with its head out.
+  wild_item_common: 0
+  wild_item_uncommon: 0
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: -12
+  battler_player_y: 0
+  battler_enemy_x: 4
+  battler_enemy_y: 16
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 2

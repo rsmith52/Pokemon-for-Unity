@@ -1,0 +1,104 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Rapidash
+  m_EditorClassIdentifier: 
+  national_dex: 78
+  types: 0a00000000000000
+  base_stats:
+    HP: 65
+    ATK: 100
+    DEF: 70
+    SP_ATK: 80
+    SP_DEF: 80
+    SPD: 105
+  gender_rate: 3
+  growth_rate: 1
+  base_exp: 175
+  effort_values:
+    HP: 0
+    ATK: 0
+    DEF: 0
+    SP_ATK: 0
+    SP_DEF: 0
+    SPD: 2
+  rareness: 60
+  happiness: 70
+  abilities: 6a00000020000000
+  hidden_ability: 1e000000
+  moves:
+  - level: 0
+    move: 180
+  - level: 1
+    move: 180
+  - level: 1
+    move: 337
+  - level: 1
+    move: 290
+  - level: 1
+    move: 196
+  - level: 1
+    move: 362
+  - level: 1
+    move: 496
+  - level: 1
+    move: 133
+  - level: 4
+    move: 496
+  - level: 9
+    move: 133
+  - level: 13
+    move: 161
+  - level: 17
+    move: 467
+  - level: 21
+    move: 160
+  - level: 25
+    move: 156
+  - level: 29
+    move: 498
+  - level: 33
+    move: 249
+  - level: 37
+    move: 10
+  - level: 41
+    move: 152
+  - level: 45
+    move: 49
+  - level: 49
+    move: 163
+  evolutions: []
+  egg_moves: 
+  egg_groups: 04000000
+  steps_to_hatch: 5120
+  height: 1.7
+  weight: 95
+  color: 3
+  shape: 7
+  habitat: 3
+  regional_dexes: 4e000000cf000000
+  kind: Fire Horse
+  pokedex_entry: It usually canters casually in the fields and plains. But once a
+    Rapidash turns serious, its fiery manes flare and blaze as it gallops its way
+    up to 150 mph.
+  wild_item_common: 0
+  wild_item_uncommon: 0
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: -7
+  battler_player_y: 0
+  battler_enemy_x: 5
+  battler_enemy_y: 8
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 3

@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Lapras
+  m_EditorClassIdentifier: 
+  national_dex: 131
+  types: 0b0000000f000000
+  base_stats:
+    HP: 130
+    ATK: 85
+    DEF: 80
+    SP_ATK: 85
+    SP_DEF: 95
+    SPD: 60
+  gender_rate: 3
+  growth_rate: 2
+  base_exp: 187
+  effort_values:
+    HP: 2
+    ATK: 0
+    DEF: 0
+    SP_ATK: 0
+    SP_DEF: 0
+    SPD: 0
+  rareness: 45
+  happiness: 70
+  abilities: 9e00000075000000
+  hidden_ability: 2f000000
+  moves:
+  - level: 1
+    move: 428
+  - level: 1
+    move: 196
+  - level: 1
+    move: 535
+  - level: 4
+    move: 306
+  - level: 7
+    move: 75
+  - level: 10
+    move: 243
+  - level: 14
+    move: 537
+  - level: 18
+    move: 44
+  - level: 22
+    move: 367
+  - level: 27
+    move: 331
+  - level: 32
+    move: 239
+  - level: 37
+    move: 52
+  - level: 43
+    move: 400
+  - level: 47
+    move: 233
+  - level: 50
+    move: 421
+  evolutions: []
+  egg_moves: 0f0000001d0000005c00000073000000740000009d000000ae00000045020000b9000000e400000078010000b7010000000200001e020000
+  egg_groups: 0000000001000000
+  steps_to_hatch: 10240
+  height: 2.5
+  weight: 220
+  color: 2
+  shape: 2
+  habitat: 7
+  regional_dexes: 83000000e0000000
+  kind: Transport
+  pokedex_entry: People have driven Lapras almost to the point of extinction. In
+    the evenings, it is said to sing plaintively as it seeks what few others of its
+    kind still remain.
+  wild_item_common: 221
+  wild_item_uncommon: 221
+  wild_item_rare: 221
+  form_name: 
+  incense: 0
+  battler_player_x: 1
+  battler_player_y: 0
+  battler_enemy_x: 1
+  battler_enemy_y: 12
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 3

@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Tyrogue
+  m_EditorClassIdentifier: 
+  national_dex: 236
+  types: 0200000000000000
+  base_stats:
+    HP: 35
+    ATK: 35
+    DEF: 35
+    SP_ATK: 35
+    SP_DEF: 35
+    SPD: 35
+  gender_rate: 0
+  growth_rate: 1
+  base_exp: 42
+  effort_values:
+    HP: 0
+    ATK: 1
+    DEF: 0
+    SP_ATK: 0
+    SP_DEF: 0
+    SPD: 0
+  rareness: 75
+  happiness: 70
+  abilities: 2700000083000000
+  hidden_ability: 9c000000
+  moves:
+  - level: 1
+    move: 493
+  - level: 1
+    move: 222
+  - level: 1
+    move: 144
+  - level: 1
+    move: 174
+  evolutions:
+  - evolution: 106
+    evolution_method: 19
+    parameter: 20
+  - evolution: 107
+    evolution_method: 21
+    parameter: 20
+  - evolution: 237
+    evolution_method: 20
+    parameter: 20
+  egg_moves: 3b000000540000008800000095000000de000000e1000000140100002b01000068010000700100000f020000
+  egg_groups: 0e000000
+  steps_to_hatch: 6400
+  height: 0.7
+  weight: 21
+  color: 7
+  shape: 11
+  habitat: 8
+  regional_dexes: 0000000091000000
+  kind: Scuffle
+  pokedex_entry: "Tyrogue become stressed out if they do not get to train every day.
+    When raising this Pok\xE9mon, the trainer must establish a regular training schedule."
+  wild_item_common: 0
+  wild_item_uncommon: 0
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: 4
+  battler_player_y: 0
+  battler_enemy_x: -1
+  battler_enemy_y: 19
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 1

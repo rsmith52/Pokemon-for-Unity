@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Feraligatr
+  m_EditorClassIdentifier: 
+  national_dex: 160
+  types: 0b00000000000000
+  base_stats:
+    HP: 85
+    ATK: 105
+    DEF: 100
+    SP_ATK: 79
+    SP_DEF: 83
+    SPD: 78
+  gender_rate: 1
+  growth_rate: 3
+  base_exp: 239
+  effort_values:
+    HP: 0
+    ATK: 2
+    DEF: 1
+    SP_ATK: 0
+    SP_DEF: 0
+    SPD: 0
+  rareness: 45
+  happiness: 70
+  abilities: 93000000
+  hidden_ability: 74000000
+  moves:
+  - level: 1
+    move: 10
+  - level: 1
+    move: 406
+  - level: 1
+    move: 266
+  - level: 1
+    move: 535
+  - level: 1
+    move: 366
+  - level: 6
+    move: 535
+  - level: 8
+    move: 366
+  - level: 13
+    move: 38
+  - level: 15
+    move: 405
+  - level: 21
+    move: 241
+  - level: 24
+    move: 158
+  - level: 32
+    move: 89
+  - level: 37
+    move: 68
+  - level: 45
+    move: 437
+  - level: 50
+    move: 407
+  - level: 58
+    move: 505
+  - level: 63
+    move: 18
+  - level: 71
+    move: 481
+  - level: 76
+    move: 233
+  evolutions: []
+  egg_moves: 
+  egg_groups: 0000000001000000
+  steps_to_hatch: 5120
+  height: 2.3
+  weight: 88.8
+  color: 2
+  shape: 5
+  habitat: 9
+  regional_dexes: 0000000009000000
+  kind: Big Jaw
+  pokedex_entry: It opens its huge mouth to intimidate enemies. In battle, it runs
+    using its thick and powerful hind legs to charge the foe with incredible speed.
+  wild_item_common: 0
+  wild_item_uncommon: 0
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: 2
+  battler_player_y: 0
+  battler_enemy_x: -6
+  battler_enemy_y: 9
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 3

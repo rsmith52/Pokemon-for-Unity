@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Ducklett
+  m_EditorClassIdentifier: 
+  national_dex: 580
+  types: 0b00000003000000
+  base_stats:
+    HP: 62
+    ATK: 44
+    DEF: 50
+    SP_ATK: 44
+    SP_DEF: 50
+    SPD: 55
+  gender_rate: 3
+  growth_rate: 1
+  base_exp: 61
+  effort_values:
+    HP: 1
+    ATK: 0
+    DEF: 0
+    SP_ATK: 0
+    SP_DEF: 0
+    SPD: 0
+  rareness: 190
+  happiness: 70
+  abilities: 3d0000000a000000
+  hidden_ability: 2f000000
+  moves:
+  - level: 1
+    move: 535
+  - level: 3
+    move: 538
+  - level: 6
+    move: 98
+  - level: 9
+    move: 547
+  - level: 13
+    move: 537
+  - level: 15
+    move: 7
+  - level: 19
+    move: 53
+  - level: 21
+    move: 147
+  - level: 24
+    move: 17
+  - level: 27
+    move: 12
+  - level: 30
+    move: 396
+  - level: 34
+    move: 367
+  - level: 37
+    move: 497
+  - level: 41
+    move: 50
+  - level: 46
+    move: 231
+  evolutions:
+  - evolution: 581
+    evolution_method: 1
+    parameter: 35
+  egg_moves: 0b0000001000000034000000cb000000110100001c0100002f01000037010000d1010000
+  egg_groups: 0100000003000000
+  steps_to_hatch: 5120
+  height: 0.5
+  weight: 5.5
+  color: 2
+  shape: 8
+  habitat: 0
+  regional_dexes: 
+  kind: Water Bird
+  pokedex_entry: When attacked, it uses its feathers to splash water, escaping under
+    cover of the spray.
+  wild_item_common: 0
+  wild_item_uncommon: 0
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: -4
+  battler_player_y: 0
+  battler_enemy_x: 1
+  battler_enemy_y: 28
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 1

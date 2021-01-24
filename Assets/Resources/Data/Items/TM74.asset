@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0e2f304d0cf34fdb8ffbbad6ab28291, type: 3}
+  m_Name: TM74
+  m_EditorClassIdentifier: 
+  item_id: 361
+  plural_name: TM74s
+  bag_pocket: 3
+  price: 10000
+  description: The user tackles the target with a high-speed spin. The slower the
+    user, the greater the damage.
+  out_of_battle_use: 3
+  in_battle_use: 0
+  special_item_type: 0
+  move_taught: 204

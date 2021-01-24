@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Clefable
+  m_EditorClassIdentifier: 
+  national_dex: 36
+  types: 1200000000000000
+  base_stats:
+    HP: 95
+    ATK: 70
+    DEF: 73
+    SP_ATK: 95
+    SP_DEF: 90
+    SPD: 60
+  gender_rate: 4
+  growth_rate: 0
+  base_exp: 217
+  effort_values:
+    HP: 3
+    ATK: 0
+    DEF: 0
+    SP_ATK: 0
+    SP_DEF: 0
+    SPD: 0
+  rareness: 25
+  happiness: 140
+  abilities: 1300000046000000
+  hidden_ability: 98000000
+  moves:
+  - level: 1
+    move: 668
+  - level: 1
+    move: 569
+  - level: 1
+    move: 428
+  - level: 1
+    move: 109
+  - level: 1
+    move: 300
+  - level: 1
+    move: 296
+  evolutions: []
+  egg_moves: 
+  egg_groups: 05000000
+  steps_to_hatch: 2560
+  height: 1.3
+  weight: 40
+  color: 10
+  shape: 5
+  habitat: 4
+  regional_dexes: 240000002a000000
+  kind: Fairy
+  pokedex_entry: A Clefable uses its wings to skip lightly as if it were flying.
+    Its bouncy step lets it even walk on water. On quiet, moonlit nights, it strolls
+    on lakes.
+  wild_item_common: 0
+  wild_item_uncommon: 217
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: 4
+  battler_player_y: 0
+  battler_enemy_x: 2
+  battler_enemy_y: 18
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 2

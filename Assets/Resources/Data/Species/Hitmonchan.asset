@@ -1,0 +1,114 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Hitmonchan
+  m_EditorClassIdentifier: 
+  national_dex: 107
+  types: 0200000000000000
+  base_stats:
+    HP: 50
+    ATK: 105
+    DEF: 79
+    SP_ATK: 35
+    SP_DEF: 110
+    SPD: 76
+  gender_rate: 0
+  growth_rate: 1
+  base_exp: 159
+  effort_values:
+    HP: 0
+    ATK: 0
+    DEF: 0
+    SP_ATK: 0
+    SP_DEF: 2
+    SPD: 0
+  rareness: 45
+  happiness: 70
+  abilities: 3d0000003b000000
+  hidden_ability: 37000000
+  moves:
+  - level: 0
+    move: 74
+  - level: 1
+    move: 74
+  - level: 1
+    move: 72
+  - level: 1
+    move: 84
+  - level: 1
+    move: 171
+  - level: 1
+    move: 381
+  - level: 1
+    move: 10
+  - level: 1
+    move: 360
+  - level: 1
+    move: 276
+  - level: 6
+    move: 10
+  - level: 11
+    move: 360
+  - level: 16
+    move: 276
+  - level: 16
+    move: 59
+  - level: 21
+    move: 149
+  - level: 26
+    move: 527
+  - level: 31
+    move: 363
+  - level: 36
+    move: 507
+  - level: 36
+    move: 242
+  - level: 36
+    move: 155
+  - level: 41
+    move: 434
+  - level: 46
+    move: 289
+  - level: 50
+    move: 100
+  - level: 56
+    move: 171
+  - level: 61
+    move: 84
+  - level: 66
+    move: 72
+  evolutions: []
+  egg_moves: 
+  egg_groups: 07000000
+  steps_to_hatch: 6400
+  height: 1.4
+  weight: 50.2
+  color: 6
+  shape: 11
+  habitat: 8
+  regional_dexes: 6b00000093000000
+  kind: Punching
+  pokedex_entry: A Hitmonchan is said to possess the spirit of a boxer who aimed
+    to become the world champion. Having an indomitable spirit means that it will
+    never give up.
+  wild_item_common: 0
+  wild_item_uncommon: 0
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: 4
+  battler_player_y: 0
+  battler_enemy_x: -1
+  battler_enemy_y: 11
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 2

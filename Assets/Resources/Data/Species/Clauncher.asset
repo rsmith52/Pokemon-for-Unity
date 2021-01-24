@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Clauncher
+  m_EditorClassIdentifier: 
+  national_dex: 692
+  types: 0b00000000000000
+  base_stats:
+    HP: 50
+    ATK: 53
+    DEF: 62
+    SP_ATK: 58
+    SP_DEF: 63
+    SPD: 44
+  gender_rate: 3
+  growth_rate: 2
+  base_exp: 66
+  effort_values:
+    HP: 0
+    ATK: 0
+    DEF: 0
+    SP_ATK: 1
+    SP_DEF: 0
+    SPD: 0
+  rareness: 225
+  happiness: 70
+  abilities: b5000000
+  hidden_ability: 
+  moves:
+  - level: 1
+    move: 461
+  - level: 1
+    move: 535
+  - level: 7
+    move: 538
+  - level: 9
+    move: 529
+  - level: 12
+    move: 54
+  - level: 16
+    move: 158
+  - level: 20
+    move: 53
+  - level: 25
+    move: 490
+  - level: 30
+    move: 86
+  - level: 34
+    move: 537
+  - level: 39
+    move: 443
+  - level: 43
+    move: 16
+  - level: 48
+    move: 313
+  evolutions:
+  - evolution: 693
+    evolution_method: 1
+    parameter: 37
+  egg_moves: 1000000056000000880000008a000000de000000
+  egg_groups: 0100000008000000
+  steps_to_hatch: 3840
+  height: 0.5
+  weight: 8.3
+  color: 2
+  shape: 13
+  habitat: 0
+  regional_dexes: 
+  kind: Water Gun
+  pokedex_entry: Through controlled expulsions of internal gas, it can expel water
+    like a pistol shot. At close distances, it can shatter rock.
+  wild_item_common: 0
+  wild_item_uncommon: 0
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: 0
+  battler_player_y: 0
+  battler_enemy_x: 0
+  battler_enemy_y: 0
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 2

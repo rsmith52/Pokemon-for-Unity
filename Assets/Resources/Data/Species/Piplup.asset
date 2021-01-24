@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Piplup
+  m_EditorClassIdentifier: 
+  national_dex: 393
+  types: 0b00000000000000
+  base_stats:
+    HP: 53
+    ATK: 51
+    DEF: 53
+    SP_ATK: 61
+    SP_DEF: 56
+    SPD: 40
+  gender_rate: 1
+  growth_rate: 3
+  base_exp: 63
+  effort_values:
+    HP: 0
+    ATK: 0
+    DEF: 0
+    SP_ATK: 1
+    SP_DEF: 0
+    SPD: 0
+  rareness: 45
+  happiness: 70
+  abilities: 93000000
+  hidden_ability: 16000000
+  moves:
+  - level: 1
+    move: 341
+  - level: 4
+    move: 196
+  - level: 8
+    move: 54
+  - level: 11
+    move: 538
+  - level: 15
+    move: 330
+  - level: 18
+    move: 53
+  - level: 22
+    move: 36
+  - level: 25
+    move: 180
+  - level: 29
+    move: 52
+  - level: 32
+    move: 542
+  - level: 36
+    move: 306
+  - level: 39
+    move: 122
+  - level: 43
+    move: 233
+  evolutions:
+  - evolution: 394
+    evolution_method: 1
+    parameter: 16
+  egg_moves: 0a00000011000000240000006b000000930000009e000000e9000000f600000038010000370100008d020000c1010000e20100002d020000
+  egg_groups: 0100000004000000
+  steps_to_hatch: 5120
+  height: 0.4
+  weight: 5.2
+  color: 2
+  shape: 11
+  habitat: 0
+  regional_dexes: 
+  kind: Penguin
+  pokedex_entry: Because it is very proud, it hates accepting food from people. Its
+    thick down guards it from cold.
+  wild_item_common: 0
+  wild_item_uncommon: 0
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: 0
+  battler_player_y: 0
+  battler_enemy_x: 1
+  battler_enemy_y: 24
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 1

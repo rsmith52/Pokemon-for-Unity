@@ -1,0 +1,105 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Xatu
+  m_EditorClassIdentifier: 
+  national_dex: 178
+  types: 0e00000003000000
+  base_stats:
+    HP: 65
+    ATK: 75
+    DEF: 70
+    SP_ATK: 95
+    SP_DEF: 70
+    SPD: 95
+  gender_rate: 3
+  growth_rate: 1
+  base_exp: 165
+  effort_values:
+    HP: 0
+    ATK: 0
+    DEF: 0
+    SP_ATK: 1
+    SP_DEF: 0
+    SPD: 1
+  rareness: 75
+  happiness: 70
+  abilities: 8c0000001b000000
+  hidden_ability: 45000000
+  moves:
+  - level: 0
+    move: 12
+  - level: 1
+    move: 12
+  - level: 1
+    move: 497
+  - level: 1
+    move: 330
+  - level: 1
+    move: 266
+  - level: 1
+    move: 319
+  - level: 1
+    move: 503
+  - level: 6
+    move: 319
+  - level: 9
+    move: 503
+  - level: 12
+    move: 273
+  - level: 17
+    move: 469
+  - level: 20
+    move: 324
+  - level: 23
+    move: 75
+  - level: 29
+    move: 548
+  - level: 35
+    move: 352
+  - level: 39
+    move: 301
+  - level: 43
+    move: 355
+  - level: 49
+    move: 185
+  - level: 53
+    move: 345
+  - level: 53
+    move: 200
+  - level: 57
+    move: 284
+  evolutions: []
+  egg_moves: 
+  egg_groups: 03000000
+  steps_to_hatch: 5120
+  height: 1.5
+  weight: 15
+  color: 4
+  shape: 8
+  habitat: 2
+  regional_dexes: 00000000a2000000
+  kind: Mystic
+  pokedex_entry: It has the enigmatic power of foreseeing the future. Some people
+    in different lands have long believed that Xatu are emissaries from another world.
+  wild_item_common: 0
+  wild_item_uncommon: 0
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: -3
+  battler_player_y: 0
+  battler_enemy_x: 3
+  battler_enemy_y: 14
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 2

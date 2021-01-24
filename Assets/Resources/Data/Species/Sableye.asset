@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Sableye
+  m_EditorClassIdentifier: 
+  national_dex: 302
+  types: 1100000008000000
+  base_stats:
+    HP: 50
+    ATK: 75
+    DEF: 75
+    SP_ATK: 65
+    SP_DEF: 65
+    SPD: 50
+  gender_rate: 3
+  growth_rate: 3
+  base_exp: 133
+  effort_values:
+    HP: 0
+    ATK: 1
+    DEF: 1
+    SP_ATK: 0
+    SP_DEF: 0
+    SPD: 0
+  rareness: 45
+  happiness: 35
+  abilities: 3d00000081000000
+  hidden_ability: 5f000000
+  moves:
+  - level: 1
+    move: 266
+  - level: 1
+    move: 406
+  - level: 4
+    move: 174
+  - level: 6
+    move: 319
+  - level: 9
+    move: 23
+  - level: 11
+    move: 182
+  - level: 14
+    move: 100
+  - level: 16
+    move: 419
+  - level: 19
+    move: 148
+  - level: 21
+    move: 144
+  - level: 24
+    move: 359
+  - level: 26
+    move: 258
+  - level: 29
+    move: 416
+  - level: 31
+    move: 75
+  - level: 34
+    move: 559
+  - level: 36
+    move: 343
+  - level: 39
+    move: 415
+  - level: 41
+    move: 175
+  - level: 44
+    move: 361
+  - level: 46
+    move: 285
+  evolutions: []
+  egg_moves: 3f00000095000000a6000000f70000001d01000024010000330100003a01000074010000de01000007020000
+  egg_groups: 07000000
+  steps_to_hatch: 6400
+  height: 0.5
+  weight: 11
+  color: 7
+  shape: 11
+  habitat: 1
+  regional_dexes: 
+  kind: Darkness
+  pokedex_entry: It digs branching holes in caves using its sharp claws in search
+    of food--raw gems. A Sableye lurks in darkness and is seen only rarely.
+  wild_item_common: 0
+  wild_item_uncommon: 393
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: 0
+  battler_player_y: 0
+  battler_enemy_x: 2
+  battler_enemy_y: 19
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 2

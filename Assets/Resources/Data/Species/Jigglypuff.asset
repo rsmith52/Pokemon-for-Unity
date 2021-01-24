@@ -1,0 +1,104 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Jigglypuff
+  m_EditorClassIdentifier: 
+  national_dex: 39
+  types: 0100000012000000
+  base_stats:
+    HP: 115
+    ATK: 45
+    DEF: 20
+    SP_ATK: 45
+    SP_DEF: 25
+    SPD: 20
+  gender_rate: 4
+  growth_rate: 0
+  base_exp: 95
+  effort_values:
+    HP: 2
+    ATK: 0
+    DEF: 0
+    SP_ATK: 0
+    SP_DEF: 0
+    SPD: 0
+  rareness: 170
+  happiness: 70
+  abilities: 13000000aa000000
+  hidden_ability: 24000000
+  moves:
+  - level: 1
+    move: 428
+  - level: 3
+    move: 97
+  - level: 5
+    move: 341
+  - level: 9
+    move: 607
+  - level: 11
+    move: 569
+  - level: 14
+    move: 102
+  - level: 17
+    move: 109
+  - level: 20
+    move: 395
+  - level: 22
+    move: 397
+  - level: 25
+    move: 466
+  - level: 25
+    move: 485
+  - level: 25
+    move: 459
+  - level: 27
+    move: 534
+  - level: 30
+    move: 378
+  - level: 32
+    move: 44
+  - level: 35
+    move: 204
+  - level: 38
+    move: 298
+  - level: 41
+    move: 236
+  - level: 45
+    move: 111
+  evolutions:
+  - evolution: 40
+    evolution_method: 47
+    parameter: MOONSTONE
+  egg_moves: 
+  egg_groups: 05000000
+  steps_to_hatch: 2560
+  height: 0.5
+  weight: 5.5
+  color: 10
+  shape: 11
+  habitat: 3
+  regional_dexes: 270000002c000000
+  kind: Balloon
+  pokedex_entry: Nothing can avoid falling asleep hearing a Jigglypuff's song. The
+    sound waves of its singing voice match the brain waves of someone in a deep sleep.
+  wild_item_common: 0
+  wild_item_uncommon: 217
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: 0
+  battler_player_y: 0
+  battler_enemy_x: -1
+  battler_enemy_y: 24
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 2

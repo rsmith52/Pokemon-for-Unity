@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Spinarak
+  m_EditorClassIdentifier: 
+  national_dex: 167
+  types: 0700000004000000
+  base_stats:
+    HP: 40
+    ATK: 60
+    DEF: 40
+    SP_ATK: 40
+    SP_DEF: 40
+    SPD: 30
+  gender_rate: 3
+  growth_rate: 0
+  base_exp: 50
+  effort_values:
+    HP: 0
+    ATK: 1
+    DEF: 0
+    SP_ATK: 0
+    SP_DEF: 0
+    SPD: 0
+  rareness: 255
+  happiness: 70
+  abilities: 8a00000038000000
+  hidden_ability: 7a000000
+  moves:
+  - level: 1
+    move: 339
+  - level: 1
+    move: 472
+  - level: 1
+    move: 77
+  - level: 5
+    move: 1
+  - level: 8
+    move: 589
+  - level: 12
+    move: 405
+  - level: 15
+    move: 319
+  - level: 19
+    move: 419
+  - level: 22
+    move: 182
+  - level: 26
+    move: 478
+  - level: 29
+    move: 456
+  - level: 33
+    move: 10
+  - level: 36
+    move: 333
+  - level: 40
+    move: 352
+  - level: 43
+    move: 337
+  - level: 47
+    move: 88
+  - level: 50
+    move: 615
+  - level: 54
+    move: 674
+  evolutions:
+  - evolution: 168
+    evolution_method: 1
+    parameter: 22
+  egg_moves: 2000000066000000830000008502000022010000400100005e010000680100006d010000a9010000c5010000020200000a020000
+  egg_groups: 02000000
+  steps_to_hatch: 3840
+  height: 0.5
+  weight: 8.5
+  color: 4
+  shape: 13
+  habitat: 2
+  regional_dexes: 0000000020000000
+  kind: String Spit
+  pokedex_entry: The web it spins can be considered its second nervous system. It
+    is said that a Spinarak determines its prey by the tiny vibrations it feels through
+    the web.
+  wild_item_common: 0
+  wild_item_uncommon: 0
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: 0
+  battler_player_y: 0
+  battler_enemy_x: 1
+  battler_enemy_y: 30
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 2

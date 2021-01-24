@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Blissey
+  m_EditorClassIdentifier: 
+  national_dex: 242
+  types: 0100000000000000
+  base_stats:
+    HP: 255
+    ATK: 10
+    DEF: 10
+    SP_ATK: 75
+    SP_DEF: 135
+    SPD: 55
+  gender_rate: 6
+  growth_rate: 0
+  base_exp: 608
+  effort_values:
+    HP: 3
+    ATK: 0
+    DEF: 0
+    SP_ATK: 0
+    SP_DEF: 0
+    SPD: 0
+  rareness: 30
+  happiness: 140
+  abilities: 5200000071000000
+  hidden_ability: 29000000
+  moves:
+  - level: 1
+    move: 97
+  - level: 1
+    move: 111
+  - level: 1
+    move: 196
+  - level: 1
+    move: 341
+  - level: 5
+    move: 496
+  - level: 9
+    move: 376
+  - level: 12
+    move: 109
+  - level: 16
+    move: 451
+  - level: 20
+    move: 35
+  - level: 23
+    move: 300
+  - level: 27
+    move: 498
+  - level: 31
+    move: 428
+  - level: 34
+    move: 167
+  - level: 39
+    move: 215
+  - level: 44
+    move: 129
+  - level: 50
+    move: 268
+  - level: 57
+    move: 216
+  - level: 65
+    move: 111
+  evolutions: []
+  egg_moves: 
+  egg_groups: 05000000
+  steps_to_hatch: 10240
+  height: 1.5
+  weight: 46.8
+  color: 10
+  shape: 11
+  habitat: 8
+  regional_dexes: 00000000df000000
+  kind: Happiness
+  pokedex_entry: If it senses sadness with its fluffy fur, a Blissey will rush over
+    to the sad person, however far away, to share an egg of happiness that brings
+    a smile to any face.
+  wild_item_common: 190
+  wild_item_uncommon: 190
+  wild_item_rare: 190
+  form_name: 
+  incense: 0
+  battler_player_x: -2
+  battler_player_y: 0
+  battler_enemy_x: 0
+  battler_enemy_y: 14
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 2

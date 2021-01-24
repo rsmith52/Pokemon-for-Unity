@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Abomasnow
+  m_EditorClassIdentifier: 
+  national_dex: 460
+  types: 0c0000000f000000
+  base_stats:
+    HP: 90
+    ATK: 92
+    DEF: 75
+    SP_ATK: 92
+    SP_DEF: 85
+    SPD: 60
+  gender_rate: 3
+  growth_rate: 2
+  base_exp: 173
+  effort_values:
+    HP: 0
+    ATK: 1
+    DEF: 0
+    SP_ATK: 1
+    SP_DEF: 0
+    SPD: 0
+  rareness: 60
+  happiness: 70
+  abilities: 7c000000
+  hidden_ability: 7f000000
+  moves:
+  - level: 1
+    move: 242
+  - level: 1
+    move: 342
+  - level: 1
+    move: 266
+  - level: 1
+    move: 369
+  - level: 1
+    move: 246
+  - level: 5
+    move: 369
+  - level: 9
+    move: 246
+  - level: 13
+    move: 194
+  - level: 17
+    move: 484
+  - level: 21
+    move: 306
+  - level: 26
+    move: 243
+  - level: 31
+    move: 250
+  - level: 36
+    move: 551
+  - level: 47
+    move: 41
+  - level: 58
+    move: 421
+  evolutions: []
+  egg_moves: 
+  egg_groups: 0000000006000000
+  steps_to_hatch: 5120
+  height: 2.2
+  weight: 135.5
+  color: 9
+  shape: 5
+  habitat: 0
+  regional_dexes: 
+  kind: Frost Tree
+  pokedex_entry: It whips up blizzards in mountains that are always buried in snow.
+    It is the abominable snowman.
+  wild_item_common: 0
+  wild_item_uncommon: 225
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: 0
+  battler_player_y: 0
+  battler_enemy_x: 0
+  battler_enemy_y: 9
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 3

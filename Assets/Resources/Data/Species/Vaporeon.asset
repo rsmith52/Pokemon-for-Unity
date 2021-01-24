@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Vaporeon
+  m_EditorClassIdentifier: 
+  national_dex: 134
+  types: 0b00000000000000
+  base_stats:
+    HP: 130
+    ATK: 65
+    DEF: 60
+    SP_ATK: 110
+    SP_DEF: 95
+    SPD: 65
+  gender_rate: 1
+  growth_rate: 1
+  base_exp: 184
+  effort_values:
+    HP: 2
+    ATK: 0
+    DEF: 0
+    SP_ATK: 0
+    SP_DEF: 0
+    SPD: 0
+  rareness: 45
+  happiness: 70
+  abilities: 9e000000
+  hidden_ability: 2f000000
+  moves:
+  - level: 0
+    move: 535
+  - level: 1
+    move: 535
+  - level: 1
+    move: 222
+  - level: 1
+    move: 493
+  - level: 1
+    move: 496
+  - level: 5
+    move: 401
+  - level: 9
+    move: 561
+  - level: 13
+    move: 362
+  - level: 17
+    move: 537
+  - level: 20
+    move: 27
+  - level: 25
+    move: 17
+  - level: 29
+    move: 2
+  - level: 33
+    move: 208
+  - level: 37
+    move: 313
+  - level: 41
+    move: 259
+  - level: 45
+    move: 233
+  evolutions: []
+  egg_moves: 
+  egg_groups: 04000000
+  steps_to_hatch: 8960
+  height: 1
+  weight: 29
+  color: 2
+  shape: 7
+  habitat: 8
+  regional_dexes: 86000000b9000000
+  kind: Bubble Jet
+  pokedex_entry: Vaporeon underwent a spontaneous mutation and grew fins and gills
+    that allow them to live underwater. They have the ability to freely control water.
+  wild_item_common: 0
+  wild_item_uncommon: 0
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: 4
+  battler_player_y: 0
+  battler_enemy_x: -1
+  battler_enemy_y: 15
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 2

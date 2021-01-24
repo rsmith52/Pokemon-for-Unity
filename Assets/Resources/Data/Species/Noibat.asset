@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Noibat
+  m_EditorClassIdentifier: 
+  national_dex: 714
+  types: 0300000010000000
+  base_stats:
+    HP: 40
+    ATK: 30
+    DEF: 35
+    SP_ATK: 45
+    SP_DEF: 40
+    SPD: 55
+  gender_rate: 3
+  growth_rate: 1
+  base_exp: 49
+  effort_values:
+    HP: 0
+    ATK: 0
+    DEF: 0
+    SP_ATK: 0
+    SP_DEF: 0
+    SPD: 1
+  rareness: 190
+  happiness: 70
+  abilities: 2500000036000000
+  hidden_ability: 8f000000
+  moves:
+  - level: 1
+    move: 407
+  - level: 1
+    move: 482
+  - level: 1
+    move: 493
+  - level: 5
+    move: 1
+  - level: 11
+    move: 203
+  - level: 13
+    move: 38
+  - level: 16
+    move: 547
+  - level: 18
+    move: 10
+  - level: 23
+    move: 11
+  - level: 27
+    move: 396
+  - level: 31
+    move: 371
+  - level: 35
+    move: 497
+  - level: 40
+    move: 543
+  - level: 43
+    move: 480
+  - level: 48
+    move: 12
+  - level: 58
+    move: 231
+  evolutions:
+  - evolution: 715
+    evolution_method: 1
+    parameter: 48
+  egg_moves: 45010000c0010000e9010000f1010000
+  egg_groups: 03000000
+  steps_to_hatch: 5120
+  height: 0.5
+  weight: 8
+  color: 7
+  shape: 8
+  habitat: 0
+  regional_dexes: 
+  kind: Sound Wave
+  pokedex_entry: Even a robust wrestler will become dizzy and unable to stand when
+    exposed to its 200,000-hertz ultrasonic waves.
+  wild_item_common: 0
+  wild_item_uncommon: 0
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: 0
+  battler_player_y: 0
+  battler_enemy_x: 0
+  battler_enemy_y: 0
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 2

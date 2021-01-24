@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Shellos
+  m_EditorClassIdentifier: 
+  national_dex: 422
+  types: 0b00000000000000
+  base_stats:
+    HP: 76
+    ATK: 48
+    DEF: 48
+    SP_ATK: 57
+    SP_DEF: 62
+    SPD: 34
+  gender_rate: 3
+  growth_rate: 1
+  base_exp: 65
+  effort_values:
+    HP: 1
+    ATK: 0
+    DEF: 0
+    SP_ATK: 0
+    SP_DEF: 0
+    SPD: 0
+  rareness: 190
+  happiness: 70
+  abilities: 8500000086000000
+  hidden_ability: 6b000000
+  moves:
+  - level: 1
+    move: 312
+  - level: 2
+    move: 311
+  - level: 4
+    move: 207
+  - level: 7
+    move: 537
+  - level: 11
+    move: 309
+  - level: 16
+    move: 224
+  - level: 22
+    move: 367
+  - level: 29
+    move: 44
+  - level: 37
+    move: 313
+  - level: 46
+    move: 372
+  evolutions:
+  - evolution: 423
+    evolution_method: 1
+    parameter: 30
+  egg_moves: 020000000e0000003400000047000000540000005c0000009d000000230100002e01000032010000ba010000cb010000d2010000e5010000090200002d020000
+  egg_groups: 010000000a000000
+  steps_to_hatch: 5120
+  height: 0.3
+  weight: 6.3
+  color: 7
+  shape: 1
+  habitat: 0
+  regional_dexes: 
+  kind: Sea Slug
+  pokedex_entry: Its colors and shapes differ from region to region. In the Sinnoh
+    region, two types are confirmed.
+  wild_item_common: 0
+  wild_item_uncommon: 0
+  wild_item_rare: 0
+  form_name: West Sea
+  incense: 0
+  battler_player_x: 0
+  battler_player_y: 0
+  battler_enemy_x: -1
+  battler_enemy_y: 21
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 1

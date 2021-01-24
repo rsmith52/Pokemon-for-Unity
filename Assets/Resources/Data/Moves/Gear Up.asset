@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73b0f9bee196946cabfa6be641df3c76, type: 3}
+  m_Name: Gear Up
+  m_EditorClassIdentifier: 
+  description: The user engages its gears to raise the Attack and Sp. Atk of allies
+    with the Plus or Minus Ability.
+  move_effect: 348
+  base_power: 0
+  type: 9
+  damage_category: 3
+  accuracy: 0
+  total_pp: 20
+  effect_chance: 0
+  target: 4
+  priority: 0
+  move_flags:
+    makes_physical_contact: 0
+    can_protect_against: 0
+    magic_coat_can_reflect: 0
+    snatch_can_steal: 1
+    mirror_move_can_copy: 0
+    damage_no_flinch_chance: 0
+    thaws_if_frozen: 0
+    is_biting: 0
+    has_high_crit_rate: 0
+    is_punching: 0
+    is_sound_based: 0
+    is_powder_based: 0
+    is_pulse_based: 0
+    is_bomb_based: 0
+    is_dance: 0

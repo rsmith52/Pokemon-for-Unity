@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Combee
+  m_EditorClassIdentifier: 
+  national_dex: 415
+  types: 0700000003000000
+  base_stats:
+    HP: 30
+    ATK: 30
+    DEF: 42
+    SP_ATK: 30
+    SP_DEF: 42
+    SPD: 70
+  gender_rate: 1
+  growth_rate: 3
+  base_exp: 49
+  effort_values:
+    HP: 0
+    ATK: 0
+    DEF: 0
+    SP_ATK: 0
+    SP_DEF: 0
+    SPD: 1
+  rareness: 120
+  happiness: 70
+  abilities: 2c000000
+  hidden_ability: 2e000000
+  moves:
+  - level: 1
+    move: 487
+  - level: 1
+    move: 203
+  - level: 13
+    move: 55
+  - level: 29
+    move: 56
+  evolutions:
+  - evolution: 416
+    evolution_method: 3
+    parameter: 21
+  egg_moves: 
+  egg_groups: 02000000
+  steps_to_hatch: 3840
+  height: 0.3
+  weight: 5.5
+  color: 3
+  shape: 10
+  habitat: 0
+  regional_dexes: 
+  kind: Tiny Bee
+  pokedex_entry: "A Pok\xE9mon formed by three others. It busily carries sweet floral
+    honey to Vespiquen."
+  wild_item_common: 0
+  wild_item_uncommon: 155
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: 1
+  battler_player_y: 0
+  battler_enemy_x: 5
+  battler_enemy_y: 4
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 1

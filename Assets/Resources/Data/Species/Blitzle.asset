@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Blitzle
+  m_EditorClassIdentifier: 
+  national_dex: 522
+  types: 0d00000000000000
+  base_stats:
+    HP: 45
+    ATK: 60
+    DEF: 32
+    SP_ATK: 50
+    SP_DEF: 32
+    SPD: 76
+  gender_rate: 3
+  growth_rate: 1
+  base_exp: 59
+  effort_values:
+    HP: 0
+    ATK: 0
+    DEF: 0
+    SP_ATK: 0
+    SP_DEF: 0
+    SPD: 1
+  rareness: 190
+  happiness: 70
+  abilities: 420000004d000000
+  hidden_ability: 6f000000
+  moves:
+  - level: 1
+    move: 362
+  - level: 4
+    move: 496
+  - level: 8
+    move: 65
+  - level: 11
+    move: 424
+  - level: 15
+    move: 509
+  - level: 18
+    move: 160
+  - level: 22
+    move: 360
+  - level: 25
+    move: 455
+  - level: 29
+    move: 467
+  - level: 32
+    move: 103
+  - level: 36
+    move: 10
+  - level: 39
+    move: 545
+  - level: 43
+    move: 505
+  evolutions:
+  - evolution: 523
+    evolution_method: 1
+    parameter: 27
+  egg_moves: 6f0000006c00000088000000950000001c0100006e0100009101000097010000a8010000c0010000f2010000
+  egg_groups: 04000000
+  steps_to_hatch: 5120
+  height: 0.8
+  weight: 29.8
+  color: 5
+  shape: 7
+  habitat: 0
+  regional_dexes: 
+  kind: Electrified
+  pokedex_entry: When thunderclouds cover the sky, it will appear. It can catch lightning
+    with its mane and store the electricity.
+  wild_item_common: 0
+  wild_item_uncommon: 0
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: -6
+  battler_player_y: 0
+  battler_enemy_x: -4
+  battler_enemy_y: 21
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 2

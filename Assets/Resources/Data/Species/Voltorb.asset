@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Voltorb
+  m_EditorClassIdentifier: 
+  national_dex: 100
+  types: 0d00000000000000
+  base_stats:
+    HP: 40
+    ATK: 30
+    DEF: 50
+    SP_ATK: 55
+    SP_DEF: 55
+    SPD: 100
+  gender_rate: 7
+  growth_rate: 1
+  base_exp: 66
+  effort_values:
+    HP: 0
+    ATK: 0
+    DEF: 0
+    SP_ATK: 0
+    SP_DEF: 0
+    SPD: 1
+  rareness: 190
+  happiness: 70
+  abilities: 7f00000082000000
+  hidden_ability: 02000000
+  moves:
+  - level: 1
+    move: 65
+  - level: 1
+    move: 493
+  - level: 4
+    move: 453
+  - level: 6
+    move: 572
+  - level: 9
+    move: 455
+  - level: 11
+    move: 395
+  - level: 13
+    move: 407
+  - level: 16
+    move: 64
+  - level: 20
+    move: 488
+  - level: 22
+    move: 130
+  - level: 26
+    move: 414
+  - level: 29
+    move: 268
+  - level: 34
+    move: 282
+  - level: 37
+    move: 103
+  - level: 41
+    move: 140
+  - level: 46
+    move: 204
+  - level: 48
+    move: 302
+  evolutions:
+  - evolution: 101
+    evolution_method: 1
+    parameter: 30
+  egg_moves: 
+  egg_groups: 09000000
+  steps_to_hatch: 5120
+  height: 0.5
+  weight: 10.4
+  color: 1
+  shape: 0
+  habitat: 8
+  regional_dexes: 6400000079000000
+  kind: Ball
+  pokedex_entry: "It bears an uncanny and unexplained resemblance to a Pok\xE9 Ball.
+    Because it explodes at the slightest shock, even veteran trainers treat it with
+    caution."
+  wild_item_common: 0
+  wild_item_uncommon: 0
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: 0
+  battler_player_y: 0
+  battler_enemy_x: 0
+  battler_enemy_y: 24
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 1

@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Azelf
+  m_EditorClassIdentifier: 
+  national_dex: 482
+  types: 0e00000000000000
+  base_stats:
+    HP: 75
+    ATK: 125
+    DEF: 70
+    SP_ATK: 125
+    SP_DEF: 70
+    SPD: 115
+  gender_rate: 7
+  growth_rate: 2
+  base_exp: 261
+  effort_values:
+    HP: 0
+    ATK: 2
+    DEF: 0
+    SP_ATK: 1
+    SP_DEF: 0
+    SPD: 0
+  rareness: 3
+  happiness: 140
+  abilities: 40000000
+  hidden_ability: 
+  moves:
+  - level: 1
+    move: 315
+  - level: 1
+    move: 259
+  - level: 1
+    move: 378
+  - level: 1
+    move: 76
+  - level: 6
+    move: 247
+  - level: 16
+    move: 100
+  - level: 21
+    move: 488
+  - level: 31
+    move: 525
+  - level: 36
+    move: 185
+  - level: 46
+    move: 314
+  - level: 50
+    move: 141
+  - level: 61
+    move: 259
+  - level: 66
+    move: 315
+  - level: 76
+    move: 140
+  evolutions: []
+  egg_moves: 
+  egg_groups: 0e000000
+  steps_to_hatch: 20480
+  height: 0.3
+  weight: 0.3
+  color: 2
+  shape: 5
+  habitat: 0
+  regional_dexes: 
+  kind: Willpower
+  pokedex_entry: "Known as \u201CThe Being of Willpower.\u201D It sleeps at the bottom
+    of a lake to keep the world in balance."
+  wild_item_common: 0
+  wild_item_uncommon: 0
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: 0
+  battler_player_y: 0
+  battler_enemy_x: 9
+  battler_enemy_y: 5
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 1

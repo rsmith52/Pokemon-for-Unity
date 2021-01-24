@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Celesteela
+  m_EditorClassIdentifier: 
+  national_dex: 797
+  types: 0900000003000000
+  base_stats:
+    HP: 97
+    ATK: 101
+    DEF: 103
+    SP_ATK: 107
+    SP_DEF: 101
+    SPD: 61
+  gender_rate: 7
+  growth_rate: 2
+  base_exp: 257
+  effort_values:
+    HP: 0
+    ATK: 1
+    DEF: 1
+    SP_ATK: 1
+    SP_DEF: 0
+    SPD: 0
+  rareness: 45
+  happiness: 0
+  abilities: c2000000
+  hidden_ability: 
+  moves:
+  - level: 1
+    move: 544
+  - level: 1
+    move: 12
+  - level: 1
+    move: 250
+  - level: 1
+    move: 1
+  - level: 1
+    move: 207
+  - level: 1
+    move: 493
+  - level: 7
+    move: 443
+  - level: 13
+    move: 287
+  - level: 19
+    move: 265
+  - level: 23
+    move: 294
+  - level: 29
+    move: 252
+  - level: 31
+    move: 188
+  - level: 37
+    move: 164
+  - level: 43
+    move: 28
+  - level: 47
+    move: 411
+  - level: 53
+    move: 431
+  - level: 59
+    move: 251
+  - level: 67
+    move: 221
+  - level: 73
+    move: 111
+  evolutions: []
+  egg_moves: 
+  egg_groups: 0e000000
+  steps_to_hatch: 30720
+  height: 9.2
+  weight: 999.9
+  color: 4
+  shape: 11
+  habitat: 0
+  regional_dexes: 
+  kind: Launch
+  pokedex_entry: One kind of Ultra Beast. Witnesses have seen it burn down a forest
+    by expelling gas from its two arms.
+  wild_item_common: 0
+  wild_item_uncommon: 0
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: 0
+  battler_player_y: 0
+  battler_enemy_x: 0
+  battler_enemy_y: 0
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 2

@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Ekans
+  m_EditorClassIdentifier: 
+  national_dex: 23
+  types: 0400000000000000
+  base_stats:
+    HP: 35
+    ATK: 60
+    DEF: 44
+    SP_ATK: 40
+    SP_DEF: 54
+    SPD: 55
+  gender_rate: 3
+  growth_rate: 1
+  base_exp: 58
+  effort_values:
+    HP: 0
+    ATK: 1
+    DEF: 0
+    SP_ATK: 0
+    SP_DEF: 0
+    SPD: 0
+  rareness: 255
+  happiness: 70
+  abilities: 3900000073000000
+  hidden_ability: 9a000000
+  moves:
+  - level: 1
+    move: 554
+  - level: 1
+    move: 266
+  - level: 4
+    move: 339
+  - level: 9
+    move: 38
+  - level: 12
+    move: 191
+  - level: 17
+    move: 407
+  - level: 20
+    move: 4
+  - level: 25
+    move: 466
+  - level: 25
+    move: 485
+  - level: 25
+    move: 459
+  - level: 28
+    move: 3
+  - level: 33
+    move: 309
+  - level: 36
+    move: 186
+  - level: 38
+    move: 562
+  - level: 41
+    move: 208
+  - level: 44
+    move: 73
+  - level: 49
+    move: 202
+  evolutions:
+  - evolution: 24
+    evolution_method: 1
+    parameter: 22
+  egg_moves: 2100000066000000fd0000004f010000540100006801000095010000b4010000c0010000cc010000de010000e9010000
+  egg_groups: 040000000d000000
+  steps_to_hatch: 5120
+  height: 2
+  weight: 6.9
+  color: 7
+  shape: 1
+  habitat: 3
+  regional_dexes: 1700000032000000
+  kind: Snake
+  pokedex_entry: An Ekans curls itself up in a spiral while it rests. This position
+    allows it to quickly respond to an enemy from any direction with a threat from
+    its upraised head.
+  wild_item_common: 0
+  wild_item_uncommon: 0
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: -3
+  battler_player_y: 0
+  battler_enemy_x: 2
+  battler_enemy_y: 24
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 2

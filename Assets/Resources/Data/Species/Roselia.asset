@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Roselia
+  m_EditorClassIdentifier: 
+  national_dex: 315
+  types: 0c00000004000000
+  base_stats:
+    HP: 50
+    ATK: 60
+    DEF: 45
+    SP_ATK: 100
+    SP_DEF: 80
+    SPD: 65
+  gender_rate: 3
+  growth_rate: 3
+  base_exp: 140
+  effort_values:
+    HP: 0
+    ATK: 0
+    DEF: 0
+    SP_ATK: 2
+    SP_DEF: 0
+    SPD: 0
+  rareness: 150
+  happiness: 70
+  abilities: 520000005d000000
+  hidden_ability: 3f000000
+  moves:
+  - level: 1
+    move: 1
+  - level: 4
+    move: 197
+  - level: 7
+    move: 339
+  - level: 10
+    move: 475
+  - level: 13
+    move: 287
+  - level: 16
+    move: 265
+  - level: 19
+    move: 279
+  - level: 22
+    move: 194
+  - level: 25
+    move: 188
+  - level: 28
+    move: 514
+  - level: 31
+    move: 487
+  - level: 34
+    move: 250
+  - level: 37
+    move: 605
+  - level: 40
+    move: 515
+  - level: 43
+    move: 20
+  - level: 46
+    move: 492
+  - level: 50
+    move: 332
+  evolutions:
+  - evolution: 407
+    evolution_method: 47
+    parameter: SHINYSTONE
+  egg_moves: 3c00000053000000bc000000c2000000060100002b0100003b0100004d0100005b010000710100009b010000b6010000ca010000ec010000
+  egg_groups: 0500000006000000
+  steps_to_hatch: 5120
+  height: 0.3
+  weight: 2
+  color: 4
+  shape: 11
+  habitat: 3
+  regional_dexes: 
+  kind: Thorn
+  pokedex_entry: A Roselia that drinks nutritionally rich springwater blooms with
+    lovely flowers. The fragrance of its flowers has the effect of making its foes
+    careless.
+  wild_item_common: 0
+  wild_item_uncommon: 252
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: 2
+  battler_player_y: 0
+  battler_enemy_x: 2
+  battler_enemy_y: 18
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 1

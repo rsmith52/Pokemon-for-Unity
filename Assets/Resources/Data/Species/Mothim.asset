@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Mothim
+  m_EditorClassIdentifier: 
+  national_dex: 414
+  types: 0700000003000000
+  base_stats:
+    HP: 70
+    ATK: 94
+    DEF: 50
+    SP_ATK: 94
+    SP_DEF: 50
+    SPD: 66
+  gender_rate: 0
+  growth_rate: 1
+  base_exp: 148
+  effort_values:
+    HP: 0
+    ATK: 1
+    DEF: 0
+    SP_ATK: 1
+    SP_DEF: 0
+    SPD: 0
+  rareness: 45
+  happiness: 70
+  abilities: 8a000000
+  hidden_ability: 92000000
+  moves:
+  - level: 0
+    move: 364
+  - level: 1
+    move: 364
+  - level: 1
+    move: 493
+  - level: 1
+    move: 349
+  - level: 1
+    move: 55
+  - level: 10
+    move: 349
+  - level: 15
+    move: 55
+  - level: 20
+    move: 224
+  - level: 23
+    move: 76
+  - level: 26
+    move: 203
+  - level: 29
+    move: 338
+  - level: 32
+    move: 350
+  - level: 35
+    move: 62
+  - level: 38
+    move: 426
+  - level: 41
+    move: 12
+  - level: 44
+    move: 352
+  - level: 47
+    move: 645
+  - level: 50
+    move: 56
+  evolutions: []
+  egg_moves: 
+  egg_groups: 02000000
+  steps_to_hatch: 3840
+  height: 0.9
+  weight: 23.3
+  color: 3
+  shape: 12
+  habitat: 0
+  regional_dexes: 
+  kind: Moth
+  pokedex_entry: It loves the honey of flowers and steals honey collected by Combee.
+  wild_item_common: 0
+  wild_item_uncommon: 334
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: 11
+  battler_player_y: 0
+  battler_enemy_x: 4
+  battler_enemy_y: -1
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 1

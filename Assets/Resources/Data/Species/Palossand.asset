@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Palossand
+  m_EditorClassIdentifier: 
+  national_dex: 770
+  types: 0800000005000000
+  base_stats:
+    HP: 85
+    ATK: 75
+    DEF: 110
+    SP_ATK: 100
+    SP_DEF: 75
+    SPD: 35
+  gender_rate: 3
+  growth_rate: 1
+  base_exp: 168
+  effort_values:
+    HP: 0
+    ATK: 0
+    DEF: 2
+    SP_ATK: 0
+    SP_DEF: 0
+    SPD: 0
+  rareness: 60
+  happiness: 70
+  abilities: e8000000
+  hidden_ability: 6e000000
+  moves:
+  - level: 1
+    move: 207
+  - level: 1
+    move: 1
+  - level: 1
+    move: 23
+  - level: 1
+    move: 401
+  - level: 5
+    move: 23
+  - level: 9
+    move: 401
+  - level: 14
+    move: 402
+  - level: 18
+    move: 287
+  - level: 23
+    move: 58
+  - level: 27
+    move: 237
+  - level: 32
+    move: 251
+  - level: 36
+    move: 188
+  - level: 41
+    move: 415
+  - level: 47
+    move: 126
+  - level: 54
+    move: 661
+  - level: 60
+    move: 403
+  evolutions: []
+  egg_moves: 
+  egg_groups: 0a000000
+  steps_to_hatch: 3840
+  height: 1.3
+  weight: 250
+  color: 6
+  shape: 1
+  habitat: 0
+  regional_dexes: 
+  kind: Sand Castle
+  pokedex_entry: Buried beneath the castle are masses of dried-up bones from those
+    whose vitality it has drained.
+  wild_item_common: 0
+  wild_item_uncommon: 348
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: 0
+  battler_player_y: 0
+  battler_enemy_x: 0
+  battler_enemy_y: 0
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 2

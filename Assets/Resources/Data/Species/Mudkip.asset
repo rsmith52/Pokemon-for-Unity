@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Mudkip
+  m_EditorClassIdentifier: 
+  national_dex: 258
+  types: 0b00000000000000
+  base_stats:
+    HP: 50
+    ATK: 70
+    DEF: 50
+    SP_ATK: 50
+    SP_DEF: 50
+    SPD: 40
+  gender_rate: 1
+  growth_rate: 3
+  base_exp: 62
+  effort_values:
+    HP: 0
+    ATK: 1
+    DEF: 0
+    SP_ATK: 0
+    SP_DEF: 0
+    SPD: 0
+  rareness: 45
+  happiness: 70
+  abilities: 93000000
+  hidden_ability: 14000000
+  moves:
+  - level: 1
+    move: 493
+  - level: 1
+    move: 196
+  - level: 4
+    move: 535
+  - level: 9
+    move: 312
+  - level: 12
+    move: 174
+  - level: 17
+    move: 36
+  - level: 20
+    move: 311
+  - level: 25
+    move: 390
+  - level: 28
+    move: 349
+  - level: 33
+    move: 542
+  - level: 36
+    move: 498
+  - level: 41
+    move: 233
+  - level: 44
+    move: 135
+  evolutions:
+  - evolution: 259
+    evolution_method: 1
+    parameter: 16
+  egg_moves: 0f0000001d0000001f00000026000000540000005c0000006f000000ee0000002e0100003501000078010000ba010000d30100000d0200001e020000200200002d020000
+  egg_groups: 0000000001000000
+  steps_to_hatch: 5120
+  height: 0.4
+  weight: 7.6
+  color: 2
+  shape: 7
+  habitat: 9
+  regional_dexes: 
+  kind: Mud Fish
+  pokedex_entry: On land, it can powerfully lift large boulders by planting its four
+    feet and heaving. It sleeps by burying itself in soil at the water's edge.
+  wild_item_common: 0
+  wild_item_uncommon: 0
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: -2
+  battler_player_y: 0
+  battler_enemy_x: 1
+  battler_enemy_y: 21
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 1

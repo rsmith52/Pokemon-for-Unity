@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Kecleon
+  m_EditorClassIdentifier: 
+  national_dex: 352
+  types: 0100000000000000
+  base_stats:
+    HP: 60
+    ATK: 90
+    DEF: 70
+    SP_ATK: 60
+    SP_DEF: 120
+    SPD: 40
+  gender_rate: 3
+  growth_rate: 3
+  base_exp: 154
+  effort_values:
+    HP: 0
+    ATK: 0
+    DEF: 0
+    SP_ATK: 0
+    SP_DEF: 1
+    SPD: 0
+  rareness: 200
+  happiness: 70
+  abilities: 0f000000
+  hidden_ability: b9000000
+  moves:
+  - level: 1
+    move: 504
+  - level: 1
+    move: 496
+  - level: 1
+    move: 23
+  - level: 1
+    move: 267
+  - level: 1
+    move: 406
+  - level: 4
+    move: 37
+  - level: 7
+    move: 419
+  - level: 10
+    move: 149
+  - level: 13
+    move: 182
+  - level: 16
+    move: 148
+  - level: 18
+    move: 350
+  - level: 21
+    move: 15
+  - level: 25
+    move: 437
+  - level: 30
+    move: 62
+  - level: 33
+    move: 416
+  - level: 38
+    move: 407
+  - level: 42
+    move: 477
+  - level: 46
+    move: 478
+  - level: 50
+    move: 491
+  evolutions: []
+  egg_moves: 3e000000660000006900000090000000af00000062020000150100003a01000074010000ae010000c001000007020000
+  egg_groups: 04000000
+  steps_to_hatch: 5120
+  height: 1
+  weight: 22
+  color: 4
+  shape: 5
+  habitat: 2
+  regional_dexes: 
+  kind: Color Swap
+  pokedex_entry: "A Pok\xE9mon that has the ability to alter its body colors to match
+    its surroundings. A Kecleon reverts to its original colors if it is startled."
+  wild_item_common: 0
+  wild_item_uncommon: 0
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: 3
+  battler_player_y: 0
+  battler_enemy_x: 0
+  battler_enemy_y: 16
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 2

@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Floette
+  m_EditorClassIdentifier: 
+  national_dex: 670
+  types: 1200000000000000
+  base_stats:
+    HP: 54
+    ATK: 45
+    DEF: 47
+    SP_ATK: 75
+    SP_DEF: 98
+    SPD: 52
+  gender_rate: 6
+  growth_rate: 1
+  base_exp: 130
+  effort_values:
+    HP: 0
+    ATK: 0
+    DEF: 0
+    SP_ATK: 0
+    SP_DEF: 2
+    SPD: 0
+  rareness: 120
+  happiness: 70
+  abilities: af000000
+  hidden_ability: be000000
+  moves:
+  - level: 1
+    move: 493
+  - level: 1
+    move: 530
+  - level: 1
+    move: 576
+  - level: 6
+    move: 576
+  - level: 10
+    move: 273
+  - level: 15
+    move: 369
+  - level: 20
+    move: 548
+  - level: 25
+    move: 279
+  - level: 27
+    move: 583
+  - level: 33
+    move: 605
+  - level: 38
+    move: 20
+  - level: 43
+    move: 596
+  - level: 46
+    move: 597
+  - level: 51
+    move: 332
+  - level: 58
+    move: 452
+  evolutions:
+  - evolution: 671
+    evolution_method: 47
+    parameter: SHINYSTONE
+  egg_moves: 
+  egg_groups: 05000000
+  steps_to_hatch: 5120
+  height: 0.2
+  weight: 0.9
+  color: 9
+  shape: 3
+  habitat: 0
+  regional_dexes: 
+  kind: Single Bloom
+  pokedex_entry: It flutters around fields of flowers and cares for flowers that
+    are starting to wilt. It draws out the power of flowers to battle.
+  wild_item_common: 0
+  wild_item_uncommon: 0
+  wild_item_rare: 0
+  form_name: Red Flower
+  incense: 0
+  battler_player_x: 0
+  battler_player_y: 0
+  battler_enemy_x: 0
+  battler_enemy_y: 0
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 2

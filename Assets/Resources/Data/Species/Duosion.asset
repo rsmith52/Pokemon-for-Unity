@@ -1,0 +1,104 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Duosion
+  m_EditorClassIdentifier: 
+  national_dex: 578
+  types: 0e00000000000000
+  base_stats:
+    HP: 65
+    ATK: 40
+    DEF: 50
+    SP_ATK: 125
+    SP_DEF: 60
+    SPD: 30
+  gender_rate: 3
+  growth_rate: 3
+  base_exp: 130
+  effort_values:
+    HP: 0
+    ATK: 0
+    DEF: 0
+    SP_ATK: 2
+    SP_DEF: 0
+    SPD: 0
+  rareness: 100
+  happiness: 70
+  abilities: 5600000046000000
+  hidden_ability: 66000000
+  moves:
+  - level: 1
+    move: 358
+  - level: 1
+    move: 375
+  - level: 1
+    move: 395
+  - level: 1
+    move: 448
+  - level: 3
+    move: 375
+  - level: 7
+    move: 395
+  - level: 10
+    move: 448
+  - level: 14
+    move: 224
+  - level: 16
+    move: 268
+  - level: 19
+    move: 66
+  - level: 24
+    move: 372
+  - level: 25
+    move: 356
+  - level: 28
+    move: 135
+  - level: 31
+    move: 185
+  - level: 34
+    move: 327
+  - level: 39
+    move: 352
+  - level: 43
+    move: 430
+  - level: 50
+    move: 213
+  - level: 53
+    move: 550
+  evolutions:
+  - evolution: 579
+    evolution_method: 1
+    parameter: 41
+  egg_moves: 
+  egg_groups: 0a000000
+  steps_to_hatch: 5120
+  height: 0.6
+  weight: 8
+  color: 4
+  shape: 0
+  habitat: 0
+  regional_dexes: 
+  kind: Mitosis
+  pokedex_entry: "When their brains, now divided in two, are thinking the same thoughts,
+    these Pok\xE9mon exhibit their maximum power."
+  wild_item_common: 0
+  wild_item_uncommon: 0
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: 0
+  battler_player_y: 0
+  battler_enemy_x: 2
+  battler_enemy_y: 11
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 2

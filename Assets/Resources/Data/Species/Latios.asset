@@ -1,0 +1,104 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Latios
+  m_EditorClassIdentifier: 
+  national_dex: 381
+  types: 100000000e000000
+  base_stats:
+    HP: 80
+    ATK: 90
+    DEF: 80
+    SP_ATK: 130
+    SP_DEF: 110
+    SPD: 110
+  gender_rate: 0
+  growth_rate: 2
+  base_exp: 270
+  effort_values:
+    HP: 0
+    ATK: 0
+    DEF: 0
+    SP_ATK: 3
+    SP_DEF: 0
+    SPD: 0
+  rareness: 3
+  happiness: 90
+  abilities: 40000000
+  hidden_ability: 
+  moves:
+  - level: 1
+    move: 291
+  - level: 1
+    move: 222
+  - level: 1
+    move: 213
+  - level: 1
+    move: 358
+  - level: 1
+    move: 400
+  - level: 4
+    move: 349
+  - level: 7
+    move: 115
+  - level: 10
+    move: 469
+  - level: 13
+    move: 376
+  - level: 16
+    move: 215
+  - level: 20
+    move: 113
+  - level: 24
+    move: 275
+  - level: 28
+    move: 355
+  - level: 32
+    move: 372
+  - level: 36
+    move: 502
+  - level: 41
+    move: 559
+  - level: 46
+    move: 344
+  - level: 51
+    move: 352
+  - level: 56
+    move: 116
+  - level: 61
+    move: 291
+  evolutions: []
+  egg_moves: 
+  egg_groups: 0e000000
+  steps_to_hatch: 30720
+  height: 2
+  weight: 60
+  color: 2
+  shape: 8
+  habitat: 9
+  regional_dexes: 
+  kind: Eon
+  pokedex_entry: Even in hiding, it can detect the locations of others and sense
+    their emotions since it has telepathy. Its intelligence allows it to understand
+    human languages.
+  wild_item_common: 0
+  wild_item_uncommon: 0
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: 3
+  battler_player_y: 0
+  battler_enemy_x: 0
+  battler_enemy_y: -5
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 2

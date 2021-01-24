@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Bunnelby
+  m_EditorClassIdentifier: 
+  national_dex: 659
+  types: 0100000000000000
+  base_stats:
+    HP: 38
+    ATK: 36
+    DEF: 38
+    SP_ATK: 32
+    SP_DEF: 36
+    SPD: 57
+  gender_rate: 3
+  growth_rate: 1
+  base_exp: 47
+  effort_values:
+    HP: 0
+    ATK: 0
+    DEF: 0
+    SP_ATK: 0
+    SP_DEF: 0
+    SPD: 1
+  rareness: 255
+  happiness: 70
+  abilities: 5a000000a9000000
+  hidden_ability: 2d000000
+  moves:
+  - level: 1
+    move: 493
+  - level: 1
+    move: 10
+  - level: 1
+    move: 266
+  - level: 7
+    move: 362
+  - level: 10
+    move: 109
+  - level: 13
+    move: 312
+  - level: 15
+    move: 498
+  - level: 18
+    move: 310
+  - level: 20
+    move: 108
+  - level: 25
+    move: 323
+  - level: 29
+    move: 158
+  - level: 33
+    move: 101
+  - level: 38
+    move: 49
+  - level: 42
+    move: 480
+  - level: 47
+    move: 143
+  - level: 49
+    move: 127
+  evolutions:
+  - evolution: 660
+    evolution_method: 1
+    parameter: 20
+  egg_moves: 610000008b010000ca010000
+  egg_groups: 04000000
+  steps_to_hatch: 3840
+  height: 0.4
+  weight: 5
+  color: 6
+  shape: 5
+  habitat: 0
+  regional_dexes: 
+  kind: Digging
+  pokedex_entry: It has ears like shovels. Digging holes strengthens its ears so
+    much that they can sever thick roots effortlessly.
+  wild_item_common: 0
+  wild_item_uncommon: 0
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: 0
+  battler_player_y: 0
+  battler_enemy_x: 0
+  battler_enemy_y: 0
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 2

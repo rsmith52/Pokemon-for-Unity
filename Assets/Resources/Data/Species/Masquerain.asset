@@ -1,0 +1,104 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Masquerain
+  m_EditorClassIdentifier: 
+  national_dex: 284
+  types: 0700000003000000
+  base_stats:
+    HP: 70
+    ATK: 60
+    DEF: 62
+    SP_ATK: 100
+    SP_DEF: 82
+    SPD: 80
+  gender_rate: 3
+  growth_rate: 1
+  base_exp: 159
+  effort_values:
+    HP: 0
+    ATK: 0
+    DEF: 0
+    SP_ATK: 1
+    SP_DEF: 1
+    SPD: 0
+  rareness: 75
+  happiness: 70
+  abilities: 39000000
+  hidden_ability: 9a000000
+  moves:
+  - level: 1
+    move: 364
+  - level: 1
+    move: 543
+  - level: 1
+    move: 56
+  - level: 1
+    move: 324
+  - level: 1
+    move: 54
+  - level: 1
+    move: 362
+  - level: 1
+    move: 487
+  - level: 1
+    move: 538
+  - level: 6
+    move: 362
+  - level: 9
+    move: 487
+  - level: 14
+    move: 538
+  - level: 17
+    move: 203
+  - level: 22
+    move: 405
+  - level: 22
+    move: 11
+  - level: 26
+    move: 475
+  - level: 32
+    move: 426
+  - level: 38
+    move: 12
+  - level: 42
+    move: 56
+  - level: 48
+    move: 543
+  - level: 52
+    move: 364
+  evolutions: []
+  egg_moves: 
+  egg_groups: 0100000002000000
+  steps_to_hatch: 3840
+  height: 0.8
+  weight: 3.6
+  color: 2
+  shape: 12
+  habitat: 9
+  regional_dexes: 
+  kind: Eyeball
+  pokedex_entry: It intimidates foes with the large eyelike patterns on its antennae.
+    Because it can't fly if its wings get wet, it shelters from rain under large
+    trees and eaves.
+  wild_item_common: 0
+  wild_item_uncommon: 334
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: 2
+  battler_player_y: 0
+  battler_enemy_x: -4
+  battler_enemy_y: -8
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 1

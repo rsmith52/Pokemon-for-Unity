@@ -1,0 +1,111 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Skiploom
+  m_EditorClassIdentifier: 
+  national_dex: 188
+  types: 0c00000003000000
+  base_stats:
+    HP: 55
+    ATK: 45
+    DEF: 50
+    SP_ATK: 45
+    SP_DEF: 65
+    SPD: 80
+  gender_rate: 3
+  growth_rate: 3
+  base_exp: 119
+  effort_values:
+    HP: 0
+    ATK: 0
+    DEF: 0
+    SP_ATK: 0
+    SP_DEF: 0
+    SPD: 2
+  rareness: 120
+  happiness: 70
+  abilities: 0c0000003f000000
+  hidden_ability: 36000000
+  moves:
+  - level: 1
+    move: 1
+  - level: 1
+    move: 461
+  - level: 1
+    move: 492
+  - level: 1
+    move: 496
+  - level: 4
+    move: 492
+  - level: 6
+    move: 496
+  - level: 8
+    move: 493
+  - level: 10
+    move: 576
+  - level: 12
+    move: 338
+  - level: 14
+    move: 475
+  - level: 16
+    move: 438
+  - level: 20
+    move: 60
+  - level: 24
+    move: 265
+  - level: 28
+    move: 287
+  - level: 32
+    move: 5
+  - level: 36
+    move: 365
+  - level: 40
+    move: 83
+  - level: 44
+    move: 524
+  - level: 48
+    move: 553
+  - level: 52
+    move: 188
+  - level: 56
+    move: 49
+  - level: 60
+    move: 291
+  evolutions:
+  - evolution: 189
+    evolution_method: 1
+    parameter: 27
+  egg_moves: 
+  egg_groups: 0500000006000000
+  steps_to_hatch: 5120
+  height: 0.6
+  weight: 1
+  color: 4
+  shape: 5
+  habitat: 3
+  regional_dexes: 0000000044000000
+  kind: Cottonweed
+  pokedex_entry: It blossoms when the temperature rises above 64 degrees F. Because
+    its flower's blooming changes with the temperature, it is sometimes used as a
+    thermometer.
+  wild_item_common: 0
+  wild_item_uncommon: 0
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: 2
+  battler_player_y: 0
+  battler_enemy_x: 1
+  battler_enemy_y: 7
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 2

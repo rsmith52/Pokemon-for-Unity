@@ -1,0 +1,104 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Slowbro
+  m_EditorClassIdentifier: 
+  national_dex: 80
+  types: 0b0000000e000000
+  base_stats:
+    HP: 95
+    ATK: 75
+    DEF: 110
+    SP_ATK: 100
+    SP_DEF: 80
+    SPD: 30
+  gender_rate: 3
+  growth_rate: 1
+  base_exp: 172
+  effort_values:
+    HP: 0
+    ATK: 0
+    DEF: 2
+    SP_ATK: 0
+    SP_DEF: 0
+    SPD: 0
+  rareness: 75
+  happiness: 70
+  abilities: 5500000058000000
+  hidden_ability: 66000000
+  moves:
+  - level: 0
+    move: 549
+  - level: 1
+    move: 549
+  - level: 1
+    move: 215
+  - level: 1
+    move: 92
+  - level: 1
+    move: 557
+  - level: 1
+    move: 493
+  - level: 1
+    move: 196
+  - level: 5
+    move: 196
+  - level: 9
+    move: 535
+  - level: 14
+    move: 76
+  - level: 19
+    move: 102
+  - level: 23
+    move: 211
+  - level: 28
+    move: 537
+  - level: 32
+    move: 559
+  - level: 36
+    move: 435
+  - level: 43
+    move: 14
+  - level: 49
+    move: 352
+  - level: 55
+    move: 367
+  - level: 62
+    move: 351
+  - level: 68
+    move: 215
+  evolutions: []
+  egg_moves: 
+  egg_groups: 0000000001000000
+  steps_to_hatch: 5120
+  height: 1.6
+  weight: 78.5
+  color: 10
+  shape: 5
+  habitat: 9
+  regional_dexes: 5000000051000000
+  kind: Hermit Crab
+  pokedex_entry: Its tail has a Shellder firmly attached with a bite. As a result,
+    the tail can't be used for fishing anymore. This forces it to reluctantly swim
+    and catch prey.
+  wild_item_common: 0
+  wild_item_uncommon: 174
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: -7
+  battler_player_y: 0
+  battler_enemy_x: 6
+  battler_enemy_y: 14
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 3

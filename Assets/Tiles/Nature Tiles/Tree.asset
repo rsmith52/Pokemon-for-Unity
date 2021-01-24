@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa8f408efd1504ef3909dc7b478e49a4, type: 3}
+  m_Name: Tree
+  m_EditorClassIdentifier: 
+  allow_passage: 0
+  up_passage: 0
+  left_passage: 0
+  right_passage: 0
+  down_passage: 0
+  is_bush: 0
+  is_counter: 0
+  terrain_tag: 0
+  unparent: 0
+  preview_sprite: {fileID: -751935140560370576, guid: d4202b147f9fa40f1bf0176e5cbf635e,
+    type: 3}
+  prefab: {fileID: 8090707282486027071, guid: b3b38af0b705043b584d1587ac2e20d7, type: 3}
+  prefab_offset: {x: 1, y: 2}
+  prefab_local_z: 0
+  helper_tiles:
+  - tile: {fileID: 11400000, guid: 0961aca6682d342bebfa5eec8406e337, type: 2}
+    offsets: {x: 1, y: 0}
+  - tile: {fileID: 11400000, guid: 0961aca6682d342bebfa5eec8406e337, type: 2}
+    offsets: {x: 0, y: 1}
+  - tile: {fileID: 11400000, guid: 0961aca6682d342bebfa5eec8406e337, type: 2}
+    offsets: {x: 1, y: 1}

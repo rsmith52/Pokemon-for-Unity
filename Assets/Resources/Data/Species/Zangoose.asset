@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Zangoose
+  m_EditorClassIdentifier: 
+  national_dex: 335
+  types: 0100000000000000
+  base_stats:
+    HP: 73
+    ATK: 115
+    DEF: 60
+    SP_ATK: 60
+    SP_DEF: 60
+    SPD: 90
+  gender_rate: 3
+  growth_rate: 4
+  base_exp: 160
+  effort_values:
+    HP: 0
+    ATK: 2
+    DEF: 0
+    SP_ATK: 0
+    SP_DEF: 0
+    SPD: 0
+  rareness: 90
+  happiness: 70
+  abilities: 34000000
+  hidden_ability: 94000000
+  moves:
+  - level: 1
+    move: 406
+  - level: 1
+    move: 266
+  - level: 5
+    move: 362
+  - level: 8
+    move: 181
+  - level: 12
+    move: 360
+  - level: 15
+    move: 226
+  - level: 19
+    move: 437
+  - level: 22
+    move: 381
+  - level: 26
+    move: 90
+  - level: 29
+    move: 146
+  - level: 33
+    move: 132
+  - level: 36
+    move: 100
+  - level: 40
+    move: 556
+  - level: 43
+    move: 499
+  - level: 47
+    move: 490
+  - level: 50
+    move: 72
+  evolutions: []
+  egg_moves: 22000000540000005c000000660000006b0000006c00000095000000970000009e000000b6000000fd00000025010000400100006b01000073010000
+  egg_groups: 04000000
+  steps_to_hatch: 5120
+  height: 1.3
+  weight: 40.3
+  color: 9
+  shape: 5
+  habitat: 3
+  regional_dexes: 
+  kind: Cat Ferret
+  pokedex_entry: When it battles, it stands on its hind legs and attacks with its
+    sharply clawed forelegs. Its fur bristles if it encounters any Seviper.
+  wild_item_common: 0
+  wild_item_uncommon: 279
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: -1
+  battler_player_y: 0
+  battler_enemy_x: 2
+  battler_enemy_y: 10
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 2

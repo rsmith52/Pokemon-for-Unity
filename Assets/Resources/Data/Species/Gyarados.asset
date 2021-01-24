@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Gyarados
+  m_EditorClassIdentifier: 
+  national_dex: 130
+  types: 0b00000003000000
+  base_stats:
+    HP: 95
+    ATK: 125
+    DEF: 79
+    SP_ATK: 60
+    SP_DEF: 100
+    SPD: 81
+  gender_rate: 3
+  growth_rate: 2
+  base_exp: 189
+  effort_values:
+    HP: 0
+    ATK: 2
+    DEF: 0
+    SP_ATK: 0
+    SP_DEF: 0
+    SPD: 0
+  rareness: 45
+  happiness: 70
+  abilities: 39000000
+  hidden_ability: 4e000000
+  moves:
+  - level: 0
+    move: 38
+  - level: 1
+    move: 38
+  - level: 1
+    move: 505
+  - level: 21
+    move: 266
+  - level: 24
+    move: 523
+  - level: 27
+    move: 241
+  - level: 30
+    move: 18
+  - level: 33
+    move: 405
+  - level: 36
+    move: 117
+  - level: 39
+    move: 89
+  - level: 42
+    move: 233
+  - level: 45
+    move: 115
+  - level: 48
+    move: 231
+  - level: 51
+    move: 367
+  - level: 54
+    move: 234
+  evolutions: []
+  egg_moves: 
+  egg_groups: 0b0000000d000000
+  steps_to_hatch: 1280
+  height: 6.5
+  weight: 235
+  color: 2
+  shape: 1
+  habitat: 9
+  regional_dexes: 820000004d000000
+  kind: Atrocious
+  pokedex_entry: "It is an extremely vicious and violent Pok\xE9mon. When humans
+    begin to fight, it will appear and burn everything to the ground with intensely
+    hot flames."
+  wild_item_common: 0
+  wild_item_uncommon: 0
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: 2
+  battler_player_y: 0
+  battler_enemy_x: -1
+  battler_enemy_y: -3
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 3

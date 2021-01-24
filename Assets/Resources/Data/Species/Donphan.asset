@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Donphan
+  m_EditorClassIdentifier: 
+  national_dex: 232
+  types: 0500000000000000
+  base_stats:
+    HP: 90
+    ATK: 120
+    DEF: 120
+    SP_ATK: 60
+    SP_DEF: 60
+    SPD: 50
+  gender_rate: 3
+  growth_rate: 1
+  base_exp: 175
+  effort_values:
+    HP: 0
+    ATK: 1
+    DEF: 1
+    SP_ATK: 0
+    SP_DEF: 0
+    SPD: 0
+  rareness: 60
+  happiness: 70
+  abilities: 87000000
+  hidden_ability: 6e000000
+  moves:
+  - level: 0
+    move: 180
+  - level: 1
+    move: 180
+  - level: 1
+    move: 153
+  - level: 1
+    move: 506
+  - level: 1
+    move: 227
+  - level: 1
+    move: 58
+  - level: 1
+    move: 196
+  - level: 1
+    move: 97
+  - level: 6
+    move: 368
+  - level: 10
+    move: 395
+  - level: 15
+    move: 22
+  - level: 19
+    move: 258
+  - level: 24
+    move: 436
+  - level: 30
+    move: 283
+  - level: 37
+    move: 405
+  - level: 43
+    move: 127
+  - level: 50
+    move: 189
+  evolutions: []
+  egg_moves: 
+  egg_groups: 04000000
+  steps_to_hatch: 5120
+  height: 1.1
+  weight: 120
+  color: 8
+  shape: 7
+  habitat: 6
+  regional_dexes: 00000000c9000000
+  kind: Armor
+  pokedex_entry: A Donphan is so strong it can easily haul a dump truck. Its hide
+    has toughened to a rock-hard state. An ordinary sort of attack won't even leave
+    a scratch.
+  wild_item_common: 0
+  wild_item_uncommon: 0
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: 3
+  battler_player_y: 0
+  battler_enemy_x: -10
+  battler_enemy_y: 21
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 3

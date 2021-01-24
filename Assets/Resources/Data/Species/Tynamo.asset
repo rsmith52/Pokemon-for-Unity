@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Tynamo
+  m_EditorClassIdentifier: 
+  national_dex: 602
+  types: 0d00000000000000
+  base_stats:
+    HP: 35
+    ATK: 55
+    DEF: 40
+    SP_ATK: 45
+    SP_DEF: 40
+    SPD: 60
+  gender_rate: 3
+  growth_rate: 2
+  base_exp: 55
+  effort_values:
+    HP: 0
+    ATK: 0
+    DEF: 0
+    SP_ATK: 0
+    SP_DEF: 0
+    SPD: 1
+  rareness: 190
+  happiness: 70
+  abilities: 40000000
+  hidden_ability: 
+  moves:
+  - level: 1
+    move: 493
+  - level: 1
+    move: 509
+  - level: 1
+    move: 455
+  - level: 1
+    move: 64
+  evolutions:
+  - evolution: 603
+    evolution_method: 1
+    parameter: 39
+  egg_moves: 
+  egg_groups: 0a000000
+  steps_to_hatch: 5120
+  height: 0.2
+  weight: 0.3
+  color: 9
+  shape: 2
+  habitat: 0
+  regional_dexes: 
+  kind: EleFish
+  pokedex_entry: "These Pok\xE9mon move in schools. They have an electricity-generating
+    organ, so they discharge electricity if in danger."
+  wild_item_common: 0
+  wild_item_uncommon: 0
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: -4
+  battler_player_y: 0
+  battler_enemy_x: 1
+  battler_enemy_y: 19
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 2

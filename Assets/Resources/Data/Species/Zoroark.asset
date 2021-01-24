@@ -1,0 +1,109 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Zoroark
+  m_EditorClassIdentifier: 
+  national_dex: 571
+  types: 1100000000000000
+  base_stats:
+    HP: 60
+    ATK: 105
+    DEF: 60
+    SP_ATK: 120
+    SP_DEF: 60
+    SPD: 105
+  gender_rate: 1
+  growth_rate: 3
+  base_exp: 179
+  effort_values:
+    HP: 0
+    ATK: 0
+    DEF: 0
+    SP_ATK: 2
+    SP_DEF: 0
+    SPD: 0
+  rareness: 45
+  happiness: 70
+  abilities: 33000000
+  hidden_ability: 
+  moves:
+  - level: 0
+    move: 320
+  - level: 1
+    move: 320
+  - level: 1
+    move: 318
+  - level: 1
+    move: 247
+  - level: 1
+    move: 524
+  - level: 1
+    move: 406
+  - level: 1
+    move: 266
+  - level: 1
+    move: 360
+  - level: 1
+    move: 226
+  - level: 5
+    move: 360
+  - level: 9
+    move: 226
+  - level: 13
+    move: 182
+  - level: 17
+    move: 148
+  - level: 21
+    move: 405
+  - level: 25
+    move: 499
+  - level: 29
+    move: 175
+  - level: 34
+    move: 513
+  - level: 39
+    move: 10
+  - level: 44
+    move: 132
+  - level: 49
+    move: 359
+  - level: 54
+    move: 314
+  - level: 59
+    move: 247
+  - level: 64
+    move: 318
+  evolutions: []
+  egg_moves: 
+  egg_groups: 04000000
+  steps_to_hatch: 5120
+  height: 1.6
+  weight: 81.1
+  color: 8
+  shape: 5
+  habitat: 0
+  regional_dexes: 
+  kind: Illusion Fox
+  pokedex_entry: Each has the ability to fool a large group of people simultaneously.
+    They protect their lair with illusory scenery.
+  wild_item_common: 0
+  wild_item_uncommon: 0
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: 0
+  battler_player_y: 0
+  battler_enemy_x: 3
+  battler_enemy_y: 17
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 3

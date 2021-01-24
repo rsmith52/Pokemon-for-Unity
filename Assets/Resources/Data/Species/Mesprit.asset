@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Mesprit
+  m_EditorClassIdentifier: 
+  national_dex: 481
+  types: 0e00000000000000
+  base_stats:
+    HP: 80
+    ATK: 105
+    DEF: 105
+    SP_ATK: 105
+    SP_DEF: 105
+    SPD: 80
+  gender_rate: 7
+  growth_rate: 2
+  base_exp: 261
+  effort_values:
+    HP: 0
+    ATK: 1
+    DEF: 0
+    SP_ATK: 1
+    SP_DEF: 1
+    SPD: 0
+  rareness: 3
+  happiness: 140
+  abilities: 40000000
+  hidden_ability: 
+  moves:
+  - level: 1
+    move: 216
+  - level: 1
+    move: 315
+  - level: 1
+    move: 80
+  - level: 1
+    move: 378
+  - level: 1
+    move: 76
+  - level: 6
+    move: 247
+  - level: 16
+    move: 349
+  - level: 21
+    move: 488
+  - level: 31
+    move: 273
+  - level: 36
+    move: 185
+  - level: 46
+    move: 66
+  - level: 50
+    move: 141
+  - level: 61
+    move: 80
+  - level: 66
+    move: 315
+  - level: 76
+    move: 216
+  evolutions: []
+  egg_moves: 
+  egg_groups: 0e000000
+  steps_to_hatch: 20480
+  height: 0.3
+  weight: 0.3
+  color: 10
+  shape: 5
+  habitat: 0
+  regional_dexes: 
+  kind: Emotion
+  pokedex_entry: "Known as \u201CThe Being of Emotion.\u201D It taught humans the
+    nobility of sorrow, pain, and joy."
+  wild_item_common: 0
+  wild_item_uncommon: 0
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: 1
+  battler_player_y: 0
+  battler_enemy_x: -3
+  battler_enemy_y: 3
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 1

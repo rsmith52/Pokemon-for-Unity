@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Kakuna
+  m_EditorClassIdentifier: 
+  national_dex: 14
+  types: 0700000004000000
+  base_stats:
+    HP: 45
+    ATK: 25
+    DEF: 50
+    SP_ATK: 25
+    SP_DEF: 25
+    SPD: 35
+  gender_rate: 3
+  growth_rate: 1
+  base_exp: 72
+  effort_values:
+    HP: 0
+    ATK: 0
+    DEF: 2
+    SP_ATK: 0
+    SP_DEF: 0
+    SPD: 0
+  rareness: 120
+  happiness: 70
+  abilities: 73000000
+  hidden_ability: 
+  moves:
+  - level: 0
+    move: 207
+  - level: 1
+    move: 207
+  evolutions:
+  - evolution: 15
+    evolution_method: 1
+    parameter: 10
+  egg_moves: 
+  egg_groups: 02000000
+  steps_to_hatch: 3840
+  height: 0.6
+  weight: 10
+  color: 3
+  shape: 1
+  habitat: 2
+  regional_dexes: 0e0000001c000000
+  kind: Cocoon
+  pokedex_entry: It remains virtually immobile while it clings to a tree. However,
+    on the inside, it busily prepares for evolution. This is evident from how hot
+    its shell becomes.
+  wild_item_common: 0
+  wild_item_uncommon: 0
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: 0
+  battler_player_y: 0
+  battler_enemy_x: 0
+  battler_enemy_y: 22
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 1

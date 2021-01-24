@@ -1,0 +1,105 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Tangela
+  m_EditorClassIdentifier: 
+  national_dex: 114
+  types: 0c00000000000000
+  base_stats:
+    HP: 65
+    ATK: 55
+    DEF: 115
+    SP_ATK: 100
+    SP_DEF: 40
+    SPD: 60
+  gender_rate: 3
+  growth_rate: 1
+  base_exp: 87
+  effort_values:
+    HP: 0
+    ATK: 0
+    DEF: 1
+    SP_ATK: 0
+    SP_DEF: 0
+    SPD: 0
+  rareness: 45
+  happiness: 70
+  abilities: 0c0000003f000000
+  hidden_ability: 66000000
+  moves:
+  - level: 1
+    move: 250
+  - level: 1
+    move: 77
+  - level: 4
+    move: 438
+  - level: 7
+    move: 530
+  - level: 10
+    move: 1
+  - level: 14
+    move: 338
+  - level: 17
+    move: 37
+  - level: 20
+    move: 197
+  - level: 23
+    move: 287
+  - level: 27
+    move: 258
+  - level: 30
+    move: 475
+  - level: 33
+    move: 315
+  - level: 36
+    move: 188
+  - level: 38
+    move: 15
+  - level: 41
+    move: 436
+  - level: 44
+    move: 512
+  - level: 46
+    move: 555
+  - level: 48
+    move: 583
+  - level: 50
+    move: 347
+  evolutions:
+  - evolution: 465
+    evolution_method: 42
+    parameter: ANCIENTPOWER
+  egg_moves: 0e0000004c000000870000009e000000bc00000006010000090100001f0100003b0100003c010000590100006d01000016020000
+  egg_groups: 06000000
+  steps_to_hatch: 5120
+  height: 1
+  weight: 35
+  color: 2
+  shape: 6
+  habitat: 3
+  regional_dexes: 72000000b6000000
+  kind: Vine
+  pokedex_entry: Its vines snap off easily and painlessly if they are grabbed, allowing
+    it to make a quick getaway. The lost vines are replaced by new growth the very
+    next day.
+  wild_item_common: 0
+  wild_item_uncommon: 0
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: 0
+  battler_player_y: 0
+  battler_enemy_x: 0
+  battler_enemy_y: 22
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 2

@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Ambipom
+  m_EditorClassIdentifier: 
+  national_dex: 424
+  types: 0100000000000000
+  base_stats:
+    HP: 75
+    ATK: 100
+    DEF: 66
+    SP_ATK: 60
+    SP_DEF: 66
+    SPD: 115
+  gender_rate: 3
+  growth_rate: 0
+  base_exp: 169
+  effort_values:
+    HP: 0
+    ATK: 0
+    DEF: 0
+    SP_ATK: 0
+    SP_DEF: 0
+    SPD: 2
+  rareness: 45
+  happiness: 100
+  abilities: 8e0000005a000000
+  hidden_ability: 78000000
+  moves:
+  - level: 1
+    move: 124
+  - level: 1
+    move: 406
+  - level: 1
+    move: 496
+  - level: 1
+    move: 401
+  - level: 1
+    move: 23
+  - level: 4
+    move: 401
+  - level: 8
+    move: 23
+  - level: 11
+    move: 32
+  - level: 15
+    move: 512
+  - level: 18
+    move: 182
+  - level: 22
+    move: 488
+  - level: 25
+    move: 407
+  - level: 29
+    move: 10
+  - level: 32
+    move: 107
+  - level: 36
+    move: 167
+  - level: 39
+    move: 314
+  - level: 43
+    move: 259
+  evolutions: []
+  egg_moves: 
+  egg_groups: 04000000
+  steps_to_hatch: 5120
+  height: 1.2
+  weight: 20.3
+  color: 7
+  shape: 5
+  habitat: 0
+  regional_dexes: 000000007c000000
+  kind: Long Tail
+  pokedex_entry: To eat, it deftly shucks nuts with its two tails. It rarely uses
+    its arms now.
+  wild_item_common: 0
+  wild_item_uncommon: 0
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: 8
+  battler_player_y: 0
+  battler_enemy_x: -1
+  battler_enemy_y: 9
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 1

@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Trumbeak
+  m_EditorClassIdentifier: 
+  national_dex: 732
+  types: 0100000003000000
+  base_stats:
+    HP: 55
+    ATK: 85
+    DEF: 50
+    SP_ATK: 40
+    SP_DEF: 50
+    SPD: 75
+  gender_rate: 3
+  growth_rate: 1
+  base_exp: 124
+  effort_values:
+    HP: 0
+    ATK: 2
+    DEF: 0
+    SP_ATK: 0
+    SP_DEF: 0
+    SPD: 0
+  rareness: 120
+  happiness: 70
+  abilities: 3d00000078000000
+  hidden_ability: 5a000000
+  moves:
+  - level: 1
+    move: 385
+  - level: 1
+    move: 330
+  - level: 1
+    move: 196
+  - level: 1
+    move: 128
+  - level: 1
+    move: 389
+  - level: 3
+    move: 196
+  - level: 7
+    move: 128
+  - level: 9
+    move: 389
+  - level: 13
+    move: 482
+  - level: 16
+    move: 334
+  - level: 21
+    move: 396
+  - level: 24
+    move: 180
+  - level: 29
+    move: 407
+  - level: 32
+    move: 122
+  - level: 37
+    move: 60
+  - level: 40
+    move: 147
+  - level: 45
+    move: 236
+  evolutions:
+  - evolution: 733
+    evolution_method: 1
+    parameter: 28
+  egg_moves: 
+  egg_groups: 03000000
+  steps_to_hatch: 3840
+  height: 0.6
+  weight: 14.8
+  color: 5
+  shape: 8
+  habitat: 0
+  regional_dexes: 
+  kind: Bugle Beak
+  pokedex_entry: It eats berries and stores their seeds in its beak. When it encounters
+    enemies or prey, it fires off all the seeds in a burst.
+  wild_item_common: 0
+  wild_item_uncommon: 335
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: 0
+  battler_player_y: 0
+  battler_enemy_x: 0
+  battler_enemy_y: 0
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 2

@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 253d169095ab8450397d87b75daa8002, type: 3}
+  m_Name: Deoxys_3
+  m_EditorClassIdentifier: 
+  base_species: 386
+  form_name: Speed Forme
+  form_id: 3
+  types: 
+  base_stats:
+    HP: 50
+    ATK: 95
+    DEF: 90
+    SP_ATK: 95
+    SP_DEF: 90
+    SPD: 180
+  base_exp: 0
+  effort_values:
+    HP: 0
+    ATK: 0
+    DEF: 0
+    SP_ATK: 0
+    SP_DEF: 0
+    SPD: 3
+  rareness: 0
+  happiness: 0
+  abilities: 
+  hidden_ability: 
+  moves:
+  - level: 1
+    move: 266
+  - level: 1
+    move: 554
+  - level: 7
+    move: 319
+  - level: 13
+    move: 110
+  - level: 19
+    move: 258
+  - level: 25
+    move: 360
+  - level: 31
+    move: 352
+  - level: 37
+    move: 488
+  - level: 43
+    move: 355
+  - level: 49
+    move: 559
+  - level: 55
+    move: 10
+  - level: 61
+    move: 372
+  - level: 67
+    move: 353
+  - level: 73
+    move: 142
+  evolutions: []
+  egg_moves: 
+  egg_groups: 
+  steps_to_hatch: 0
+  height: 0
+  weight: 0
+  color: 0
+  shape: 0
+  habitat: 0
+  kind: 
+  pokedex_entry: 
+  wild_item_common: 0
+  wild_item_uncommon: 0
+  wild_item_rare: 0
+  battler_player_x: -4
+  battler_player_y: 0
+  battler_enemy_x: -4
+  battler_enemy_y: 4
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 3
+  mega_stone: 0
+  mega_move: 0
+  mega_message: 
+  unmega_form_id: 0
+  pokedex_form_id: 0

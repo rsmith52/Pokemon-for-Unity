@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Lickitung
+  m_EditorClassIdentifier: 
+  national_dex: 108
+  types: 0100000000000000
+  base_stats:
+    HP: 90
+    ATK: 55
+    DEF: 75
+    SP_ATK: 60
+    SP_DEF: 75
+    SPD: 30
+  gender_rate: 3
+  growth_rate: 1
+  base_exp: 77
+  effort_values:
+    HP: 2
+    ATK: 0
+    DEF: 0
+    SP_ATK: 0
+    SP_DEF: 0
+    SPD: 0
+  rareness: 45
+  happiness: 70
+  abilities: 5800000055000000
+  hidden_ability: 0e000000
+  moves:
+  - level: 1
+    move: 267
+  - level: 5
+    move: 482
+  - level: 9
+    move: 97
+  - level: 13
+    move: 258
+  - level: 17
+    move: 554
+  - level: 21
+    move: 467
+  - level: 25
+    move: 102
+  - level: 29
+    move: 436
+  - level: 33
+    move: 395
+  - level: 37
+    move: 68
+  - level: 41
+    move: 284
+  - level: 45
+    move: 376
+  - level: 49
+    move: 407
+  - level: 53
+    move: 347
+  - level: 57
+    move: 555
+  evolutions:
+  - evolution: 463
+    evolution_method: 42
+    parameter: ROLLOUT
+  egg_moves: 0e00000032020000220000002c0000005c000000ce0000001b01000039010000b7010000bc010000c1010000f90100002f020000
+  egg_groups: 00000000
+  steps_to_hatch: 5120
+  height: 1.2
+  weight: 65.5
+  color: 10
+  shape: 5
+  habitat: 3
+  regional_dexes: 6c000000b4000000
+  kind: Licking
+  pokedex_entry: Whenever it sees something unfamiliar, it always licks the object
+    because it memorizes things by texture and taste. It is somewhat put off by sour
+    things.
+  wild_item_common: 0
+  wild_item_uncommon: 175
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: -2
+  battler_player_y: 0
+  battler_enemy_x: 1
+  battler_enemy_y: 15
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 3

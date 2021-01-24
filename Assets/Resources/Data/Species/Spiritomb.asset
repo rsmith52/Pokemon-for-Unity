@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Spiritomb
+  m_EditorClassIdentifier: 
+  national_dex: 442
+  types: 0800000011000000
+  base_stats:
+    HP: 50
+    ATK: 92
+    DEF: 108
+    SP_ATK: 92
+    SP_DEF: 108
+    SPD: 35
+  gender_rate: 3
+  growth_rate: 1
+  base_exp: 170
+  effort_values:
+    HP: 0
+    ATK: 0
+    DEF: 1
+    SP_ATK: 0
+    SP_DEF: 1
+    SPD: 0
+  rareness: 100
+  happiness: 70
+  abilities: 60000000
+  hidden_ability: 36000000
+  moves:
+  - level: 1
+    move: 92
+  - level: 1
+    move: 360
+  - level: 1
+    move: 75
+  - level: 1
+    move: 460
+  - level: 1
+    move: 419
+  - level: 7
+    move: 148
+  - level: 13
+    move: 237
+  - level: 19
+    move: 121
+  - level: 25
+    move: 324
+  - level: 31
+    move: 478
+  - level: 37
+    move: 314
+  - level: 43
+    move: 291
+  - level: 49
+    move: 94
+  evolutions: []
+  egg_moves: 3f0000006300000066000000af000000c6000000f70000004101000047010000a3010000be010000
+  egg_groups: 0a000000
+  steps_to_hatch: 7680
+  height: 1
+  weight: 108
+  color: 7
+  shape: 4
+  habitat: 0
+  regional_dexes: 
+  kind: Forbidden
+  pokedex_entry: "A Pok\xE9mon that was formed by 108 spirits. It is bound to a fissure
+    in an odd keystone."
+  wild_item_common: 0
+  wild_item_uncommon: 0
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: 2
+  battler_player_y: 0
+  battler_enemy_x: 2
+  battler_enemy_y: -2
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 2

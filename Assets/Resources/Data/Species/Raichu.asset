@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Raichu
+  m_EditorClassIdentifier: 
+  national_dex: 26
+  types: 0d00000000000000
+  base_stats:
+    HP: 60
+    ATK: 90
+    DEF: 55
+    SP_ATK: 90
+    SP_DEF: 80
+    SPD: 110
+  gender_rate: 3
+  growth_rate: 1
+  base_exp: 218
+  effort_values:
+    HP: 0
+    ATK: 0
+    DEF: 0
+    SP_ATK: 0
+    SP_DEF: 0
+    SPD: 3
+  rareness: 75
+  happiness: 70
+  abilities: 82000000
+  hidden_ability: 42000000
+  moves:
+  - level: 1
+    move: 508
+  - level: 1
+    move: 496
+  - level: 1
+    move: 362
+  - level: 1
+    move: 511
+  evolutions: []
+  egg_moves: 
+  egg_groups: 0400000005000000
+  steps_to_hatch: 2560
+  height: 0.8
+  weight: 30
+  color: 3
+  shape: 5
+  habitat: 2
+  regional_dexes: 1a00000017000000
+  kind: Mouse
+  pokedex_entry: If it stores too much electricity, its behavior turns aggressive.
+    To avoid this, it occasionally discharges excess energy and calms itself down.
+  wild_item_common: 0
+  wild_item_uncommon: 0
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: -5
+  battler_player_y: 0
+  battler_enemy_x: 11
+  battler_enemy_y: 10
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 3

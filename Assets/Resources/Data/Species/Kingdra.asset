@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Kingdra
+  m_EditorClassIdentifier: 
+  national_dex: 230
+  types: 0b00000010000000
+  base_stats:
+    HP: 75
+    ATK: 95
+    DEF: 95
+    SP_ATK: 95
+    SP_DEF: 95
+    SPD: 85
+  gender_rate: 3
+  growth_rate: 1
+  base_exp: 243
+  effort_values:
+    HP: 0
+    ATK: 1
+    DEF: 0
+    SP_ATK: 1
+    SP_DEF: 1
+    SPD: 0
+  rareness: 45
+  happiness: 70
+  abilities: 8b0000007a000000
+  hidden_ability: 14000000
+  moves:
+  - level: 1
+    move: 233
+  - level: 1
+    move: 557
+  - level: 1
+    move: 54
+  - level: 1
+    move: 446
+  - level: 1
+    move: 266
+  - level: 1
+    move: 535
+  - level: 5
+    move: 446
+  - level: 9
+    move: 266
+  - level: 13
+    move: 535
+  - level: 17
+    move: 523
+  - level: 21
+    move: 53
+  - level: 26
+    move: 170
+  - level: 31
+    move: 52
+  - level: 38
+    move: 10
+  - level: 45
+    move: 116
+  - level: 52
+    move: 115
+  - level: 60
+    move: 233
+  evolutions: []
+  egg_moves: 
+  egg_groups: 010000000d000000
+  steps_to_hatch: 5120
+  height: 1.8
+  weight: 152
+  color: 2
+  shape: 4
+  habitat: 7
+  regional_dexes: 00000000c0000000
+  kind: Dragon
+  pokedex_entry: It sleeps quietly, deep on the seafloor. When it comes up to the
+    surface, it creates a huge whirlpool that can swallow even ships.
+  wild_item_common: 0
+  wild_item_uncommon: 86
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: -5
+  battler_player_y: 0
+  battler_enemy_x: 0
+  battler_enemy_y: -7
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 2

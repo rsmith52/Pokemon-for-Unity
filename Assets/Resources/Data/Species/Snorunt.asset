@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Snorunt
+  m_EditorClassIdentifier: 
+  national_dex: 361
+  types: 0f00000000000000
+  base_stats:
+    HP: 50
+    ATK: 50
+    DEF: 50
+    SP_ATK: 50
+    SP_DEF: 50
+    SPD: 50
+  gender_rate: 3
+  growth_rate: 1
+  base_exp: 60
+  effort_values:
+    HP: 1
+    ATK: 0
+    DEF: 0
+    SP_ATK: 0
+    SP_DEF: 0
+    SPD: 0
+  rareness: 190
+  happiness: 70
+  abilities: 3700000031000000
+  hidden_ability: 4c000000
+  moves:
+  - level: 1
+    move: 342
+  - level: 1
+    move: 266
+  - level: 5
+    move: 110
+  - level: 10
+    move: 243
+  - level: 14
+    move: 246
+  - level: 19
+    move: 38
+  - level: 23
+    move: 241
+  - level: 28
+    move: 211
+  - level: 32
+    move: 349
+  - level: 37
+    move: 178
+  - level: 41
+    move: 89
+  - level: 46
+    move: 41
+  - level: 50
+    move: 205
+  evolutions:
+  - evolution: 362
+    evolution_method: 1
+    parameter: 42
+  - evolution: 478
+    evolution_method: 49
+    parameter: DAWNSTONE
+  egg_moves: 1d000000240000002a0000006600000091000000df0000008b010000ca010000e90100001d020000
+  egg_groups: 0500000009000000
+  steps_to_hatch: 5120
+  height: 0.7
+  weight: 16.8
+  color: 8
+  shape: 11
+  habitat: 1
+  regional_dexes: 
+  kind: Snow Hat
+  pokedex_entry: They tend to move about in groups of around five Snorunt. In snowy
+    regions, it is said that when they are seen late at night, snowfall will arrive
+    by morning.
+  wild_item_common: 0
+  wild_item_uncommon: 593
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: -1
+  battler_player_y: 0
+  battler_enemy_x: 1
+  battler_enemy_y: 20
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 2

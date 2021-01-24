@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Porygon2
+  m_EditorClassIdentifier: 
+  national_dex: 233
+  types: 0100000000000000
+  base_stats:
+    HP: 85
+    ATK: 80
+    DEF: 90
+    SP_ATK: 105
+    SP_DEF: 95
+    SPD: 60
+  gender_rate: 7
+  growth_rate: 1
+  base_exp: 180
+  effort_values:
+    HP: 0
+    ATK: 0
+    DEF: 0
+    SP_ATK: 2
+    SP_DEF: 0
+    SPD: 0
+  rareness: 45
+  happiness: 70
+  abilities: 9500000017000000
+  hidden_ability: 04000000
+  moves:
+  - level: 1
+    move: 558
+  - level: 1
+    move: 277
+  - level: 1
+    move: 78
+  - level: 1
+    move: 493
+  - level: 1
+    move: 79
+  - level: 1
+    move: 97
+  - level: 7
+    move: 350
+  - level: 12
+    move: 10
+  - level: 18
+    move: 372
+  - level: 23
+    move: 282
+  - level: 29
+    move: 425
+  - level: 34
+    move: 373
+  - level: 40
+    move: 103
+  - level: 45
+    move: 269
+  - level: 50
+    move: 517
+  - level: 56
+    move: 277
+  - level: 62
+    move: 558
+  - level: 67
+    move: 234
+  evolutions:
+  - evolution: 474
+    evolution_method: 58
+    parameter: DUBIOUSDISC
+  egg_moves: 
+  egg_groups: 09000000
+  steps_to_hatch: 5120
+  height: 0.6
+  weight: 32.5
+  color: 1
+  shape: 6
+  habitat: 8
+  regional_dexes: 00000000dd000000
+  kind: Virtual
+  pokedex_entry: It was created by humans using the power of science. It has been
+    given artificial intelligence that enables it to learn new gestures and emotions
+    on its own.
+  wild_item_common: 0
+  wild_item_uncommon: 0
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: 3
+  battler_player_y: 0
+  battler_enemy_x: 0
+  battler_enemy_y: 14
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 1

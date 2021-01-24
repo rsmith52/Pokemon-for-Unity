@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Baltoy
+  m_EditorClassIdentifier: 
+  national_dex: 343
+  types: 050000000e000000
+  base_stats:
+    HP: 40
+    ATK: 40
+    DEF: 55
+    SP_ATK: 40
+    SP_DEF: 70
+    SPD: 55
+  gender_rate: 7
+  growth_rate: 1
+  base_exp: 60
+  effort_values:
+    HP: 0
+    ATK: 0
+    DEF: 0
+    SP_ATK: 0
+    SP_DEF: 1
+    SPD: 0
+  rareness: 255
+  happiness: 70
+  abilities: 40000000
+  hidden_ability: 
+  moves:
+  - level: 1
+    move: 207
+  - level: 1
+    move: 76
+  - level: 4
+    move: 368
+  - level: 7
+    move: 312
+  - level: 10
+    move: 213
+  - level: 13
+    move: 391
+  - level: 16
+    move: 350
+  - level: 19
+    move: 15
+  - level: 22
+    move: 81
+  - level: 25
+    move: 346
+  - level: 28
+    move: 414
+  - level: 31
+    move: 141
+  - level: 34
+    move: 199
+  - level: 34
+    move: 344
+  - level: 37
+    move: 126
+  - level: 40
+    move: 403
+  - level: 43
+    move: 247
+  - level: 46
+    move: 140
+  evolutions:
+  - evolution: 344
+    evolution_method: 1
+    parameter: 36
+  egg_moves: 
+  egg_groups: 09000000
+  steps_to_hatch: 5120
+  height: 0.5
+  weight: 21.5
+  color: 6
+  shape: 3
+  habitat: 6
+  regional_dexes: 
+  kind: Clay Doll
+  pokedex_entry: A Baltoy moves by spinning on its single foot. It has been depicted
+    in murals adorning the walls of a once-bustling city in an ancient age.
+  wild_item_common: 0
+  wild_item_uncommon: 187
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: 0
+  battler_player_y: 0
+  battler_enemy_x: -1
+  battler_enemy_y: 17
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 1

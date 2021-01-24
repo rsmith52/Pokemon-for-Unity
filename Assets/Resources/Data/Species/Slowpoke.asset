@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Slowpoke
+  m_EditorClassIdentifier: 
+  national_dex: 79
+  types: 0b0000000e000000
+  base_stats:
+    HP: 90
+    ATK: 65
+    DEF: 65
+    SP_ATK: 40
+    SP_DEF: 40
+    SPD: 15
+  gender_rate: 3
+  growth_rate: 1
+  base_exp: 63
+  effort_values:
+    HP: 1
+    ATK: 0
+    DEF: 0
+    SP_ATK: 0
+    SP_DEF: 0
+    SPD: 0
+  rareness: 190
+  happiness: 70
+  abilities: 5500000058000000
+  hidden_ability: 66000000
+  moves:
+  - level: 1
+    move: 92
+  - level: 1
+    move: 557
+  - level: 1
+    move: 493
+  - level: 5
+    move: 196
+  - level: 9
+    move: 535
+  - level: 14
+    move: 76
+  - level: 19
+    move: 102
+  - level: 23
+    move: 211
+  - level: 28
+    move: 537
+  - level: 32
+    move: 559
+  - level: 36
+    move: 435
+  - level: 41
+    move: 14
+  - level: 45
+    move: 352
+  - level: 49
+    move: 367
+  - level: 54
+    move: 351
+  - level: 58
+    move: 215
+  evolutions:
+  - evolution: 80
+    evolution_method: 1
+    parameter: 37
+  - evolution: 199
+    evolution_method: 58
+    parameter: KINGSROCK
+  egg_moves: 32020000220000002a000000b90000001c01000037010000b7010000c1010000d3010000260200002f020000
+  egg_groups: 0000000001000000
+  steps_to_hatch: 5120
+  height: 1.2
+  weight: 36
+  color: 10
+  shape: 7
+  habitat: 9
+  regional_dexes: 4f00000050000000
+  kind: Dopey
+  pokedex_entry: It catches prey by dipping its tail in water at the side of a river.
+    But it often forgets what it is doing and spends whole days just loafing at the
+    water's edge.
+  wild_item_common: 0
+  wild_item_uncommon: 175
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: -4
+  battler_player_y: 0
+  battler_enemy_x: 3
+  battler_enemy_y: 29
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 3

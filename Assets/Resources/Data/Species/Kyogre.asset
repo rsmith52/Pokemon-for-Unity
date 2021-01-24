@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Kyogre
+  m_EditorClassIdentifier: 
+  national_dex: 382
+  types: 0b00000000000000
+  base_stats:
+    HP: 100
+    ATK: 100
+    DEF: 90
+    SP_ATK: 150
+    SP_DEF: 140
+    SPD: 90
+  gender_rate: 7
+  growth_rate: 2
+  base_exp: 302
+  effort_values:
+    HP: 0
+    ATK: 0
+    DEF: 0
+    SP_ATK: 3
+    SP_DEF: 0
+    SPD: 0
+  rareness: 3
+  happiness: 0
+  abilities: 18000000
+  hidden_ability: 
+  moves:
+  - level: 1
+    move: 15
+  - level: 1
+    move: 537
+  - level: 5
+    move: 405
+  - level: 15
+    move: 18
+  - level: 20
+    move: 44
+  - level: 30
+    move: 17
+  - level: 35
+    move: 239
+  - level: 45
+    move: 602
+  - level: 50
+    move: 61
+  - level: 60
+    move: 313
+  - level: 65
+    move: 421
+  - level: 75
+    move: 233
+  - level: 80
+    move: 111
+  - level: 90
+    move: 539
+  evolutions: []
+  egg_moves: 
+  egg_groups: 0e000000
+  steps_to_hatch: 30720
+  height: 4.5
+  weight: 352
+  color: 2
+  shape: 2
+  habitat: 7
+  regional_dexes: 
+  kind: Sea Basin
+  pokedex_entry: Kyogre has appeared in mythology as the creator of the sea. After
+    long years of feuding with Groudon, it took to sleep at the bottom of the sea.
+  wild_item_common: 0
+  wild_item_uncommon: 0
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: 0
+  battler_player_y: 0
+  battler_enemy_x: 4
+  battler_enemy_y: -4
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 3

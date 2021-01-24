@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Seviper
+  m_EditorClassIdentifier: 
+  national_dex: 336
+  types: 0400000000000000
+  base_stats:
+    HP: 73
+    ATK: 100
+    DEF: 60
+    SP_ATK: 100
+    SP_DEF: 60
+    SPD: 65
+  gender_rate: 3
+  growth_rate: 5
+  base_exp: 160
+  effort_values:
+    HP: 0
+    ATK: 1
+    DEF: 0
+    SP_ATK: 1
+    SP_DEF: 0
+    SPD: 0
+  rareness: 90
+  happiness: 70
+  abilities: 73000000
+  hidden_ability: 36000000
+  moves:
+  - level: 1
+    move: 554
+  - level: 1
+    move: 484
+  - level: 4
+    move: 38
+  - level: 6
+    move: 267
+  - level: 9
+    move: 340
+  - level: 11
+    move: 149
+  - level: 14
+    move: 407
+  - level: 16
+    move: 528
+  - level: 19
+    move: 191
+  - level: 21
+    move: 335
+  - level: 24
+    move: 620
+  - level: 26
+    move: 320
+  - level: 29
+    move: 186
+  - level: 31
+    move: 337
+  - level: 34
+    move: 208
+  - level: 36
+    move: 490
+  - level: 39
+    move: 89
+  - level: 41
+    move: 562
+  - level: 44
+    move: 73
+  - level: 46
+    move: 555
+  evolutions: []
+  egg_moves: 160000002c00000097000000fd000000400100006701000095010000cb010000d2010000e5010000e90100002b020000
+  egg_groups: 040000000d000000
+  steps_to_hatch: 5120
+  height: 2.7
+  weight: 52.5
+  color: 5
+  shape: 1
+  habitat: 3
+  regional_dexes: 
+  kind: Fang Snake
+  pokedex_entry: Seviper and Zangoose are eternal rivals. It counters a Zangoose's
+    dazzling agility with its swordlike tail, which also oozes a horrible poison.
+  wild_item_common: 0
+  wild_item_uncommon: 324
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: 4
+  battler_player_y: 0
+  battler_enemy_x: 5
+  battler_enemy_y: 9
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 3

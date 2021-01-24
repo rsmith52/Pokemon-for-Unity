@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Nidorino
+  m_EditorClassIdentifier: 
+  national_dex: 33
+  types: 0400000000000000
+  base_stats:
+    HP: 61
+    ATK: 72
+    DEF: 57
+    SP_ATK: 55
+    SP_DEF: 55
+    SPD: 65
+  gender_rate: 0
+  growth_rate: 3
+  base_exp: 128
+  effort_values:
+    HP: 0
+    ATK: 2
+    DEF: 0
+    SP_ATK: 0
+    SP_DEF: 0
+    SPD: 0
+  rareness: 120
+  happiness: 70
+  abilities: 5d00000067000000
+  hidden_ability: 2e000000
+  moves:
+  - level: 1
+    move: 266
+  - level: 1
+    move: 330
+  - level: 7
+    move: 170
+  - level: 9
+    move: 108
+  - level: 13
+    move: 339
+  - level: 20
+    move: 180
+  - level: 23
+    move: 227
+  - level: 28
+    move: 222
+  - level: 35
+    move: 514
+  - level: 38
+    move: 166
+  - level: 43
+    move: 337
+  - level: 50
+    move: 63
+  - level: 58
+    move: 228
+  evolutions:
+  - evolution: 34
+    evolution_method: 47
+    parameter: MOONSTONE
+  egg_moves: 
+  egg_groups: 0000000004000000
+  steps_to_hatch: 5120
+  height: 0.9
+  weight: 19.5
+  color: 7
+  shape: 7
+  habitat: 3
+  regional_dexes: 2100000063000000
+  kind: Poison Pin
+  pokedex_entry: Its horn is harder than a diamond. If it senses a hostile presence,
+    all the barbs on its back bristle up at once, and it challenges the foe with
+    all its might.
+  wild_item_common: 0
+  wild_item_uncommon: 0
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: 1
+  battler_player_y: 0
+  battler_enemy_x: -2
+  battler_enemy_y: 21
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 3

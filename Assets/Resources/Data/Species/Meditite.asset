@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Meditite
+  m_EditorClassIdentifier: 
+  national_dex: 307
+  types: 020000000e000000
+  base_stats:
+    HP: 30
+    ATK: 40
+    DEF: 55
+    SP_ATK: 40
+    SP_DEF: 55
+    SPD: 60
+  gender_rate: 3
+  growth_rate: 1
+  base_exp: 56
+  effort_values:
+    HP: 0
+    ATK: 0
+    DEF: 0
+    SP_ATK: 0
+    SP_DEF: 0
+    SPD: 1
+  rareness: 180
+  happiness: 70
+  abilities: 61000000
+  hidden_ability: 8f000000
+  moves:
+  - level: 1
+    move: 36
+  - level: 4
+    move: 286
+  - level: 7
+    move: 76
+  - level: 9
+    move: 100
+  - level: 12
+    move: 136
+  - level: 15
+    move: 149
+  - level: 17
+    move: 173
+  - level: 20
+    move: 224
+  - level: 23
+    move: 61
+  - level: 25
+    move: 299
+  - level: 28
+    move: 225
+  - level: 31
+    move: 351
+  - level: 33
+    move: 6
+  - level: 36
+    move: 346
+  - level: 39
+    move: 382
+  - level: 41
+    move: 372
+  - level: 44
+    move: 84
+  evolutions:
+  - evolution: 308
+    evolution_method: 1
+    parameter: 37
+  egg_moves: 200000003b000000780000007d000000900000009b000000ae000000c8000000f200000059010000620100006b01000099010000fb010000
+  egg_groups: 07000000
+  steps_to_hatch: 5120
+  height: 0.6
+  weight: 11.2
+  color: 2
+  shape: 11
+  habitat: 4
+  regional_dexes: 
+  kind: Meditate
+  pokedex_entry: It continually meditates for hours every day. As a result of rigorous
+    and dedicated yoga training, it has tempered its spiritual power so much it can
+    fly.
+  wild_item_common: 0
+  wild_item_uncommon: 0
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: -2
+  battler_player_y: 0
+  battler_enemy_x: 1
+  battler_enemy_y: 22
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 2

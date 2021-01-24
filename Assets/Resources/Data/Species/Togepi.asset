@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Togepi
+  m_EditorClassIdentifier: 
+  national_dex: 175
+  types: 1200000000000000
+  base_stats:
+    HP: 35
+    ATK: 20
+    DEF: 65
+    SP_ATK: 40
+    SP_DEF: 65
+    SPD: 20
+  gender_rate: 1
+  growth_rate: 0
+  base_exp: 49
+  effort_values:
+    HP: 0
+    ATK: 0
+    DEF: 0
+    SP_ATK: 0
+    SP_DEF: 1
+    SPD: 0
+  rareness: 190
+  happiness: 70
+  abilities: 2e00000071000000
+  hidden_ability: 89000000
+  moves:
+  - level: 1
+    move: 196
+  - level: 1
+    move: 66
+  - level: 5
+    move: 296
+  - level: 9
+    move: 486
+  - level: 13
+    move: 557
+  - level: 17
+    move: 134
+  - level: 21
+    move: 172
+  - level: 25
+    move: 35
+  - level: 29
+    move: 548
+  - level: 33
+    move: 15
+  - level: 37
+    move: 400
+  - level: 41
+    move: 32
+  - level: 45
+    move: 111
+  - level: 49
+    move: 259
+  - level: 53
+    move: 9
+  evolutions:
+  - evolution: 176
+    evolution_method: 26
+    parameter: 
+  egg_moves: 8d000000ae000000b9000000110100002f010000340100003a0100004a0100005c0100006301000099010000d5010000
+  egg_groups: 0e000000
+  steps_to_hatch: 2560
+  height: 0.3
+  weight: 1.5
+  color: 9
+  shape: 11
+  habitat: 2
+  regional_dexes: 000000002e000000
+  kind: Spike Ball
+  pokedex_entry: "As its energy, it uses the feelings of compassion and pleasure
+    exuded by people and Pok\xE9mon. It stores up happy feelings in its shell, then
+    shares them out."
+  wild_item_common: 0
+  wild_item_uncommon: 0
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: 2
+  battler_player_y: 0
+  battler_enemy_x: 1
+  battler_enemy_y: 26
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 1

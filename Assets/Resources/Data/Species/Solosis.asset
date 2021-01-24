@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Solosis
+  m_EditorClassIdentifier: 
+  national_dex: 577
+  types: 0e00000000000000
+  base_stats:
+    HP: 45
+    ATK: 30
+    DEF: 40
+    SP_ATK: 105
+    SP_DEF: 50
+    SPD: 20
+  gender_rate: 3
+  growth_rate: 3
+  base_exp: 58
+  effort_values:
+    HP: 0
+    ATK: 0
+    DEF: 0
+    SP_ATK: 1
+    SP_DEF: 0
+    SPD: 0
+  rareness: 200
+  happiness: 70
+  abilities: 5600000046000000
+  hidden_ability: 66000000
+  moves:
+  - level: 1
+    move: 358
+  - level: 3
+    move: 375
+  - level: 7
+    move: 395
+  - level: 10
+    move: 448
+  - level: 14
+    move: 224
+  - level: 16
+    move: 268
+  - level: 19
+    move: 66
+  - level: 24
+    move: 372
+  - level: 25
+    move: 356
+  - level: 28
+    move: 135
+  - level: 31
+    move: 185
+  - level: 33
+    move: 327
+  - level: 37
+    move: 352
+  - level: 40
+    move: 430
+  - level: 46
+    move: 213
+  - level: 48
+    move: 550
+  evolutions:
+  - evolution: 578
+    evolution_method: 1
+    parameter: 32
+  egg_moves: 02000000170000004b000000de000000f70000003f0100009901000007020000
+  egg_groups: 0a000000
+  steps_to_hatch: 5120
+  height: 0.3
+  weight: 1
+  color: 4
+  shape: 0
+  habitat: 0
+  regional_dexes: 
+  kind: Cell
+  pokedex_entry: Because their bodies are enveloped in a special liquid, they can
+    survive in any environment.
+  wild_item_common: 0
+  wild_item_uncommon: 0
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: 0
+  battler_player_y: 0
+  battler_enemy_x: 0
+  battler_enemy_y: 9
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 1

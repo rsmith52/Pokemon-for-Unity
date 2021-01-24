@@ -1,0 +1,81 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Mismagius
+  m_EditorClassIdentifier: 
+  national_dex: 429
+  types: 0800000000000000
+  base_stats:
+    HP: 60
+    ATK: 60
+    DEF: 60
+    SP_ATK: 105
+    SP_DEF: 105
+    SPD: 105
+  gender_rate: 3
+  growth_rate: 0
+  base_exp: 173
+  effort_values:
+    HP: 0
+    ATK: 0
+    DEF: 0
+    SP_ATK: 1
+    SP_DEF: 1
+    SPD: 0
+  rareness: 45
+  happiness: 35
+  abilities: 40000000
+  hidden_ability: 
+  moves:
+  - level: 1
+    move: 598
+  - level: 1
+    move: 343
+  - level: 1
+    move: 606
+  - level: 1
+    move: 273
+  - level: 1
+    move: 279
+  - level: 1
+    move: 196
+  - level: 1
+    move: 358
+  - level: 1
+    move: 460
+  - level: 1
+    move: 23
+  evolutions: []
+  egg_moves: 
+  egg_groups: 0a000000
+  steps_to_hatch: 6400
+  height: 0.9
+  weight: 4.4
+  color: 7
+  shape: 0
+  habitat: 0
+  regional_dexes: 
+  kind: Magical
+  pokedex_entry: Its cries sound like incantations. Those hearing it are tormented
+    by headaches and hallucinations.
+  wild_item_common: 0
+  wild_item_uncommon: 0
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: -3
+  battler_player_y: 0
+  battler_enemy_x: 1
+  battler_enemy_y: -3
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 2

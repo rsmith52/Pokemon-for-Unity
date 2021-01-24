@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Toxapex
+  m_EditorClassIdentifier: 
+  national_dex: 748
+  types: 040000000b000000
+  base_stats:
+    HP: 50
+    ATK: 63
+    DEF: 152
+    SP_ATK: 53
+    SP_DEF: 142
+    SPD: 35
+  gender_rate: 3
+  growth_rate: 1
+  base_exp: 173
+  effort_values:
+    HP: 0
+    ATK: 0
+    DEF: 2
+    SP_ATK: 0
+    SP_DEF: 0
+    SPD: 0
+  rareness: 75
+  happiness: 70
+  abilities: d200000043000000
+  hidden_ability: 66000000
+  moves:
+  - level: 0
+    move: 625
+  - level: 1
+    move: 625
+  - level: 1
+    move: 339
+  - level: 1
+    move: 330
+  - level: 1
+    move: 38
+  - level: 1
+    move: 514
+  - level: 5
+    move: 330
+  - level: 9
+    move: 38
+  - level: 13
+    move: 514
+  - level: 17
+    move: 544
+  - level: 21
+    move: 515
+  - level: 25
+    move: 528
+  - level: 29
+    move: 457
+  - level: 33
+    move: 372
+  - level: 37
+    move: 337
+  - level: 44
+    move: 620
+  - level: 51
+    move: 333
+  - level: 58
+    move: 644
+  evolutions: []
+  egg_moves: 
+  egg_groups: 01000000
+  steps_to_hatch: 5120
+  height: 0.7
+  weight: 14.5
+  color: 2
+  shape: 9
+  habitat: 0
+  regional_dexes: 
+  kind: Brutal Star
+  pokedex_entry: Those attacked by Toxapex's poison will suffer intense pain for
+    three days and three nights. Post-recovery, there will be some aftereffects.
+  wild_item_common: 0
+  wild_item_uncommon: 252
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: 0
+  battler_player_y: 0
+  battler_enemy_x: 0
+  battler_enemy_y: 0
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 2

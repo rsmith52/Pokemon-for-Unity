@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Froakie
+  m_EditorClassIdentifier: 
+  national_dex: 656
+  types: 0b00000000000000
+  base_stats:
+    HP: 41
+    ATK: 56
+    DEF: 40
+    SP_ATK: 62
+    SP_DEF: 44
+    SPD: 71
+  gender_rate: 1
+  growth_rate: 3
+  base_exp: 63
+  effort_values:
+    HP: 0
+    ATK: 0
+    DEF: 0
+    SP_ATK: 0
+    SP_DEF: 0
+    SPD: 1
+  rareness: 45
+  happiness: 70
+  abilities: 93000000
+  hidden_ability: b9000000
+  moves:
+  - level: 1
+    move: 341
+  - level: 1
+    move: 196
+  - level: 5
+    move: 54
+  - level: 8
+    move: 362
+  - level: 10
+    move: 267
+  - level: 14
+    move: 537
+  - level: 18
+    move: 446
+  - level: 21
+    move: 397
+  - level: 25
+    move: 167
+  - level: 29
+    move: 443
+  - level: 35
+    move: 477
+  - level: 39
+    move: 49
+  - level: 43
+    move: 110
+  - level: 48
+    move: 233
+  evolutions:
+  - evolution: 657
+    evolution_method: 1
+    parameter: 16
+  egg_moves: 230000003e0000002b0100003701000062020000020200001a020000
+  egg_groups: 01000000
+  steps_to_hatch: 5120
+  height: 0.3
+  weight: 7
+  color: 2
+  shape: 7
+  habitat: 0
+  regional_dexes: 
+  kind: Bubble Frog
+  pokedex_entry: It protects its skin by covering its body in delicate bubbles. Beneath
+    its happy-go-lucky air, it keeps a watchful eye on its surroundings.
+  wild_item_common: 0
+  wild_item_uncommon: 0
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: 0
+  battler_player_y: 0
+  battler_enemy_x: 0
+  battler_enemy_y: 0
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 2

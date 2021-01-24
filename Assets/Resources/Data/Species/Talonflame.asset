@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Talonflame
+  m_EditorClassIdentifier: 
+  national_dex: 663
+  types: 0a00000003000000
+  base_stats:
+    HP: 78
+    ATK: 81
+    DEF: 71
+    SP_ATK: 74
+    SP_DEF: 69
+    SPD: 126
+  gender_rate: 3
+  growth_rate: 3
+  base_exp: 175
+  effort_values:
+    HP: 0
+    ATK: 0
+    DEF: 0
+    SP_ATK: 0
+    SP_DEF: 0
+    SPD: 3
+  rareness: 45
+  happiness: 70
+  abilities: 1e000000
+  hidden_ability: b1000000
+  moves:
+  - level: 1
+    move: 133
+  - level: 1
+    move: 50
+  - level: 1
+    move: 163
+  - level: 1
+    move: 493
+  - level: 1
+    move: 196
+  - level: 1
+    move: 362
+  - level: 1
+    move: 330
+  - level: 6
+    move: 362
+  - level: 10
+    move: 330
+  - level: 13
+    move: 10
+  - level: 16
+    move: 158
+  - level: 25
+    move: 396
+  - level: 27
+    move: 371
+  - level: 31
+    move: 315
+  - level: 39
+    move: 160
+  - level: 44
+    move: 5
+  - level: 49
+    move: 284
+  - level: 55
+    move: 497
+  - level: 60
+    move: 465
+  - level: 64
+    move: 50
+  evolutions: []
+  egg_moves: 
+  egg_groups: 03000000
+  steps_to_hatch: 3840
+  height: 1.2
+  weight: 24.5
+  color: 1
+  shape: 8
+  habitat: 0
+  regional_dexes: 
+  kind: Scorching
+  pokedex_entry: In the fever of an exciting battle, it showers embers from the gaps
+    between its feathers and takes to the air.
+  wild_item_common: 0
+  wild_item_uncommon: 0
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: 0
+  battler_player_y: 0
+  battler_enemy_x: 0
+  battler_enemy_y: 0
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 2

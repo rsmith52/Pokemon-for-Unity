@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Cosmog
+  m_EditorClassIdentifier: 
+  national_dex: 789
+  types: 0e00000000000000
+  base_stats:
+    HP: 43
+    ATK: 29
+    DEF: 31
+    SP_ATK: 29
+    SP_DEF: 31
+    SPD: 37
+  gender_rate: 7
+  growth_rate: 2
+  base_exp: 40
+  effort_values:
+    HP: 1
+    ATK: 0
+    DEF: 0
+    SP_ATK: 0
+    SP_DEF: 0
+    SPD: 0
+  rareness: 45
+  happiness: 0
+  abilities: 98000000
+  hidden_ability: 
+  moves:
+  - level: 1
+    move: 461
+  - level: 23
+    move: 503
+  evolutions:
+  - evolution: 790
+    evolution_method: 1
+    parameter: 43
+  egg_moves: 
+  egg_groups: 0e000000
+  steps_to_hatch: 30720
+  height: 0.2
+  weight: 0.1
+  color: 2
+  shape: 0
+  habitat: 0
+  regional_dexes: 
+  kind: Nebula
+  pokedex_entry: "Whether or not it's a Pok\xE9mon from this world is a mystery.
+    When it's in a jam, it warps away to a safe place to hide."
+  wild_item_common: 0
+  wild_item_uncommon: 0
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: 0
+  battler_player_y: 0
+  battler_enemy_x: 0
+  battler_enemy_y: 0
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 2

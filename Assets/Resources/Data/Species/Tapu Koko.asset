@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Tapu Koko
+  m_EditorClassIdentifier: 
+  national_dex: 785
+  types: 0d00000012000000
+  base_stats:
+    HP: 70
+    ATK: 115
+    DEF: 85
+    SP_ATK: 95
+    SP_DEF: 75
+    SPD: 130
+  gender_rate: 7
+  growth_rate: 2
+  base_exp: 257
+  effort_values:
+    HP: 0
+    ATK: 0
+    DEF: 0
+    SP_ATK: 0
+    SP_DEF: 0
+    SPD: 3
+  rareness: 3
+  happiness: 70
+  abilities: c9000000
+  hidden_ability: 8f000000
+  moves:
+  - level: 1
+    move: 573
+  - level: 1
+    move: 50
+  - level: 1
+    move: 345
+  - level: 1
+    move: 285
+  - level: 1
+    move: 362
+  - level: 1
+    move: 146
+  - level: 1
+    move: 549
+  - level: 1
+    move: 508
+  - level: 8
+    move: 455
+  - level: 14
+    move: 424
+  - level: 20
+    move: 407
+  - level: 26
+    move: 65
+  - level: 32
+    move: 545
+  - level: 38
+    move: 303
+  - level: 43
+    move: 649
+  - level: 48
+    move: 103
+  - level: 53
+    move: 10
+  - level: 58
+    move: 130
+  evolutions: []
+  egg_moves: 
+  egg_groups: 0e000000
+  steps_to_hatch: 3840
+  height: 1.8
+  weight: 20.5
+  color: 3
+  shape: 3
+  habitat: 0
+  regional_dexes: 
+  kind: Land Spirit
+  pokedex_entry: "Although it's called a guardian deity, if a person or Pok\xE9mon
+    puts it in a bad mood, it will become a malevolent deity and attack."
+  wild_item_common: 0
+  wild_item_uncommon: 0
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: 0
+  battler_player_y: 0
+  battler_enemy_x: 0
+  battler_enemy_y: 0
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 2

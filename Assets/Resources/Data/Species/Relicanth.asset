@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Relicanth
+  m_EditorClassIdentifier: 
+  national_dex: 369
+  types: 0b00000006000000
+  base_stats:
+    HP: 100
+    ATK: 90
+    DEF: 130
+    SP_ATK: 45
+    SP_DEF: 65
+    SPD: 55
+  gender_rate: 1
+  growth_rate: 2
+  base_exp: 170
+  effort_values:
+    HP: 1
+    ATK: 0
+    DEF: 1
+    SP_ATK: 0
+    SP_DEF: 0
+    SPD: 0
+  rareness: 25
+  happiness: 70
+  abilities: 8b00000068000000
+  hidden_ability: 87000000
+  moves:
+  - level: 1
+    move: 158
+  - level: 1
+    move: 210
+  - level: 1
+    move: 493
+  - level: 1
+    move: 207
+  - level: 1
+    move: 311
+  - level: 1
+    move: 535
+  - level: 6
+    move: 311
+  - level: 10
+    move: 535
+  - level: 15
+    move: 391
+  - level: 21
+    move: 15
+  - level: 26
+    move: 104
+  - level: 31
+    move: 498
+  - level: 35
+    move: 557
+  - level: 41
+    move: 378
+  - level: 46
+    move: 233
+  - level: 50
+    move: 111
+  - level: 56
+    move: 210
+  evolutions: []
+  egg_moves: 0e00000012000000340000001b010000360100003801000039010000af010000b7010000c10100001a0200002f020000
+  egg_groups: 010000000b000000
+  steps_to_hatch: 10240
+  height: 1
+  weight: 23.4
+  color: 8
+  shape: 2
+  habitat: 7
+  regional_dexes: 
+  kind: Longevity
+  pokedex_entry: "A Pok\xE9mon that was once believed to be extinct. The species
+    has not changed its form for 100 million years. It walks on the seafloor using
+    its pectoral fins."
+  wild_item_common: 0
+  wild_item_uncommon: 71
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: -7
+  battler_player_y: 0
+  battler_enemy_x: 0
+  battler_enemy_y: 0
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 3

@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Sandile
+  m_EditorClassIdentifier: 
+  national_dex: 551
+  types: 0500000011000000
+  base_stats:
+    HP: 50
+    ATK: 72
+    DEF: 35
+    SP_ATK: 35
+    SP_DEF: 35
+    SPD: 65
+  gender_rate: 3
+  growth_rate: 3
+  base_exp: 58
+  effort_values:
+    HP: 0
+    ATK: 1
+    DEF: 0
+    SP_ATK: 0
+    SP_DEF: 0
+    SPD: 0
+  rareness: 180
+  happiness: 70
+  abilities: 390000004e000000
+  hidden_ability: 05000000
+  moves:
+  - level: 1
+    move: 266
+  - level: 1
+    move: 366
+  - level: 4
+    move: 38
+  - level: 7
+    move: 401
+  - level: 10
+    move: 513
+  - level: 13
+    move: 402
+  - level: 16
+    move: 22
+  - level: 19
+    move: 312
+  - level: 22
+    move: 132
+  - level: 25
+    move: 484
+  - level: 28
+    move: 89
+  - level: 31
+    move: 101
+  - level: 34
+    move: 405
+  - level: 37
+    move: 175
+  - level: 40
+    move: 403
+  - level: 43
+    move: 127
+  - level: 46
+    move: 505
+  evolutions:
+  - evolution: 552
+    evolution_method: 1
+    parameter: 29
+  egg_moves: 21000000540000006f00000099000000aa0000001c0100001d0100008d0200006801000082010000fa0100000d020000
+  egg_groups: 04000000
+  steps_to_hatch: 5120
+  height: 0.7
+  weight: 15.2
+  color: 6
+  shape: 7
+  habitat: 0
+  regional_dexes: 
+  kind: Desert Croc
+  pokedex_entry: It moves along below the sand's surface, except for its nose and
+    eyes. A dark membrane shields its eyes from the sun.
+  wild_item_common: 0
+  wild_item_uncommon: 27
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: -2
+  battler_player_y: 0
+  battler_enemy_x: -1
+  battler_enemy_y: 37
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 2

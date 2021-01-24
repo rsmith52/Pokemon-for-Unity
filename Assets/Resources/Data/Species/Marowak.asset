@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Marowak
+  m_EditorClassIdentifier: 
+  national_dex: 105
+  types: 0500000000000000
+  base_stats:
+    HP: 60
+    ATK: 80
+    DEF: 110
+    SP_ATK: 50
+    SP_DEF: 80
+    SPD: 45
+  gender_rate: 3
+  growth_rate: 1
+  base_exp: 149
+  effort_values:
+    HP: 0
+    ATK: 0
+    DEF: 2
+    SP_ATK: 0
+    SP_DEF: 0
+    SPD: 0
+  rareness: 75
+  happiness: 70
+  abilities: 6800000042000000
+  hidden_ability: 09000000
+  moves:
+  - level: 1
+    move: 196
+  - level: 1
+    move: 496
+  - level: 1
+    move: 46
+  - level: 1
+    move: 211
+  - level: 3
+    move: 496
+  - level: 7
+    move: 46
+  - level: 11
+    move: 211
+  - level: 13
+    move: 266
+  - level: 17
+    move: 170
+  - level: 21
+    move: 48
+  - level: 23
+    move: 366
+  - level: 27
+    move: 146
+  - level: 33
+    move: 505
+  - level: 37
+    move: 167
+  - level: 43
+    move: 669
+  - level: 49
+    move: 135
+  - level: 53
+    move: 111
+  - level: 59
+    move: 379
+  - level: 65
+    move: 47
+  evolutions: []
+  egg_moves: 
+  egg_groups: 00000000
+  steps_to_hatch: 5120
+  height: 1
+  weight: 45
+  color: 6
+  shape: 5
+  habitat: 4
+  regional_dexes: 69000000d1000000
+  kind: Bone Keeper
+  pokedex_entry: A Marowak is the evolved form of a Cubone that has grown tough by
+    overcoming the grief of losing its mother. Its tempered and hardened spirit is
+    not easily broken.
+  wild_item_common: 0
+  wild_item_uncommon: 372
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: -2
+  battler_player_y: 0
+  battler_enemy_x: -8
+  battler_enemy_y: 19
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 2

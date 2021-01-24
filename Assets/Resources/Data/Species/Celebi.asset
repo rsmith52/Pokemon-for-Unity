@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Celebi
+  m_EditorClassIdentifier: 
+  national_dex: 251
+  types: 0e0000000c000000
+  base_stats:
+    HP: 100
+    ATK: 100
+    DEF: 100
+    SP_ATK: 100
+    SP_DEF: 100
+    SPD: 100
+  gender_rate: 7
+  growth_rate: 3
+  base_exp: 270
+  effort_values:
+    HP: 3
+    ATK: 0
+    DEF: 0
+    SP_ATK: 0
+    SP_DEF: 0
+    SPD: 0
+  rareness: 45
+  happiness: 100
+  abilities: 52000000
+  hidden_ability: 
+  moves:
+  - level: 1
+    move: 265
+  - level: 1
+    move: 76
+  - level: 1
+    move: 372
+  - level: 1
+    move: 212
+  - level: 10
+    move: 400
+  - level: 19
+    move: 279
+  - level: 28
+    move: 15
+  - level: 37
+    move: 32
+  - level: 46
+    move: 315
+  - level: 55
+    move: 213
+  - level: 64
+    move: 185
+  - level: 73
+    move: 216
+  - level: 82
+    move: 262
+  - level: 91
+    move: 331
+  evolutions: []
+  egg_moves: 
+  egg_groups: 0e000000
+  steps_to_hatch: 30720
+  height: 0.6
+  weight: 5
+  color: 4
+  shape: 11
+  habitat: 2
+  regional_dexes: 0000000000010000
+  kind: Time Travel
+  pokedex_entry: "This Pok\xE9mon came from the future by crossing over time. It
+    is thought that so long as Celebi appears, a bright and shining future awaits
+    us."
+  wild_item_common: 192
+  wild_item_uncommon: 192
+  wild_item_rare: 192
+  form_name: 
+  incense: 0
+  battler_player_x: 0
+  battler_player_y: 0
+  battler_enemy_x: 0
+  battler_enemy_y: 3
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 1

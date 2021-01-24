@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Magby
+  m_EditorClassIdentifier: 
+  national_dex: 240
+  types: 0a00000000000000
+  base_stats:
+    HP: 45
+    ATK: 75
+    DEF: 37
+    SP_ATK: 70
+    SP_DEF: 55
+    SPD: 83
+  gender_rate: 2
+  growth_rate: 1
+  base_exp: 73
+  effort_values:
+    HP: 0
+    ATK: 0
+    DEF: 0
+    SP_ATK: 0
+    SP_DEF: 0
+    SPD: 1
+  rareness: 45
+  happiness: 70
+  abilities: 1e000000
+  hidden_ability: 9c000000
+  moves:
+  - level: 1
+    move: 445
+  - level: 1
+    move: 266
+  - level: 5
+    move: 133
+  - level: 8
+    move: 446
+  - level: 12
+    move: 148
+  - level: 15
+    move: 156
+  - level: 19
+    move: 71
+  - level: 22
+    move: 159
+  - level: 26
+    move: 75
+  - level: 29
+    move: 155
+  - level: 33
+    move: 260
+  - level: 36
+    move: 479
+  - level: 40
+    move: 162
+  - level: 43
+    move: 152
+  evolutions:
+  - evolution: 126
+    evolution_method: 1
+    parameter: 30
+  egg_moves: 1f0000003202000022000000570000007d000000a3000000aa000000fd0000000001000014010000210100005901000097010000fb010000
+  egg_groups: 0e000000
+  steps_to_hatch: 6400
+  height: 0.7
+  weight: 21.4
+  color: 1
+  shape: 5
+  habitat: 4
+  regional_dexes: 0000000098000000
+  kind: Live Coal
+  pokedex_entry: If a Magby is spouting yellow flames from its mouth, it is in good
+    health. When it is fatigued, black smoke will be mixed in with the flames.
+  wild_item_common: 0
+  wild_item_uncommon: 197
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: -1
+  battler_player_y: 0
+  battler_enemy_x: 4
+  battler_enemy_y: 21
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 1

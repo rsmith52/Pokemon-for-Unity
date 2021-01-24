@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Naganadel
+  m_EditorClassIdentifier: 
+  national_dex: 804
+  types: 0400000010000000
+  base_stats:
+    HP: 73
+    ATK: 73
+    DEF: 73
+    SP_ATK: 127
+    SP_DEF: 73
+    SPD: 121
+  gender_rate: 7
+  growth_rate: 2
+  base_exp: 243
+  effort_values:
+    HP: 0
+    ATK: 0
+    DEF: 0
+    SP_ATK: 3
+    SP_DEF: 0
+    SPD: 0
+  rareness: 45
+  happiness: 0
+  abilities: c2000000
+  hidden_ability: 
+  moves:
+  - level: 0
+    move: 11
+  - level: 1
+    move: 11
+  - level: 1
+    move: 116
+  - level: 1
+    move: 330
+  - level: 1
+    move: 196
+  - level: 1
+    move: 222
+  - level: 1
+    move: 4
+  - level: 7
+    move: 180
+  - level: 13
+    move: 528
+  - level: 19
+    move: 66
+  - level: 23
+    move: 620
+  - level: 31
+    move: 314
+  - level: 37
+    move: 337
+  - level: 41
+    move: 515
+  - level: 47
+    move: 577
+  - level: 53
+    move: 12
+  - level: 61
+    move: 116
+  evolutions: []
+  egg_moves: 
+  egg_groups: 0e000000
+  steps_to_hatch: 30720
+  height: 3.6
+  weight: 150
+  color: 7
+  shape: 8
+  habitat: 0
+  regional_dexes: 
+  kind: Poison Pin
+  pokedex_entry: One kind of Ultra Beast, it fires a glowing, venomous liquid from
+    its needles. This liquid is also immensely adhesive.
+  wild_item_common: 0
+  wild_item_uncommon: 0
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: 0
+  battler_player_y: 0
+  battler_enemy_x: 0
+  battler_enemy_y: 0
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 2

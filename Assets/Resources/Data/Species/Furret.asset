@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Furret
+  m_EditorClassIdentifier: 
+  national_dex: 162
+  types: 0100000000000000
+  base_stats:
+    HP: 85
+    ATK: 76
+    DEF: 64
+    SP_ATK: 45
+    SP_DEF: 55
+    SPD: 90
+  gender_rate: 3
+  growth_rate: 1
+  base_exp: 145
+  effort_values:
+    HP: 0
+    ATK: 0
+    DEF: 0
+    SP_ATK: 0
+    SP_DEF: 0
+    SPD: 2
+  rareness: 90
+  happiness: 70
+  abilities: 6a0000003d000000
+  hidden_ability: 25000000
+  moves:
+  - level: 0
+    move: 10
+  - level: 1
+    move: 10
+  - level: 1
+    move: 73
+  - level: 1
+    move: 406
+  - level: 1
+    move: 174
+  - level: 1
+    move: 97
+  - level: 1
+    move: 362
+  - level: 4
+    move: 97
+  - level: 7
+    move: 362
+  - level: 13
+    move: 182
+  - level: 17
+    move: 222
+  - level: 21
+    move: 172
+  - level: 28
+    move: 436
+  - level: 32
+    move: 378
+  - level: 36
+    move: 478
+  - level: 42
+    move: 14
+  - level: 46
+    move: 32
+  - level: 50
+    move: 284
+  - level: 56
+    move: 236
+  evolutions: []
+  egg_moves: 
+  egg_groups: 04000000
+  steps_to_hatch: 3840
+  height: 1.8
+  weight: 32.5
+  color: 6
+  shape: 7
+  habitat: 3
+  regional_dexes: 0000000014000000
+  kind: Long Body
+  pokedex_entry: A Furret has a very slim build. When under attack, it can squirm
+    through narrow spaces and get away. In spite of its short limbs, it is very nimble
+    and fleet.
+  wild_item_common: 0
+  wild_item_uncommon: 0
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: -12
+  battler_player_y: 0
+  battler_enemy_x: -2
+  battler_enemy_y: 13
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 2

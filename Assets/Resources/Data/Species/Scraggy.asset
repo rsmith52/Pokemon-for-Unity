@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Scraggy
+  m_EditorClassIdentifier: 
+  national_dex: 559
+  types: 1100000002000000
+  base_stats:
+    HP: 50
+    ATK: 75
+    DEF: 70
+    SP_ATK: 35
+    SP_DEF: 70
+    SPD: 48
+  gender_rate: 3
+  growth_rate: 1
+  base_exp: 70
+  effort_values:
+    HP: 0
+    ATK: 1
+    DEF: 0
+    SP_ATK: 0
+    SP_DEF: 0
+    SPD: 0
+  rareness: 180
+  happiness: 35
+  abilities: 730000004e000000
+  hidden_ability: 39000000
+  moves:
+  - level: 1
+    move: 266
+  - level: 1
+    move: 211
+  - level: 5
+    move: 401
+  - level: 9
+    move: 148
+  - level: 12
+    move: 484
+  - level: 16
+    move: 271
+  - level: 20
+    move: 329
+  - level: 23
+    move: 51
+  - level: 27
+    move: 68
+  - level: 31
+    move: 225
+  - level: 34
+    move: 405
+  - level: 38
+    move: 89
+  - level: 42
+    move: 143
+  - level: 45
+    move: 386
+  - level: 48
+    move: 171
+  - level: 50
+    move: 210
+  evolutions:
+  - evolution: 560
+    evolution_method: 1
+    parameter: 39
+  egg_moves: 030000000e0000005400000064000000730000007800000090000000940000009b000000f200000062020000fb0100002f020000
+  egg_groups: 040000000d000000
+  steps_to_hatch: 3840
+  height: 0.6
+  weight: 11.8
+  color: 3
+  shape: 5
+  habitat: 0
+  regional_dexes: 
+  kind: Shedding
+  pokedex_entry: It immediately headbutts anyone that makes eye contact with it.
+    Its skull is massively thick.
+  wild_item_common: 0
+  wild_item_uncommon: 324
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: 0
+  battler_player_y: 0
+  battler_enemy_x: 7
+  battler_enemy_y: 27
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 1

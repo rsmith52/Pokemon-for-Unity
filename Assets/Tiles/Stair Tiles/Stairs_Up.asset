@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa8f408efd1504ef3909dc7b478e49a4, type: 3}
+  m_Name: Stairs_Up
+  m_EditorClassIdentifier: 
+  allow_passage: 1
+  up_passage: 1
+  left_passage: 1
+  right_passage: 1
+  down_passage: 1
+  is_bush: 0
+  is_counter: 0
+  terrain_tag: 3
+  unparent: 0
+  preview_sprite: {fileID: 4331212220898916790, guid: d4202b147f9fa40f1bf0176e5cbf635e,
+    type: 3}
+  prefab: {fileID: 7749826782408970821, guid: a17d1ad4442414b8eb27b760e5cb9019, type: 3}
+  prefab_offset: {x: 0.5, y: 0.5}
+  prefab_local_z: 0
+  helper_tiles:
+  - tile: {fileID: 11400000, guid: 5d4b0ac47fe9443ca80d3d5a4d2b1f43, type: 2}
+    offsets: {x: -1, y: 0}
+  - tile: {fileID: 11400000, guid: 116b8f5f0dfe54a29b60660372e125e2, type: 2}
+    offsets: {x: 1, y: 0}

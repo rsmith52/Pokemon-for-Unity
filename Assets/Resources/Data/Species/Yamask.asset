@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Yamask
+  m_EditorClassIdentifier: 
+  national_dex: 562
+  types: 0800000000000000
+  base_stats:
+    HP: 38
+    ATK: 30
+    DEF: 85
+    SP_ATK: 55
+    SP_DEF: 65
+    SPD: 30
+  gender_rate: 3
+  growth_rate: 1
+  base_exp: 61
+  effort_values:
+    HP: 0
+    ATK: 0
+    DEF: 1
+    SP_ATK: 0
+    SP_DEF: 0
+    SPD: 0
+  rareness: 190
+  happiness: 70
+  abilities: 51000000
+  hidden_ability: 
+  moves:
+  - level: 1
+    move: 23
+  - level: 1
+    move: 349
+  - level: 5
+    move: 102
+  - level: 9
+    move: 208
+  - level: 13
+    move: 319
+  - level: 17
+    move: 223
+  - level: 21
+    move: 546
+  - level: 25
+    move: 324
+  - level: 29
+    move: 92
+  - level: 33
+    move: 344
+  - level: 33
+    move: 199
+  - level: 37
+    move: 415
+  - level: 41
+    move: 198
+  - level: 45
+    move: 285
+  - level: 49
+    move: 99
+  evolutions:
+  - evolution: 563
+    evolution_method: 1
+    parameter: 34
+  egg_moves: 0d00000036020000660000008800000091000000d5000000f7000000230100003a0100004101000002020000
+  egg_groups: 090000000a000000
+  steps_to_hatch: 6400
+  height: 0.5
+  weight: 1.5
+  color: 5
+  shape: 3
+  habitat: 0
+  regional_dexes: 
+  kind: Spirit
+  pokedex_entry: "These Pok\xE9mon arose from the spirits of people interred in graves
+    in past ages. Each retains memories of its former life."
+  wild_item_common: 0
+  wild_item_uncommon: 348
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: 0
+  battler_player_y: 0
+  battler_enemy_x: 2
+  battler_enemy_y: 12
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 1

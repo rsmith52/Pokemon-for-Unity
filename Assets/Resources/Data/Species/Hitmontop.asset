@@ -1,0 +1,109 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Hitmontop
+  m_EditorClassIdentifier: 
+  national_dex: 237
+  types: 0200000000000000
+  base_stats:
+    HP: 50
+    ATK: 95
+    DEF: 95
+    SP_ATK: 35
+    SP_DEF: 110
+    SPD: 70
+  gender_rate: 0
+  growth_rate: 1
+  base_exp: 159
+  effort_values:
+    HP: 0
+    ATK: 0
+    DEF: 0
+    SP_ATK: 0
+    SP_DEF: 2
+    SPD: 0
+  rareness: 45
+  happiness: 70
+  abilities: 390000008e000000
+  hidden_ability: 83000000
+  moves:
+  - level: 0
+    move: 394
+  - level: 1
+    move: 394
+  - level: 1
+    move: 135
+  - level: 1
+    move: 72
+  - level: 1
+    move: 100
+  - level: 1
+    move: 381
+  - level: 1
+    move: 170
+  - level: 1
+    move: 360
+  - level: 1
+    move: 362
+  - level: 6
+    move: 170
+  - level: 10
+    move: 360
+  - level: 15
+    move: 362
+  - level: 19
+    move: 368
+  - level: 24
+    move: 149
+  - level: 28
+    move: 84
+  - level: 33
+    move: 520
+  - level: 37
+    move: 10
+  - level: 42
+    move: 204
+  - level: 46
+    move: 544
+  - level: 46
+    move: 363
+  - level: 50
+    move: 100
+  - level: 55
+    move: 72
+  - level: 60
+    move: 135
+  evolutions: []
+  egg_moves: 
+  egg_groups: 07000000
+  steps_to_hatch: 6400
+  height: 1.4
+  weight: 48
+  color: 6
+  shape: 5
+  habitat: 8
+  regional_dexes: 0000000094000000
+  kind: Handstand
+  pokedex_entry: Its technique of kicking while spinning is a remarkable mix of both
+    offense and defense. Hitmontop travel faster spinning than they do walking.
+  wild_item_common: 0
+  wild_item_uncommon: 0
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: 0
+  battler_player_y: 0
+  battler_enemy_x: -2
+  battler_enemy_y: 15
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 2

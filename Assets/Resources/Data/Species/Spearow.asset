@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Spearow
+  m_EditorClassIdentifier: 
+  national_dex: 21
+  types: 0100000003000000
+  base_stats:
+    HP: 40
+    ATK: 60
+    DEF: 30
+    SP_ATK: 31
+    SP_DEF: 31
+    SPD: 70
+  gender_rate: 3
+  growth_rate: 1
+  base_exp: 52
+  effort_values:
+    HP: 0
+    ATK: 0
+    DEF: 0
+    SP_ATK: 0
+    SP_DEF: 0
+    SPD: 1
+  rareness: 255
+  happiness: 70
+  abilities: 3d000000
+  hidden_ability: 7a000000
+  moves:
+  - level: 1
+    move: 330
+  - level: 1
+    move: 196
+  - level: 4
+    move: 266
+  - level: 8
+    move: 360
+  - level: 11
+    move: 180
+  - level: 15
+    move: 7
+  - level: 18
+    move: 303
+  - level: 22
+    move: 22
+  - level: 25
+    move: 10
+  - level: 29
+    move: 170
+  - level: 32
+    move: 396
+  - level: 36
+    move: 122
+  evolutions:
+  - evolution: 22
+    evolution_method: 1
+    parameter: 20
+  egg_moves: 1700000093000000940000006a0100007301000095010000b0010000d1010000050200000d0200001f020000
+  egg_groups: 03000000
+  steps_to_hatch: 3840
+  height: 0.3
+  weight: 2
+  color: 6
+  shape: 8
+  habitat: 6
+  regional_dexes: 150000000d000000
+  kind: Tiny Bird
+  pokedex_entry: Its loud cry can be heard over half a mile away. If its high, keening
+    cry is heard echoing all around, it is a sign that they are warning each other
+    of danger.
+  wild_item_common: 0
+  wild_item_uncommon: 323
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: -5
+  battler_player_y: 0
+  battler_enemy_x: 2
+  battler_enemy_y: 22
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 1

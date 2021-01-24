@@ -1,0 +1,107 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Sceptile
+  m_EditorClassIdentifier: 
+  national_dex: 254
+  types: 0c00000000000000
+  base_stats:
+    HP: 70
+    ATK: 85
+    DEF: 65
+    SP_ATK: 105
+    SP_DEF: 85
+    SPD: 120
+  gender_rate: 1
+  growth_rate: 3
+  base_exp: 239
+  effort_values:
+    HP: 0
+    ATK: 0
+    DEF: 0
+    SP_ATK: 0
+    SP_DEF: 0
+    SPD: 3
+  rareness: 45
+  happiness: 70
+  abilities: 57000000
+  hidden_ability: 99000000
+  moves:
+  - level: 0
+    move: 124
+  - level: 1
+    move: 124
+  - level: 1
+    move: 181
+  - level: 1
+    move: 262
+  - level: 1
+    move: 320
+  - level: 1
+    move: 341
+  - level: 1
+    move: 266
+  - level: 1
+    move: 1
+  - level: 1
+    move: 362
+  - level: 5
+    move: 1
+  - level: 9
+    move: 362
+  - level: 13
+    move: 287
+  - level: 18
+    move: 360
+  - level: 23
+    move: 261
+  - level: 28
+    move: 10
+  - level: 33
+    move: 436
+  - level: 39
+    move: 100
+  - level: 45
+    move: 556
+  - level: 51
+    move: 146
+  - level: 57
+    move: 363
+  - level: 63
+    move: 262
+  - level: 69
+    move: 407
+  evolutions: []
+  egg_moves: 
+  egg_groups: 000000000d000000
+  steps_to_hatch: 5120
+  height: 1.7
+  weight: 52.2
+  color: 4
+  shape: 5
+  habitat: 2
+  regional_dexes: 
+  kind: Forest
+  pokedex_entry: "In the jungle, its power is without equal. This Pok\xE9mon carefully
+    grows trees and plants. It regulates its body temperature by basking in sunlight."
+  wild_item_common: 0
+  wild_item_uncommon: 0
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: 4
+  battler_player_y: 0
+  battler_enemy_x: 1
+  battler_enemy_y: 9
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 3

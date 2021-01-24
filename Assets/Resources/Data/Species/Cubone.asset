@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Cubone
+  m_EditorClassIdentifier: 
+  national_dex: 104
+  types: 0500000000000000
+  base_stats:
+    HP: 50
+    ATK: 50
+    DEF: 95
+    SP_ATK: 40
+    SP_DEF: 50
+    SPD: 35
+  gender_rate: 3
+  growth_rate: 1
+  base_exp: 64
+  effort_values:
+    HP: 0
+    ATK: 0
+    DEF: 1
+    SP_ATK: 0
+    SP_DEF: 0
+    SPD: 0
+  rareness: 190
+  happiness: 70
+  abilities: 6800000042000000
+  hidden_ability: 09000000
+  moves:
+  - level: 1
+    move: 196
+  - level: 3
+    move: 496
+  - level: 7
+    move: 46
+  - level: 11
+    move: 211
+  - level: 13
+    move: 266
+  - level: 17
+    move: 170
+  - level: 21
+    move: 48
+  - level: 23
+    move: 366
+  - level: 27
+    move: 146
+  - level: 31
+    move: 505
+  - level: 33
+    move: 167
+  - level: 37
+    move: 669
+  - level: 41
+    move: 135
+  - level: 43
+    move: 111
+  - level: 47
+    move: 379
+  - level: 51
+    move: 47
+  evolutions:
+  - evolution: 105
+    evolution_method: 1
+    parameter: 28
+  egg_moves: 0f00000022000000440000005c000000640000006c00000088000000fc0000004b01000097010000af010000
+  egg_groups: 00000000
+  steps_to_hatch: 5120
+  height: 0.4
+  weight: 6.5
+  color: 6
+  shape: 5
+  habitat: 4
+  regional_dexes: 68000000d0000000
+  kind: Lonely
+  pokedex_entry: It pines for the mother it will never see again. Seeing a likeness
+    of its mother in the full moon, it cries. The stains on the skull it wears are
+    from its tears.
+  wild_item_common: 0
+  wild_item_uncommon: 372
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: 2
+  battler_player_y: 0
+  battler_enemy_x: -2
+  battler_enemy_y: 22
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 2

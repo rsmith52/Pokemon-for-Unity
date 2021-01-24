@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Morelull
+  m_EditorClassIdentifier: 
+  national_dex: 755
+  types: 0c00000012000000
+  base_stats:
+    HP: 40
+    ATK: 35
+    DEF: 55
+    SP_ATK: 65
+    SP_DEF: 75
+    SPD: 15
+  gender_rate: 3
+  growth_rate: 1
+  base_exp: 57
+  effort_values:
+    HP: 0
+    ATK: 0
+    DEF: 0
+    SP_ATK: 0
+    SP_DEF: 1
+    SPD: 0
+  rareness: 190
+  happiness: 70
+  abilities: 320000001c000000
+  hidden_ability: 63000000
+  moves:
+  - level: 1
+    move: 1
+  - level: 4
+    move: 23
+  - level: 8
+    move: 165
+  - level: 11
+    move: 307
+  - level: 15
+    move: 287
+  - level: 18
+    move: 438
+  - level: 22
+    move: 250
+  - level: 25
+    move: 75
+  - level: 29
+    move: 188
+  - level: 32
+    move: 670
+  - level: 36
+    move: 462
+  - level: 39
+    move: 597
+  - level: 43
+    move: 121
+  - level: 46
+    move: 668
+  evolutions:
+  - evolution: 756
+    evolution_method: 1
+    parameter: 24
+  egg_moves: 0e000000c50000000901000052010000db010000
+  egg_groups: 06000000
+  steps_to_hatch: 5120
+  height: 0.2
+  weight: 1.5
+  color: 7
+  shape: 4
+  habitat: 0
+  regional_dexes: 
+  kind: Illuminating
+  pokedex_entry: It scatters its shining spores around itself. Even though they're
+    dangerous, nighttime tours of forests where Morelull live are popular.
+  wild_item_common: 375
+  wild_item_uncommon: 19
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: 0
+  battler_player_y: 0
+  battler_enemy_x: 0
+  battler_enemy_y: 0
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 2

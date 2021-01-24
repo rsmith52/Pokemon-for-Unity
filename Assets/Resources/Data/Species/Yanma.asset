@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Yanma
+  m_EditorClassIdentifier: 
+  national_dex: 193
+  types: 0700000003000000
+  base_stats:
+    HP: 65
+    ATK: 65
+    DEF: 45
+    SP_ATK: 75
+    SP_DEF: 45
+    SPD: 95
+  gender_rate: 3
+  growth_rate: 1
+  base_exp: 78
+  effort_values:
+    HP: 0
+    ATK: 0
+    DEF: 0
+    SP_ATK: 0
+    SP_DEF: 0
+    SPD: 1
+  rareness: 75
+  happiness: 70
+  abilities: 8000000010000000
+  hidden_ability: 25000000
+  moves:
+  - level: 1
+    move: 493
+  - level: 1
+    move: 174
+  - level: 6
+    move: 362
+  - level: 11
+    move: 110
+  - level: 14
+    move: 453
+  - level: 17
+    move: 100
+  - level: 22
+    move: 482
+  - level: 27
+    move: 525
+  - level: 30
+    move: 360
+  - level: 33
+    move: 15
+  - level: 38
+    move: 237
+  - level: 43
+    move: 547
+  - level: 46
+    move: 407
+  - level: 49
+    move: 524
+  - level: 54
+    move: 12
+  - level: 57
+    move: 56
+  evolutions:
+  - evolution: 469
+    evolution_method: 42
+    parameter: ANCIENTPOWER
+  egg_moves: 6f000000950000009400000008010000680100007e01000099010000a9010000aa0100001f020000
+  egg_groups: 02000000
+  steps_to_hatch: 5120
+  height: 1.2
+  weight: 38
+  color: 1
+  shape: 12
+  habitat: 2
+  regional_dexes: 0000000065000000
+  kind: Clear Wing
+  pokedex_entry: It can see 360 degrees without moving its eyes. It is a great flier
+    capable of making sudden stops and turning midair to quickly chase down targeted
+    prey.
+  wild_item_common: 0
+  wild_item_uncommon: 393
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: -8
+  battler_player_y: 0
+  battler_enemy_x: 0
+  battler_enemy_y: -1
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 2

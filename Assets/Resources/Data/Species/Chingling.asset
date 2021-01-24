@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Chingling
+  m_EditorClassIdentifier: 
+  national_dex: 433
+  types: 0e00000000000000
+  base_stats:
+    HP: 45
+    ATK: 30
+    DEF: 50
+    SP_ATK: 65
+    SP_DEF: 50
+    SPD: 45
+  gender_rate: 3
+  growth_rate: 0
+  base_exp: 57
+  effort_values:
+    HP: 0
+    ATK: 0
+    DEF: 0
+    SP_ATK: 1
+    SP_DEF: 0
+    SPD: 0
+  rareness: 120
+  happiness: 70
+  abilities: 40000000
+  hidden_ability: 
+  moves:
+  - level: 1
+    move: 554
+  - level: 4
+    move: 196
+  - level: 7
+    move: 23
+  - level: 10
+    move: 76
+  - level: 13
+    move: 557
+  - level: 16
+    move: 259
+  - level: 19
+    move: 138
+  - level: 32
+    move: 525
+  evolutions:
+  - evolution: 358
+    evolution_method: 30
+    parameter: 
+  egg_moves: 510000005c00000066000000b9000000ed00000074010000ae010000d501000024020000
+  egg_groups: 0e000000
+  steps_to_hatch: 6400
+  height: 0.2
+  weight: 0.6
+  color: 3
+  shape: 11
+  habitat: 0
+  regional_dexes: 
+  kind: Bell
+  pokedex_entry: It emits cries by agitating an orb at the back of its throat. It
+    moves with flouncing hops.
+  wild_item_common: 0
+  wild_item_uncommon: 58
+  wild_item_rare: 0
+  form_name: 
+  incense: 276
+  battler_player_x: 1
+  battler_player_y: 0
+  battler_enemy_x: 3
+  battler_enemy_y: 5
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 1

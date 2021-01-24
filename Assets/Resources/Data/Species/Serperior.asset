@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Serperior
+  m_EditorClassIdentifier: 
+  national_dex: 497
+  types: 0c00000000000000
+  base_stats:
+    HP: 75
+    ATK: 75
+    DEF: 95
+    SP_ATK: 75
+    SP_DEF: 95
+    SPD: 113
+  gender_rate: 1
+  growth_rate: 3
+  base_exp: 238
+  effort_values:
+    HP: 0
+    ATK: 0
+    DEF: 0
+    SP_ATK: 0
+    SP_DEF: 0
+    SPD: 3
+  rareness: 45
+  happiness: 70
+  abilities: 57000000
+  hidden_ability: 11000000
+  moves:
+  - level: 1
+    move: 493
+  - level: 1
+    move: 266
+  - level: 1
+    move: 530
+  - level: 1
+    move: 554
+  - level: 4
+    move: 266
+  - level: 7
+    move: 530
+  - level: 10
+    move: 554
+  - level: 13
+    move: 197
+  - level: 16
+    move: 263
+  - level: 20
+    move: 265
+  - level: 24
+    move: 287
+  - level: 28
+    move: 436
+  - level: 32
+    move: 261
+  - level: 38
+    move: 73
+  - level: 44
+    move: 188
+  - level: 50
+    move: 555
+  - level: 56
+    move: 186
+  - level: 62
+    move: 262
+  evolutions: []
+  egg_moves: 
+  egg_groups: 0400000006000000
+  steps_to_hatch: 5120
+  height: 3.3
+  weight: 63
+  color: 4
+  shape: 1
+  habitat: 0
+  regional_dexes: 
+  kind: Regal
+  pokedex_entry: They raise their heads to intimidate opponents, but only give it
+    their all when fighting a powerful opponent.
+  wild_item_common: 0
+  wild_item_uncommon: 0
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: -3
+  battler_player_y: 0
+  battler_enemy_x: -1
+  battler_enemy_y: 17
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 3

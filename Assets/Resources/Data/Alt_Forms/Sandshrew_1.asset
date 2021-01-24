@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 253d169095ab8450397d87b75daa8002, type: 3}
+  m_Name: Sandshrew_1
+  m_EditorClassIdentifier: 
+  base_species: 27
+  form_name: Alolan
+  form_id: 1
+  types: 0f00000009000000
+  base_stats:
+    HP: 50
+    ATK: 75
+    DEF: 90
+    SP_ATK: 10
+    SP_DEF: 35
+    SPD: 40
+  base_exp: 0
+  effort_values:
+    HP: 0
+    ATK: 0
+    DEF: 0
+    SP_ATK: 0
+    SP_DEF: 0
+    SPD: 0
+  rareness: 0
+  happiness: 0
+  abilities: 7b000000
+  hidden_ability: df000000
+  moves:
+  - level: 1
+    move: 406
+  - level: 1
+    move: 97
+  - level: 3
+    move: 36
+  - level: 5
+    move: 342
+  - level: 7
+    move: 238
+  - level: 9
+    move: 368
+  - level: 11
+    move: 181
+  - level: 14
+    move: 293
+  - level: 17
+    move: 488
+  - level: 20
+    move: 182
+  - level: 23
+    move: 251
+  - level: 26
+    move: 437
+  - level: 30
+    move: 252
+  - level: 34
+    move: 204
+  - level: 38
+    move: 490
+  - level: 42
+    move: 205
+  - level: 46
+    move: 41
+  evolutions:
+  - evolution: 28
+    evolution_method: 47
+    parameter: ICESTONE
+  egg_moves: 0e00000044000000540000005a0000005c000000880000009e000000e2000000f4000000f50000002501000040010000
+  egg_groups: 
+  steps_to_hatch: 0
+  height: 0.7
+  weight: 40
+  color: 9
+  shape: 0
+  habitat: 0
+  kind: 
+  pokedex_entry: The skin on its back is as hard as steel. Predators go after its
+    soft belly, so it clings to the ground desperately.
+  wild_item_common: 0
+  wild_item_uncommon: 0
+  wild_item_rare: 0
+  battler_player_x: 0
+  battler_player_y: 0
+  battler_enemy_x: 0
+  battler_enemy_y: 0
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 0
+  mega_stone: 0
+  mega_move: 0
+  mega_message: 
+  unmega_form_id: 0
+  pokedex_form_id: 0

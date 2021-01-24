@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Moltres
+  m_EditorClassIdentifier: 
+  national_dex: 146
+  types: 0a00000003000000
+  base_stats:
+    HP: 90
+    ATK: 100
+    DEF: 90
+    SP_ATK: 125
+    SP_DEF: 85
+    SPD: 90
+  gender_rate: 7
+  growth_rate: 2
+  base_exp: 261
+  effort_values:
+    HP: 0
+    ATK: 0
+    DEF: 0
+    SP_ATK: 3
+    SP_DEF: 0
+    SPD: 0
+  rareness: 3
+  happiness: 35
+  abilities: 60000000
+  hidden_ability: 1e000000
+  moves:
+  - level: 1
+    move: 547
+  - level: 1
+    move: 133
+  - level: 8
+    move: 156
+  - level: 15
+    move: 10
+  - level: 22
+    move: 136
+  - level: 29
+    move: 15
+  - level: 36
+    move: 162
+  - level: 43
+    move: 400
+  - level: 50
+    move: 12
+  - level: 57
+    move: 479
+  - level: 64
+    move: 220
+  - level: 71
+    move: 452
+  - level: 78
+    move: 432
+  - level: 85
+    move: 396
+  - level: 92
+    move: 231
+  - level: 99
+    move: 628
+  evolutions: []
+  egg_moves: 
+  egg_groups: 0e000000
+  steps_to_hatch: 20480
+  height: 2
+  weight: 60
+  color: 3
+  shape: 8
+  habitat: 5
+  regional_dexes: 92000000f2000000
+  kind: Flame
+  pokedex_entry: "Moltres is a legendary bird Pok\xE9mon that can control fire. If
+    injured, it is said to dip its body in the molten magma of a volcano to burn
+    and heal itself."
+  wild_item_common: 0
+  wild_item_uncommon: 0
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: 0
+  battler_player_y: 0
+  battler_enemy_x: 1
+  battler_enemy_y: 5
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 2

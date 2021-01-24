@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Charmeleon
+  m_EditorClassIdentifier: 
+  national_dex: 5
+  types: 0a00000000000000
+  base_stats:
+    HP: 58
+    ATK: 64
+    DEF: 58
+    SP_ATK: 80
+    SP_DEF: 65
+    SPD: 80
+  gender_rate: 1
+  growth_rate: 3
+  base_exp: 142
+  effort_values:
+    HP: 0
+    ATK: 0
+    DEF: 0
+    SP_ATK: 1
+    SP_DEF: 0
+    SPD: 1
+  rareness: 45
+  happiness: 70
+  abilities: 0b000000
+  hidden_ability: 7d000000
+  moves:
+  - level: 1
+    move: 406
+  - level: 1
+    move: 196
+  - level: 1
+    move: 133
+  - level: 7
+    move: 133
+  - level: 10
+    move: 446
+  - level: 17
+    move: 117
+  - level: 21
+    move: 405
+  - level: 28
+    move: 153
+  - level: 32
+    move: 159
+  - level: 39
+    move: 437
+  - level: 43
+    move: 162
+  - level: 50
+    move: 156
+  - level: 54
+    move: 249
+  evolutions:
+  - evolution: 6
+    evolution_method: 1
+    parameter: 36
+  egg_moves: 
+  egg_groups: 000000000d000000
+  steps_to_hatch: 5120
+  height: 1.1
+  weight: 19
+  color: 1
+  shape: 5
+  habitat: 4
+  regional_dexes: 05000000eb000000
+  kind: Flame
+  pokedex_entry: Without pity, its sharp claws destroy foes. If it encounters a strong
+    enemy, it becomes agitated, and the flame on its tail flares with a bluish white
+    color.
+  wild_item_common: 0
+  wild_item_uncommon: 0
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: -3
+  battler_player_y: 0
+  battler_enemy_x: -2
+  battler_enemy_y: 18
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 2

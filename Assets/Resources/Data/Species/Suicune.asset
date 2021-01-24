@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Suicune
+  m_EditorClassIdentifier: 
+  national_dex: 245
+  types: 0b00000000000000
+  base_stats:
+    HP: 100
+    ATK: 75
+    DEF: 115
+    SP_ATK: 90
+    SP_DEF: 115
+    SPD: 85
+  gender_rate: 7
+  growth_rate: 2
+  base_exp: 261
+  effort_values:
+    HP: 0
+    ATK: 0
+    DEF: 1
+    SP_ATK: 0
+    SP_DEF: 2
+    SPD: 0
+  rareness: 3
+  happiness: 35
+  abilities: 60000000
+  hidden_ability: 37000000
+  moves:
+  - level: 1
+    move: 421
+  - level: 1
+    move: 38
+  - level: 1
+    move: 266
+  - level: 1
+    move: 53
+  - level: 1
+    move: 367
+  - level: 8
+    move: 53
+  - level: 15
+    move: 367
+  - level: 22
+    move: 203
+  - level: 29
+    move: 27
+  - level: 36
+    move: 306
+  - level: 43
+    move: 302
+  - level: 50
+    move: 241
+  - level: 57
+    move: 497
+  - level: 64
+    move: 141
+  - level: 71
+    move: 233
+  - level: 78
+    move: 61
+  - level: 85
+    move: 41
+  evolutions: []
+  egg_moves: 
+  egg_groups: 0e000000
+  steps_to_hatch: 20480
+  height: 2
+  weight: 187
+  color: 2
+  shape: 7
+  habitat: 3
+  regional_dexes: 00000000f5000000
+  kind: Aurora
+  pokedex_entry: Suicune embodies the compassion of a pure spring of water. It runs
+    across the land with gliding elegance. It has the power to purify dirty water.
+  wild_item_common: 0
+  wild_item_uncommon: 0
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: 1
+  battler_player_y: 0
+  battler_enemy_x: -1
+  battler_enemy_y: 8
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 3

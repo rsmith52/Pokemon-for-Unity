@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Houndour
+  m_EditorClassIdentifier: 
+  national_dex: 228
+  types: 110000000a000000
+  base_stats:
+    HP: 45
+    ATK: 60
+    DEF: 30
+    SP_ATK: 80
+    SP_DEF: 50
+    SPD: 65
+  gender_rate: 3
+  growth_rate: 2
+  base_exp: 66
+  effort_values:
+    HP: 0
+    ATK: 0
+    DEF: 0
+    SP_ATK: 1
+    SP_DEF: 0
+    SPD: 0
+  rareness: 120
+  happiness: 35
+  abilities: 1b00000020000000
+  hidden_ability: 9a000000
+  moves:
+  - level: 1
+    move: 266
+  - level: 1
+    move: 133
+  - level: 4
+    move: 230
+  - level: 8
+    move: 445
+  - level: 13
+    move: 384
+  - level: 16
+    move: 38
+  - level: 20
+    move: 323
+  - level: 25
+    move: 33
+  - level: 28
+    move: 153
+  - level: 32
+    move: 148
+  - level: 37
+    move: 132
+  - level: 40
+    move: 175
+  - level: 44
+    move: 162
+  - level: 49
+    move: 89
+  - level: 52
+    move: 314
+  - level: 56
+    move: 249
+  evolutions:
+  - evolution: 229
+    evolution_method: 1
+    parameter: 24
+  egg_moves: 21000000540000006300000095000000990000009c0000003a01000067010000680100006e0100007e010000cc010000de010000fa010000
+  egg_groups: 04000000
+  steps_to_hatch: 5120
+  height: 0.6
+  weight: 10.8
+  color: 5
+  shape: 7
+  habitat: 6
+  regional_dexes: 00000000d6000000
+  kind: Dark
+  pokedex_entry: "Houndour communicate with each other using a variety of cries to
+    corner their prey. This Pok\xE9mon's remarkable teamwork is simply unparalleled."
+  wild_item_common: 0
+  wild_item_uncommon: 0
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: -1
+  battler_player_y: 0
+  battler_enemy_x: 4
+  battler_enemy_y: 20
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 2

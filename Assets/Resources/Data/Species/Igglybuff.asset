@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Igglybuff
+  m_EditorClassIdentifier: 
+  national_dex: 174
+  types: 0100000012000000
+  base_stats:
+    HP: 90
+    ATK: 30
+    DEF: 15
+    SP_ATK: 40
+    SP_DEF: 20
+    SPD: 15
+  gender_rate: 4
+  growth_rate: 0
+  base_exp: 42
+  effort_values:
+    HP: 1
+    ATK: 0
+    DEF: 0
+    SP_ATK: 0
+    SP_DEF: 0
+    SPD: 0
+  rareness: 170
+  happiness: 70
+  abilities: 13000000aa000000
+  hidden_ability: 24000000
+  moves:
+  - level: 1
+    move: 428
+  - level: 1
+    move: 66
+  - level: 3
+    move: 97
+  - level: 5
+    move: 341
+  - level: 9
+    move: 486
+  - level: 11
+    move: 80
+  evolutions:
+  - evolution: 39
+    evolution_method: 26
+    parameter: 
+  egg_moves: 3f000000550000009100000094000000c3000000d700000003010000540200004b0100005c01000067010000b701000024020000
+  egg_groups: 0e000000
+  steps_to_hatch: 2560
+  height: 0.3
+  weight: 1
+  color: 10
+  shape: 11
+  habitat: 3
+  regional_dexes: 000000002b000000
+  kind: Balloon
+  pokedex_entry: Its soft and pliable body is very bouncy. When it sings continuously
+    with all its might, its body steadily turns a deepening pink color.
+  wild_item_common: 0
+  wild_item_uncommon: 0
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: 1
+  battler_player_y: 0
+  battler_enemy_x: 0
+  battler_enemy_y: 25
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 1

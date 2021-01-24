@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Lillipup
+  m_EditorClassIdentifier: 
+  national_dex: 506
+  types: 0100000000000000
+  base_stats:
+    HP: 45
+    ATK: 60
+    DEF: 45
+    SP_ATK: 25
+    SP_DEF: 45
+    SPD: 55
+  gender_rate: 3
+  growth_rate: 3
+  base_exp: 55
+  effort_values:
+    HP: 0
+    ATK: 1
+    DEF: 0
+    SP_ATK: 0
+    SP_DEF: 0
+    SPD: 0
+  rareness: 255
+  happiness: 70
+  abilities: 9c0000005a000000
+  hidden_ability: 6a000000
+  moves:
+  - level: 1
+    move: 266
+  - level: 1
+    move: 493
+  - level: 5
+    move: 323
+  - level: 8
+    move: 38
+  - level: 10
+    move: 561
+  - level: 12
+    move: 222
+  - level: 15
+    move: 498
+  - level: 19
+    move: 552
+  - level: 22
+    move: 89
+  - level: 26
+    move: 384
+  - level: 29
+    move: 379
+  - level: 33
+    move: 382
+  - level: 36
+    move: 259
+  - level: 40
+    move: 189
+  - level: 45
+    move: 608
+  evolutions:
+  - evolution: 507
+    evolution_method: 1
+    parameter: 16
+  egg_moves: 09000000420000008800000099000000e6000000f10000000b010000380100008f0200006801000091010000fa0100002d020000
+  egg_groups: 04000000
+  steps_to_hatch: 3840
+  height: 0.4
+  weight: 4.1
+  color: 6
+  shape: 7
+  habitat: 0
+  regional_dexes: 
+  kind: Puppy
+  pokedex_entry: The long hair around its face provides an amazing radar that lets
+    it sense subtle changes in its surroundings.
+  wild_item_common: 0
+  wild_item_uncommon: 0
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: 1
+  battler_player_y: 0
+  battler_enemy_x: -2
+  battler_enemy_y: 27
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 2

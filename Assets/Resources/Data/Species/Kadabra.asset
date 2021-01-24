@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Kadabra
+  m_EditorClassIdentifier: 
+  national_dex: 64
+  types: 0e00000000000000
+  base_stats:
+    HP: 40
+    ATK: 35
+    DEF: 30
+    SP_ATK: 120
+    SP_DEF: 70
+    SPD: 105
+  gender_rate: 2
+  growth_rate: 3
+  base_exp: 140
+  effort_values:
+    HP: 0
+    ATK: 0
+    DEF: 0
+    SP_ATK: 2
+    SP_DEF: 0
+    SPD: 0
+  rareness: 100
+  happiness: 70
+  abilities: 8c00000037000000
+  hidden_ability: 46000000
+  moves:
+  - level: 0
+    move: 257
+  - level: 1
+    move: 257
+  - level: 1
+    move: 503
+  - level: 1
+    move: 76
+  - level: 16
+    move: 76
+  - level: 18
+    move: 102
+  - level: 21
+    move: 350
+  - level: 23
+    move: 301
+  - level: 26
+    move: 375
+  - level: 28
+    move: 354
+  - level: 31
+    move: 372
+  - level: 33
+    move: 502
+  - level: 36
+    move: 13
+  - level: 38
+    move: 352
+  - level: 41
+    move: 393
+  - level: 43
+    move: 185
+  - level: 46
+    move: 519
+  evolutions:
+  - evolution: 65
+    evolution_method: 53
+    parameter: 
+  egg_moves: 
+  egg_groups: 07000000
+  steps_to_hatch: 5120
+  height: 1.3
+  weight: 56.5
+  color: 6
+  shape: 5
+  habitat: 8
+  regional_dexes: 400000005a000000
+  kind: Psi
+  pokedex_entry: It is rumored that a boy with psychic abilities suddenly transformed
+    into Kadabra while he was assisting research into extrasensory powers.
+  wild_item_common: 0
+  wild_item_uncommon: 380
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: 2
+  battler_player_y: 0
+  battler_enemy_x: 1
+  battler_enemy_y: 13
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 3

@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Musharna
+  m_EditorClassIdentifier: 
+  national_dex: 518
+  types: 0e00000000000000
+  base_stats:
+    HP: 116
+    ATK: 55
+    DEF: 85
+    SP_ATK: 107
+    SP_DEF: 95
+    SPD: 29
+  gender_rate: 3
+  growth_rate: 0
+  base_exp: 170
+  effort_values:
+    HP: 2
+    ATK: 0
+    DEF: 0
+    SP_ATK: 0
+    SP_DEF: 0
+    SPD: 0
+  rareness: 75
+  happiness: 70
+  abilities: 230000008c000000
+  hidden_ability: 8f000000
+  moves:
+  - level: 1
+    move: 656
+  - level: 1
+    move: 97
+  - level: 1
+    move: 273
+  - level: 1
+    move: 350
+  - level: 1
+    move: 237
+  evolutions: []
+  egg_moves: 
+  egg_groups: 04000000
+  steps_to_hatch: 2560
+  height: 1.1
+  weight: 60.5
+  color: 10
+  shape: 11
+  habitat: 0
+  regional_dexes: 
+  kind: Drowsing
+  pokedex_entry: With the mist from its forehead, it can create shapes of things
+    from dreams it has eaten.
+  wild_item_common: 0
+  wild_item_uncommon: 0
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: 6
+  battler_player_y: 0
+  battler_enemy_x: -9
+  battler_enemy_y: 9
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 2

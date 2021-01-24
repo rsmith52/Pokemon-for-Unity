@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Tepig
+  m_EditorClassIdentifier: 
+  national_dex: 498
+  types: 0a00000000000000
+  base_stats:
+    HP: 65
+    ATK: 63
+    DEF: 45
+    SP_ATK: 45
+    SP_DEF: 45
+    SPD: 45
+  gender_rate: 1
+  growth_rate: 3
+  base_exp: 62
+  effort_values:
+    HP: 1
+    ATK: 0
+    DEF: 0
+    SP_ATK: 0
+    SP_DEF: 0
+    SPD: 0
+  rareness: 45
+  happiness: 70
+  abilities: 0b000000
+  hidden_ability: 91000000
+  moves:
+  - level: 1
+    move: 493
+  - level: 3
+    move: 496
+  - level: 7
+    move: 133
+  - level: 9
+    move: 323
+  - level: 13
+    move: 97
+  - level: 15
+    move: 160
+  - level: 19
+    move: 445
+  - level: 21
+    move: 395
+  - level: 25
+    move: 498
+  - level: 27
+    move: 219
+  - level: 31
+    move: 22
+  - level: 33
+    move: 162
+  - level: 37
+    move: 210
+  - level: 39
+    move: 384
+  - level: 43
+    move: 163
+  evolutions:
+  - evolution: 499
+    evolution_method: 1
+    parameter: 17
+  egg_moves: 2c00000074020000550000005c00000087000000dd0000001b010000b7010000de010000e1010000f90100002d020000
+  egg_groups: 04000000
+  steps_to_hatch: 5120
+  height: 0.5
+  weight: 9.9
+  color: 1
+  shape: 7
+  habitat: 0
+  regional_dexes: 
+  kind: Fire Pig
+  pokedex_entry: It blows fire through its nose. When it catches a cold, the fire
+    becomes pitch-black smoke instead.
+  wild_item_common: 0
+  wild_item_uncommon: 0
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: -4
+  battler_player_y: 0
+  battler_enemy_x: 1
+  battler_enemy_y: 32
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 1

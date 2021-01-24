@@ -1,0 +1,104 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Hariyama
+  m_EditorClassIdentifier: 
+  national_dex: 297
+  types: 0200000000000000
+  base_stats:
+    HP: 144
+    ATK: 120
+    DEF: 60
+    SP_ATK: 40
+    SP_DEF: 60
+    SPD: 50
+  gender_rate: 2
+  growth_rate: 5
+  base_exp: 166
+  effort_values:
+    HP: 2
+    ATK: 0
+    DEF: 0
+    SP_ATK: 0
+    SP_DEF: 0
+    SPD: 0
+  rareness: 200
+  happiness: 70
+  abilities: 9100000027000000
+  hidden_ability: 74000000
+  moves:
+  - level: 1
+    move: 52
+  - level: 1
+    move: 493
+  - level: 1
+    move: 170
+  - level: 1
+    move: 401
+  - level: 1
+    move: 19
+  - level: 4
+    move: 401
+  - level: 7
+    move: 19
+  - level: 10
+    move: 144
+  - level: 13
+    move: 173
+  - level: 16
+    move: 543
+  - level: 19
+    move: 258
+  - level: 22
+    move: 531
+  - level: 26
+    move: 34
+  - level: 30
+    move: 444
+  - level: 34
+    move: 413
+  - level: 38
+    move: 534
+  - level: 42
+    move: 136
+  - level: 46
+    move: 72
+  - level: 50
+    move: 382
+  - level: 54
+    move: 221
+  evolutions: []
+  egg_moves: 
+  egg_groups: 07000000
+  steps_to_hatch: 5120
+  height: 2.3
+  weight: 253.8
+  color: 6
+  shape: 11
+  habitat: 4
+  regional_dexes: 
+  kind: Arm Thrust
+  pokedex_entry: It has the habit of challenging others without hesitation to tests
+    of strength. It's been known to stand on train tracks and stop trains using forearm
+    thrusts.
+  wild_item_common: 0
+  wild_item_uncommon: 174
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: 3
+  battler_player_y: 0
+  battler_enemy_x: -3
+  battler_enemy_y: 12
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 3

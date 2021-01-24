@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Swinub
+  m_EditorClassIdentifier: 
+  national_dex: 220
+  types: 0f00000005000000
+  base_stats:
+    HP: 50
+    ATK: 50
+    DEF: 40
+    SP_ATK: 30
+    SP_DEF: 30
+    SPD: 50
+  gender_rate: 3
+  growth_rate: 2
+  base_exp: 50
+  effort_values:
+    HP: 0
+    ATK: 1
+    DEF: 0
+    SP_ATK: 0
+    SP_DEF: 0
+    SPD: 0
+  rareness: 225
+  happiness: 70
+  abilities: 550000007b000000
+  hidden_ability: 91000000
+  moves:
+  - level: 1
+    move: 493
+  - level: 1
+    move: 323
+  - level: 5
+    move: 311
+  - level: 8
+    move: 342
+  - level: 11
+    move: 312
+  - level: 14
+    move: 136
+  - level: 18
+    move: 309
+  - level: 21
+    move: 246
+  - level: 24
+    move: 243
+  - level: 28
+    move: 498
+  - level: 35
+    move: 306
+  - level: 37
+    move: 127
+  - level: 40
+    move: 158
+  - level: 44
+    move: 41
+  - level: 48
+    move: 14
+  evolutions:
+  - evolution: 221
+    evolution_method: 1
+    parameter: 33
+  egg_moves: 0f0000001d000000260000002c0000005c0000006f0000009d00000045020000f4000000f500000036010000cf010000f2010000
+  egg_groups: 04000000
+  steps_to_hatch: 5120
+  height: 0.4
+  weight: 6.5
+  color: 6
+  shape: 7
+  habitat: 1
+  regional_dexes: 00000000c3000000
+  kind: Pig
+  pokedex_entry: It roots for food by rubbing its snout against the ground. Its favorite
+    food is a mushroom that grows under dried grass. It occasionally roots out hot
+    springs.
+  wild_item_common: 0
+  wild_item_uncommon: 0
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: 0
+  battler_player_y: 0
+  battler_enemy_x: -1
+  battler_enemy_y: 31
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 2

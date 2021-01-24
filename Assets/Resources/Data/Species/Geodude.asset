@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Geodude
+  m_EditorClassIdentifier: 
+  national_dex: 74
+  types: 0600000005000000
+  base_stats:
+    HP: 40
+    ATK: 80
+    DEF: 100
+    SP_ATK: 30
+    SP_DEF: 30
+    SPD: 20
+  gender_rate: 3
+  growth_rate: 3
+  base_exp: 60
+  effort_values:
+    HP: 0
+    ATK: 0
+    DEF: 1
+    SP_ATK: 0
+    SP_DEF: 0
+    SPD: 0
+  rareness: 255
+  happiness: 70
+  abilities: 6800000087000000
+  hidden_ability: 6e000000
+  moves:
+  - level: 1
+    move: 493
+  - level: 1
+    move: 97
+  - level: 4
+    move: 311
+  - level: 6
+    move: 387
+  - level: 10
+    move: 395
+  - level: 12
+    move: 283
+  - level: 16
+    move: 390
+  - level: 18
+    move: 443
+  - level: 22
+    move: 58
+  - level: 24
+    move: 414
+  - level: 28
+    move: 463
+  - level: 30
+    move: 385
+  - level: 34
+    move: 127
+  - level: 36
+    move: 140
+  - level: 40
+    move: 111
+  - level: 42
+    move: 468
+  evolutions:
+  - evolution: 75
+    evolution_method: 1
+    parameter: 25
+  egg_moves: 1c0000002a0000005c000000880000009e000000ab000000ce000000210100008201000020020000
+  egg_groups: 09000000
+  steps_to_hatch: 3840
+  height: 0.4
+  weight: 20
+  color: 6
+  shape: 3
+  habitat: 4
+  regional_dexes: 4a00000022000000
+  kind: Rock
+  pokedex_entry: It climbs mountain paths using only the power of its arms. Because
+    they look just like boulders lining paths, hikers may step on them without noticing.
+  wild_item_common: 0
+  wild_item_uncommon: 103
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: -6
+  battler_player_y: 0
+  battler_enemy_x: -2
+  battler_enemy_y: 7
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 1

@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Krabby
+  m_EditorClassIdentifier: 
+  national_dex: 98
+  types: 0b00000000000000
+  base_stats:
+    HP: 30
+    ATK: 105
+    DEF: 90
+    SP_ATK: 25
+    SP_DEF: 25
+    SPD: 50
+  gender_rate: 3
+  growth_rate: 1
+  base_exp: 65
+  effort_values:
+    HP: 0
+    ATK: 1
+    DEF: 0
+    SP_ATK: 0
+    SP_DEF: 0
+    SPD: 0
+  rareness: 225
+  happiness: 70
+  abilities: 3000000075000000
+  hidden_ability: 74000000
+  moves:
+  - level: 1
+    move: 311
+  - level: 1
+    move: 54
+  - level: 5
+    move: 529
+  - level: 9
+    move: 266
+  - level: 11
+    move: 207
+  - level: 15
+    move: 53
+  - level: 19
+    move: 310
+  - level: 21
+    move: 293
+  - level: 25
+    move: 467
+  - level: 29
+    move: 349
+  - level: 31
+    move: 201
+  - level: 35
+    move: 436
+  - level: 39
+    move: 52
+  - level: 41
+    move: 86
+  - level: 45
+    move: 158
+  evolutions:
+  - evolution: 99
+    evolution_method: 1
+    parameter: 28
+  egg_moves: 0a0000000d0000000e0000000f0000002400000044000000880000009e000000d000000002010000b401000000020000
+  egg_groups: 08000000
+  steps_to_hatch: 5120
+  height: 0.4
+  weight: 6.5
+  color: 1
+  shape: 13
+  habitat: 9
+  regional_dexes: 62000000a6000000
+  kind: River Crab
+  pokedex_entry: Krabby live in holes dug into beaches. On sandy shores with little
+    in the way of food, they can be seen squabbling with each other over territory.
+  wild_item_common: 0
+  wild_item_uncommon: 0
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: 4
+  battler_player_y: 0
+  battler_enemy_x: 2
+  battler_enemy_y: 21
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 2

@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Zapdos
+  m_EditorClassIdentifier: 
+  national_dex: 145
+  types: 0d00000003000000
+  base_stats:
+    HP: 90
+    ATK: 90
+    DEF: 85
+    SP_ATK: 125
+    SP_DEF: 90
+    SPD: 100
+  gender_rate: 7
+  growth_rate: 2
+  base_exp: 261
+  effort_values:
+    HP: 0
+    ATK: 0
+    DEF: 0
+    SP_ATK: 3
+    SP_DEF: 0
+    SPD: 0
+  rareness: 3
+  happiness: 35
+  abilities: 60000000
+  hidden_ability: 82000000
+  moves:
+  - level: 1
+    move: 330
+  - level: 1
+    move: 508
+  - level: 8
+    move: 509
+  - level: 15
+    move: 100
+  - level: 22
+    move: 334
+  - level: 29
+    move: 15
+  - level: 36
+    move: 65
+  - level: 43
+    move: 10
+  - level: 50
+    move: 103
+  - level: 57
+    move: 367
+  - level: 64
+    move: 268
+  - level: 71
+    move: 122
+  - level: 78
+    move: 510
+  - level: 85
+    move: 396
+  - level: 92
+    move: 594
+  - level: 99
+    move: 558
+  evolutions: []
+  egg_moves: 
+  egg_groups: 0e000000
+  steps_to_hatch: 20480
+  height: 1.6
+  weight: 52.6
+  color: 3
+  shape: 8
+  habitat: 5
+  regional_dexes: 91000000f1000000
+  kind: Electric
+  pokedex_entry: "Zapdos is a legendary bird Pok\xE9mon that has the ability to control
+    electricity. It usually lives in thunderclouds. It gains power if it is stricken
+    by lightning bolts."
+  wild_item_common: 0
+  wild_item_uncommon: 0
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: 5
+  battler_player_y: 0
+  battler_enemy_x: 0
+  battler_enemy_y: -6
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 3

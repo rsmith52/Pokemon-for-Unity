@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Eelektrik
+  m_EditorClassIdentifier: 
+  national_dex: 603
+  types: 0d00000000000000
+  base_stats:
+    HP: 65
+    ATK: 85
+    DEF: 70
+    SP_ATK: 75
+    SP_DEF: 70
+    SPD: 40
+  gender_rate: 3
+  growth_rate: 2
+  base_exp: 142
+  effort_values:
+    HP: 0
+    ATK: 2
+    DEF: 0
+    SP_ATK: 0
+    SP_DEF: 0
+    SPD: 0
+  rareness: 60
+  happiness: 70
+  abilities: 40000000
+  hidden_ability: 
+  moves:
+  - level: 0
+    move: 89
+  - level: 1
+    move: 89
+  - level: 1
+    move: 211
+  - level: 1
+    move: 509
+  - level: 1
+    move: 455
+  - level: 1
+    move: 64
+  - level: 9
+    move: 37
+  - level: 19
+    move: 4
+  - level: 29
+    move: 103
+  - level: 44
+    move: 511
+  - level: 49
+    move: 3
+  - level: 54
+    move: 73
+  - level: 59
+    move: 545
+  - level: 64
+    move: 186
+  - level: 69
+    move: 558
+  - level: 74
+    move: 505
+  evolutions:
+  - evolution: 604
+    evolution_method: 47
+    parameter: THUNDERSTONE
+  egg_moves: 
+  egg_groups: 0a000000
+  steps_to_hatch: 5120
+  height: 1.2
+  weight: 22
+  color: 2
+  shape: 2
+  habitat: 0
+  regional_dexes: 
+  kind: EleFish
+  pokedex_entry: "These Pok\xE9mon have a big appetite. When they spot their prey,
+    they attack it and paralyze it with electricity."
+  wild_item_common: 0
+  wild_item_uncommon: 0
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: 0
+  battler_player_y: 0
+  battler_enemy_x: 0
+  battler_enemy_y: 18
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 2

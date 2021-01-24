@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Machop
+  m_EditorClassIdentifier: 
+  national_dex: 66
+  types: 0200000000000000
+  base_stats:
+    HP: 70
+    ATK: 80
+    DEF: 50
+    SP_ATK: 35
+    SP_DEF: 35
+    SPD: 35
+  gender_rate: 2
+  growth_rate: 3
+  base_exp: 61
+  effort_values:
+    HP: 0
+    ATK: 1
+    DEF: 0
+    SP_ATK: 0
+    SP_DEF: 0
+    SPD: 0
+  rareness: 180
+  happiness: 70
+  abilities: 2700000053000000
+  hidden_ability: 83000000
+  moves:
+  - level: 1
+    move: 271
+  - level: 1
+    move: 266
+  - level: 3
+    move: 170
+  - level: 7
+    move: 256
+  - level: 9
+    move: 174
+  - level: 13
+    move: 272
+  - level: 15
+    move: 413
+  - level: 19
+    move: 381
+  - level: 21
+    move: 258
+  - level: 25
+    move: 531
+  - level: 27
+    move: 534
+  - level: 31
+    move: 124
+  - level: 33
+    move: 476
+  - level: 37
+    move: 57
+  - level: 39
+    move: 87
+  - level: 43
+    move: 405
+  - level: 45
+    move: 125
+  evolutions:
+  - evolution: 67
+    evolution_method: 1
+    parameter: 28
+  egg_moves: 3b0000004800000054000000860000009b000000dd000000f2000000020100001e0100005a0100006b0100008a010000bc010000fb01000000020000
+  egg_groups: 07000000
+  steps_to_hatch: 5120
+  height: 0.8
+  weight: 19.5
+  color: 8
+  shape: 5
+  habitat: 4
+  regional_dexes: 420000008e000000
+  kind: Superpower
+  pokedex_entry: It continually undertakes strenuous training to master all forms
+    of martial arts. Its strength lets it easily hoist a sumo wrestler onto its shoulders.
+  wild_item_common: 0
+  wild_item_uncommon: 119
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: 3
+  battler_player_y: 0
+  battler_enemy_x: 1
+  battler_enemy_y: 15
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 2

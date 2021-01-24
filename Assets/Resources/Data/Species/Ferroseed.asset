@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Ferroseed
+  m_EditorClassIdentifier: 
+  national_dex: 597
+  types: 0c00000009000000
+  base_stats:
+    HP: 44
+    ATK: 50
+    DEF: 91
+    SP_ATK: 24
+    SP_DEF: 86
+    SPD: 10
+  gender_rate: 3
+  growth_rate: 1
+  base_exp: 61
+  effort_values:
+    HP: 0
+    ATK: 0
+    DEF: 1
+    SP_ATK: 0
+    SP_DEF: 0
+    SPD: 0
+  rareness: 255
+  happiness: 70
+  abilities: 3a000000
+  hidden_ability: 
+  moves:
+  - level: 1
+    move: 493
+  - level: 1
+    move: 207
+  - level: 6
+    move: 395
+  - level: 9
+    move: 92
+  - level: 14
+    move: 293
+  - level: 18
+    move: 333
+  - level: 21
+    move: 204
+  - level: 26
+    move: 251
+  - level: 30
+    move: 304
+  - level: 35
+    move: 250
+  - level: 38
+    move: 414
+  - level: 43
+    move: 252
+  - level: 47
+    move: 329
+  - level: 52
+    move: 164
+  - level: 55
+    move: 140
+  evolutions:
+  - evolution: 598
+    evolution_method: 1
+    parameter: 40
+  egg_moves: 030000003c000000c300000009010000820100009b010000ca010000cf01000029020000
+  egg_groups: 0600000009000000
+  steps_to_hatch: 5120
+  height: 0.6
+  weight: 18.8
+  color: 8
+  shape: 0
+  habitat: 0
+  regional_dexes: 
+  kind: Thorn Seed
+  pokedex_entry: They stick their spikes into cave walls and absorb the minerals
+    they find in the rock.
+  wild_item_common: 0
+  wild_item_uncommon: 362
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: 0
+  battler_player_y: 0
+  battler_enemy_x: 0
+  battler_enemy_y: 19
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 1

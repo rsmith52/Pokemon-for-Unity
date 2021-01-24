@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Totodile
+  m_EditorClassIdentifier: 
+  national_dex: 158
+  types: 0b00000000000000
+  base_stats:
+    HP: 50
+    ATK: 65
+    DEF: 64
+    SP_ATK: 44
+    SP_DEF: 48
+    SPD: 43
+  gender_rate: 1
+  growth_rate: 3
+  base_exp: 63
+  effort_values:
+    HP: 0
+    ATK: 1
+    DEF: 0
+    SP_ATK: 0
+    SP_DEF: 0
+    SPD: 0
+  rareness: 45
+  happiness: 70
+  abilities: 93000000
+  hidden_ability: 74000000
+  moves:
+  - level: 1
+    move: 406
+  - level: 1
+    move: 266
+  - level: 6
+    move: 535
+  - level: 8
+    move: 366
+  - level: 13
+    move: 38
+  - level: 15
+    move: 405
+  - level: 20
+    move: 241
+  - level: 22
+    move: 158
+  - level: 27
+    move: 89
+  - level: 29
+    move: 68
+  - level: 34
+    move: 437
+  - level: 36
+    move: 407
+  - level: 41
+    move: 505
+  - level: 43
+    move: 18
+  - level: 48
+    move: 481
+  - level: 50
+    move: 233
+  evolutions:
+  - evolution: 159
+    evolution_method: 1
+    parameter: 18
+  egg_moves: 0f000000100000002a000000590000007300000091000000a6000000e9000000f20000002501000037010000f9010000190200001a020000
+  egg_groups: 0000000001000000
+  steps_to_hatch: 5120
+  height: 0.6
+  weight: 9.5
+  color: 2
+  shape: 5
+  habitat: 9
+  regional_dexes: 0000000007000000
+  kind: Big Jaw
+  pokedex_entry: Despite its small body, Totodile's jaws are very powerful. While
+    it may think it is just playfully nipping, its bite has enough strength to cause
+    serious injury.
+  wild_item_common: 0
+  wild_item_uncommon: 0
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: -2
+  battler_player_y: 0
+  battler_enemy_x: -1
+  battler_enemy_y: 23
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 2

@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Furfrou
+  m_EditorClassIdentifier: 
+  national_dex: 676
+  types: 0100000000000000
+  base_stats:
+    HP: 75
+    ATK: 80
+    DEF: 60
+    SP_ATK: 65
+    SP_DEF: 90
+    SPD: 102
+  gender_rate: 3
+  growth_rate: 1
+  base_exp: 165
+  effort_values:
+    HP: 0
+    ATK: 0
+    DEF: 0
+    SP_ATK: 0
+    SP_DEF: 0
+    SPD: 1
+  rareness: 160
+  happiness: 70
+  abilities: b0000000
+  hidden_ability: 
+  moves:
+  - level: 1
+    move: 493
+  - level: 1
+    move: 196
+  - level: 5
+    move: 401
+  - level: 9
+    move: 561
+  - level: 12
+    move: 211
+  - level: 15
+    move: 496
+  - level: 22
+    move: 38
+  - level: 27
+    move: 323
+  - level: 33
+    move: 379
+  - level: 35
+    move: 498
+  - level: 38
+    move: 66
+  - level: 42
+    move: 478
+  - level: 48
+    move: 82
+  evolutions: []
+  egg_moves: 3f0000002a010000780100008901000028020000
+  egg_groups: 04000000
+  steps_to_hatch: 5120
+  height: 1.2
+  weight: 28
+  color: 9
+  shape: 7
+  habitat: 0
+  regional_dexes: 
+  kind: Poodle
+  pokedex_entry: Trimming its fluffy fur not only makes it more elegant but also
+    increases the swiftness of its movements.
+  wild_item_common: 0
+  wild_item_uncommon: 0
+  wild_item_rare: 0
+  form_name: Natural Form
+  incense: 0
+  battler_player_x: 0
+  battler_player_y: 0
+  battler_enemy_x: 0
+  battler_enemy_y: 0
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 2

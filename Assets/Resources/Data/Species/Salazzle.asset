@@ -1,0 +1,107 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Salazzle
+  m_EditorClassIdentifier: 
+  national_dex: 758
+  types: 040000000a000000
+  base_stats:
+    HP: 68
+    ATK: 64
+    DEF: 60
+    SP_ATK: 111
+    SP_DEF: 60
+    SPD: 117
+  gender_rate: 6
+  growth_rate: 1
+  base_exp: 168
+  effort_values:
+    HP: 0
+    ATK: 0
+    DEF: 0
+    SP_ATK: 0
+    SP_DEF: 0
+    SPD: 2
+  rareness: 45
+  happiness: 70
+  abilities: c5000000
+  hidden_ability: 55000000
+  moves:
+  - level: 0
+    move: 63
+  - level: 1
+    move: 63
+  - level: 1
+    move: 102
+  - level: 1
+    move: 134
+  - level: 1
+    move: 513
+  - level: 1
+    move: 484
+  - level: 1
+    move: 341
+  - level: 1
+    move: 336
+  - level: 1
+    move: 133
+  - level: 1
+    move: 487
+  - level: 5
+    move: 133
+  - level: 8
+    move: 487
+  - level: 13
+    move: 117
+  - level: 16
+    move: 445
+  - level: 21
+    move: 109
+  - level: 24
+    move: 159
+  - level: 29
+    move: 515
+  - level: 32
+    move: 314
+  - level: 39
+    move: 528
+  - level: 44
+    move: 162
+  - level: 51
+    move: 620
+  - level: 56
+    move: 116
+  evolutions: []
+  egg_moves: 
+  egg_groups: 000000000d000000
+  steps_to_hatch: 5120
+  height: 1.2
+  weight: 22.2
+  color: 5
+  shape: 7
+  habitat: 0
+  regional_dexes: 
+  kind: Toxic Lizard
+  pokedex_entry: Filled with pheromones, its poisonous gas can be diluted to use
+    in the production of luscious perfumes.
+  wild_item_common: 0
+  wild_item_uncommon: 339
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: 0
+  battler_player_y: 0
+  battler_enemy_x: 0
+  battler_enemy_y: 0
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 2

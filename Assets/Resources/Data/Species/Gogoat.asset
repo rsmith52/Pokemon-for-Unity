@@ -1,0 +1,105 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Gogoat
+  m_EditorClassIdentifier: 
+  national_dex: 673
+  types: 0c00000000000000
+  base_stats:
+    HP: 123
+    ATK: 100
+    DEF: 62
+    SP_ATK: 97
+    SP_DEF: 81
+    SPD: 68
+  gender_rate: 3
+  growth_rate: 1
+  base_exp: 186
+  effort_values:
+    HP: 2
+    ATK: 0
+    DEF: 0
+    SP_ATK: 0
+    SP_DEF: 0
+    SPD: 0
+  rareness: 45
+  happiness: 70
+  abilities: 6f000000
+  hidden_ability: b3000000
+  moves:
+  - level: 0
+    move: 7
+  - level: 1
+    move: 7
+  - level: 1
+    move: 127
+  - level: 1
+    move: 493
+  - level: 1
+    move: 197
+  - level: 1
+    move: 530
+  - level: 1
+    move: 496
+  - level: 7
+    move: 530
+  - level: 9
+    move: 496
+  - level: 12
+    move: 265
+  - level: 13
+    move: 369
+  - level: 16
+    move: 553
+  - level: 20
+    move: 492
+  - level: 22
+    move: 498
+  - level: 26
+    move: 58
+  - level: 30
+    move: 411
+  - level: 34
+    move: 57
+  - level: 40
+    move: 111
+  - level: 47
+    move: 229
+  - level: 55
+    move: 261
+  - level: 58
+    move: 297
+  evolutions: []
+  egg_moves: 
+  egg_groups: 04000000
+  steps_to_hatch: 5120
+  height: 1.7
+  weight: 91
+  color: 6
+  shape: 7
+  habitat: 0
+  regional_dexes: 
+  kind: Mount
+  pokedex_entry: It can tell how its trainer is feeling by subtle shifts in the grip
+    on its horns. This empathetic sense lets them run as if one being.
+  wild_item_common: 0
+  wild_item_uncommon: 0
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: 0
+  battler_player_y: 0
+  battler_enemy_x: 0
+  battler_enemy_y: 0
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 2

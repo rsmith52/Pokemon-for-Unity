@@ -1,0 +1,113 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Clefairy
+  m_EditorClassIdentifier: 
+  national_dex: 35
+  types: 1200000000000000
+  base_stats:
+    HP: 70
+    ATK: 45
+    DEF: 48
+    SP_ATK: 60
+    SP_DEF: 65
+    SPD: 35
+  gender_rate: 4
+  growth_rate: 0
+  base_exp: 113
+  effort_values:
+    HP: 2
+    ATK: 0
+    DEF: 0
+    SP_ATK: 0
+    SP_DEF: 0
+    SPD: 0
+  rareness: 150
+  happiness: 140
+  abilities: 1300000046000000
+  hidden_ability: 24000000
+  moves:
+  - level: 1
+    move: 668
+  - level: 1
+    move: 569
+  - level: 1
+    move: 341
+  - level: 1
+    move: 196
+  - level: 1
+    move: 134
+  - level: 7
+    move: 428
+  - level: 10
+    move: 109
+  - level: 13
+    move: 97
+  - level: 16
+    move: 172
+  - level: 19
+    move: 35
+  - level: 22
+    move: 534
+  - level: 25
+    move: 300
+  - level: 28
+    move: 469
+  - level: 31
+    move: 296
+  - level: 34
+    move: 81
+  - level: 37
+    move: 273
+  - level: 40
+    move: 44
+  - level: 43
+    move: 307
+  - level: 46
+    move: 597
+  - level: 49
+    move: 195
+  - level: 50
+    move: 295
+  - level: 55
+    move: 216
+  - level: 58
+    move: 9
+  evolutions:
+  - evolution: 36
+    evolution_method: 47
+    parameter: MOONSTONE
+  egg_moves: 
+  egg_groups: 05000000
+  steps_to_hatch: 2560
+  height: 0.6
+  weight: 7.5
+  color: 10
+  shape: 5
+  habitat: 4
+  regional_dexes: 2300000029000000
+  kind: Fairy
+  pokedex_entry: On every night of a full moon, they come out to play. When dawn
+    arrives, the tired Clefairy go to sleep nestled up against each other in deep
+    and quiet mountains.
+  wild_item_common: 0
+  wild_item_uncommon: 217
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: 0
+  battler_player_y: 0
+  battler_enemy_x: -2
+  battler_enemy_y: 23
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 2

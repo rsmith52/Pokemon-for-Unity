@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Crustle
+  m_EditorClassIdentifier: 
+  national_dex: 558
+  types: 0700000006000000
+  base_stats:
+    HP: 70
+    ATK: 105
+    DEF: 125
+    SP_ATK: 65
+    SP_DEF: 75
+    SPD: 45
+  gender_rate: 3
+  growth_rate: 1
+  base_exp: 170
+  effort_values:
+    HP: 0
+    ATK: 0
+    DEF: 2
+    SP_ATK: 0
+    SP_DEF: 0
+    SPD: 0
+  rareness: 75
+  happiness: 70
+  abilities: 8700000075000000
+  hidden_ability: a0000000
+  moves:
+  - level: 1
+    move: 422
+  - level: 1
+    move: 385
+  - level: 1
+    move: 549
+  - level: 1
+    move: 401
+  - level: 5
+    move: 385
+  - level: 7
+    move: 549
+  - level: 11
+    move: 401
+  - level: 13
+    move: 148
+  - level: 17
+    move: 443
+  - level: 19
+    move: 387
+  - level: 23
+    move: 55
+  - level: 24
+    move: 463
+  - level: 29
+    move: 388
+  - level: 31
+    move: 437
+  - level: 38
+    move: 556
+  - level: 43
+    move: 422
+  - level: 50
+    move: 158
+  - level: 55
+    move: 392
+  evolutions: []
+  egg_moves: 
+  egg_groups: 0200000009000000
+  steps_to_hatch: 5120
+  height: 1.4
+  weight: 200
+  color: 1
+  shape: 13
+  habitat: 0
+  regional_dexes: 
+  kind: Stone Home
+  pokedex_entry: It possesses legs of enormous strength, enabling it to carry heavy
+    slabs for many days, even when crossing arid land.
+  wild_item_common: 0
+  wild_item_uncommon: 145
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: -1
+  battler_player_y: 0
+  battler_enemy_x: 1
+  battler_enemy_y: 22
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 3

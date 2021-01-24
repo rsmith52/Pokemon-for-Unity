@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Tropius
+  m_EditorClassIdentifier: 
+  national_dex: 357
+  types: 0c00000003000000
+  base_stats:
+    HP: 99
+    ATK: 68
+    DEF: 83
+    SP_ATK: 72
+    SP_DEF: 87
+    SPD: 51
+  gender_rate: 3
+  growth_rate: 2
+  base_exp: 161
+  effort_values:
+    HP: 2
+    ATK: 0
+    DEF: 0
+    SP_ATK: 0
+    SP_DEF: 0
+    SPD: 0
+  rareness: 200
+  happiness: 70
+  abilities: 0c0000007d000000
+  hidden_ability: 28000000
+  moves:
+  - level: 1
+    move: 262
+  - level: 1
+    move: 266
+  - level: 1
+    move: 203
+  - level: 1
+    move: 197
+  - level: 1
+    move: 369
+  - level: 6
+    move: 487
+  - level: 10
+    move: 467
+  - level: 16
+    move: 279
+  - level: 21
+    move: 543
+  - level: 26
+    move: 263
+  - level: 30
+    move: 315
+  - level: 36
+    move: 12
+  - level: 41
+    move: 44
+  - level: 46
+    move: 35
+  - level: 50
+    move: 492
+  - level: 56
+    move: 452
+  - level: 61
+    move: 262
+  evolutions: []
+  egg_moves: 3c0000005c0000007300000079020000d30000000501000006010000090100003b0100003c01000073010000b4010000ec010000
+  egg_groups: 0000000006000000
+  steps_to_hatch: 6400
+  height: 2
+  weight: 100
+  color: 4
+  shape: 7
+  habitat: 2
+  regional_dexes: 
+  kind: Fruit
+  pokedex_entry: It flies by flapping its broad leaves. The bunch of fruit that grows
+    around its neck is deliciously sweet. In the spring, it scatters pollen from
+    its neck.
+  wild_item_common: 0
+  wild_item_uncommon: 0
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: 4
+  battler_player_y: 0
+  battler_enemy_x: 7
+  battler_enemy_y: 2
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 3

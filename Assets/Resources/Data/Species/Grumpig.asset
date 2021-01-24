@@ -1,0 +1,106 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Grumpig
+  m_EditorClassIdentifier: 
+  national_dex: 326
+  types: 0e00000000000000
+  base_stats:
+    HP: 80
+    ATK: 45
+    DEF: 65
+    SP_ATK: 90
+    SP_DEF: 110
+    SPD: 80
+  gender_rate: 3
+  growth_rate: 0
+  base_exp: 165
+  effort_values:
+    HP: 0
+    ATK: 0
+    DEF: 0
+    SP_ATK: 0
+    SP_DEF: 2
+    SPD: 0
+  rareness: 60
+  happiness: 70
+  abilities: 9100000058000000
+  hidden_ability: 26000000
+  moves:
+  - level: 0
+    move: 501
+  - level: 1
+    move: 501
+  - level: 1
+    move: 562
+  - level: 1
+    move: 461
+  - level: 1
+    move: 358
+  - level: 1
+    move: 323
+  - level: 1
+    move: 350
+  - level: 7
+    move: 358
+  - level: 10
+    move: 323
+  - level: 14
+    move: 350
+  - level: 15
+    move: 351
+  - level: 18
+    move: 75
+  - level: 21
+    move: 277
+  - level: 26
+    move: 559
+  - level: 29
+    move: 343
+  - level: 35
+    move: 378
+  - level: 35
+    move: 449
+  - level: 42
+    move: 356
+  - level: 46
+    move: 329
+  - level: 52
+    move: 352
+  - level: 60
+    move: 49
+  evolutions: []
+  egg_moves: 
+  egg_groups: 04000000
+  steps_to_hatch: 5120
+  height: 0.9
+  weight: 71.5
+  color: 7
+  shape: 5
+  habitat: 4
+  regional_dexes: 
+  kind: Manipulate
+  pokedex_entry: It stores power in the black pearls on its forehead. When it uses
+    psychic power, it performs an odd dance step. Its style of dancing became hugely
+    popular overseas.
+  wild_item_common: 0
+  wild_item_uncommon: 0
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: -4
+  battler_player_y: 0
+  battler_enemy_x: 3
+  battler_enemy_y: 13
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 2

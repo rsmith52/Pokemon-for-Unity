@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Panpour
+  m_EditorClassIdentifier: 
+  national_dex: 515
+  types: 0b00000000000000
+  base_stats:
+    HP: 50
+    ATK: 53
+    DEF: 48
+    SP_ATK: 53
+    SP_DEF: 48
+    SPD: 64
+  gender_rate: 1
+  growth_rate: 1
+  base_exp: 63
+  effort_values:
+    HP: 0
+    ATK: 0
+    DEF: 0
+    SP_ATK: 0
+    SP_DEF: 0
+    SPD: 1
+  rareness: 190
+  happiness: 70
+  abilities: 26000000
+  hidden_ability: 93000000
+  moves:
+  - level: 1
+    move: 406
+  - level: 1
+    move: 607
+  - level: 4
+    move: 266
+  - level: 7
+    move: 267
+  - level: 10
+    move: 535
+  - level: 13
+    move: 182
+  - level: 16
+    move: 538
+  - level: 19
+    move: 38
+  - level: 22
+    move: 404
+  - level: 25
+    move: 499
+  - level: 28
+    move: 167
+  - level: 31
+    move: 5
+  - level: 34
+    move: 52
+  - level: 37
+    move: 373
+  - level: 40
+    move: 315
+  - level: 43
+    move: 89
+  evolutions:
+  - evolution: 516
+    evolution_method: 47
+    parameter: WATERSTONE
+  egg_moves: 1100000012000000170000005500000039020000e90000000f010000370100003a0100008901000000020000
+  egg_groups: 04000000
+  steps_to_hatch: 5120
+  height: 0.6
+  weight: 13.5
+  color: 2
+  shape: 5
+  habitat: 0
+  regional_dexes: 
+  kind: Spray
+  pokedex_entry: It does not thrive in dry environments. It keeps itself damp by
+    shooting water stored in its head tuft from its tail.
+  wild_item_common: 0
+  wild_item_uncommon: 0
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: 0
+  battler_player_y: 0
+  battler_enemy_x: 8
+  battler_enemy_y: 25
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 1

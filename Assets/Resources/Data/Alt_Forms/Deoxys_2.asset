@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 253d169095ab8450397d87b75daa8002, type: 3}
+  m_Name: Deoxys_2
+  m_EditorClassIdentifier: 
+  base_species: 386
+  form_name: Defense Forme
+  form_id: 2
+  types: 
+  base_stats:
+    HP: 50
+    ATK: 70
+    DEF: 160
+    SP_ATK: 70
+    SP_DEF: 160
+    SPD: 90
+  base_exp: 0
+  effort_values:
+    HP: 0
+    ATK: 0
+    DEF: 2
+    SP_ATK: 0
+    SP_DEF: 1
+    SPD: 0
+  rareness: 0
+  happiness: 0
+  abilities: 
+  hidden_ability: 
+  moves:
+  - level: 1
+    move: 266
+  - level: 1
+    move: 554
+  - level: 7
+    move: 319
+  - level: 13
+    move: 503
+  - level: 19
+    move: 258
+  - level: 25
+    move: 458
+  - level: 31
+    move: 352
+  - level: 37
+    move: 448
+  - level: 43
+    move: 355
+  - level: 49
+    move: 559
+  - level: 55
+    move: 251
+  - level: 55
+    move: 14
+  - level: 61
+    move: 372
+  - level: 67
+    move: 353
+  - level: 73
+    move: 84
+  - level: 73
+    move: 302
+  evolutions: []
+  egg_moves: 
+  egg_groups: 
+  steps_to_hatch: 0
+  height: 0
+  weight: 0
+  color: 0
+  shape: 0
+  habitat: 0
+  kind: 
+  pokedex_entry: 
+  wild_item_common: 0
+  wild_item_uncommon: 0
+  wild_item_rare: 0
+  battler_player_x: 3
+  battler_player_y: 0
+  battler_enemy_x: -2
+  battler_enemy_y: 6
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 3
+  mega_stone: 0
+  mega_move: 0
+  mega_message: 
+  unmega_form_id: 0
+  pokedex_form_id: 0

@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Aron
+  m_EditorClassIdentifier: 
+  national_dex: 304
+  types: 0900000006000000
+  base_stats:
+    HP: 50
+    ATK: 70
+    DEF: 100
+    SP_ATK: 40
+    SP_DEF: 40
+    SPD: 30
+  gender_rate: 3
+  growth_rate: 2
+  base_exp: 66
+  effort_values:
+    HP: 0
+    ATK: 0
+    DEF: 1
+    SP_ATK: 0
+    SP_DEF: 0
+    SPD: 0
+  rareness: 180
+  happiness: 35
+  abilities: 8700000068000000
+  hidden_ability: 2b000000
+  moves:
+  - level: 1
+    move: 493
+  - level: 1
+    move: 207
+  - level: 4
+    move: 312
+  - level: 7
+    move: 211
+  - level: 10
+    move: 293
+  - level: 13
+    move: 391
+  - level: 16
+    move: 349
+  - level: 19
+    move: 384
+  - level: 22
+    move: 252
+  - level: 25
+    move: 388
+  - level: 28
+    move: 498
+  - level: 31
+    move: 294
+  - level: 34
+    move: 253
+  - level: 37
+    move: 251
+  - level: 40
+    move: 111
+  - level: 43
+    move: 28
+  - level: 46
+    move: 221
+  - level: 49
+    move: 292
+  evolutions:
+  - evolution: 305
+    evolution_method: 1
+    parameter: 32
+  egg_moves: 2c0000005c0000007600000087000000d2000000fc0000007e01000097010000bc010000cf010000d3010000e1010000
+  egg_groups: 00000000
+  steps_to_hatch: 8960
+  height: 0.4
+  weight: 60
+  color: 8
+  shape: 7
+  habitat: 4
+  regional_dexes: 
+  kind: Iron Armor
+  pokedex_entry: "A Pok\xE9mon that is clad in steel armor. A new suit of armor is
+    made when it evolves. The old, discarded armor is salvaged as metal for making
+    iron products."
+  wild_item_common: 0
+  wild_item_uncommon: 145
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: -1
+  battler_player_y: 0
+  battler_enemy_x: 2
+  battler_enemy_y: 26
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 1

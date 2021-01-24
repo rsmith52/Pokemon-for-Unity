@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0e2f304d0cf34fdb8ffbbad6ab28291, type: 3}
+  m_Name: Full Heal
+  m_EditorClassIdentifier: 
+  item_id: 228
+  plural_name: Full Heals
+  bag_pocket: 1
+  price: 400
+  description: "A spray-type medicine. It heals all the status problems of a single
+    Pok\xE9mon."
+  out_of_battle_use: 1
+  in_battle_use: 1
+  special_item_type: 0
+  move_taught: 0

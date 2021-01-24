@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Groudon
+  m_EditorClassIdentifier: 
+  national_dex: 383
+  types: 0500000000000000
+  base_stats:
+    HP: 100
+    ATK: 150
+    DEF: 140
+    SP_ATK: 100
+    SP_DEF: 90
+    SPD: 90
+  gender_rate: 7
+  growth_rate: 2
+  base_exp: 302
+  effort_values:
+    HP: 0
+    ATK: 3
+    DEF: 0
+    SP_ATK: 0
+    SP_DEF: 0
+    SPD: 0
+  rareness: 3
+  happiness: 0
+  abilities: 19000000
+  hidden_ability: 
+  moves:
+  - level: 1
+    move: 15
+  - level: 1
+    move: 310
+  - level: 5
+    move: 405
+  - level: 15
+    move: 126
+  - level: 20
+    move: 260
+  - level: 30
+    move: 378
+  - level: 35
+    move: 127
+  - level: 45
+    move: 611
+  - level: 50
+    move: 57
+  - level: 60
+    move: 452
+  - level: 65
+    move: 157
+  - level: 75
+    move: 152
+  - level: 80
+    move: 206
+  - level: 90
+    move: 139
+  evolutions: []
+  egg_moves: 
+  egg_groups: 0e000000
+  steps_to_hatch: 30720
+  height: 3.5
+  weight: 950
+  color: 1
+  shape: 5
+  habitat: 6
+  regional_dexes: 
+  kind: Continent
+  pokedex_entry: Groudon has appeared in mythology as the creator of the land. It
+    sleeps in magma underground and is said to make volcanoes erupt on awakening.
+  wild_item_common: 0
+  wild_item_uncommon: 0
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: -1
+  battler_player_y: 0
+  battler_enemy_x: 2
+  battler_enemy_y: 9
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 3

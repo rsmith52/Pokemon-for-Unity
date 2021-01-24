@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Meloetta
+  m_EditorClassIdentifier: 
+  national_dex: 648
+  types: 010000000e000000
+  base_stats:
+    HP: 100
+    ATK: 77
+    DEF: 77
+    SP_ATK: 128
+    SP_DEF: 128
+    SPD: 90
+  gender_rate: 7
+  growth_rate: 2
+  base_exp: 270
+  effort_values:
+    HP: 0
+    ATK: 0
+    DEF: 0
+    SP_ATK: 1
+    SP_DEF: 1
+    SPD: 1
+  rareness: 3
+  happiness: 100
+  abilities: 71000000
+  hidden_ability: 
+  moves:
+  - level: 1
+    move: 397
+  - level: 1
+    move: 362
+  - level: 1
+    move: 76
+  - level: 1
+    move: 428
+  - level: 6
+    move: 362
+  - level: 11
+    move: 76
+  - level: 16
+    move: 428
+  - level: 21
+    move: 501
+  - level: 26
+    move: 5
+  - level: 31
+    move: 350
+  - level: 36
+    move: 128
+  - level: 43
+    move: 524
+  - level: 50
+    move: 534
+  - level: 57
+    move: 352
+  - level: 64
+    move: 236
+  - level: 71
+    move: 393
+  - level: 78
+    move: 72
+  - level: 85
+    move: 331
+  evolutions: []
+  egg_moves: 
+  egg_groups: 0e000000
+  steps_to_hatch: 30720
+  height: 0.6
+  weight: 6.5
+  color: 9
+  shape: 11
+  habitat: 0
+  regional_dexes: 
+  kind: Melody
+  pokedex_entry: Many famous songs have been inspired by the melodies that Meloetta
+    plays.
+  wild_item_common: 356
+  wild_item_uncommon: 356
+  wild_item_rare: 356
+  form_name: Aria Forme
+  incense: 0
+  battler_player_x: 0
+  battler_player_y: 0
+  battler_enemy_x: 5
+  battler_enemy_y: 12
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 1

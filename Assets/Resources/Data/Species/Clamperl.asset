@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Clamperl
+  m_EditorClassIdentifier: 
+  national_dex: 366
+  types: 0b00000000000000
+  base_stats:
+    HP: 35
+    ATK: 64
+    DEF: 85
+    SP_ATK: 74
+    SP_DEF: 55
+    SPD: 32
+  gender_rate: 3
+  growth_rate: 4
+  base_exp: 69
+  effort_values:
+    HP: 0
+    ATK: 0
+    DEF: 1
+    SP_ATK: 0
+    SP_DEF: 0
+    SPD: 0
+  rareness: 255
+  happiness: 70
+  abilities: 75000000
+  hidden_ability: 64000000
+  moves:
+  - level: 1
+    move: 70
+  - level: 1
+    move: 535
+  - level: 1
+    move: 542
+  - level: 1
+    move: 251
+  - level: 50
+    move: 422
+  evolutions:
+  - evolution: 367
+    evolution_method: 58
+    parameter: DEEPSEATOOTH
+  - evolution: 368
+    evolution_method: 58
+    parameter: DEEPSEASCALE
+  egg_moves: 110000001f0000002c000000340000004b00000088000000370100003901000078010000e201000019020000
+  egg_groups: 01000000
+  steps_to_hatch: 5120
+  height: 0.4
+  weight: 52.5
+  color: 2
+  shape: 0
+  habitat: 7
+  regional_dexes: 
+  kind: Bivalve
+  pokedex_entry: A Clamperl slams its shell closed on prey to prevent escape. The
+    pearl it creates upon evolution is said to be infused with a mysterious energy.
+  wild_item_common: 244
+  wild_item_uncommon: 21
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: 0
+  battler_player_y: 0
+  battler_enemy_x: 0
+  battler_enemy_y: 23
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 2

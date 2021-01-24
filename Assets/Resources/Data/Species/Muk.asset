@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Muk
+  m_EditorClassIdentifier: 
+  national_dex: 89
+  types: 0400000000000000
+  base_stats:
+    HP: 105
+    ATK: 105
+    DEF: 75
+    SP_ATK: 65
+    SP_DEF: 100
+    SPD: 50
+  gender_rate: 3
+  growth_rate: 1
+  base_exp: 175
+  effort_values:
+    HP: 1
+    ATK: 1
+    DEF: 0
+    SP_ATK: 0
+    SP_DEF: 0
+    SPD: 0
+  rareness: 75
+  happiness: 70
+  abilities: 8400000085000000
+  hidden_ability: 5e000000
+  moves:
+  - level: 0
+    move: 620
+  - level: 1
+    move: 620
+  - level: 1
+    move: 341
+  - level: 1
+    move: 336
+  - level: 1
+    move: 207
+  - level: 1
+    move: 312
+  - level: 4
+    move: 207
+  - level: 7
+    move: 312
+  - level: 12
+    move: 102
+  - level: 15
+    move: 442
+  - level: 18
+    move: 309
+  - level: 21
+    move: 300
+  - level: 26
+    move: 167
+  - level: 29
+    move: 440
+  - level: 32
+    move: 441
+  - level: 37
+    move: 407
+  - level: 40
+    move: 202
+  - level: 46
+    move: 2
+  - level: 52
+    move: 562
+  - level: 57
+    move: 291
+  evolutions: []
+  egg_moves: 
+  egg_groups: 0a000000
+  steps_to_hatch: 5120
+  height: 1.2
+  weight: 30
+  color: 7
+  shape: 3
+  habitat: 8
+  regional_dexes: 5900000076000000
+  kind: Sludge
+  pokedex_entry: It prefers warm and humid habitats. In the summertime, the toxic
+    substances in its body intensify, making Muk reek like putrid kitchen garbage.
+  wild_item_common: 28
+  wild_item_uncommon: 0
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: -2
+  battler_player_y: 0
+  battler_enemy_x: 1
+  battler_enemy_y: 12
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 3

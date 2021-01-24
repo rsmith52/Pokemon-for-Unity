@@ -1,0 +1,104 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Jynx
+  m_EditorClassIdentifier: 
+  national_dex: 124
+  types: 0f0000000e000000
+  base_stats:
+    HP: 65
+    ATK: 50
+    DEF: 35
+    SP_ATK: 115
+    SP_DEF: 95
+    SPD: 95
+  gender_rate: 6
+  growth_rate: 1
+  base_exp: 159
+  effort_values:
+    HP: 0
+    ATK: 0
+    DEF: 0
+    SP_ATK: 2
+    SP_DEF: 0
+    SPD: 0
+  rareness: 45
+  happiness: 70
+  abilities: 5500000023000000
+  hidden_ability: 1a000000
+  moves:
+  - level: 1
+    move: 571
+  - level: 1
+    move: 331
+  - level: 1
+    move: 341
+  - level: 1
+    move: 267
+  - level: 1
+    move: 270
+  - level: 1
+    move: 342
+  - level: 5
+    move: 267
+  - level: 8
+    move: 270
+  - level: 11
+    move: 342
+  - level: 15
+    move: 109
+  - level: 18
+    move: 242
+  - level: 21
+    move: 217
+  - level: 25
+    move: 285
+  - level: 28
+    move: 145
+  - level: 33
+    move: 534
+  - level: 39
+    move: 29
+  - level: 44
+    move: 44
+  - level: 49
+    move: 555
+  - level: 55
+    move: 331
+  - level: 60
+    move: 41
+  evolutions: []
+  egg_moves: 
+  egg_groups: 07000000
+  steps_to_hatch: 6400
+  height: 1.4
+  weight: 40.6
+  color: 1
+  shape: 11
+  habitat: 8
+  regional_dexes: 7c0000009b000000
+  kind: Human Shape
+  pokedex_entry: A Jynx sashays rhythmically as if it were dancing. Its motions are
+    so bouncingly alluring, people seeing it are compelled to shake their hips without
+    noticing.
+  wild_item_common: 0
+  wild_item_uncommon: 0
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: 3
+  battler_player_y: 0
+  battler_enemy_x: -5
+  battler_enemy_y: 18
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 3

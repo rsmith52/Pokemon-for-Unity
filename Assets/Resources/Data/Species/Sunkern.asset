@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Sunkern
+  m_EditorClassIdentifier: 
+  national_dex: 191
+  types: 0c00000000000000
+  base_stats:
+    HP: 30
+    ATK: 30
+    DEF: 30
+    SP_ATK: 30
+    SP_DEF: 30
+    SPD: 30
+  gender_rate: 3
+  growth_rate: 3
+  base_exp: 36
+  effort_values:
+    HP: 0
+    ATK: 0
+    DEF: 0
+    SP_ATK: 1
+    SP_DEF: 0
+    SPD: 0
+  rareness: 235
+  happiness: 70
+  abilities: 0c0000007d000000
+  hidden_ability: 1b000000
+  moves:
+  - level: 1
+    move: 1
+  - level: 1
+    move: 197
+  - level: 4
+    move: 250
+  - level: 7
+    move: 194
+  - level: 10
+    move: 287
+  - level: 13
+    move: 265
+  - level: 16
+    move: 369
+  - level: 19
+    move: 553
+  - level: 22
+    move: 188
+  - level: 25
+    move: 135
+  - level: 28
+    move: 492
+  - level: 31
+    move: 315
+  - level: 34
+    move: 452
+  - level: 37
+    move: 111
+  - level: 40
+    move: 479
+  - level: 43
+    move: 411
+  evolutions:
+  - evolution: 192
+    evolution_method: 47
+    parameter: SUNSTONE
+  egg_moves: 240000005c0000008600000088000000c200000047020000de000000fa00000009010000340100003b0100003c010000e7010000
+  egg_groups: 06000000
+  steps_to_hatch: 5120
+  height: 0.3
+  weight: 1.8
+  color: 3
+  shape: 0
+  habitat: 3
+  regional_dexes: 0000000067000000
+  kind: Seed
+  pokedex_entry: Sunkern try to minimize movement to conserve the nutrients they
+    have stored in their bodies for evolution. They will not eat, subsisting only
+    on morning dew.
+  wild_item_common: 0
+  wild_item_uncommon: 0
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: 3
+  battler_player_y: 0
+  battler_enemy_x: 1
+  battler_enemy_y: 24
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 1

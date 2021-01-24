@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Mantyke
+  m_EditorClassIdentifier: 
+  national_dex: 458
+  types: 0b00000003000000
+  base_stats:
+    HP: 45
+    ATK: 20
+    DEF: 50
+    SP_ATK: 60
+    SP_DEF: 120
+    SPD: 50
+  gender_rate: 3
+  growth_rate: 2
+  base_exp: 69
+  effort_values:
+    HP: 0
+    ATK: 0
+    DEF: 0
+    SP_ATK: 0
+    SP_DEF: 1
+    SPD: 0
+  rareness: 25
+  happiness: 70
+  abilities: 8b0000009e000000
+  hidden_ability: 9f000000
+  moves:
+  - level: 1
+    move: 493
+  - level: 1
+    move: 54
+  - level: 3
+    move: 482
+  - level: 7
+    move: 53
+  - level: 11
+    move: 75
+  - level: 14
+    move: 547
+  - level: 16
+    move: 211
+  - level: 19
+    move: 537
+  - level: 23
+    move: 544
+  - level: 27
+    move: 498
+  - level: 32
+    move: 10
+  - level: 36
+    move: 12
+  - level: 39
+    move: 17
+  - level: 46
+    move: 49
+  - level: 49
+    move: 233
+  evolutions:
+  - evolution: 226
+    evolution_method: 44
+    parameter: REMORAID
+  egg_moves: 0e000000d0000000e90000002e01000037010000a9010000b4010000cd010000f10100000b0200001a02000020020000
+  egg_groups: 0e000000
+  steps_to_hatch: 6400
+  height: 1
+  weight: 65
+  color: 2
+  shape: 8
+  habitat: 0
+  regional_dexes: 
+  kind: Kite
+  pokedex_entry: "A friendly Pok\xE9mon that captures the subtle flows of seawater
+    using its two antennae."
+  wild_item_common: 0
+  wild_item_uncommon: 0
+  wild_item_rare: 0
+  form_name: 
+  incense: 388
+  battler_player_x: -1
+  battler_player_y: 0
+  battler_enemy_x: 1
+  battler_enemy_y: -3
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 2

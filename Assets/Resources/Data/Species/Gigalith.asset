@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Gigalith
+  m_EditorClassIdentifier: 
+  national_dex: 526
+  types: 0600000000000000
+  base_stats:
+    HP: 85
+    ATK: 135
+    DEF: 130
+    SP_ATK: 60
+    SP_DEF: 80
+    SPD: 25
+  gender_rate: 3
+  growth_rate: 3
+  base_exp: 232
+  effort_values:
+    HP: 0
+    ATK: 3
+    DEF: 0
+    SP_ATK: 0
+    SP_DEF: 0
+    SPD: 0
+  rareness: 45
+  happiness: 70
+  abilities: 870000006d000000
+  hidden_ability: 6b000000
+  moves:
+  - level: 1
+    move: 343
+  - level: 1
+    move: 493
+  - level: 1
+    move: 207
+  - level: 1
+    move: 401
+  - level: 1
+    move: 211
+  - level: 4
+    move: 207
+  - level: 7
+    move: 401
+  - level: 10
+    move: 211
+  - level: 14
+    move: 385
+  - level: 17
+    move: 312
+  - level: 20
+    move: 251
+  - level: 23
+    move: 443
+  - level: 30
+    move: 388
+  - level: 36
+    move: 463
+  - level: 42
+    move: 403
+  - level: 48
+    move: 468
+  - level: 55
+    move: 140
+  evolutions: []
+  egg_moves: 
+  egg_groups: 09000000
+  steps_to_hatch: 3840
+  height: 1.7
+  weight: 260
+  color: 2
+  shape: 9
+  habitat: 0
+  regional_dexes: 
+  kind: Compressed
+  pokedex_entry: The solar energy absorbed by its body's orange crystals is magnified
+    internally and fired from its mouth.
+  wild_item_common: 103
+  wild_item_uncommon: 145
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: 0
+  battler_player_y: 0
+  battler_enemy_x: 2
+  battler_enemy_y: 18
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 3

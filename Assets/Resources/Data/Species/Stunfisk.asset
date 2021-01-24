@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Stunfisk
+  m_EditorClassIdentifier: 
+  national_dex: 618
+  types: 050000000d000000
+  base_stats:
+    HP: 109
+    ATK: 66
+    DEF: 84
+    SP_ATK: 81
+    SP_DEF: 99
+    SPD: 32
+  gender_rate: 3
+  growth_rate: 1
+  base_exp: 165
+  effort_values:
+    HP: 2
+    ATK: 0
+    DEF: 0
+    SP_ATK: 0
+    SP_DEF: 0
+    SPD: 0
+  rareness: 75
+  happiness: 70
+  abilities: 8200000043000000
+  hidden_ability: 6e000000
+  moves:
+  - level: 1
+    move: 157
+  - level: 1
+    move: 158
+  - level: 1
+    move: 493
+  - level: 1
+    move: 535
+  - level: 1
+    move: 312
+  - level: 1
+    move: 311
+  - level: 5
+    move: 36
+  - level: 9
+    move: 508
+  - level: 13
+    move: 310
+  - level: 17
+    move: 62
+  - level: 21
+    move: 309
+  - level: 25
+    move: 103
+  - level: 30
+    move: 136
+  - level: 35
+    move: 49
+  - level: 40
+    move: 313
+  - level: 45
+    move: 511
+  - level: 50
+    move: 381
+  - level: 55
+    move: 158
+  - level: 61
+    move: 157
+  evolutions: []
+  egg_moves: 170000005c0000007e0000003c0200001c0100004701000076010000a8010000b7010000c7010000cc0100002d020000
+  egg_groups: 010000000a000000
+  steps_to_hatch: 5120
+  height: 0.7
+  weight: 11
+  color: 6
+  shape: 2
+  habitat: 0
+  regional_dexes: 
+  kind: Trap
+  pokedex_entry: It conceals itself in the mud of the seashore. Then it waits. When
+    prey touch it, it delivers a jolt of energy.
+  wild_item_common: 0
+  wild_item_uncommon: 343
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: -3
+  battler_player_y: 0
+  battler_enemy_x: 2
+  battler_enemy_y: 29
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 2

@@ -1,0 +1,108 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 253d169095ab8450397d87b75daa8002, type: 3}
+  m_Name: Vulpix_1
+  m_EditorClassIdentifier: 
+  base_species: 37
+  form_name: Alolan
+  form_id: 1
+  types: 0f00000000000000
+  base_stats:
+    HP: 0
+    ATK: 0
+    DEF: 0
+    SP_ATK: 0
+    SP_DEF: 0
+    SPD: 0
+  base_exp: 0
+  effort_values:
+    HP: 0
+    ATK: 0
+    DEF: 0
+    SP_ATK: 0
+    SP_DEF: 0
+    SPD: 0
+  rareness: 0
+  happiness: 0
+  abilities: 7b000000
+  hidden_ability: 7c000000
+  moves:
+  - level: 1
+    move: 342
+  - level: 4
+    move: 496
+  - level: 7
+    move: 384
+  - level: 9
+    move: 561
+  - level: 10
+    move: 243
+  - level: 12
+    move: 75
+  - level: 15
+    move: 246
+  - level: 18
+    move: 329
+  - level: 20
+    move: 306
+  - level: 23
+    move: 148
+  - level: 26
+    move: 223
+  - level: 28
+    move: 27
+  - level: 31
+    move: 141
+  - level: 34
+    move: 400
+  - level: 36
+    move: 239
+  - level: 39
+    move: 247
+  - level: 42
+    move: 41
+  - level: 44
+    move: 198
+  - level: 47
+    move: 63
+  - level: 50
+    move: 421
+  evolutions:
+  - evolution: 38
+    evolution_method: 47
+    parameter: ICESTONE
+  egg_moves: 0a0000004200000066000000860000008d0000009e00000045020000e6000000ed000000550200005901000099010000cc010000ef010000
+  egg_groups: 
+  steps_to_hatch: 0
+  height: 0
+  weight: 0
+  color: 9
+  shape: 0
+  habitat: 0
+  kind: 
+  pokedex_entry: "In hot weather, this Pok\xE9mon makes ice shards with its six tails
+    and sprays them around to cool itself off."
+  wild_item_common: 0
+  wild_item_uncommon: 593
+  wild_item_rare: 0
+  battler_player_x: 0
+  battler_player_y: 0
+  battler_enemy_x: 0
+  battler_enemy_y: 0
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 0
+  mega_stone: 0
+  mega_move: 0
+  mega_message: 
+  unmega_form_id: 0
+  pokedex_form_id: 0

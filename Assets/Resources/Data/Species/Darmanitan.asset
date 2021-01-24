@@ -1,0 +1,105 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Darmanitan
+  m_EditorClassIdentifier: 
+  national_dex: 555
+  types: 0a00000000000000
+  base_stats:
+    HP: 105
+    ATK: 140
+    DEF: 55
+    SP_ATK: 30
+    SP_DEF: 55
+    SPD: 95
+  gender_rate: 3
+  growth_rate: 3
+  base_exp: 168
+  effort_values:
+    HP: 0
+    ATK: 2
+    DEF: 0
+    SP_ATK: 0
+    SP_DEF: 0
+    SPD: 0
+  rareness: 60
+  happiness: 70
+  abilities: 74000000
+  hidden_ability: a4000000
+  moves:
+  - level: 0
+    move: 206
+  - level: 1
+    move: 206
+  - level: 1
+    move: 493
+  - level: 1
+    move: 395
+  - level: 1
+    move: 248
+  - level: 1
+    move: 366
+  - level: 3
+    move: 395
+  - level: 6
+    move: 248
+  - level: 9
+    move: 366
+  - level: 11
+    move: 153
+  - level: 14
+    move: 211
+  - level: 17
+    move: 484
+  - level: 19
+    move: 143
+  - level: 22
+    move: 155
+  - level: 25
+    move: 552
+  - level: 27
+    move: 505
+  - level: 30
+    move: 34
+  - level: 33
+    move: 163
+  - level: 39
+    move: 499
+  - level: 47
+    move: 481
+  - level: 54
+    move: 326
+  evolutions: []
+  egg_moves: 
+  egg_groups: 04000000
+  steps_to_hatch: 5120
+  height: 1.3
+  weight: 92.9
+  color: 1
+  shape: 7
+  habitat: 0
+  regional_dexes: 
+  kind: Blazing
+  pokedex_entry: When weakened in battle, it transforms into a stone statue. Then
+    it sharpens its mind and fights on mentally.
+  wild_item_common: 0
+  wild_item_uncommon: 0
+  wild_item_rare: 0
+  form_name: Standard Mode
+  incense: 0
+  battler_player_x: 2
+  battler_player_y: 0
+  battler_enemy_x: 1
+  battler_enemy_y: 26
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 3

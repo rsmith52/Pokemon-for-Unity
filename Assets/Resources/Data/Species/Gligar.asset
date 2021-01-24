@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Gligar
+  m_EditorClassIdentifier: 
+  national_dex: 207
+  types: 0500000003000000
+  base_stats:
+    HP: 65
+    ATK: 75
+    DEF: 105
+    SP_ATK: 35
+    SP_DEF: 65
+    SPD: 85
+  gender_rate: 3
+  growth_rate: 3
+  base_exp: 86
+  effort_values:
+    HP: 0
+    ATK: 0
+    DEF: 1
+    SP_ATK: 0
+    SP_DEF: 0
+    SPD: 0
+  rareness: 60
+  happiness: 70
+  abilities: 300000006e000000
+  hidden_ability: 34000000
+  moves:
+  - level: 1
+    move: 339
+  - level: 4
+    move: 401
+  - level: 7
+    move: 207
+  - level: 10
+    move: 258
+  - level: 13
+    move: 362
+  - level: 16
+    move: 181
+  - level: 19
+    move: 148
+  - level: 22
+    move: 5
+  - level: 27
+    move: 437
+  - level: 30
+    move: 524
+  - level: 35
+    move: 407
+  - level: 40
+    move: 556
+  - level: 45
+    move: 434
+  - level: 50
+    move: 490
+  - level: 55
+    move: 201
+  evolutions:
+  - evolution: 472
+    evolution_method: 40
+    parameter: RAZORFANG
+  egg_moves: 0a0000002000000054000000580000006f000000950000002501000040010000540100005a01000073010000820100009201000023020000
+  egg_groups: 02000000
+  steps_to_hatch: 5120
+  height: 1.1
+  weight: 64.8
+  color: 7
+  shape: 8
+  habitat: 4
+  regional_dexes: 00000000c1000000
+  kind: Fly Scorpion
+  pokedex_entry: It glides without making a single sound. It grasps the face of its
+    foe using its hind and large front claws, then stabs with its poison barb.
+  wild_item_common: 0
+  wild_item_uncommon: 0
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: 2
+  battler_player_y: 0
+  battler_enemy_x: -2
+  battler_enemy_y: 0
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 2

@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Snorlax
+  m_EditorClassIdentifier: 
+  national_dex: 143
+  types: 0100000000000000
+  base_stats:
+    HP: 160
+    ATK: 110
+    DEF: 65
+    SP_ATK: 65
+    SP_DEF: 110
+    SPD: 30
+  gender_rate: 1
+  growth_rate: 2
+  base_exp: 189
+  effort_values:
+    HP: 2
+    ATK: 0
+    DEF: 0
+    SP_ATK: 0
+    SP_DEF: 0
+    SPD: 0
+  rareness: 25
+  happiness: 70
+  abilities: 3400000091000000
+  hidden_ability: 26000000
+  moves:
+  - level: 1
+    move: 493
+  - level: 4
+    move: 97
+  - level: 9
+    move: 14
+  - level: 12
+    move: 267
+  - level: 17
+    move: 68
+  - level: 20
+    move: 557
+  - level: 25
+    move: 44
+  - level: 28
+    move: 378
+  - level: 28
+    move: 449
+  - level: 33
+    move: 439
+  - level: 35
+    move: 189
+  - level: 36
+    move: 395
+  - level: 41
+    move: 42
+  - level: 44
+    move: 34
+  - level: 49
+    move: 89
+  - level: 50
+    move: 221
+  - level: 57
+    move: 639
+  evolutions: []
+  egg_moves: 090000003202000042000000540000005c0000006f0000009d0000000b0100003b01000062020000680100001f020000
+  egg_groups: 00000000
+  steps_to_hatch: 10240
+  height: 2.1
+  weight: 460
+  color: 5
+  shape: 11
+  habitat: 4
+  regional_dexes: 8f000000e6000000
+  kind: Sleeping
+  pokedex_entry: "Snorlax's typical day consists of nothing more than eating and
+    sleeping. It is such a docile Pok\xE9mon that there are children who use its
+    big belly as a place to play."
+  wild_item_common: 180
+  wild_item_uncommon: 180
+  wild_item_rare: 180
+  form_name: 
+  incense: 0
+  battler_player_x: -1
+  battler_player_y: 0
+  battler_enemy_x: 0
+  battler_enemy_y: 11
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 3

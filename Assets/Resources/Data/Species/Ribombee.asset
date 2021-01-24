@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Ribombee
+  m_EditorClassIdentifier: 
+  national_dex: 743
+  types: 0700000012000000
+  base_stats:
+    HP: 60
+    ATK: 55
+    DEF: 60
+    SP_ATK: 95
+    SP_DEF: 70
+    SPD: 124
+  gender_rate: 3
+  growth_rate: 1
+  base_exp: 162
+  effort_values:
+    HP: 0
+    ATK: 0
+    DEF: 0
+    SP_ATK: 0
+    SP_DEF: 0
+    SPD: 2
+  rareness: 75
+  happiness: 70
+  abilities: 2c00000076000000
+  hidden_ability: bd000000
+  moves:
+  - level: 0
+    move: 652
+  - level: 1
+    move: 652
+  - level: 1
+    move: 1
+  - level: 1
+    move: 576
+  - level: 1
+    move: 475
+  - level: 1
+    move: 473
+  - level: 4
+    move: 576
+  - level: 7
+    move: 475
+  - level: 10
+    move: 473
+  - level: 13
+    move: 426
+  - level: 16
+    move: 571
+  - level: 21
+    move: 487
+  - level: 28
+    move: 56
+  - level: 35
+    move: 567
+  - level: 42
+    move: 20
+  - level: 49
+    move: 364
+  evolutions: []
+  egg_moves: 
+  egg_groups: 0200000005000000
+  steps_to_hatch: 5120
+  height: 0.2
+  weight: 0.5
+  color: 3
+  shape: 12
+  habitat: 0
+  regional_dexes: 
+  kind: Bee Fly
+  pokedex_entry: Rain makes pollen damp, so Ribombee hates rain. When it sees ominous
+    clouds, it finds a hollow in a tree, where it waits stock-still.
+  wild_item_common: 0
+  wild_item_uncommon: 155
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: 0
+  battler_player_y: 0
+  battler_enemy_x: 0
+  battler_enemy_y: 0
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 2

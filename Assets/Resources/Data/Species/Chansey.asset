@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Chansey
+  m_EditorClassIdentifier: 
+  national_dex: 113
+  types: 0100000000000000
+  base_stats:
+    HP: 250
+    ATK: 5
+    DEF: 5
+    SP_ATK: 35
+    SP_DEF: 105
+    SPD: 50
+  gender_rate: 6
+  growth_rate: 0
+  base_exp: 395
+  effort_values:
+    HP: 2
+    ATK: 0
+    DEF: 0
+    SP_ATK: 0
+    SP_DEF: 0
+    SPD: 0
+  rareness: 30
+  happiness: 140
+  abilities: 5200000071000000
+  hidden_ability: 29000000
+  moves:
+  - level: 1
+    move: 97
+  - level: 1
+    move: 111
+  - level: 1
+    move: 196
+  - level: 1
+    move: 341
+  - level: 5
+    move: 496
+  - level: 9
+    move: 376
+  - level: 12
+    move: 109
+  - level: 16
+    move: 451
+  - level: 20
+    move: 35
+  - level: 23
+    move: 300
+  - level: 27
+    move: 498
+  - level: 31
+    move: 428
+  - level: 35
+    move: 167
+  - level: 39
+    move: 215
+  - level: 44
+    move: 129
+  - level: 50
+    move: 268
+  - level: 57
+    move: 216
+  - level: 65
+    move: 111
+  evolutions:
+  - evolution: 242
+    evolution_method: 26
+    parameter: 
+  egg_moves: 140000005400000088000000c3000000d4000000de00000028010000350100003b0100005c0100009d010000
+  egg_groups: 05000000
+  steps_to_hatch: 10240
+  height: 1.1
+  weight: 34.6
+  color: 10
+  shape: 5
+  habitat: 8
+  regional_dexes: 71000000de000000
+  kind: Egg
+  pokedex_entry: Chansey lay nutritionally excellent eggs every day. The eggs are
+    so delicious, they are eagerly devoured by even those who have lost their appetite.
+  wild_item_common: 191
+  wild_item_uncommon: 0
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: -1
+  battler_player_y: 0
+  battler_enemy_x: 1
+  battler_enemy_y: 19
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 2

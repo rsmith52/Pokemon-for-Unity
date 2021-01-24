@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Klefki
+  m_EditorClassIdentifier: 
+  national_dex: 707
+  types: 0900000012000000
+  base_stats:
+    HP: 57
+    ATK: 80
+    DEF: 91
+    SP_ATK: 80
+    SP_DEF: 87
+    SPD: 75
+  gender_rate: 3
+  growth_rate: 0
+  base_exp: 165
+  effort_values:
+    HP: 0
+    ATK: 0
+    DEF: 1
+    SP_ATK: 0
+    SP_DEF: 0
+    SPD: 0
+  rareness: 75
+  happiness: 70
+  abilities: 5f000000
+  hidden_ability: b4000000
+  moves:
+  - level: 1
+    move: 575
+  - level: 1
+    move: 493
+  - level: 5
+    move: 576
+  - level: 8
+    move: 23
+  - level: 12
+    move: 294
+  - level: 15
+    move: 458
+  - level: 18
+    move: 571
+  - level: 23
+    move: 566
+  - level: 27
+    move: 175
+  - level: 32
+    move: 513
+  - level: 34
+    move: 304
+  - level: 36
+    move: 247
+  - level: 40
+    move: 373
+  - level: 43
+    move: 608
+  - level: 44
+    move: 278
+  - level: 50
+    move: 213
+  evolutions: []
+  egg_moves: fb0000000d010000e9010000f8010000
+  egg_groups: 09000000
+  steps_to_hatch: 5120
+  height: 0.2
+  weight: 3
+  color: 8
+  shape: 0
+  habitat: 0
+  regional_dexes: 
+  kind: Key Ring
+  pokedex_entry: It never lets go of a key that it likes, so people give it the keys
+    to vaults and safes as a way to prevent crime.
+  wild_item_common: 0
+  wild_item_uncommon: 0
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: 0
+  battler_player_y: 0
+  battler_enemy_x: 0
+  battler_enemy_y: 0
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 2

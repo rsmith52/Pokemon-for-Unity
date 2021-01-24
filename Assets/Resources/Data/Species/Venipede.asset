@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Venipede
+  m_EditorClassIdentifier: 
+  national_dex: 543
+  types: 0700000004000000
+  base_stats:
+    HP: 30
+    ATK: 45
+    DEF: 59
+    SP_ATK: 30
+    SP_DEF: 39
+    SPD: 57
+  gender_rate: 3
+  growth_rate: 3
+  base_exp: 52
+  effort_values:
+    HP: 0
+    ATK: 0
+    DEF: 1
+    SP_ATK: 0
+    SP_DEF: 0
+    SPD: 0
+  rareness: 255
+  happiness: 70
+  abilities: 5d0000008a000000
+  hidden_ability: 80000000
+  moves:
+  - level: 1
+    move: 97
+  - level: 1
+    move: 395
+  - level: 5
+    move: 339
+  - level: 8
+    move: 407
+  - level: 12
+    move: 360
+  - level: 15
+    move: 349
+  - level: 19
+    move: 340
+  - level: 22
+    move: 55
+  - level: 26
+    move: 528
+  - level: 29
+    move: 10
+  - level: 33
+    move: 464
+  - level: 36
+    move: 515
+  - level: 38
+    move: 620
+  - level: 40
+    move: 386
+  - level: 43
+    move: 111
+  evolutions:
+  - evolution: 544
+    evolution_method: 1
+    parameter: 22
+  egg_moves: 4d01000082010000ca010000f2010000020200000a020000
+  egg_groups: 02000000
+  steps_to_hatch: 3840
+  height: 0.4
+  weight: 5.3
+  color: 1
+  shape: 13
+  habitat: 0
+  regional_dexes: 
+  kind: Centipede
+  pokedex_entry: It discovers what is going on around it by using the feelers on
+    its head and tail. It is brutally aggresive.
+  wild_item_common: 0
+  wild_item_uncommon: 252
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: -3
+  battler_player_y: 0
+  battler_enemy_x: 2
+  battler_enemy_y: 34
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 2

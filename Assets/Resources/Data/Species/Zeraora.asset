@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Zeraora
+  m_EditorClassIdentifier: 
+  national_dex: 807
+  types: 0d00000000000000
+  base_stats:
+    HP: 88
+    ATK: 112
+    DEF: 75
+    SP_ATK: 102
+    SP_DEF: 80
+    SPD: 143
+  gender_rate: 7
+  growth_rate: 2
+  base_exp: 270
+  effort_values:
+    HP: 0
+    ATK: 0
+    DEF: 0
+    SP_ATK: 0
+    SP_DEF: 0
+    SPD: 3
+  rareness: 3
+  happiness: 0
+  abilities: 9d000000
+  hidden_ability: 
+  moves:
+  - level: 1
+    move: 406
+  - level: 1
+    move: 455
+  - level: 5
+    move: 226
+  - level: 8
+    move: 362
+  - level: 12
+    move: 182
+  - level: 15
+    move: 532
+  - level: 19
+    move: 447
+  - level: 22
+    move: 144
+  - level: 26
+    move: 65
+  - level: 29
+    move: 507
+  - level: 33
+    move: 437
+  - level: 36
+    move: 545
+  - level: 40
+    move: 363
+  - level: 43
+    move: 651
+  - level: 47
+    move: 72
+  - level: 50
+    move: 103
+  evolutions: []
+  egg_moves: 
+  egg_groups: 0e000000
+  steps_to_hatch: 30720
+  height: 1.5
+  weight: 44.5
+  color: 3
+  shape: 11
+  habitat: 0
+  regional_dexes: 
+  kind: Thunderclap
+  pokedex_entry: It approaches its enemies at the speed of lightning, then tears
+    them limb from limb with its sharp claws.
+  wild_item_common: 0
+  wild_item_uncommon: 0
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: 0
+  battler_player_y: 0
+  battler_enemy_x: 0
+  battler_enemy_y: 0
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 2

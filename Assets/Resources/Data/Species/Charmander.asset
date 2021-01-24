@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Charmander
+  m_EditorClassIdentifier: 
+  national_dex: 4
+  types: 0a00000000000000
+  base_stats:
+    HP: 39
+    ATK: 52
+    DEF: 43
+    SP_ATK: 60
+    SP_DEF: 50
+    SPD: 65
+  gender_rate: 1
+  growth_rate: 3
+  base_exp: 62
+  effort_values:
+    HP: 0
+    ATK: 0
+    DEF: 0
+    SP_ATK: 0
+    SP_DEF: 0
+    SPD: 1
+  rareness: 45
+  happiness: 70
+  abilities: 0b000000
+  hidden_ability: 7d000000
+  moves:
+  - level: 1
+    move: 406
+  - level: 1
+    move: 196
+  - level: 7
+    move: 133
+  - level: 10
+    move: 446
+  - level: 16
+    move: 117
+  - level: 19
+    move: 405
+  - level: 25
+    move: 153
+  - level: 28
+    move: 159
+  - level: 34
+    move: 437
+  - level: 37
+    move: 162
+  - level: 43
+    move: 156
+  - level: 46
+    move: 249
+  evolutions:
+  - evolution: 5
+    evolution_method: 1
+    parameter: 16
+  egg_moves: 0b0000000f0000002100000022000000260000005400000059000000730000007400000076000000a3000000ab0000002501000045010000
+  egg_groups: 000000000d000000
+  steps_to_hatch: 5120
+  height: 0.6
+  weight: 8.5
+  color: 1
+  shape: 5
+  habitat: 4
+  regional_dexes: 04000000ea000000
+  kind: Lizard
+  pokedex_entry: The flame that burns at the tip of its tail is an indication of
+    its emotions. The flame wavers when Charmander is happy, and blazes when it is
+    enraged.
+  wild_item_common: 0
+  wild_item_uncommon: 0
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: -6
+  battler_player_y: 0
+  battler_enemy_x: 4
+  battler_enemy_y: 19
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 1

@@ -1,0 +1,104 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Aggron
+  m_EditorClassIdentifier: 
+  national_dex: 306
+  types: 0900000006000000
+  base_stats:
+    HP: 70
+    ATK: 110
+    DEF: 180
+    SP_ATK: 60
+    SP_DEF: 60
+    SPD: 50
+  gender_rate: 3
+  growth_rate: 2
+  base_exp: 239
+  effort_values:
+    HP: 0
+    ATK: 0
+    DEF: 3
+    SP_ATK: 0
+    SP_DEF: 0
+    SPD: 0
+  rareness: 45
+  happiness: 35
+  abilities: 8700000068000000
+  hidden_ability: 2b000000
+  moves:
+  - level: 1
+    move: 493
+  - level: 1
+    move: 207
+  - level: 1
+    move: 312
+  - level: 1
+    move: 211
+  - level: 4
+    move: 312
+  - level: 7
+    move: 211
+  - level: 10
+    move: 293
+  - level: 13
+    move: 391
+  - level: 16
+    move: 349
+  - level: 19
+    move: 384
+  - level: 22
+    move: 252
+  - level: 25
+    move: 388
+  - level: 28
+    move: 498
+  - level: 31
+    move: 294
+  - level: 35
+    move: 253
+  - level: 39
+    move: 251
+  - level: 45
+    move: 111
+  - level: 51
+    move: 28
+  - level: 57
+    move: 221
+  - level: 63
+    move: 292
+  evolutions: []
+  egg_moves: 
+  egg_groups: 00000000
+  steps_to_hatch: 8960
+  height: 2.1
+  weight: 360
+  color: 8
+  shape: 5
+  habitat: 4
+  regional_dexes: 
+  kind: Iron Armor
+  pokedex_entry: Its iron horns grow longer a little at a time. They are used to
+    determine the Aggron's age. The gouges in its armor are worn with pride as mementos
+    from battles.
+  wild_item_common: 0
+  wild_item_uncommon: 145
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: 7
+  battler_player_y: 0
+  battler_enemy_x: -2
+  battler_enemy_y: 10
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 3

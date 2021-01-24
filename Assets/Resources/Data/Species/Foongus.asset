@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Foongus
+  m_EditorClassIdentifier: 
+  national_dex: 590
+  types: 0c00000004000000
+  base_stats:
+    HP: 69
+    ATK: 55
+    DEF: 45
+    SP_ATK: 55
+    SP_DEF: 55
+    SPD: 15
+  gender_rate: 3
+  growth_rate: 1
+  base_exp: 59
+  effort_values:
+    HP: 1
+    ATK: 0
+    DEF: 0
+    SP_ATK: 0
+    SP_DEF: 0
+    SPD: 0
+  rareness: 190
+  happiness: 70
+  abilities: 1c000000
+  hidden_ability: 66000000
+  moves:
+  - level: 1
+    move: 1
+  - level: 6
+    move: 197
+  - level: 8
+    move: 23
+  - level: 12
+    move: 36
+  - level: 15
+    move: 287
+  - level: 18
+    move: 250
+  - level: 20
+    move: 148
+  - level: 24
+    move: 487
+  - level: 28
+    move: 188
+  - level: 32
+    move: 515
+  - level: 35
+    move: 492
+  - level: 39
+    move: 71
+  - level: 43
+    move: 452
+  - level: 45
+    move: 365
+  - level: 50
+    move: 462
+  evolutions:
+  - evolution: 591
+    evolution_method: 1
+    parameter: 39
+  egg_moves: 2c0000006100000088000000ba000000c5000000520100008b010000db010000
+  egg_groups: 06000000
+  steps_to_hatch: 5120
+  height: 0.2
+  weight: 1
+  color: 9
+  shape: 3
+  habitat: 0
+  regional_dexes: 
+  kind: Mushroom
+  pokedex_entry: "For some reason, this Pok\xE9mon resembles a Pok\xE9 Ball. They
+    release poison spores to repel those who try to catch them."
+  wild_item_common: 375
+  wild_item_uncommon: 19
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: 0
+  battler_player_y: 0
+  battler_enemy_x: 1
+  battler_enemy_y: 32
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 1

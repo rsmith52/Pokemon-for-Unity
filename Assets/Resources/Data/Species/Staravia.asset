@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Staravia
+  m_EditorClassIdentifier: 
+  national_dex: 397
+  types: 0100000003000000
+  base_stats:
+    HP: 55
+    ATK: 75
+    DEF: 50
+    SP_ATK: 40
+    SP_DEF: 40
+    SPD: 80
+  gender_rate: 3
+  growth_rate: 3
+  base_exp: 119
+  effort_values:
+    HP: 0
+    ATK: 0
+    DEF: 0
+    SP_ATK: 0
+    SP_DEF: 0
+    SPD: 2
+  rareness: 120
+  happiness: 70
+  abilities: 39000000
+  hidden_ability: 65000000
+  moves:
+  - level: 1
+    move: 493
+  - level: 1
+    move: 196
+  - level: 1
+    move: 362
+  - level: 5
+    move: 362
+  - level: 9
+    move: 547
+  - level: 13
+    move: 110
+  - level: 18
+    move: 135
+  - level: 23
+    move: 543
+  - level: 28
+    move: 7
+  - level: 33
+    move: 498
+  - level: 38
+    move: 10
+  - level: 43
+    move: 50
+  - level: 48
+    move: 151
+  evolutions:
+  - evolution: 398
+    evolution_method: 1
+    parameter: 34
+  egg_moves: 
+  egg_groups: 03000000
+  steps_to_hatch: 3840
+  height: 0.6
+  weight: 15.5
+  color: 6
+  shape: 8
+  habitat: 0
+  regional_dexes: 
+  kind: Starling
+  pokedex_entry: "It flies around forests and fields in search of bug Pok\xE9mon.
+    It stays within a huge flock."
+  wild_item_common: 0
+  wild_item_uncommon: 0
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: -3
+  battler_player_y: 0
+  battler_enemy_x: 2
+  battler_enemy_y: 17
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 2

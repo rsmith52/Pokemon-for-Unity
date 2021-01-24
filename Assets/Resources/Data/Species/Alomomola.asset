@@ -1,0 +1,109 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Alomomola
+  m_EditorClassIdentifier: 
+  national_dex: 594
+  types: 0b00000000000000
+  base_stats:
+    HP: 165
+    ATK: 75
+    DEF: 80
+    SP_ATK: 40
+    SP_DEF: 45
+    SPD: 65
+  gender_rate: 3
+  growth_rate: 0
+  base_exp: 165
+  effort_values:
+    HP: 2
+    ATK: 0
+    DEF: 0
+    SP_ATK: 0
+    SP_DEF: 0
+    SPD: 0
+  rareness: 75
+  happiness: 70
+  abilities: 290000002f000000
+  hidden_ability: 66000000
+  moves:
+  - level: 1
+    move: 607
+  - level: 1
+    move: 233
+  - level: 1
+    move: 544
+  - level: 1
+    move: 216
+  - level: 1
+    move: 222
+  - level: 1
+    move: 341
+  - level: 1
+    move: 538
+  - level: 5
+    move: 17
+  - level: 9
+    move: 16
+  - level: 13
+    move: 109
+  - level: 17
+    move: 215
+  - level: 21
+    move: 349
+  - level: 25
+    move: 537
+  - level: 29
+    move: 534
+  - level: 33
+    move: 450
+  - level: 37
+    move: 548
+  - level: 41
+    move: 52
+  - level: 45
+    move: 400
+  - level: 49
+    move: 542
+  - level: 53
+    move: 222
+  - level: 57
+    move: 216
+  - level: 61
+    move: 544
+  - level: 65
+    move: 233
+  evolutions: []
+  egg_moves: 880000002e01000032010000470100007801000000020000
+  egg_groups: 010000000b000000
+  steps_to_hatch: 10240
+  height: 1.2
+  weight: 31.6
+  color: 10
+  shape: 2
+  habitat: 0
+  regional_dexes: 
+  kind: Caring
+  pokedex_entry: "Floating in the open sea is how they live. When they find a wounded
+    Pok\xE9mon, they embrace it and bring it to shore."
+  wild_item_common: 0
+  wild_item_uncommon: 0
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: -2
+  battler_player_y: 0
+  battler_enemy_x: 0
+  battler_enemy_y: 4
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 1

@@ -1,0 +1,107 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 253d169095ab8450397d87b75daa8002, type: 3}
+  m_Name: Lycanroc_2
+  m_EditorClassIdentifier: 
+  base_species: 745
+  form_name: Dusk Form
+  form_id: 2
+  types: 
+  base_stats:
+    HP: 75
+    ATK: 117
+    DEF: 65
+    SP_ATK: 55
+    SP_DEF: 65
+    SPD: 110
+  base_exp: 0
+  effort_values:
+    HP: 0
+    ATK: 0
+    DEF: 0
+    SP_ATK: 0
+    SP_DEF: 0
+    SPD: 0
+  rareness: 0
+  happiness: 0
+  abilities: bf000000
+  hidden_ability: bf000000
+  moves:
+  - level: 0
+    move: 505
+  - level: 1
+    move: 505
+  - level: 1
+    move: 622
+  - level: 1
+    move: 84
+  - level: 1
+    move: 493
+  - level: 1
+    move: 266
+  - level: 1
+    move: 401
+  - level: 1
+    move: 38
+  - level: 4
+    move: 401
+  - level: 7
+    move: 38
+  - level: 12
+    move: 230
+  - level: 15
+    move: 390
+  - level: 18
+    move: 323
+  - level: 23
+    move: 391
+  - level: 26
+    move: 384
+  - level: 29
+    move: 463
+  - level: 34
+    move: 388
+  - level: 37
+    move: 405
+  - level: 40
+    move: 89
+  - level: 45
+    move: 386
+  - level: 48
+    move: 468
+  evolutions: []
+  egg_moves: 
+  egg_groups: 
+  steps_to_hatch: 0
+  height: 0
+  weight: 0
+  color: 0
+  shape: 0
+  habitat: 0
+  kind: 
+  pokedex_entry: Bathed in the setting sun of evening, Lycanroc has undergone a special
+    kind of evolution. An intense fighting spirit underlies its calmness.
+  wild_item_common: 0
+  wild_item_uncommon: 0
+  wild_item_rare: 0
+  battler_player_x: 0
+  battler_player_y: 0
+  battler_enemy_x: 0
+  battler_enemy_y: 0
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 0
+  mega_stone: 0
+  mega_move: 0
+  mega_message: 
+  unmega_form_id: 0
+  pokedex_form_id: 0

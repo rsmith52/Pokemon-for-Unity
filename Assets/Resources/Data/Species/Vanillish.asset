@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Vanillish
+  m_EditorClassIdentifier: 
+  national_dex: 583
+  types: 0f00000000000000
+  base_stats:
+    HP: 51
+    ATK: 65
+    DEF: 65
+    SP_ATK: 80
+    SP_DEF: 75
+    SPD: 59
+  gender_rate: 3
+  growth_rate: 2
+  base_exp: 138
+  effort_values:
+    HP: 0
+    ATK: 0
+    DEF: 0
+    SP_ATK: 2
+    SP_DEF: 0
+    SPD: 0
+  rareness: 120
+  happiness: 70
+  abilities: 310000007b000000
+  hidden_ability: a0000000
+  moves:
+  - level: 1
+    move: 245
+  - level: 1
+    move: 207
+  - level: 1
+    move: 23
+  - level: 1
+    move: 525
+  - level: 4
+    move: 207
+  - level: 7
+    move: 23
+  - level: 10
+    move: 525
+  - level: 13
+    move: 246
+  - level: 16
+    move: 306
+  - level: 19
+    move: 29
+  - level: 22
+    move: 499
+  - level: 26
+    move: 304
+  - level: 31
+    move: 2
+  - level: 36
+    move: 239
+  - level: 42
+    move: 205
+  - level: 47
+    move: 302
+  - level: 53
+    move: 41
+  - level: 58
+    move: 421
+  evolutions:
+  - evolution: 584
+    evolution_method: 1
+    parameter: 47
+  egg_moves: 
+  egg_groups: 09000000
+  steps_to_hatch: 5120
+  height: 1.1
+  weight: 41
+  color: 9
+  shape: 4
+  habitat: 0
+  regional_dexes: 
+  kind: Icy Snow
+  pokedex_entry: It conceals itself from enemy eyes by creating many small ice particles
+    and hiding among them.
+  wild_item_common: 0
+  wild_item_uncommon: 225
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: 1
+  battler_player_y: 0
+  battler_enemy_x: 0
+  battler_enemy_y: 8
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 2

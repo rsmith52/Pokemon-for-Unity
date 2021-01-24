@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Wooper
+  m_EditorClassIdentifier: 
+  national_dex: 194
+  types: 0b00000005000000
+  base_stats:
+    HP: 55
+    ATK: 45
+    DEF: 45
+    SP_ATK: 25
+    SP_DEF: 25
+    SPD: 15
+  gender_rate: 3
+  growth_rate: 1
+  base_exp: 42
+  effort_values:
+    HP: 1
+    ATK: 0
+    DEF: 0
+    SP_ATK: 0
+    SP_DEF: 0
+    SPD: 0
+  rareness: 255
+  happiness: 70
+  abilities: 140000009e000000
+  hidden_ability: 98000000
+  moves:
+  - level: 1
+    move: 535
+  - level: 1
+    move: 496
+  - level: 5
+    move: 311
+  - level: 9
+    move: 310
+  - level: 15
+    move: 436
+  - level: 19
+    move: 309
+  - level: 23
+    move: 14
+  - level: 29
+    move: 557
+  - level: 33
+    move: 127
+  - level: 37
+    move: 367
+  - level: 43
+    move: 306
+  - level: 43
+    move: 208
+  - level: 47
+    move: 313
+  evolutions:
+  - evolution: 195
+    evolution_method: 1
+    parameter: 20
+  egg_moves: 03000000090000000f0000002c000000540000005c0000006c0000003c02000086000000c8000000370100006202000074010000b7010000cb010000d2010000e5010000
+  egg_groups: 0100000004000000
+  steps_to_hatch: 5120
+  height: 0.4
+  weight: 8.5
+  color: 2
+  shape: 6
+  habitat: 9
+  regional_dexes: 0000000038000000
+  kind: Water Fish
+  pokedex_entry: Wooper usually live in water but come out onto land seeking food
+    occasionally. On land, they coat their bodies with a gooey, toxic film.
+  wild_item_common: 0
+  wild_item_uncommon: 0
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: 0
+  battler_player_y: 0
+  battler_enemy_x: -1
+  battler_enemy_y: 25
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 1

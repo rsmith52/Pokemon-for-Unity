@@ -1,0 +1,104 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Mawile
+  m_EditorClassIdentifier: 
+  national_dex: 303
+  types: 0900000012000000
+  base_stats:
+    HP: 50
+    ATK: 85
+    DEF: 85
+    SP_ATK: 55
+    SP_DEF: 55
+    SPD: 50
+  gender_rate: 3
+  growth_rate: 0
+  base_exp: 133
+  effort_values:
+    HP: 0
+    ATK: 1
+    DEF: 1
+    SP_ATK: 0
+    SP_DEF: 0
+    SPD: 0
+  rareness: 45
+  happiness: 70
+  abilities: 3000000039000000
+  hidden_ability: 74000000
+  moves:
+  - level: 1
+    move: 608
+  - level: 1
+    move: 252
+  - level: 1
+    move: 499
+  - level: 1
+    move: 196
+  - level: 1
+    move: 576
+  - level: 1
+    move: 23
+  - level: 5
+    move: 145
+  - level: 9
+    move: 38
+  - level: 13
+    move: 487
+  - level: 17
+    move: 529
+  - level: 21
+    move: 148
+  - level: 25
+    move: 32
+  - level: 29
+    move: 89
+  - level: 33
+    move: 251
+  - level: 37
+    move: 478
+  - level: 41
+    move: 466
+  - level: 41
+    move: 485
+  - level: 41
+    move: 459
+  - level: 45
+    move: 252
+  - level: 49
+    move: 608
+  evolutions: []
+  egg_moves: 0f0000003f00000099000000c8000000f100000024010000540200004f01000062020000670100009d010000b4010000de010000fa01000000020000
+  egg_groups: 0400000005000000
+  steps_to_hatch: 5120
+  height: 0.6
+  weight: 11.5
+  color: 5
+  shape: 11
+  habitat: 1
+  regional_dexes: 
+  kind: Deceiver
+  pokedex_entry: Its giant jaws are actually steel horns that transformed. It fools
+    foes into complacency with its adorable gestures, then chomps them with its huge
+    jaws.
+  wild_item_common: 0
+  wild_item_uncommon: 164
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: 2
+  battler_player_y: 0
+  battler_enemy_x: -1
+  battler_enemy_y: 17
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 3

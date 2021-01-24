@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Psyduck
+  m_EditorClassIdentifier: 
+  national_dex: 54
+  types: 0b00000000000000
+  base_stats:
+    HP: 50
+    ATK: 52
+    DEF: 48
+    SP_ATK: 65
+    SP_DEF: 50
+    SPD: 55
+  gender_rate: 3
+  growth_rate: 1
+  base_exp: 64
+  effort_values:
+    HP: 0
+    ATK: 0
+    DEF: 0
+    SP_ATK: 1
+    SP_DEF: 0
+    SPD: 0
+  rareness: 190
+  happiness: 70
+  abilities: 140000000e000000
+  hidden_ability: 8b000000
+  moves:
+  - level: 1
+    move: 538
+  - level: 1
+    move: 406
+  - level: 4
+    move: 496
+  - level: 7
+    move: 535
+  - level: 10
+    move: 76
+  - level: 13
+    move: 182
+  - level: 16
+    move: 537
+  - level: 19
+    move: 102
+  - level: 22
+    move: 407
+  - level: 25
+    move: 559
+  - level: 28
+    move: 18
+  - level: 31
+    move: 450
+  - level: 34
+    move: 351
+  - level: 37
+    move: 14
+  - level: 40
+    move: 233
+  - level: 43
+    move: 550
+  evolutions:
+  - evolution: 55
+    evolution_method: 1
+    parameter: 33
+  egg_moves: 470000004b0000005700000086000000ae000000b9000000ed000000350100005e0100007801000099010000ab010000b7010000eb0100002d020000
+  egg_groups: 0100000004000000
+  steps_to_hatch: 5120
+  height: 0.8
+  weight: 19.6
+  color: 3
+  shape: 5
+  habitat: 9
+  regional_dexes: 360000008c000000
+  kind: Duck
+  pokedex_entry: When its headache intensifies, it starts using strange powers. However,
+    it has no recollection of its powers, so it always looks befuddled and bewildered.
+  wild_item_common: 0
+  wild_item_uncommon: 0
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: 0
+  battler_player_y: 0
+  battler_enemy_x: 1
+  battler_enemy_y: 20
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 2

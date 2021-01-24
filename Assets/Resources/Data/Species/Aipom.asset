@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Aipom
+  m_EditorClassIdentifier: 
+  national_dex: 190
+  types: 0100000000000000
+  base_stats:
+    HP: 55
+    ATK: 70
+    DEF: 55
+    SP_ATK: 40
+    SP_DEF: 55
+    SPD: 85
+  gender_rate: 3
+  growth_rate: 0
+  base_exp: 72
+  effort_values:
+    HP: 0
+    ATK: 0
+    DEF: 0
+    SP_ATK: 0
+    SP_DEF: 0
+    SPD: 1
+  rareness: 45
+  happiness: 70
+  abilities: 6a0000005a000000
+  hidden_ability: 78000000
+  moves:
+  - level: 1
+    move: 406
+  - level: 1
+    move: 496
+  - level: 4
+    move: 401
+  - level: 8
+    move: 23
+  - level: 11
+    move: 32
+  - level: 15
+    move: 512
+  - level: 18
+    move: 182
+  - level: 22
+    move: 488
+  - level: 25
+    move: 407
+  - level: 29
+    move: 10
+  - level: 32
+    move: 107
+  - level: 36
+    move: 167
+  - level: 39
+    move: 314
+  - level: 43
+    move: 259
+  evolutions:
+  - evolution: 424
+    evolution_method: 42
+    parameter: DOUBLEHIT
+  egg_moves: 0a000000210000003100000054000000550000006d00000090000000680100006b0100007d01000097010000b4010000cc010000e9010000ef010000
+  egg_groups: 04000000
+  steps_to_hatch: 5120
+  height: 0.8
+  weight: 11.5
+  color: 7
+  shape: 5
+  habitat: 2
+  regional_dexes: 000000007b000000
+  kind: Long Tail
+  pokedex_entry: Its tail ends with a dexterous, handlike appendage. However, because
+    it uses the tail so much, Aipom's real hands have become rather clumsy.
+  wild_item_common: 0
+  wild_item_uncommon: 0
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: -11
+  battler_player_y: 0
+  battler_enemy_x: 0
+  battler_enemy_y: 15
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 1

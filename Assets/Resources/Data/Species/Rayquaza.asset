@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Rayquaza
+  m_EditorClassIdentifier: 
+  national_dex: 384
+  types: 1000000003000000
+  base_stats:
+    HP: 105
+    ATK: 150
+    DEF: 90
+    SP_ATK: 150
+    SP_DEF: 90
+    SPD: 95
+  gender_rate: 7
+  growth_rate: 2
+  base_exp: 306
+  effort_values:
+    HP: 0
+    ATK: 2
+    DEF: 0
+    SP_ATK: 1
+    SP_DEF: 0
+    SPD: 0
+  rareness: 45
+  happiness: 0
+  abilities: 03000000
+  hidden_ability: 
+  moves:
+  - level: 1
+    move: 523
+  - level: 5
+    move: 405
+  - level: 15
+    move: 15
+  - level: 20
+    move: 89
+  - level: 30
+    move: 12
+  - level: 35
+    move: 378
+  - level: 45
+    move: 142
+  - level: 50
+    move: 116
+  - level: 60
+    move: 115
+  - level: 65
+    move: 168
+  - level: 75
+    move: 236
+  - level: 80
+    move: 325
+  - level: 90
+    move: 234
+  evolutions: []
+  egg_moves: 
+  egg_groups: 0e000000
+  steps_to_hatch: 30720
+  height: 7
+  weight: 206.5
+  color: 4
+  shape: 1
+  habitat: 5
+  regional_dexes: 
+  kind: Sky High
+  pokedex_entry: "A Pok\xE9mon that flies endlessly in the ozone layer. It is said
+    it would descend to the ground if Kyogre and Groudon were to fight."
+  wild_item_common: 0
+  wild_item_uncommon: 0
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: 4
+  battler_player_y: 0
+  battler_enemy_x: -3
+  battler_enemy_y: -3
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 3

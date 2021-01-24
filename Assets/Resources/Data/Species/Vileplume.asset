@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Vileplume
+  m_EditorClassIdentifier: 
+  national_dex: 45
+  types: 0c00000004000000
+  base_stats:
+    HP: 75
+    ATK: 80
+    DEF: 85
+    SP_ATK: 110
+    SP_DEF: 90
+    SPD: 50
+  gender_rate: 3
+  growth_rate: 3
+  base_exp: 221
+  effort_values:
+    HP: 0
+    ATK: 0
+    DEF: 0
+    SP_ATK: 3
+    SP_DEF: 0
+    SPD: 0
+  rareness: 45
+  happiness: 70
+  abilities: 0c000000
+  hidden_ability: 1c000000
+  moves:
+  - level: 1
+    move: 287
+  - level: 1
+    move: 20
+  - level: 1
+    move: 338
+  - level: 1
+    move: 475
+  - level: 49
+    move: 605
+  - level: 59
+    move: 332
+  - level: 69
+    move: 452
+  evolutions: []
+  egg_moves: 
+  egg_groups: 06000000
+  steps_to_hatch: 5120
+  height: 1.2
+  weight: 18.6
+  color: 1
+  shape: 11
+  habitat: 3
+  regional_dexes: 2d00000055000000
+  kind: Flower
+  pokedex_entry: In seasons when it produces more pollen, the air around a Vileplume
+    turns yellow with the powder as it walks. The pollen is highly toxic and causes
+    paralysis.
+  wild_item_common: 0
+  wild_item_uncommon: 2
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: 0
+  battler_player_y: 0
+  battler_enemy_x: 3
+  battler_enemy_y: 16
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 3

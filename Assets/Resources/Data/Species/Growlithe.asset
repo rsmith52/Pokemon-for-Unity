@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Growlithe
+  m_EditorClassIdentifier: 
+  national_dex: 58
+  types: 0a00000000000000
+  base_stats:
+    HP: 55
+    ATK: 70
+    DEF: 45
+    SP_ATK: 70
+    SP_DEF: 50
+    SPD: 60
+  gender_rate: 2
+  growth_rate: 2
+  base_exp: 70
+  effort_values:
+    HP: 0
+    ATK: 1
+    DEF: 0
+    SP_ATK: 0
+    SP_DEF: 0
+    SPD: 0
+  rareness: 190
+  happiness: 70
+  abilities: 3900000020000000
+  hidden_ability: 3c000000
+  moves:
+  - level: 1
+    move: 38
+  - level: 1
+    move: 384
+  - level: 6
+    move: 133
+  - level: 8
+    move: 266
+  - level: 10
+    move: 323
+  - level: 12
+    move: 222
+  - level: 17
+    move: 161
+  - level: 19
+    move: 382
+  - level: 21
+    move: 153
+  - level: 23
+    move: 498
+  - level: 28
+    move: 159
+  - level: 30
+    move: 10
+  - level: 32
+    move: 379
+  - level: 34
+    move: 162
+  - level: 39
+    move: 89
+  - level: 41
+    move: 220
+  - level: 43
+    move: 325
+  - level: 45
+    move: 163
+  evolutions:
+  - evolution: 59
+    evolution_method: 47
+    parameter: FIRESTONE
+  egg_moves: 2c000000740200004800000055000000590000006f0000006c0000009c000000a3000000dc000000e6000000fd00000034010000f9010000
+  egg_groups: 04000000
+  steps_to_hatch: 5120
+  height: 0.7
+  weight: 19
+  color: 6
+  shape: 7
+  habitat: 3
+  regional_dexes: 3a00000081000000
+  kind: Puppy
+  pokedex_entry: "Its superb sense of smell ensures that this Pok\xE9mon won't forget
+    any scent, no matter what. It uses its sense of smell to detect the emotions
+    of others."
+  wild_item_common: 0
+  wild_item_uncommon: 0
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: -4
+  battler_player_y: 0
+  battler_enemy_x: 3
+  battler_enemy_y: 18
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 2

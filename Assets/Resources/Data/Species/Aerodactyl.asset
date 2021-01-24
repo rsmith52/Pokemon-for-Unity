@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Aerodactyl
+  m_EditorClassIdentifier: 
+  national_dex: 142
+  types: 0600000003000000
+  base_stats:
+    HP: 80
+    ATK: 105
+    DEF: 65
+    SP_ATK: 60
+    SP_DEF: 75
+    SPD: 130
+  gender_rate: 1
+  growth_rate: 2
+  base_exp: 180
+  effort_values:
+    HP: 0
+    ATK: 0
+    DEF: 0
+    SP_ATK: 0
+    SP_DEF: 0
+    SPD: 2
+  rareness: 45
+  happiness: 70
+  abilities: 6800000060000000
+  hidden_ability: 9a000000
+  moves:
+  - level: 1
+    move: 252
+  - level: 1
+    move: 241
+  - level: 1
+    move: 153
+  - level: 1
+    move: 506
+  - level: 1
+    move: 547
+  - level: 1
+    move: 482
+  - level: 1
+    move: 38
+  - level: 1
+    move: 405
+  - level: 9
+    move: 384
+  - level: 17
+    move: 10
+  - level: 25
+    move: 15
+  - level: 33
+    move: 89
+  - level: 41
+    move: 498
+  - level: 49
+    move: 433
+  - level: 57
+    move: 252
+  - level: 65
+    move: 234
+  - level: 73
+    move: 388
+  - level: 81
+    move: 189
+  evolutions: []
+  egg_moves: 160000005c00000071000000ae000000680100008c010000d1010000f10100001f02000020020000
+  egg_groups: 03000000
+  steps_to_hatch: 8960
+  height: 1.8
+  weight: 59
+  color: 7
+  shape: 8
+  habitat: 4
+  regional_dexes: 8e000000e5000000
+  kind: Fossil
+  pokedex_entry: "Aerodactyl is a Pok\xE9mon from the age of dinosaurs. It was regenerated
+    from DNA extracted from amber. It is imagined to have been the king of the skies."
+  wild_item_common: 0
+  wild_item_uncommon: 0
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: -4
+  battler_player_y: 0
+  battler_enemy_x: 2
+  battler_enemy_y: -2
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 2

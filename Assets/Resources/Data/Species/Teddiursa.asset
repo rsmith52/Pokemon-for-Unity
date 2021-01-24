@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Teddiursa
+  m_EditorClassIdentifier: 
+  national_dex: 216
+  types: 0100000000000000
+  base_stats:
+    HP: 60
+    ATK: 80
+    DEF: 50
+    SP_ATK: 50
+    SP_DEF: 50
+    SPD: 40
+  gender_rate: 3
+  growth_rate: 1
+  base_exp: 66
+  effort_values:
+    HP: 0
+    ATK: 1
+    DEF: 0
+    SP_ATK: 0
+    SP_DEF: 0
+    SPD: 0
+  rareness: 120
+  happiness: 70
+  abilities: 5a00000062000000
+  hidden_ability: 2c000000
+  moves:
+  - level: 1
+    move: 167
+  - level: 1
+    move: 85
+  - level: 1
+    move: 406
+  - level: 1
+    move: 561
+  - level: 1
+    move: 267
+  - level: 1
+    move: 145
+  - level: 8
+    move: 182
+  - level: 15
+    move: 148
+  - level: 22
+    move: 487
+  - level: 25
+    move: 607
+  - level: 29
+    move: 437
+  - level: 36
+    move: 66
+  - level: 43
+    move: 378
+  - level: 43
+    move: 449
+  - level: 50
+    move: 505
+  - level: 57
+    move: 167
+  evolutions:
+  - evolution: 217
+    evolution_method: 1
+    parameter: 30
+  egg_moves: 2200000044000000480000005400000057000000590000006f000000910000002501000040010000600200009d010000b7010000f20100002d020000
+  egg_groups: 04000000
+  steps_to_hatch: 5120
+  height: 0.6
+  weight: 8.8
+  color: 6
+  shape: 5
+  habitat: 4
+  regional_dexes: 00000000c6000000
+  kind: Little Bear
+  pokedex_entry: It licks its palms that are sweetened by being soaked in honey.
+    A Teddiursa makes its own honey by blending fruits and pollen collected by Beedrill.
+  wild_item_common: 0
+  wild_item_uncommon: 0
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: 2
+  battler_player_y: 0
+  battler_enemy_x: 1
+  battler_enemy_y: 22
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 1

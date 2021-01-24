@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Wormadam
+  m_EditorClassIdentifier: 
+  national_dex: 413
+  types: 070000000c000000
+  base_stats:
+    HP: 60
+    ATK: 59
+    DEF: 85
+    SP_ATK: 79
+    SP_DEF: 105
+    SPD: 36
+  gender_rate: 6
+  growth_rate: 1
+  base_exp: 148
+  effort_values:
+    HP: 0
+    ATK: 0
+    DEF: 0
+    SP_ATK: 0
+    SP_DEF: 2
+    SPD: 0
+  rareness: 45
+  happiness: 70
+  abilities: 06000000
+  hidden_ability: 56000000
+  moves:
+  - level: 0
+    move: 364
+  - level: 1
+    move: 364
+  - level: 1
+    move: 478
+  - level: 1
+    move: 493
+  - level: 1
+    move: 349
+  - level: 1
+    move: 55
+  - level: 10
+    move: 349
+  - level: 15
+    move: 55
+  - level: 20
+    move: 224
+  - level: 23
+    move: 76
+  - level: 26
+    move: 369
+  - level: 29
+    move: 197
+  - level: 32
+    move: 350
+  - level: 35
+    move: 63
+  - level: 38
+    move: 158
+  - level: 41
+    move: 25
+  - level: 44
+    move: 352
+  - level: 47
+    move: 262
+  - level: 50
+    move: 56
+  evolutions: []
+  egg_moves: 
+  egg_groups: 02000000
+  steps_to_hatch: 3840
+  height: 0.5
+  weight: 6.5
+  color: 4
+  shape: 4
+  habitat: 0
+  regional_dexes: 
+  kind: Bagworm
+  pokedex_entry: "When Burmy evolved, its cloak became a part of this Pok\xE9mon's
+    body. The cloak is never shed."
+  wild_item_common: 0
+  wild_item_uncommon: 334
+  wild_item_rare: 0
+  form_name: Plant Cloak
+  incense: 0
+  battler_player_x: 0
+  battler_player_y: 0
+  battler_enemy_x: 0
+  battler_enemy_y: 5
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 2

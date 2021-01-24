@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Chimecho
+  m_EditorClassIdentifier: 
+  national_dex: 358
+  types: 0e00000000000000
+  base_stats:
+    HP: 75
+    ATK: 50
+    DEF: 80
+    SP_ATK: 95
+    SP_DEF: 90
+    SPD: 65
+  gender_rate: 3
+  growth_rate: 0
+  base_exp: 159
+  effort_values:
+    HP: 0
+    ATK: 0
+    DEF: 0
+    SP_ATK: 1
+    SP_DEF: 1
+    SPD: 0
+  rareness: 45
+  happiness: 70
+  abilities: 40000000
+  hidden_ability: 
+  moves:
+  - level: 1
+    move: 216
+  - level: 1
+    move: 491
+  - level: 1
+    move: 554
+  - level: 1
+    move: 196
+  - level: 1
+    move: 23
+  - level: 1
+    move: 76
+  - level: 4
+    move: 196
+  - level: 7
+    move: 23
+  - level: 10
+    move: 76
+  - level: 13
+    move: 557
+  - level: 16
+    move: 358
+  - level: 19
+    move: 498
+  - level: 22
+    move: 141
+  - level: 27
+    move: 212
+  - level: 32
+    move: 525
+  - level: 37
+    move: 400
+  - level: 42
+    move: 111
+  - level: 47
+    move: 215
+  - level: 52
+    move: 491
+  - level: 57
+    move: 216
+  evolutions: []
+  egg_moves: 51000000360200005c00000066000000b9000000ed0000004b01000074010000ae010000d501000024020000
+  egg_groups: 0a000000
+  steps_to_hatch: 6400
+  height: 0.6
+  weight: 1
+  color: 2
+  shape: 3
+  habitat: 3
+  regional_dexes: 
+  kind: Wind Chime
+  pokedex_entry: They fly about very actively when the hot season arrives. They communicate
+    among themselves using seven different and distinguishing cries.
+  wild_item_common: 0
+  wild_item_uncommon: 58
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: 9
+  battler_player_y: 0
+  battler_enemy_x: 1
+  battler_enemy_y: 6
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 1

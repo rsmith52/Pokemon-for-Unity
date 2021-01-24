@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Binacle
+  m_EditorClassIdentifier: 
+  national_dex: 688
+  types: 060000000b000000
+  base_stats:
+    HP: 42
+    ATK: 52
+    DEF: 67
+    SP_ATK: 39
+    SP_DEF: 56
+    SPD: 50
+  gender_rate: 3
+  growth_rate: 1
+  base_exp: 61
+  effort_values:
+    HP: 0
+    ATK: 1
+    DEF: 0
+    SP_ATK: 0
+    SP_DEF: 0
+    SPD: 0
+  rareness: 120
+  happiness: 70
+  abilities: bf0000007a000000
+  hidden_ability: 59000000
+  moves:
+  - level: 1
+    move: 422
+  - level: 1
+    move: 406
+  - level: 1
+    move: 401
+  - level: 4
+    move: 535
+  - level: 7
+    move: 549
+  - level: 10
+    move: 182
+  - level: 13
+    move: 437
+  - level: 18
+    move: 312
+  - level: 20
+    move: 70
+  - level: 24
+    move: 387
+  - level: 28
+    move: 15
+  - level: 32
+    move: 226
+  - level: 37
+    move: 181
+  - level: 41
+    move: 320
+  - level: 45
+    move: 370
+  - level: 49
+    move: 87
+  evolutions:
+  - evolution: 689
+    evolution_method: 1
+    parameter: 39
+  egg_moves: de000000e9010000000200001a020000
+  egg_groups: 08000000
+  steps_to_hatch: 5120
+  height: 0.5
+  weight: 31
+  color: 6
+  shape: 10
+  habitat: 0
+  regional_dexes: 
+  kind: Two-Handed
+  pokedex_entry: They stretch and then contract, yanking their rocks along with them
+    in bold hops. They eat seaweed that washes up on the shoreline.
+  wild_item_common: 0
+  wild_item_uncommon: 0
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: 0
+  battler_player_y: 0
+  battler_enemy_x: 0
+  battler_enemy_y: 0
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 2

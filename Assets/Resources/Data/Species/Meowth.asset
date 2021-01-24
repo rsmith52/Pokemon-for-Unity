@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Meowth
+  m_EditorClassIdentifier: 
+  national_dex: 52
+  types: 0100000000000000
+  base_stats:
+    HP: 40
+    ATK: 45
+    DEF: 35
+    SP_ATK: 40
+    SP_DEF: 40
+    SPD: 90
+  gender_rate: 3
+  growth_rate: 1
+  base_exp: 58
+  effort_values:
+    HP: 0
+    ATK: 0
+    DEF: 0
+    SP_ATK: 0
+    SP_DEF: 0
+    SPD: 1
+  rareness: 255
+  happiness: 70
+  abilities: 5a0000008e000000
+  hidden_ability: 9a000000
+  moves:
+  - level: 1
+    move: 406
+  - level: 1
+    move: 196
+  - level: 6
+    move: 38
+  - level: 9
+    move: 144
+  - level: 14
+    move: 182
+  - level: 17
+    move: 407
+  - level: 22
+    move: 148
+  - level: 25
+    move: 499
+  - level: 30
+    move: 328
+  - level: 33
+    move: 437
+  - level: 38
+    move: 314
+  - level: 41
+    move: 22
+  - level: 46
+    move: 63
+  - level: 49
+    move: 320
+  - level: 50
+    move: 149
+  evolutions:
+  - evolution: 53
+    evolution_method: 1
+    parameter: 28
+  egg_moves: 0e00000015000000420000009e000000af000000ed000000fd000000030100004301000067010000c0010000cc010000f0010000
+  egg_groups: 04000000
+  steps_to_hatch: 5120
+  height: 0.4
+  weight: 4.2
+  color: 3
+  shape: 7
+  habitat: 8
+  regional_dexes: 340000008a000000
+  kind: Scratch Cat
+  pokedex_entry: "Meowth withdraw their sharp claws into their paws to silently sneak
+    about. For some reason, this Pok\xE9mon loves shiny coins that glitter with light."
+  wild_item_common: 0
+  wild_item_uncommon: 279
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: 3
+  battler_player_y: 0
+  battler_enemy_x: 1
+  battler_enemy_y: 18
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 2

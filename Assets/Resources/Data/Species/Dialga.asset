@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Dialga
+  m_EditorClassIdentifier: 
+  national_dex: 483
+  types: 0900000010000000
+  base_stats:
+    HP: 100
+    ATK: 120
+    DEF: 120
+    SP_ATK: 150
+    SP_DEF: 100
+    SPD: 90
+  gender_rate: 7
+  growth_rate: 2
+  base_exp: 306
+  effort_values:
+    HP: 0
+    ATK: 0
+    DEF: 0
+    SP_ATK: 3
+    SP_DEF: 0
+    SPD: 0
+  rareness: 3
+  happiness: 0
+  abilities: 60000000
+  hidden_ability: 8f000000
+  moves:
+  - level: 1
+    move: 113
+  - level: 1
+    move: 405
+  - level: 6
+    move: 293
+  - level: 10
+    move: 15
+  - level: 15
+    move: 437
+  - level: 19
+    move: 343
+  - level: 24
+    move: 292
+  - level: 28
+    move: 114
+  - level: 33
+    move: 126
+  - level: 37
+    move: 26
+  - level: 42
+    move: 253
+  - level: 46
+    move: 383
+  - level: 50
+    move: 164
+  evolutions: []
+  egg_moves: 
+  egg_groups: 0e000000
+  steps_to_hatch: 30720
+  height: 5.4
+  weight: 683
+  color: 9
+  shape: 7
+  habitat: 0
+  regional_dexes: 
+  kind: Temporal
+  pokedex_entry: It has the power to control time. It appears in Sinnoh-region myths
+    as an ancient deity.
+  wild_item_common: 0
+  wild_item_uncommon: 0
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: 1
+  battler_player_y: 0
+  battler_enemy_x: -2
+  battler_enemy_y: 6
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 3

@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Mew
+  m_EditorClassIdentifier: 
+  national_dex: 151
+  types: 0e00000000000000
+  base_stats:
+    HP: 100
+    ATK: 100
+    DEF: 100
+    SP_ATK: 100
+    SP_DEF: 100
+    SPD: 100
+  gender_rate: 7
+  growth_rate: 3
+  base_exp: 270
+  effort_values:
+    HP: 3
+    ATK: 0
+    DEF: 0
+    SP_ATK: 0
+    SP_DEF: 0
+    SPD: 0
+  rareness: 45
+  happiness: 100
+  abilities: 8c000000
+  hidden_ability: 
+  moves:
+  - level: 1
+    move: 341
+  - level: 1
+    move: 374
+  - level: 1
+    move: 516
+  - level: 10
+    move: 289
+  - level: 20
+    move: 296
+  - level: 30
+    move: 352
+  - level: 40
+    move: 31
+  - level: 50
+    move: 15
+  - level: 60
+    move: 14
+  - level: 70
+    move: 284
+  - level: 80
+    move: 32
+  - level: 90
+    move: 314
+  - level: 100
+    move: 26
+  evolutions: []
+  egg_moves: 
+  egg_groups: 0e000000
+  steps_to_hatch: 30720
+  height: 0.4
+  weight: 4
+  color: 10
+  shape: 5
+  habitat: 5
+  regional_dexes: 97000000ff000000
+  kind: New Species
+  pokedex_entry: "A Mew is said to possess the genes of all Pok\xE9mon. It is capable
+    of making itself invisible at will, so it entirely avoids notice even if it approaches
+    people."
+  wild_item_common: 192
+  wild_item_uncommon: 192
+  wild_item_rare: 192
+  form_name: 
+  incense: 0
+  battler_player_x: -8
+  battler_player_y: 0
+  battler_enemy_x: -9
+  battler_enemy_y: -3
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 1

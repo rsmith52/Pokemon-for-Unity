@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Hippopotas
+  m_EditorClassIdentifier: 
+  national_dex: 449
+  types: 0500000000000000
+  base_stats:
+    HP: 68
+    ATK: 72
+    DEF: 78
+    SP_ATK: 38
+    SP_DEF: 42
+    SPD: 32
+  gender_rate: 3
+  growth_rate: 2
+  base_exp: 66
+  effort_values:
+    HP: 0
+    ATK: 0
+    DEF: 1
+    SP_ATK: 0
+    SP_DEF: 0
+    SPD: 0
+  rareness: 140
+  happiness: 70
+  abilities: 6d000000
+  hidden_ability: 6b000000
+  moves:
+  - level: 1
+    move: 493
+  - level: 1
+    move: 401
+  - level: 7
+    move: 38
+  - level: 13
+    move: 557
+  - level: 19
+    move: 498
+  - level: 19
+    move: 101
+  - level: 25
+    move: 402
+  - level: 31
+    move: 89
+  - level: 37
+    move: 127
+  - level: 44
+    move: 111
+  - level: 50
+    move: 157
+  evolutions:
+  - evolution: 450
+    evolution_method: 1
+    parameter: 34
+  egg_moves: 2c0000005c0000007d01000092010000b3010000b7010000cb010000d2010000e50100001f020000
+  egg_groups: 04000000
+  steps_to_hatch: 7680
+  height: 0.8
+  weight: 49.5
+  color: 6
+  shape: 7
+  habitat: 0
+  regional_dexes: 
+  kind: Hippo
+  pokedex_entry: It lives in arid places. Instead of perspiration, it expels grainy
+    sand from its body.
+  wild_item_common: 0
+  wild_item_uncommon: 0
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: 0
+  battler_player_y: 0
+  battler_enemy_x: -1
+  battler_enemy_y: 21
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 3

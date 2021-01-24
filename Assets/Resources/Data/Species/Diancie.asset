@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Diancie
+  m_EditorClassIdentifier: 
+  national_dex: 719
+  types: 0600000012000000
+  base_stats:
+    HP: 50
+    ATK: 100
+    DEF: 150
+    SP_ATK: 100
+    SP_DEF: 150
+    SPD: 50
+  gender_rate: 7
+  growth_rate: 2
+  base_exp: 270
+  effort_values:
+    HP: 0
+    ATK: 0
+    DEF: 1
+    SP_ATK: 0
+    SP_DEF: 2
+    SPD: 0
+  rareness: 3
+  happiness: 70
+  abilities: 0d000000
+  hidden_ability: 
+  moves:
+  - level: 1
+    move: 493
+  - level: 1
+    move: 207
+  - level: 1
+    move: 390
+  - level: 5
+    move: 420
+  - level: 8
+    move: 443
+  - level: 12
+    move: 375
+  - level: 18
+    move: 463
+  - level: 21
+    move: 199
+  - level: 27
+    move: 15
+  - level: 31
+    move: 158
+  - level: 35
+    move: 430
+  - level: 40
+    move: 343
+  - level: 46
+    move: 518
+  - level: 49
+    move: 468
+  - level: 50
+    move: 597
+  - level: 50
+    move: 568
+  - level: 60
+    move: 268
+  - level: 70
+    move: 400
+  evolutions: []
+  egg_moves: 
+  egg_groups: 0e000000
+  steps_to_hatch: 6400
+  height: 0.7
+  weight: 8.8
+  color: 10
+  shape: 3
+  habitat: 0
+  regional_dexes: 
+  kind: Jewel
+  pokedex_entry: A sudden transformation of Carbink, its pink, glimmering body is
+    said to be the loveliest sight in the whole world.
+  wild_item_common: 0
+  wild_item_uncommon: 0
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: 0
+  battler_player_y: 0
+  battler_enemy_x: 0
+  battler_enemy_y: 0
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 2

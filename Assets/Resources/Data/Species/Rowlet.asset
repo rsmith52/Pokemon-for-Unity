@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Rowlet
+  m_EditorClassIdentifier: 
+  national_dex: 722
+  types: 0c00000003000000
+  base_stats:
+    HP: 68
+    ATK: 55
+    DEF: 55
+    SP_ATK: 50
+    SP_DEF: 50
+    SPD: 42
+  gender_rate: 1
+  growth_rate: 3
+  base_exp: 64
+  effort_values:
+    HP: 1
+    ATK: 0
+    DEF: 0
+    SP_ATK: 0
+    SP_DEF: 0
+    SPD: 0
+  rareness: 45
+  happiness: 70
+  abilities: 57000000
+  hidden_ability: d1000000
+  moves:
+  - level: 1
+    move: 493
+  - level: 1
+    move: 643
+  - level: 4
+    move: 196
+  - level: 8
+    move: 330
+  - level: 11
+    move: 23
+  - level: 14
+    move: 369
+  - level: 16
+    move: 324
+  - level: 18
+    move: 174
+  - level: 22
+    move: 334
+  - level: 25
+    move: 492
+  - level: 29
+    move: 180
+  - level: 32
+    move: 478
+  - level: 36
+    move: 261
+  - level: 39
+    move: 147
+  - level: 43
+    move: 50
+  - level: 46
+    move: 314
+  evolutions:
+  - evolution: 723
+    evolution_method: 1
+    parameter: 17
+  egg_moves: 200000004b0000005c00000062000000d000000044010000
+  egg_groups: 03000000
+  steps_to_hatch: 3840
+  height: 0.3
+  weight: 1.5
+  color: 6
+  shape: 8
+  habitat: 0
+  regional_dexes: 
+  kind: Grass Quill
+  pokedex_entry: It sends its feathers, which are as sharp as blades, flying in attack.
+    Its legs are strong, so its kicks are also formidable.
+  wild_item_common: 0
+  wild_item_uncommon: 0
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: 0
+  battler_player_y: 0
+  battler_enemy_x: 0
+  battler_enemy_y: 0
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 2

@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Octillery
+  m_EditorClassIdentifier: 
+  national_dex: 224
+  types: 0b00000000000000
+  base_stats:
+    HP: 75
+    ATK: 105
+    DEF: 75
+    SP_ATK: 105
+    SP_DEF: 75
+    SPD: 45
+  gender_rate: 3
+  growth_rate: 1
+  base_exp: 168
+  effort_values:
+    HP: 0
+    ATK: 1
+    DEF: 0
+    SP_ATK: 1
+    SP_DEF: 0
+    SPD: 0
+  rareness: 75
+  happiness: 70
+  abilities: 880000007a000000
+  hidden_ability: 4c000000
+  moves:
+  - level: 0
+    move: 322
+  - level: 1
+    move: 322
+  - level: 1
+    move: 202
+  - level: 1
+    move: 385
+  - level: 1
+    move: 535
+  - level: 1
+    move: 77
+  - level: 1
+    move: 350
+  - level: 1
+    move: 27
+  - level: 6
+    move: 77
+  - level: 10
+    move: 350
+  - level: 14
+    move: 27
+  - level: 18
+    move: 53
+  - level: 22
+    move: 170
+  - level: 28
+    move: 555
+  - level: 34
+    move: 425
+  - level: 40
+    move: 239
+  - level: 46
+    move: 60
+  - level: 52
+    move: 233
+  - level: 58
+    move: 234
+  - level: 64
+    move: 450
+  evolutions: []
+  egg_moves: 
+  egg_groups: 010000000b000000
+  steps_to_hatch: 5120
+  height: 0.9
+  weight: 28.5
+  color: 1
+  shape: 9
+  habitat: 7
+  regional_dexes: 00000000af000000
+  kind: Jet
+  pokedex_entry: It ensnares its foe with its suction- cupped tentacles before delivering
+    the finishing blow. If the foe turns out to be too strong, it spews ink to escape.
+  wild_item_common: 0
+  wild_item_uncommon: 0
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: 4
+  battler_player_y: 0
+  battler_enemy_x: 0
+  battler_enemy_y: 20
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 3

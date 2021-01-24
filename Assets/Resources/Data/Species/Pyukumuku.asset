@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Pyukumuku
+  m_EditorClassIdentifier: 
+  national_dex: 771
+  types: 0b00000000000000
+  base_stats:
+    HP: 55
+    ATK: 60
+    DEF: 130
+    SP_ATK: 30
+    SP_DEF: 130
+    SPD: 5
+  gender_rate: 3
+  growth_rate: 0
+  base_exp: 144
+  effort_values:
+    HP: 0
+    ATK: 0
+    DEF: 0
+    SP_ATK: 0
+    SP_DEF: 2
+    SPD: 0
+  rareness: 60
+  happiness: 70
+  abilities: cf000000
+  hidden_ability: 98000000
+  moves:
+  - level: 1
+    move: 32
+  - level: 1
+    move: 538
+  - level: 1
+    move: 311
+  - level: 1
+    move: 207
+  - level: 1
+    move: 36
+  - level: 5
+    move: 222
+  - level: 9
+    move: 499
+  - level: 13
+    move: 400
+  - level: 17
+    move: 84
+  - level: 21
+    move: 657
+  - level: 25
+    move: 92
+  - level: 29
+    move: 186
+  - level: 33
+    move: 327
+  - level: 37
+    move: 372
+  - level: 41
+    move: 450
+  - level: 45
+    move: 515
+  - level: 49
+    move: 291
+  evolutions: []
+  egg_moves: 2300000088000000cc010000000200006c020000
+  egg_groups: 01000000
+  steps_to_hatch: 3840
+  height: 0.3
+  weight: 1.2
+  color: 5
+  shape: 1
+  habitat: 0
+  regional_dexes: 
+  kind: Sea Cucumber
+  pokedex_entry: It lives in shallow seas, such as areas near a beach. It can eject
+    its internal organs, which it uses to engulf its prey or battle enemies.
+  wild_item_common: 0
+  wild_item_uncommon: 0
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: 0
+  battler_player_y: 0
+  battler_enemy_x: 0
+  battler_enemy_y: 0
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 2

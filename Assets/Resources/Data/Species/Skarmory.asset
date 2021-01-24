@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Skarmory
+  m_EditorClassIdentifier: 
+  national_dex: 227
+  types: 0900000003000000
+  base_stats:
+    HP: 65
+    ATK: 80
+    DEF: 140
+    SP_ATK: 40
+    SP_DEF: 70
+    SPD: 70
+  gender_rate: 3
+  growth_rate: 2
+  base_exp: 163
+  effort_values:
+    HP: 0
+    ATK: 0
+    DEF: 2
+    SP_ATK: 0
+    SP_DEF: 0
+    SPD: 0
+  rareness: 25
+  happiness: 70
+  abilities: 3d00000087000000
+  hidden_ability: a0000000
+  moves:
+  - level: 1
+    move: 266
+  - level: 1
+    move: 330
+  - level: 6
+    move: 401
+  - level: 9
+    move: 293
+  - level: 12
+    move: 11
+  - level: 17
+    move: 180
+  - level: 20
+    move: 149
+  - level: 23
+    move: 488
+  - level: 28
+    move: 458
+  - level: 31
+    move: 10
+  - level: 34
+    move: 465
+  - level: 38
+    move: 437
+  - level: 42
+    move: 294
+  - level: 45
+    move: 12
+  - level: 50
+    move: 28
+  - level: 53
+    move: 320
+  evolutions: []
+  egg_moves: 16000000320000005c0000007a00000088000000c800000068010000b0010000cf0100001f020000
+  egg_groups: 03000000
+  steps_to_hatch: 6400
+  height: 1.7
+  weight: 50.5
+  color: 8
+  shape: 8
+  habitat: 6
+  regional_dexes: 00000000cb000000
+  kind: Armor Bird
+  pokedex_entry: "A Pok\xE9mon that has a body and wings of steel. People in the
+    past used feathers fallen from Skarmory to make swords and knives."
+  wild_item_common: 0
+  wild_item_uncommon: 209
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: 4
+  battler_player_y: 0
+  battler_enemy_x: 0
+  battler_enemy_y: 10
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 3

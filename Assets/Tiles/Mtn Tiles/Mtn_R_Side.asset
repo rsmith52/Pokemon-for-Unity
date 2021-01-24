@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08275f61ca9e45b47b6046d3952b414b, type: 3}
+  m_Name: Mtn_R_Side
+  m_EditorClassIdentifier: 
+  allow_passage: 0
+  up_passage: 0
+  left_passage: 0
+  right_passage: 0
+  down_passage: 0
+  is_bush: 0
+  is_counter: 0
+  terrain_tag: 0
+  unparent: 0
+  preview_sprite: {fileID: 5857215589491459138, guid: 918fe31f47fee4d0e9accb3a7815c132,
+    type: 3}
+  prefab: {fileID: 973321598258319114, guid: c4e3ecc1d459244d49544720285ca0e0, type: 3}
+  prefab_offset: {x: 0.5, y: 0.5}
+  prefab_local_z: 0

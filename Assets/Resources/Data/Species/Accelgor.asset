@@ -1,0 +1,105 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Accelgor
+  m_EditorClassIdentifier: 
+  national_dex: 617
+  types: 0700000000000000
+  base_stats:
+    HP: 80
+    ATK: 70
+    DEF: 40
+    SP_ATK: 100
+    SP_DEF: 60
+    SPD: 145
+  gender_rate: 3
+  growth_rate: 1
+  base_exp: 173
+  effort_values:
+    HP: 0
+    ATK: 0
+    DEF: 0
+    SP_ATK: 0
+    SP_DEF: 0
+    SPD: 2
+  rareness: 75
+  happiness: 70
+  abilities: 2f00000085000000
+  hidden_ability: 99000000
+  moves:
+  - level: 1
+    move: 621
+  - level: 1
+    move: 151
+  - level: 1
+    move: 345
+  - level: 1
+    move: 1
+  - level: 1
+    move: 3
+  - level: 1
+    move: 110
+  - level: 1
+    move: 362
+  - level: 4
+    move: 3
+  - level: 8
+    move: 110
+  - level: 13
+    move: 362
+  - level: 16
+    move: 473
+  - level: 20
+    move: 287
+  - level: 25
+    move: 488
+  - level: 28
+    move: 284
+  - level: 32
+    move: 10
+  - level: 37
+    move: 188
+  - level: 40
+    move: 524
+  - level: 44
+    move: 56
+  - level: 49
+    move: 372
+  - level: 52
+    move: 345
+  - level: 56
+    move: 151
+  evolutions: []
+  egg_moves: 
+  egg_groups: 02000000
+  steps_to_hatch: 3840
+  height: 0.8
+  weight: 25.3
+  color: 1
+  shape: 3
+  habitat: 0
+  regional_dexes: 
+  kind: Shell Out
+  pokedex_entry: Having removed its heavy shell, it becomes very light and can fight
+    with ninja-like movements.
+  wild_item_common: 0
+  wild_item_uncommon: 0
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: -4
+  battler_player_y: 0
+  battler_enemy_x: 4
+  battler_enemy_y: 25
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 1

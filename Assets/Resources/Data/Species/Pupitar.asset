@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Pupitar
+  m_EditorClassIdentifier: 
+  national_dex: 247
+  types: 0600000005000000
+  base_stats:
+    HP: 70
+    ATK: 84
+    DEF: 70
+    SP_ATK: 65
+    SP_DEF: 70
+    SPD: 51
+  gender_rate: 3
+  growth_rate: 2
+  base_exp: 144
+  effort_values:
+    HP: 0
+    ATK: 2
+    DEF: 0
+    SP_ATK: 0
+    SP_DEF: 0
+    SPD: 0
+  rareness: 45
+  happiness: 35
+  abilities: 73000000
+  hidden_ability: 
+  moves:
+  - level: 1
+    move: 38
+  - level: 1
+    move: 266
+  - level: 1
+    move: 403
+  - level: 1
+    move: 407
+  - level: 5
+    move: 403
+  - level: 10
+    move: 407
+  - level: 14
+    move: 68
+  - level: 19
+    move: 388
+  - level: 23
+    move: 405
+  - level: 28
+    move: 505
+  - level: 34
+    move: 94
+  - level: 41
+    move: 329
+  - level: 47
+    move: 89
+  - level: 54
+    move: 127
+  - level: 60
+    move: 468
+  - level: 67
+    move: 234
+  evolutions:
+  - evolution: 248
+    evolution_method: 1
+    parameter: 55
+  egg_moves: 
+  egg_groups: 00000000
+  steps_to_hatch: 10240
+  height: 1.2
+  weight: 152
+  color: 8
+  shape: 1
+  habitat: 4
+  regional_dexes: 00000000fa000000
+  kind: Hard Shell
+  pokedex_entry: A Pupitar creates a gas inside its body that it ejects under compression
+    to propel itself like a jet. Its body can withstand a collision with solid steel.
+  wild_item_common: 0
+  wild_item_uncommon: 0
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: -4
+  battler_player_y: 0
+  battler_enemy_x: 1
+  battler_enemy_y: 18
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 2

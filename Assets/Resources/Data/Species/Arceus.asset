@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Arceus
+  m_EditorClassIdentifier: 
+  national_dex: 493
+  types: 0100000000000000
+  base_stats:
+    HP: 120
+    ATK: 120
+    DEF: 120
+    SP_ATK: 120
+    SP_DEF: 120
+    SPD: 120
+  gender_rate: 7
+  growth_rate: 2
+  base_exp: 324
+  effort_values:
+    HP: 3
+    ATK: 0
+    DEF: 0
+    SP_ATK: 0
+    SP_DEF: 0
+    SPD: 0
+  rareness: 3
+  happiness: 0
+  abilities: 50000000
+  hidden_ability: 
+  moves:
+  - level: 1
+    move: 413
+  - level: 1
+    move: 81
+  - level: 1
+    move: 315
+  - level: 1
+    move: 359
+  - level: 10
+    move: 195
+  - level: 20
+    move: 126
+  - level: 30
+    move: 236
+  - level: 40
+    move: 142
+  - level: 50
+    move: 376
+  - level: 60
+    move: 185
+  - level: 70
+    move: 372
+  - level: 80
+    move: 234
+  - level: 90
+    move: 331
+  - level: 100
+    move: 254
+  evolutions: []
+  egg_moves: 
+  egg_groups: 0e000000
+  steps_to_hatch: 30720
+  height: 3.2
+  weight: 320
+  color: 9
+  shape: 7
+  habitat: 0
+  regional_dexes: 
+  kind: Alpha
+  pokedex_entry: "It is described in mythology as the Pok\xE9mon that shaped the
+    universe with its 1,000 arms."
+  wild_item_common: 0
+  wild_item_uncommon: 0
+  wild_item_rare: 0
+  form_name: Normal Type
+  incense: 0
+  battler_player_x: -4
+  battler_player_y: 0
+  battler_enemy_x: 2
+  battler_enemy_y: 6
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 3

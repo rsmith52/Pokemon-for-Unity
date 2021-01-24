@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Happiny
+  m_EditorClassIdentifier: 
+  national_dex: 440
+  types: 0100000000000000
+  base_stats:
+    HP: 100
+    ATK: 5
+    DEF: 5
+    SP_ATK: 15
+    SP_DEF: 65
+    SPD: 30
+  gender_rate: 6
+  growth_rate: 0
+  base_exp: 110
+  effort_values:
+    HP: 1
+    ATK: 0
+    DEF: 0
+    SP_ATK: 0
+    SP_DEF: 0
+    SPD: 0
+  rareness: 130
+  happiness: 140
+  abilities: 5200000071000000
+  hidden_ability: 24000000
+  moves:
+  - level: 1
+    move: 341
+  - level: 1
+    move: 66
+  - level: 5
+    move: 80
+  - level: 9
+    move: 376
+  - level: 12
+    move: 486
+  evolutions:
+  - evolution: 113
+    evolution_method: 39
+    parameter: OVALSTONE
+  egg_moves: 140000005400000088000000c3000000d4000000de0000000301000028010000350100003b0100005c010000
+  egg_groups: 0e000000
+  steps_to_hatch: 10240
+  height: 0.6
+  weight: 24.4
+  color: 10
+  shape: 11
+  habitat: 0
+  regional_dexes: 
+  kind: Playhouse
+  pokedex_entry: It loves round white things. It carries an egg-shaped rock in imitation
+    of Chansey.
+  wild_item_common: 238
+  wild_item_uncommon: 0
+  wild_item_rare: 0
+  form_name: 
+  incense: 189
+  battler_player_x: -2
+  battler_player_y: 0
+  battler_enemy_x: -1
+  battler_enemy_y: 20
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 1

@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Feebas
+  m_EditorClassIdentifier: 
+  national_dex: 349
+  types: 0b00000000000000
+  base_stats:
+    HP: 20
+    ATK: 15
+    DEF: 20
+    SP_ATK: 10
+    SP_DEF: 55
+    SPD: 80
+  gender_rate: 3
+  growth_rate: 4
+  base_exp: 40
+  effort_values:
+    HP: 0
+    ATK: 0
+    DEF: 0
+    SP_ATK: 0
+    SP_DEF: 0
+    SPD: 1
+  rareness: 255
+  happiness: 70
+  abilities: 8b00000055000000
+  hidden_ability: 01000000
+  moves:
+  - level: 1
+    move: 461
+  - level: 15
+    move: 493
+  - level: 30
+    move: 158
+  evolutions:
+  - evolution: 350
+    evolution_method: 35
+    parameter: 170
+  - evolution: 350
+    evolution_method: 58
+    parameter: PRISMSCALE
+  egg_moves: 340000003f0000004b0000007100000074000000d0000000ed000000fd0000002e010000320100003701000000020000
+  egg_groups: 010000000d000000
+  steps_to_hatch: 5120
+  height: 0.6
+  weight: 7.4
+  color: 6
+  shape: 2
+  habitat: 9
+  regional_dexes: 
+  kind: Fish
+  pokedex_entry: Feebas live in ponds that are heavily infested with weeds. Because
+    of its hopelessly shabby appearance, it seems as if few trainers raise it.
+  wild_item_common: 0
+  wild_item_uncommon: 0
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: -5
+  battler_player_y: 0
+  battler_enemy_x: 1
+  battler_enemy_y: 2
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 2

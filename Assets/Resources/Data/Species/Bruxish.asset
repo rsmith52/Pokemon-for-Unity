@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ad28315d4e47eab926fd8c7d26584, type: 3}
+  m_Name: Bruxish
+  m_EditorClassIdentifier: 
+  national_dex: 779
+  types: 0b0000000e000000
+  base_stats:
+    HP: 68
+    ATK: 105
+    DEF: 70
+    SP_ATK: 70
+    SP_DEF: 70
+    SPD: 92
+  gender_rate: 3
+  growth_rate: 1
+  base_exp: 166
+  effort_values:
+    HP: 0
+    ATK: 2
+    DEF: 0
+    SP_ATK: 0
+    SP_DEF: 0
+    SPD: 0
+  rareness: 80
+  happiness: 70
+  abilities: c7000000bc000000
+  hidden_ability: a3000000
+  moves:
+  - level: 1
+    move: 535
+  - level: 4
+    move: 23
+  - level: 9
+    move: 76
+  - level: 12
+    move: 38
+  - level: 17
+    move: 16
+  - level: 20
+    move: 102
+  - level: 25
+    move: 358
+  - level: 28
+    move: 89
+  - level: 33
+    move: 18
+  - level: 36
+    move: 407
+  - level: 41
+    move: 655
+  - level: 44
+    move: 491
+  evolutions: []
+  egg_moves: f10000004f0100006e01000019020000
+  egg_groups: 0b000000
+  steps_to_hatch: 3840
+  height: 0.9
+  weight: 19
+  color: 10
+  shape: 2
+  habitat: 0
+  regional_dexes: 
+  kind: Gnash Teeth
+  pokedex_entry: When it unleashes its psychic power from the protuberance on its
+    head, the grating sound of grinding teeth echoes through the area.
+  wild_item_common: 0
+  wild_item_uncommon: 287
+  wild_item_rare: 0
+  form_name: 
+  incense: 0
+  battler_player_x: 0
+  battler_player_y: 0
+  battler_enemy_x: 0
+  battler_enemy_y: 0
+  battler_altitude: 0
+  battler_shadow_x: 0
+  battler_shadow_size: 2
