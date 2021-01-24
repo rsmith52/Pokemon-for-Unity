@@ -56,6 +56,12 @@ namespace UI
         private static readonly string PP_TEXT = "PP";
         private static readonly string PP_SEPERATOR_TEXT = "/";
         private static readonly string NUM_RIBBONS_TEXT = "No. of Ribbons:";
+        private static readonly string[] MOVE_INFO_TEXT = new string[]
+        {
+            "Category", "Power", "Accuracy"
+        };
+
+        private static readonly float ICON_ANIM_TIME = 0.25f;
 
         private static readonly Color32 DARK_BG_COLOR = Constants.DARK_BG_TEXT_COLOR;
         private static readonly Color32 LIGHT_BG_COLOR = Constants.LIGHT_BG_TEXT_COLOR;
@@ -65,6 +71,8 @@ namespace UI
         private static readonly float HP_BAR_MAX_WIDTH = 300f;
         private static readonly float HP_BAR_YELLOW_PERCENT = 0.5f;
         private static readonly float HP_BAR_RED_PERCENT = 0.2f;
+
+        private static readonly float MOVE_SEL_OFFSET = 200f * 0.4266667f;
 
         private static readonly int NUM_RIBBONS = 12;
 
@@ -93,7 +101,7 @@ namespace UI
         public Text info_dex_number;
         public Text info_species;
         public Image info_one_type;
-        public Image[] info_types = new Image[2];
+        public Image[] info_two_types = new Image[2];
         public Text info_trainer;
         public Text info_personal_id;
         public Text info_exp;
@@ -137,6 +145,20 @@ namespace UI
 
         [Header("Move Detail Screen")]
         public Image move_detail_bg;
+        public Text move_detail_title;
+        public Image[] move_detail_types = new Image[Constants.NUM_MOVES];
+        public Text[] move_detail_names = new Text[Constants.NUM_MOVES];
+        public Text[] move_detail_pp_labels = new Text[Constants.NUM_MOVES];
+        public Text[] move_detail_pp = new Text[Constants.NUM_MOVES];
+        public Image move_detail_poke_icon;
+        public Image move_detail_one_type;
+        public Image[] move_detail_two_types = new Image[2];
+        public Text move_detail_info_labels;
+        public Image move_detail_category;
+        public Text move_detail_info;
+        public Text move_detail_desc;
+        public Image move_detail_sel;
+        public Image move_detail_selection;
 
         [Header("Learn Move Screen")]
         public Image learn_move_bg;
@@ -149,10 +171,13 @@ namespace UI
         public Sprite hp_bar_green;
         public Sprite hp_bar_yellow;
         public Sprite hp_bar_red;
-        public Sprite[] ribbons = new Sprite[Constants.NUM_RIBBONS];
+        public Sprite[] ribbons = new Sprite[Ribbons.NUM_RIBBONS];
+        public Sprite[] move_categories = new Sprite[Enum.GetValues(typeof(DamageCategories)).Length];
+        public Sprite[] move_sel = new Sprite[2];
 
         private PlayerTrainer player;
         private Party party;
+        private MoveSlot temp_move_slot;
 
         private SummaryPages current_page;
         private Pokemon.Pokemon current_pokemon;
@@ -160,8 +185,14 @@ namespace UI
         public bool in_pc;
         public bool learning_move;
 
+        private float anim_time;
+        private int anim_frame;
+
         private bool page_changed;
         private bool awaiting_input;
+        private int selected_move;
+        private bool swapping_moves;
+        private int marked_move;
 
         #endregion
 
@@ -189,7 +220,7 @@ namespace UI
             // Get player input
             if (awaiting_input)
             {
-                if (Input.GetKeyDown(KeyCode.RightArrow))
+                if (Input.GetKeyDown(KeyCode.RightArrow) && current_page != SummaryPages.MoveDetail)
                 {
                     HidePage(current_page);
                     if ((int)current_page == SUMMARY_PAGES.Length - 1)
@@ -198,7 +229,7 @@ namespace UI
                         current_page += 1;
                     page_changed = true;
                 }
-                else if (Input.GetKeyDown(KeyCode.LeftArrow))
+                else if (Input.GetKeyDown(KeyCode.LeftArrow) && current_page != SummaryPages.MoveDetail)
                 {
                     HidePage(current_page);
                     if ((int)current_page == 0)
@@ -209,25 +240,116 @@ namespace UI
                 }
                 else if (Input.GetKeyDown(KeyCode.DownArrow))
                 {
-                    HidePage(current_page);
-                    if (pokemon_selection == party.size - 1)
-                        pokemon_selection = 0;
+                    if (current_page == SummaryPages.MoveDetail)
+                    {
+                        int sel_index = 0;
+                        if (swapping_moves) sel_index = 1;
+                        if (selected_move == current_pokemon.GetNumMoves() - 1)
+                        {
+                            MoveSelToTop(sel_index);
+                            selected_move = 0;
+                        }
+                        else
+                        {
+                            MoveSelDown(sel_index);
+                            selected_move += 1;
+                        }
+                        UpdateMoveDetailsScreen(current_pokemon);
+                    }
                     else
-                        pokemon_selection += 1;
-                    page_changed = true;
+                    {
+                        HidePage(current_page);
+                        if (pokemon_selection == party.size - 1)
+                            pokemon_selection = 0;
+                        else
+                            pokemon_selection += 1;
+                        page_changed = true;
+                    }
                 }
                 else if (Input.GetKeyDown(KeyCode.UpArrow))
                 {
-                    HidePage(current_page);
-                    if (pokemon_selection == 0)
-                        pokemon_selection = party.size - 1;
+                    if (current_page == SummaryPages.MoveDetail)
+                    {
+                        int sel_index = 0;
+                        if (swapping_moves) sel_index = 1;
+                        if (selected_move == 0)
+                        {
+                            MoveSelToBottom(sel_index);
+                            selected_move = current_pokemon.GetNumMoves() - 1;
+                        }
+                        else
+                        {
+                            MoveSelUp(sel_index);
+                            selected_move -= 1;
+                        }
+                        UpdateMoveDetailsScreen(current_pokemon);
+                    }
                     else
-                        pokemon_selection -= 1;
-                    page_changed = true;
+                    {
+                        HidePage(current_page);
+                        if (pokemon_selection == 0)
+                            pokemon_selection = party.size - 1;
+                        else
+                            pokemon_selection -= 1;
+                        page_changed = true;
+                    }
+                        
+                }
+                else if (Input.GetKeyDown(KeyCode.Z))
+                {
+                    if (current_page == SummaryPages.Moves)
+                    {
+                        HideGeneralComponents();
+                        HidePage(current_page);
+                        current_page = SummaryPages.MoveDetail;
+                        selected_move = 0;
+                        page_changed = true;
+                    }
+                    else if (current_page == SummaryPages.MoveDetail && !swapping_moves)
+                    {
+                        swapping_moves = true;
+                        MarkCurrentMove();
+                    }
+                    else if (current_page == SummaryPages.MoveDetail)
+                    {
+                        swapping_moves = false;
+                        SwapMoves(marked_move, selected_move);
+                        UnmarkMarkedMove();
+                        BuildCurrentPage();
+                    }
                 }
                 else if (Input.GetKeyDown(KeyCode.X))
-                    CloseMenu();
+                {
+                    if (current_page == SummaryPages.MoveDetail && !swapping_moves)
+                    {
+                        HidePage(current_page);
+                        MoveSelToTop(0);
+                        current_page = SummaryPages.Moves;
+                        page_changed = true;
+                    }
+                    else if(current_page == SummaryPages.MoveDetail)
+                    {
+                        swapping_moves = false;
+                        UnmarkMarkedMove();
+                    }
+                    else
+                        CloseMenu();
+                }
             }
+
+            if (current_page == SummaryPages.MoveDetail)
+            {
+                // Animate pokemon_icons
+                anim_time += Time.deltaTime;
+                // Keep icons animated
+                if (anim_time > ICON_ANIM_TIME)
+                {
+                    anim_time = 0;
+                    anim_frame = (anim_frame + 1) % 2;
+                    move_detail_poke_icon.sprite = Specie.GetPokemonIcon((uint)current_pokemon.species, anim_frame, current_pokemon.form_id);
+                }
+            }
+            
 
             // Build/Show current page
             if (page_changed)
@@ -262,6 +384,13 @@ namespace UI
                 case SummaryPages.Ribbons:
                     BuildRibbonsScreen(current_pokemon);
                     break;
+                case SummaryPages.Egg:
+                    break;
+                case SummaryPages.MoveDetail:
+                    BuildMoveDetailScreen(current_pokemon);
+                    break;
+                case SummaryPages.LearnMove:
+                    break;
                 default:
                     break;
             }
@@ -287,6 +416,11 @@ namespace UI
                     break;
                 case SummaryPages.Ribbons:
                     HideRibbonsScreen();
+                    break;
+                case SummaryPages.Egg:
+                    break;
+                case SummaryPages.MoveDetail:
+                    HideMoveDetailScreen();
                     break;
                 default:
                     break;
@@ -373,16 +507,16 @@ namespace UI
             {
                 info_one_type.enabled = true;
                 info_one_type.sprite = types[(int)pokemon.types[0]];
-                info_types[0].enabled = false;
-                info_types[1].enabled = false;
+                info_two_types[0].enabled = false;
+                info_two_types[1].enabled = false;
             }
             else
             {
                 info_one_type.enabled = false;
-                info_types[0].enabled = true;
-                info_types[0].sprite = types[(int)pokemon.types[0]];
-                info_types[1].enabled = true;
-                info_types[1].sprite = types[(int)pokemon.types[1]];
+                info_two_types[0].enabled = true;
+                info_two_types[0].sprite = types[(int)pokemon.types[0]];
+                info_two_types[1].enabled = true;
+                info_two_types[1].sprite = types[(int)pokemon.types[1]];
             }
             info_trainer.enabled = true;
             info_trainer.text = pokemon.GetTrainerNameText();
@@ -405,8 +539,8 @@ namespace UI
             info_dex_number.enabled = false;
             info_species.enabled = false;
             info_one_type.enabled = false;
-            info_types[0].enabled = false;
-            info_types[1].enabled = false;
+            info_two_types[0].enabled = false;
+            info_two_types[1].enabled = false;
             info_trainer.enabled = false;
             info_personal_id.enabled = false;
             info_exp.enabled = false;
@@ -586,6 +720,153 @@ namespace UI
             ribbons_count_num.enabled = false;
         }
 
+        private void BuildMoveDetailScreen(Pokemon.Pokemon pokemon)
+        {
+            // Background and Title
+            move_detail_bg.enabled = true;
+            move_detail_title.enabled = true;
+            move_detail_title.text = MOVE_DETAIL_PAGE;
+
+            // Move Detail Components
+            for (int i = 0; i < Constants.NUM_MOVES; i++)
+            {
+                if (pokemon.moves[i].move == Moves.None)
+                {
+                    move_detail_types[i].enabled = false;
+                    move_detail_names[i].enabled = false;
+                    move_detail_pp_labels[i].enabled = false;
+                    move_detail_pp[i].enabled = false;
+                }
+                else
+                {
+                    MoveSlot move_slot = pokemon.moves[i];
+                    move_detail_types[i].enabled = true;
+                    move_detail_types[i].sprite = types[(int)move_slot.type];
+                    move_detail_names[i].enabled = true;
+                    move_detail_names[i].text = move_slot.name;
+                    move_detail_pp_labels[i].enabled = true;
+                    move_detail_pp_labels[i].text = PP_TEXT;
+                    move_detail_pp[i].enabled = true;
+                    move_detail_pp[i].text = move_slot.remaining_PP.ToString() + PP_SEPERATOR_TEXT + move_slot.total_pp.ToString();
+                }
+            }
+            move_detail_poke_icon.enabled = true;
+            move_detail_poke_icon.sprite = Specie.GetPokemonIcon((uint)pokemon.species, 0, (uint)pokemon.form_id);
+            if (pokemon.types[1] == Pokemon.Types.None)
+            {
+                move_detail_one_type.enabled = true;
+                move_detail_one_type.sprite = types[(int)pokemon.types[0]];
+                move_detail_two_types[0].enabled = false;
+                move_detail_two_types[1].enabled = false;
+            }
+            else
+            {
+                move_detail_one_type.enabled = false;
+                move_detail_two_types[0].enabled = true;
+                move_detail_two_types[0].sprite = types[(int)pokemon.types[0]];
+                move_detail_two_types[1].enabled = true;
+                move_detail_two_types[1].sprite = types[(int)pokemon.types[1]];
+            }
+            move_detail_info_labels.enabled = true;
+            move_detail_info_labels.text = "";
+            for (int i = 0; i < MOVE_INFO_TEXT.Length; i++)
+                move_detail_info_labels.text += MOVE_INFO_TEXT[i] + '\n';
+            Move move = Move.moves[pokemon.moves[selected_move].move];
+            move_detail_category.enabled = true;
+            move_detail_category.sprite = move_categories[(int)move.damage_category];
+            move_detail_info.enabled = true;
+            move_detail_info.text = move.GetBasePowerText() + '\n' + move.GetAccuracyText();
+            move_detail_desc.enabled = true;
+            move_detail_desc.text = move.description;
+            move_detail_sel.enabled = true;
+            move_detail_sel.sprite = move_sel[0];
+            move_detail_selection.enabled = false;
+        }
+
+        private void UpdateMoveDetailsScreen(Pokemon.Pokemon pokemon)
+        {
+            Move move = Move.moves[pokemon.moves[selected_move].move];
+            move_detail_category.enabled = true;
+            move_detail_category.sprite = move_categories[(int)move.damage_category];
+            move_detail_info.enabled = true;
+            move_detail_info.text = move.GetBasePowerText() + '\n' + move.GetAccuracyText();
+            move_detail_desc.enabled = true;
+            move_detail_desc.text = move.description;
+        }
+
+        private void HideMoveDetailScreen()
+        {
+            move_detail_bg.enabled = false;
+            move_detail_title.enabled = false;
+            for (int i = 0; i < Constants.NUM_MOVES; i++)
+            {
+                move_detail_types[i].enabled = false;
+                move_detail_names[i].enabled = false;
+                move_detail_pp_labels[i].enabled = false;
+                move_detail_pp[i].enabled = false;
+            }
+            move_detail_poke_icon.enabled = false;
+            move_detail_one_type.enabled = false;
+            move_detail_two_types[0].enabled = false;
+            move_detail_two_types[1].enabled = false;
+            move_detail_info_labels.enabled = false;
+            move_detail_category.enabled = false;
+            move_detail_info.enabled = false;
+            move_detail_desc.enabled = false;
+            move_detail_sel.enabled = false;
+            move_detail_selection.enabled = false;
+        }
+
+        private void MoveSelDown(int sel_index)
+        {
+            if (sel_index == 0)
+                move_detail_sel.rectTransform.Translate(Vector3.down * MOVE_SEL_OFFSET);
+            else if (sel_index == 1)
+                move_detail_selection.rectTransform.Translate(Vector3.down * MOVE_SEL_OFFSET);
+        }
+        private void MoveSelUp(int sel_index)
+        {
+            if (sel_index == 0)
+                move_detail_sel.rectTransform.Translate(Vector3.up * MOVE_SEL_OFFSET);
+            else if (sel_index == 1)
+                move_detail_selection.rectTransform.Translate(Vector3.up * MOVE_SEL_OFFSET);
+        }
+        private void MoveSelToBottom(int sel_index)
+        {
+            if (sel_index == 0)
+                move_detail_sel.rectTransform.Translate(Vector3.down * MOVE_SEL_OFFSET * (current_pokemon.GetNumMoves() - 1 - selected_move));
+            else if (sel_index == 1)
+                move_detail_selection.rectTransform.Translate(Vector3.down * MOVE_SEL_OFFSET * (current_pokemon.GetNumMoves() - 1 - selected_move));
+        }
+        private void MoveSelToTop(int sel_index)
+        {
+            if (sel_index == 0)
+                move_detail_sel.rectTransform.Translate(Vector3.up * MOVE_SEL_OFFSET * selected_move);
+            else if (sel_index == 1)
+                move_detail_selection.rectTransform.Translate(Vector3.up * MOVE_SEL_OFFSET * selected_move);
+        }
+        private void MarkCurrentMove()
+        {
+            marked_move = selected_move;
+            move_detail_sel.sprite = move_sel[1];
+            move_detail_selection.enabled = true;
+            move_detail_selection.sprite = move_sel[0];
+            for (int i = 0; i < selected_move; i++)
+                MoveSelDown(1);
+        }
+        private void UnmarkMarkedMove()
+        {
+            move_detail_sel.sprite = move_sel[0];
+            move_detail_selection.enabled = false;
+            MoveSelToTop(1);
+            if (marked_move > selected_move)
+                for (int i = 0; i < marked_move - selected_move; i++)
+                    MoveSelUp(0);
+            else
+                for (int i = 0; i < selected_move - marked_move; i++)
+                    MoveSelDown(0);
+        }
+
         private Sprite GetHPBarSprite(float hp_percent)
         {
             if (hp_percent <= HP_BAR_RED_PERCENT)
@@ -599,6 +880,13 @@ namespace UI
 
 
         #region Summary Screen Methods
+
+        private void SwapMoves(int move_1_index, int move_2_index)
+        {
+            temp_move_slot = current_pokemon.moves[move_1_index];
+            current_pokemon.moves[move_1_index] = current_pokemon.moves[move_2_index];
+            current_pokemon.moves[move_2_index] = temp_move_slot;
+        }
 
         private void CloseMenu()
         {

@@ -245,7 +245,7 @@ namespace Pokemon
             this.markings = new bool[Constants.NUM_MARKINGS];
 
             // Ribbons
-            this.ribbons = new bool[Constants.NUM_RIBBONS];
+            this.ribbons = new bool[Ribbons.NUM_RIBBONS];
 
             // Obtain info
             this.obtain_mode = obtain_mode;
@@ -384,7 +384,7 @@ namespace Pokemon
                 {
                     ribbon_set[j] = -1;
                 } 
-                for (int j = last_ribbon_index; j < Constants.NUM_RIBBONS; j++)
+                for (int j = last_ribbon_index; j < Ribbons.NUM_RIBBONS; j++)
                 {
                     if (ribbons[j])
                     {
@@ -403,13 +403,26 @@ namespace Pokemon
         {
             int ribbon_count = 0;
 
-            for (int i = 0; i < Constants.NUM_RIBBONS; i++)
+            for (int i = 0; i < Ribbons.NUM_RIBBONS; i++)
             {
                 if (ribbons[i])
                     ribbon_count++;
             }
 
             return ribbon_count;
+        }
+
+        public int GetNumMoves()
+        {
+            int num_moves = 0;
+
+            foreach (MoveSlot move in moves)
+            {
+                if (move.move != Moves.None)
+                    num_moves += 1;
+            }
+
+            return num_moves;
         }
 
         public float GetCurretHPPercent()

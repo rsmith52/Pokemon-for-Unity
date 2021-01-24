@@ -762,6 +762,13 @@ namespace Pokemon
     [CreateAssetMenu(fileName = "Move", menuName = "Pokemon/Move")]
     public class Move: ScriptableObject
     {
+        #region Constants
+
+        private static readonly string MOVE_INFO_NA_TEXT = "--";
+
+        #endregion
+
+
         #region Fields
 
         public static Dictionary<Moves, Move> moves;
@@ -782,6 +789,25 @@ namespace Pokemon
         public Targets target;
         public int priority;
         public MoveFlags move_flags;
+
+        #endregion
+
+
+        #region Move Methods
+
+        public string GetBasePowerText()
+        {
+            if (base_power == 0)
+                return MOVE_INFO_NA_TEXT;
+            else return base_power.ToString();
+        }
+
+        public string GetAccuracyText()
+        {
+            if (accuracy == 0)
+                return MOVE_INFO_NA_TEXT;
+            else return accuracy.ToString();
+        }
 
         #endregion
 

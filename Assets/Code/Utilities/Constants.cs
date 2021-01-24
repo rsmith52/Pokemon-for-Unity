@@ -35,7 +35,6 @@ namespace Utilities
         public static readonly string FEMALE = "♀";
         public static readonly string MALE_TEXT = "<color=blue>" + MALE + "</color>";
         public static readonly string FEMALE_TEXT = "<color=red>" + FEMALE + "</color>";
-        public static readonly int NUM_RIBBONS = 80;
 
         #endregion
 
