@@ -1014,8 +1014,9 @@ namespace Pokemon
             if (gender == Genders.Female)
             {
                 string female_file_name = file_name + 'f';
-                string female_file_path = Path.Combine(poke_sprite_path, female_file_name);
-                if (File.Exists(female_file_path))
+                string female_file_path = Path.Combine(local_path, female_file_name);
+                Sprite[] frames = Resources.LoadAll<Sprite>(female_file_path);
+                if (frames.Length > 0)
                     file_name = female_file_name;
             }
 
@@ -1055,8 +1056,9 @@ namespace Pokemon
             if (gender == Genders.Female)
             {
                 string female_file_name = file_name + 'f';
-                string female_file_path = Path.Combine(poke_sprite_path, female_file_name);
-                if (File.Exists(female_file_path))
+                string female_file_path = Path.Combine(local_path, female_file_name);
+                Sprite[] frames = Resources.LoadAll<Sprite>(female_file_path);
+                if (frames.Length > 0)
                     file_name = female_file_name;
             }
 

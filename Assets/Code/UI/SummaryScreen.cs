@@ -95,6 +95,7 @@ namespace UI
         public Text pokemon_name;
         public Text gender;
         public Text level;
+        public Image shiny;
         public Image pokemon_sprite;
         public Image[] markings = new Image[Constants.NUM_MARKINGS];
         public Image item_icon;
@@ -572,6 +573,10 @@ namespace UI
             gender.text = pokemon.GetGenderText();
             level.enabled = true;
             level.text = pokemon.level.ToString();
+            if (pokemon.is_shiny)
+                shiny.enabled = true;
+            else
+                shiny.enabled = false;
             pokemon_sprite.enabled = true;
             Specie species = pokemon.GetSpecieData();
             if (!Settings.ANIMATED_SPRITES)
@@ -606,6 +611,7 @@ namespace UI
             pokemon_name.enabled = false;
             gender.enabled = false;
             level.enabled = false;
+            shiny.enabled = false;
             pokemon_sprite.enabled = false;
             for (int i = 0; i < Constants.NUM_MARKINGS; i++)
                 markings[i].enabled = false;
