@@ -29,6 +29,7 @@ namespace UI
 
         #region Constants
 
+        // Text
         private static readonly string[] SUMMARY_PAGES = new string[]
         {
             "INFO",
@@ -61,25 +62,20 @@ namespace UI
             "Category", "Power", "Accuracy"
         };
 
-        private static readonly float ICON_ANIM_TIME = 0.25f;
-        private static readonly float SPRITE_ANIM_TIME = 0.1f;
+        // Sprite Appearance
         private static readonly float ANIM_SPRITE_SIZE_MULT = 3f;
-
-        private static readonly Color32 DARK_BG_COLOR = Constants.DARK_BG_TEXT_COLOR;
-        private static readonly Color32 LIGHT_BG_COLOR = Constants.LIGHT_BG_TEXT_COLOR;
-
         private static readonly float EXP_BAR_MAX_WIDTH = 400f;
-
         private static readonly float HP_BAR_MAX_WIDTH = 300f;
         private static readonly float HP_BAR_YELLOW_PERCENT = 0.5f;
         private static readonly float HP_BAR_RED_PERCENT = 0.2f;
-
-        private static readonly float MOVE_SEL_OFFSET = 200f * 0.4266667f;
-
+        
+        // Ribbons layout
         private static readonly int NUM_RIBBONS = 12;
         private static readonly int NUM_RIBBONS_IN_ROW = 4;
         private static readonly int NUM_RIBBONS_IN_COL = 3;
 
+        // Selection movement offsets
+        private static readonly float MOVE_SEL_OFFSET = 200f * 0.4266667f;
         private static readonly float RIBBON_SEL_OFFSET_X = 214f * 0.48f;
         private static readonly float RIBBON_SEL_OFFSET_Y = 212f * 0.4266667f;
 
@@ -445,7 +441,7 @@ namespace UI
                 // Animate pokemon_icons
                 icon_anim_time += Time.deltaTime;
                 // Keep icons animated
-                if (icon_anim_time > ICON_ANIM_TIME)
+                if (icon_anim_time > Constants.ICON_ANIM_TIME)
                 {
                     icon_anim_time = 0;
                     icon_anim_frame = (icon_anim_frame + 1) % 2;
@@ -476,7 +472,7 @@ namespace UI
             if (Settings.ANIMATED_SPRITES)
             {
                 sprite_anim_time += Time.deltaTime;
-                if (sprite_anim_time > SPRITE_ANIM_TIME)
+                if (sprite_anim_time > Constants.SPRITE_ANIM_TIME)
                 {
                     sprite_anim_time = 0;
                     sprite_anim_frame = (sprite_anim_frame + 1) % pokemon_frames.Length;

@@ -30,7 +30,6 @@ namespace UI
         #region Constants
 
         // Animations
-        private static readonly float ICON_ANIM_TIME = 0.25f;
         private static readonly float SWAP_ANIMATION_DISTANCE = 500f;
         private static readonly float SWAP_ANIMATION_SPEED = 1000f;
 
@@ -256,7 +255,7 @@ namespace UI
             // Animate pokemon_icons
             anim_time += Time.deltaTime;
             // Keep icons animated
-            if (anim_time > ICON_ANIM_TIME)
+            if (anim_time > Constants.ICON_ANIM_TIME)
             {
                 anim_time = 0;
                 anim_frame = (anim_frame + 1) % 2;

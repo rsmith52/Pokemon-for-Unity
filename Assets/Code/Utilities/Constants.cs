@@ -38,6 +38,9 @@ namespace Utilities
         public static readonly string MALE_TEXT = "<color=blue>" + MALE + "</color>";
         public static readonly string FEMALE_TEXT = "<color=red>" + FEMALE + "</color>";
 
+        public static readonly float ICON_ANIM_TIME = 0.25f;
+        public static readonly float SPRITE_ANIM_TIME = 0.05f;
+
         #endregion
 
 
