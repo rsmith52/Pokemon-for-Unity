@@ -580,7 +580,6 @@ namespace UI
             switch (selection)
             {
                 case PartySelectChoices.Summary:
-                    Debug.Log("Showing Summary");
                     open_screen = ui_manager.ShowSummaryScreen();
                     SummaryScreen summary = open_screen.GetComponent<SummaryScreen>();
                     summary.pokemon_selection = current_selection;

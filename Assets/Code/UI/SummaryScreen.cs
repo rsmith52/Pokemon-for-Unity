@@ -64,6 +64,7 @@ namespace UI
 
         // Sprite Appearance
         private static readonly float ANIM_SPRITE_SIZE_MULT = 3f;
+        private static readonly float STATIC_SPRITE_SIZE_MULT = 500f / 160f;
         private static readonly float EXP_BAR_MAX_WIDTH = 400f;
         private static readonly float HP_BAR_MAX_WIDTH = 300f;
         private static readonly float HP_BAR_YELLOW_PERCENT = 0.5f;
@@ -200,6 +201,7 @@ namespace UI
         private bool pokemon_changed;
         private float sprite_anim_time;
         private int sprite_anim_frame;
+        private bool sprite_animated;
 
         private bool page_changed;
         private bool awaiting_input;
@@ -436,11 +438,15 @@ namespace UI
                 }
             }
 
+            // Build/Show current page
+            if (page_changed)
+                BuildCurrentPage();
+
+            // Animate pokemon icon
             if (current_page == SummaryPages.MoveDetail)
             {
-                // Animate pokemon_icons
                 icon_anim_time += Time.deltaTime;
-                // Keep icons animated
+                // Keep icon animated
                 if (icon_anim_time > Constants.ICON_ANIM_TIME)
                 {
                     icon_anim_time = 0;
@@ -449,27 +455,8 @@ namespace UI
                 }
             }
 
-            // Build/Show current page
-            if (page_changed)
-                BuildCurrentPage();
-
-            // Update pokemon sprite if using animated pokemon sprites
-            if (pokemon_changed && Settings.ANIMATED_SPRITES)
-            {
-                if (!in_pc)
-                    current_pokemon = party.pokemon[pokemon_selection];
-
-                Specie species = current_pokemon.GetSpecieData();
-                pokemon_frames = Specie.GetPokemonAnimFrames(species.national_dex, current_pokemon.gender, current_pokemon.is_shiny, false, current_pokemon.form_id);
-                sprite_anim_frame = 0;
-                pokemon_sprite.sprite = pokemon_frames[sprite_anim_frame];
-                pokemon_sprite.SetNativeSize();
-                pokemon_sprite.rectTransform.SetSizeWithCurrentAnchors(RectTransform.Axis.Horizontal, ANIM_SPRITE_SIZE_MULT * pokemon_sprite.rectTransform.sizeDelta.x);
-                pokemon_sprite.rectTransform.SetSizeWithCurrentAnchors(RectTransform.Axis.Vertical, ANIM_SPRITE_SIZE_MULT * pokemon_sprite.rectTransform.sizeDelta.y);
-                pokemon_changed = false;
-            }
             // Animate pokemon sprite if using animated pokemon sprites
-            if (Settings.ANIMATED_SPRITES)
+            if (Settings.ANIMATED_SPRITES && sprite_animated)
             {
                 sprite_anim_time += Time.deltaTime;
                 if (sprite_anim_time > Constants.SPRITE_ANIM_TIME)
@@ -575,8 +562,32 @@ namespace UI
                 shiny.enabled = false;
             pokemon_sprite.enabled = true;
             Specie species = pokemon.GetSpecieData();
-            if (!Settings.ANIMATED_SPRITES)
+            // Update pokemon sprite if using animated pokemon sprites
+            if (pokemon_changed && Settings.ANIMATED_SPRITES)
+            {
+                pokemon_frames = Specie.GetPokemonAnimFrames(species.national_dex, pokemon.gender, pokemon.is_shiny, false, pokemon.form_id);
+                sprite_anim_frame = 0;
+                pokemon_sprite.sprite = pokemon_frames[sprite_anim_frame];
+                pokemon_sprite.SetNativeSize();
+                if (pokemon_frames.Length == 1)
+                {
+                    sprite_animated = false;
+                    pokemon_sprite.rectTransform.SetSizeWithCurrentAnchors(RectTransform.Axis.Horizontal, STATIC_SPRITE_SIZE_MULT * pokemon_sprite.rectTransform.sizeDelta.x);
+                    pokemon_sprite.rectTransform.SetSizeWithCurrentAnchors(RectTransform.Axis.Vertical, STATIC_SPRITE_SIZE_MULT * pokemon_sprite.rectTransform.sizeDelta.y);
+                }
+                else
+                {
+                    sprite_animated = true;
+                    pokemon_sprite.rectTransform.SetSizeWithCurrentAnchors(RectTransform.Axis.Horizontal, ANIM_SPRITE_SIZE_MULT * pokemon_sprite.rectTransform.sizeDelta.x);
+                    pokemon_sprite.rectTransform.SetSizeWithCurrentAnchors(RectTransform.Axis.Vertical, ANIM_SPRITE_SIZE_MULT * pokemon_sprite.rectTransform.sizeDelta.y);
+                }
+                pokemon_changed = false;
+            }
+            else if (pokemon_changed && !Settings.ANIMATED_SPRITES)
+            {
                 pokemon_sprite.sprite = Specie.GetPokemonSprite(species.national_dex, pokemon.gender, pokemon.is_shiny, false, pokemon.form_id);
+                pokemon_changed = false;
+            }
             for (int i = 0; i < Constants.NUM_MARKINGS; i++)
             {
                 markings[i].enabled = true;

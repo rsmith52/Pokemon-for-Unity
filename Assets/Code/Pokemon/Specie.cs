@@ -1080,12 +1080,7 @@ namespace Pokemon
             }
             catch
             {
-                file_path = Path.Combine(local_path, Settings.POKEMON_MISSING_ANIM_SPRITE);
-                if (is_shiny)
-                    file_path += 's';
-                if (is_back)
-                    file_path += 'b';
-                return Resources.LoadAll<Sprite>(file_path);
+                return new Sprite[] { GetPokemonSprite(dex_number, gender, is_shiny, is_back, form_id) };
             }
         }
 

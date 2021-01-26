@@ -1,0 +1,4232 @@
+fileFormatVersion: 2
+guid: d1ab4120e74274a08abdb608bc9107a5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8841263692025607135
+    second: 123fs_0
+  - first:
+      213: -1006409115246560036
+    second: 123fs_1
+  - first:
+      213: 3915695373390556743
+    second: 123fs_2
+  - first:
+      213: 597938183130054459
+    second: 123fs_3
+  - first:
+      213: -3409540187417221887
+    second: 123fs_4
+  - first:
+      213: 1669192422886024132
+    second: 123fs_5
+  - first:
+      213: -2821876202316024319
+    second: 123fs_6
+  - first:
+      213: -2904567656079736129
+    second: 123fs_7
+  - first:
+      213: -434715248422169091
+    second: 123fs_8
+  - first:
+      213: 621133550964919764
+    second: 123fs_9
+  - first:
+      213: -6836881298315044613
+    second: 123fs_10
+  - first:
+      213: 1613846100010634218
+    second: 123fs_11
+  - first:
+      213: 1444095883215956116
+    second: 123fs_12
+  - first:
+      213: -483172928854544593
+    second: 123fs_13
+  - first:
+      213: -471264300767521413
+    second: 123fs_14
+  - first:
+      213: -8952867139950345172
+    second: 123fs_15
+  - first:
+      213: -5507685237364057706
+    second: 123fs_16
+  - first:
+      213: -7217469549367383183
+    second: 123fs_17
+  - first:
+      213: -6722547266602898499
+    second: 123fs_18
+  - first:
+      213: 4967888784492535740
+    second: 123fs_19
+  - first:
+      213: -9178018103227656077
+    second: 123fs_20
+  - first:
+      213: -3239448373833338903
+    second: 123fs_21
+  - first:
+      213: -1629121763562252973
+    second: 123fs_22
+  - first:
+      213: -7861165414203048616
+    second: 123fs_23
+  - first:
+      213: 4887478010633858974
+    second: 123fs_24
+  - first:
+      213: 6319145187083645675
+    second: 123fs_25
+  - first:
+      213: 6610908851444329114
+    second: 123fs_26
+  - first:
+      213: 8891058408007286017
+    second: 123fs_27
+  - first:
+      213: 6479979778169136221
+    second: 123fs_28
+  - first:
+      213: -8660148008970158453
+    second: 123fs_29
+  - first:
+      213: -1736850566906731102
+    second: 123fs_30
+  - first:
+      213: 7042844459496766120
+    second: 123fs_31
+  - first:
+      213: 3180322941246709546
+    second: 123fs_32
+  - first:
+      213: -53903571505141298
+    second: 123fs_33
+  - first:
+      213: 7633723812672067241
+    second: 123fs_34
+  - first:
+      213: 4598751818432982739
+    second: 123fs_35
+  - first:
+      213: 5193019615283184640
+    second: 123fs_36
+  - first:
+      213: -3995367079273660781
+    second: 123fs_37
+  - first:
+      213: -6753457121846334377
+    second: 123fs_38
+  - first:
+      213: 110193522595049946
+    second: 123fs_39
+  - first:
+      213: -1455795110749198295
+    second: 123fs_40
+  - first:
+      213: 6649416413949361649
+    second: 123fs_41
+  - first:
+      213: -4204735828710889500
+    second: 123fs_42
+  - first:
+      213: 5031964701099671014
+    second: 123fs_43
+  - first:
+      213: 490444291279974169
+    second: 123fs_44
+  - first:
+      213: 8268052922369182494
+    second: 123fs_45
+  - first:
+      213: 1613295859961658515
+    second: 123fs_46
+  - first:
+      213: 5787959631165364237
+    second: 123fs_47
+  - first:
+      213: 7818373586059804759
+    second: 123fs_48
+  - first:
+      213: -7717949698829890706
+    second: 123fs_49
+  - first:
+      213: -1282578617791758005
+    second: 123fs_50
+  - first:
+      213: -7305723860272907354
+    second: 123fs_51
+  - first:
+      213: -4242772236733031185
+    second: 123fs_52
+  - first:
+      213: 7492790750830283073
+    second: 123fs_53
+  - first:
+      213: -5385985718541992349
+    second: 123fs_54
+  - first:
+      213: 6862434943797682383
+    second: 123fs_55
+  - first:
+      213: -7938719692422377337
+    second: 123fs_56
+  - first:
+      213: 612877584340692071
+    second: 123fs_57
+  - first:
+      213: -6469805344454987219
+    second: 123fs_58
+  - first:
+      213: -8686775241034377291
+    second: 123fs_59
+  - first:
+      213: -7507184902498531261
+    second: 123fs_60
+  - first:
+      213: -5084916039339451118
+    second: 123fs_61
+  - first:
+      213: 1976373279726945665
+    second: 123fs_62
+  - first:
+      213: -8277668494498069711
+    second: 123fs_63
+  - first:
+      213: -4640194055121105847
+    second: 123fs_64
+  - first:
+      213: -771899019553799230
+    second: 123fs_65
+  - first:
+      213: -5122925093827386560
+    second: 123fs_66
+  - first:
+      213: -7405541178753603027
+    second: 123fs_67
+  - first:
+      213: -2212454732274832866
+    second: 123fs_68
+  - first:
+      213: 6484161410761506611
+    second: 123fs_69
+  - first:
+      213: 5236467680516352186
+    second: 123fs_70
+  - first:
+      213: 670303963972747478
+    second: 123fs_71
+  - first:
+      213: -840032021106630273
+    second: 123fs_72
+  - first:
+      213: -2092409501455600917
+    second: 123fs_73
+  - first:
+      213: 7105230260603688229
+    second: 123fs_74
+  - first:
+      213: 3951312610604277542
+    second: 123fs_75
+  - first:
+      213: -4076849267738512452
+    second: 123fs_76
+  - first:
+      213: -8029140245725459420
+    second: 123fs_77
+  - first:
+      213: 8863471947786061802
+    second: 123fs_78
+  - first:
+      213: -1643108104787923149
+    second: 123fs_79
+  - first:
+      213: 6693480140577102111
+    second: 123fs_80
+  - first:
+      213: 3893146147042590094
+    second: 123fs_81
+  - first:
+      213: -6058442670487304329
+    second: 123fs_82
+  - first:
+      213: 2719558241379687542
+    second: 123fs_83
+  - first:
+      213: 5576731843963292963
+    second: 123fs_84
+  - first:
+      213: 3825781885152515930
+    second: 123fs_85
+  - first:
+      213: 1210676492574631105
+    second: 123fs_86
+  - first:
+      213: 8122034028172720492
+    second: 123fs_87
+  - first:
+      213: -1127432962331173018
+    second: 123fs_88
+  - first:
+      213: 4020093394535099357
+    second: 123fs_89
+  - first:
+      213: 2708162782427574026
+    second: 123fs_90
+  - first:
+      213: -7974035192457833563
+    second: 123fs_91
+  - first:
+      213: -1014533476224560068
+    second: 123fs_92
+  - first:
+      213: -5997048160714778955
+    second: 123fs_93
+  - first:
+      213: -854487312125728833
+    second: 123fs_94
+  - first:
+      213: 5617308070505826110
+    second: 123fs_95
+  - first:
+      213: 4540684513770191897
+    second: 123fs_96
+  - first:
+      213: 3885989000833760258
+    second: 123fs_97
+  - first:
+      213: 6128101295158137243
+    second: 123fs_98
+  - first:
+      213: 1341272538971531526
+    second: 123fs_99
+  - first:
+      213: 8143914660973078018
+    second: 123fs_100
+  - first:
+      213: -8018627574151503561
+    second: 123fs_101
+  - first:
+      213: 2145976741386004544
+    second: 123fs_102
+  - first:
+      213: -3319911647580121600
+    second: 123fs_103
+  - first:
+      213: 5768924417790501877
+    second: 123fs_104
+  - first:
+      213: -5491339304600041110
+    second: 123fs_105
+  - first:
+      213: -8782789292147816510
+    second: 123fs_106
+  - first:
+      213: 1105753587081710022
+    second: 123fs_107
+  - first:
+      213: 8804049233838823605
+    second: 123fs_108
+  - first:
+      213: 7128378907229282946
+    second: 123fs_109
+  - first:
+      213: -9142497138466756156
+    second: 123fs_110
+  - first:
+      213: -5875466215141588815
+    second: 123fs_111
+  - first:
+      213: -5700287997343106158
+    second: 123fs_112
+  - first:
+      213: -2154403419305993469
+    second: 123fs_113
+  - first:
+      213: -4003442722426083145
+    second: 123fs_114
+  - first:
+      213: -4060724156926893522
+    second: 123fs_115
+  - first:
+      213: -4006664978261952226
+    second: 123fs_116
+  - first:
+      213: -3789909500657128107
+    second: 123fs_117
+  - first:
+      213: -8940796958176672357
+    second: 123fs_118
+  - first:
+      213: 756437678521268958
+    second: 123fs_119
+  - first:
+      213: 5350947130401987296
+    second: 123fs_120
+  - first:
+      213: 7628451570594357226
+    second: 123fs_121
+  - first:
+      213: 972697857821383441
+    second: 123fs_122
+  - first:
+      213: -348383676277717126
+    second: 123fs_123
+  - first:
+      213: 7232885318959773586
+    second: 123fs_124
+  - first:
+      213: -2613398726218530712
+    second: 123fs_125
+  - first:
+      213: 6984078609637642954
+    second: 123fs_126
+  - first:
+      213: -3369668783423293591
+    second: 123fs_127
+  - first:
+      213: -4096265857864456332
+    second: 123fs_128
+  - first:
+      213: 7750368651893498713
+    second: 123fs_129
+  - first:
+      213: -6443404173853042106
+    second: 123fs_130
+  - first:
+      213: 9054164214986853839
+    second: 123fs_131
+  - first:
+      213: 5249188405762987210
+    second: 123fs_132
+  - first:
+      213: -8289703609698284948
+    second: 123fs_133
+  - first:
+      213: -975689164555751344
+    second: 123fs_134
+  - first:
+      213: 8621908393784204581
+    second: 123fs_135
+  - first:
+      213: 480292241923771998
+    second: 123fs_136
+  - first:
+      213: -4555477884664281495
+    second: 123fs_137
+  - first:
+      213: 2551409093164556083
+    second: 123fs_138
+  - first:
+      213: 3833902918216546247
+    second: 123fs_139
+  - first:
+      213: -5259441453667901399
+    second: 123fs_140
+  - first:
+      213: 7325861348220068588
+    second: 123fs_141
+  - first:
+      213: -7428714473761865004
+    second: 123fs_142
+  - first:
+      213: -3274620269181030531
+    second: 123fs_143
+  - first:
+      213: 149542235912510224
+    second: 123fs_144
+  - first:
+      213: -7271960996702185005
+    second: 123fs_145
+  - first:
+      213: -3443546123173078787
+    second: 123fs_146
+  - first:
+      213: -4321572095909752662
+    second: 123fs_147
+  - first:
+      213: -1878858043832043812
+    second: 123fs_148
+  - first:
+      213: -5472155992166903068
+    second: 123fs_149
+  - first:
+      213: -726864777589604833
+    second: 123fs_150
+  - first:
+      213: -4064149796029967497
+    second: 123fs_151
+  - first:
+      213: 1683302774160714580
+    second: 123fs_152
+  - first:
+      213: 9216170251052354902
+    second: 123fs_153
+  - first:
+      213: 6900019413009263045
+    second: 123fs_154
+  - first:
+      213: -88170671748853726
+    second: 123fs_155
+  - first:
+      213: -6743060443559590675
+    second: 123fs_156
+  - first:
+      213: -3335482146851858097
+    second: 123fs_157
+  - first:
+      213: -2488502141490413920
+    second: 123fs_158
+  - first:
+      213: -8780330884407033406
+    second: 123fs_159
+  - first:
+      213: -8221767609317988238
+    second: 123fs_160
+  - first:
+      213: -1725085048856730307
+    second: 123fs_161
+  - first:
+      213: 1911141974696471769
+    second: 123fs_162
+  - first:
+      213: 7367347989171021351
+    second: 123fs_163
+  - first:
+      213: 4156505714172060501
+    second: 123fs_164
+  - first:
+      213: -8025914554555704711
+    second: 123fs_165
+  - first:
+      213: 5521970225874140050
+    second: 123fs_166
+  - first:
+      213: 8865512290231545480
+    second: 123fs_167
+  - first:
+      213: 4901368705955713148
+    second: 123fs_168
+  - first:
+      213: -5845177081118182342
+    second: 123fs_169
+  - first:
+      213: -4766524294098690214
+    second: 123fs_170
+  - first:
+      213: -5706572542906796957
+    second: 123fs_171
+  - first:
+      213: -6981275091782249984
+    second: 123fs_172
+  - first:
+      213: 2269029341973269663
+    second: 123fs_173
+  - first:
+      213: 3037217275106317335
+    second: 123fs_174
+  - first:
+      213: -8537273672677836003
+    second: 123fs_175
+  - first:
+      213: -184316816000209535
+    second: 123fs_176
+  - first:
+      213: 4504401783436617955
+    second: 123fs_177
+  - first:
+      213: 5905061042101629772
+    second: 123fs_178
+  - first:
+      213: 6689841067407518470
+    second: 123fs_179
+  - first:
+      213: -2270783418042127057
+    second: 123fs_180
+  - first:
+      213: -73268136115780155
+    second: 123fs_181
+  - first:
+      213: 2095694193552265273
+    second: 123fs_182
+  - first:
+      213: -1420834016569389600
+    second: 123fs_183
+  - first:
+      213: 914318356242596547
+    second: 123fs_184
+  - first:
+      213: -2122162447186007206
+    second: 123fs_185
+  - first:
+      213: -887270810414594004
+    second: 123fs_186
+  - first:
+      213: 2400147358334773197
+    second: 123fs_187
+  - first:
+      213: -9006932449216668302
+    second: 123fs_188
+  - first:
+      213: -8738496035433222078
+    second: 123fs_189
+  - first:
+      213: -1748634185310453289
+    second: 123fs_190
+  - first:
+      213: 5046686269098391365
+    second: 123fs_191
+  - first:
+      213: -6626291121720729699
+    second: 123fs_192
+  - first:
+      213: -2264312175282191948
+    second: 123fs_193
+  - first:
+      213: -3795484567426336303
+    second: 123fs_194
+  - first:
+      213: -2371575625035629144
+    second: 123fs_195
+  - first:
+      213: -1241911762963872867
+    second: 123fs_196
+  - first:
+      213: -264140837829903775
+    second: 123fs_197
+  - first:
+      213: 5214684623236581830
+    second: 123fs_198
+  - first:
+      213: 3367407184860551574
+    second: 123fs_199
+  - first:
+      213: -5484529043262882620
+    second: 123fs_200
+  - first:
+      213: -1618686813880484247
+    second: 123fs_201
+  - first:
+      213: -1856215708552337300
+    second: 123fs_202
+  - first:
+      213: 7027016965181714322
+    second: 123fs_203
+  - first:
+      213: 6723718765282761593
+    second: 123fs_204
+  - first:
+      213: 9128020928185971588
+    second: 123fs_205
+  - first:
+      213: 8750489765813392080
+    second: 123fs_206
+  - first:
+      213: 3532156220752478922
+    second: 123fs_207
+  - first:
+      213: -8260746198933681254
+    second: 123fs_208
+  - first:
+      213: 6778653932299590037
+    second: 123fs_209
+  - first:
+      213: 6026586535880160353
+    second: 123fs_210
+  - first:
+      213: -4595083129207565858
+    second: 123fs_211
+  - first:
+      213: -538509953792455650
+    second: 123fs_212
+  - first:
+      213: -8611116803934789730
+    second: 123fs_213
+  - first:
+      213: 874686131720388028
+    second: 123fs_214
+  - first:
+      213: 1662015097595916904
+    second: 123fs_215
+  - first:
+      213: -5919877309848872832
+    second: 123fs_216
+  - first:
+      213: 83633804257842846
+    second: 123fs_217
+  - first:
+      213: 9076510711215804948
+    second: 123fs_218
+  - first:
+      213: 8705408793636998814
+    second: 123fs_219
+  - first:
+      213: -4570079524278486559
+    second: 123fs_220
+  - first:
+      213: 868715243861559708
+    second: 123fs_221
+  - first:
+      213: -7567796452338385646
+    second: 123fs_222
+  - first:
+      213: -8249690666097408283
+    second: 123fs_223
+  - first:
+      213: -7483958135822622245
+    second: 123fs_224
+  - first:
+      213: -3178382434773043387
+    second: 123fs_225
+  - first:
+      213: 6743465980817404283
+    second: 123fs_226
+  - first:
+      213: 7058523961637534214
+    second: 123fs_227
+  - first:
+      213: -3936605144473852032
+    second: 123fs_228
+  - first:
+      213: -8876208052615986108
+    second: 123fs_229
+  - first:
+      213: 2444679670492779880
+    second: 123fs_230
+  - first:
+      213: -8761419644494059023
+    second: 123fs_231
+  - first:
+      213: -4757792602117986881
+    second: 123fs_232
+  - first:
+      213: -2107485496367328044
+    second: 123fs_233
+  - first:
+      213: -6410429494390853827
+    second: 123fs_234
+  - first:
+      213: 5503589326265993215
+    second: 123fs_235
+  - first:
+      213: 411863750429736723
+    second: 123fs_236
+  - first:
+      213: -6198174236309161491
+    second: 123fs_237
+  - first:
+      213: 1521744008555009307
+    second: 123fs_238
+  - first:
+      213: -7827275936994720828
+    second: 123fs_239
+  - first:
+      213: 3674643326819646117
+    second: 123fs_240
+  - first:
+      213: 1058964916628438795
+    second: 123fs_241
+  - first:
+      213: 2263518940307469633
+    second: 123fs_242
+  - first:
+      213: -1013409061785602048
+    second: 123fs_243
+  - first:
+      213: -726410887618500525
+    second: 123fs_244
+  - first:
+      213: -312274144665235497
+    second: 123fs_245
+  - first:
+      213: 6752927541111831387
+    second: 123fs_246
+  - first:
+      213: 5534647151186859642
+    second: 123fs_247
+  - first:
+      213: 2484537061779273280
+    second: 123fs_248
+  - first:
+      213: -8903546400238093906
+    second: 123fs_249
+  - first:
+      213: 4072153551454258798
+    second: 123fs_250
+  - first:
+      213: -4360803980592198507
+    second: 123fs_251
+  - first:
+      213: -4908727502890599090
+    second: 123fs_252
+  - first:
+      213: 6804438887619586340
+    second: 123fs_253
+  - first:
+      213: -2687983068475370607
+    second: 123fs_254
+  - first:
+      213: -6068922239418840771
+    second: 123fs_255
+  - first:
+      213: 6169556024181678699
+    second: 123fs_256
+  - first:
+      213: 2176864039832816821
+    second: 123fs_257
+  - first:
+      213: -2345320207366152229
+    second: 123fs_258
+  - first:
+      213: -6907561513639535195
+    second: 123fs_259
+  - first:
+      213: 4939582097204567421
+    second: 123fs_260
+  - first:
+      213: 464947843376636537
+    second: 123fs_261
+  - first:
+      213: -8609469097494332609
+    second: 123fs_262
+  - first:
+      213: 7792136602297144523
+    second: 123fs_263
+  - first:
+      213: -1043810974269089915
+    second: 123fs_264
+  - first:
+      213: 831650536253804828
+    second: 123fs_265
+  - first:
+      213: -2174529967213268262
+    second: 123fs_266
+  - first:
+      213: 5379682494674691272
+    second: 123fs_267
+  - first:
+      213: -3527854448846802151
+    second: 123fs_0
+  - first:
+      213: 6777721956826658167
+    second: 123fs_1
+  - first:
+      213: -2702726462293150981
+    second: 123fs_2
+  - first:
+      213: -6718645029521086793
+    second: 123fs_3
+  - first:
+      213: 4464057377032757697
+    second: 123fs_4
+  - first:
+      213: 7452143802890771197
+    second: 123fs_5
+  - first:
+      213: -5150272432308983070
+    second: 123fs_6
+  - first:
+      213: 4268466539240716706
+    second: 123fs_7
+  - first:
+      213: -7998283370961057058
+    second: 123fs_8
+  - first:
+      213: -8904617410977205249
+    second: 123fs_9
+  - first:
+      213: 9161877772398874206
+    second: 123fs_10
+  - first:
+      213: -7593867903505610983
+    second: 123fs_11
+  - first:
+      213: -347620688826461529
+    second: 123fs_12
+  - first:
+      213: 2128869862472126327
+    second: 123fs_13
+  - first:
+      213: 7003652280894860530
+    second: 123fs_14
+  - first:
+      213: 3108549459858484739
+    second: 123fs_15
+  - first:
+      213: 4634220350989991378
+    second: 123fs_16
+  - first:
+      213: 7061261011014355627
+    second: 123fs_17
+  - first:
+      213: -8860083776380769871
+    second: 123fs_18
+  - first:
+      213: 8714763326931296835
+    second: 123fs_19
+  - first:
+      213: 8162823521594236303
+    second: 123fs_20
+  - first:
+      213: -423557883943608718
+    second: 123fs_21
+  - first:
+      213: -4975688037838109142
+    second: 123fs_22
+  - first:
+      213: 4511940544718295079
+    second: 123fs_23
+  - first:
+      213: 1679698128655773177
+    second: 123fs_24
+  - first:
+      213: -3074106125388721426
+    second: 123fs_25
+  - first:
+      213: 5256686326865902970
+    second: 123fs_26
+  - first:
+      213: -5757006778211975025
+    second: 123fs_27
+  - first:
+      213: -6094991676102861395
+    second: 123fs_28
+  - first:
+      213: 5324151526189163014
+    second: 123fs_29
+  - first:
+      213: -2536035789128463888
+    second: 123fs_30
+  - first:
+      213: -4809416781839634101
+    second: 123fs_31
+  - first:
+      213: -786992202499942481
+    second: 123fs_32
+  - first:
+      213: 8212485641352450101
+    second: 123fs_33
+  - first:
+      213: 8990842206531685754
+    second: 123fs_34
+  - first:
+      213: -5134914931131154875
+    second: 123fs_35
+  - first:
+      213: 7581935327413622522
+    second: 123fs_36
+  - first:
+      213: 3408831188885474377
+    second: 123fs_37
+  - first:
+      213: 7489340454074568736
+    second: 123fs_38
+  - first:
+      213: -8041975904431484427
+    second: 123fs_39
+  - first:
+      213: -8781086953964256606
+    second: 123fs_40
+  - first:
+      213: -5459989801181945719
+    second: 123fs_41
+  - first:
+      213: 144328781957899941
+    second: 123fs_42
+  - first:
+      213: -7151392776085176488
+    second: 123fs_43
+  - first:
+      213: 3527225788436067924
+    second: 123fs_44
+  - first:
+      213: 7969095025200504277
+    second: 123fs_45
+  - first:
+      213: 7772188719543671444
+    second: 123fs_46
+  - first:
+      213: 5833900848563593430
+    second: 123fs_47
+  - first:
+      213: 64292113052612989
+    second: 123fs_48
+  - first:
+      213: 2621196379324072320
+    second: 123fs_49
+  - first:
+      213: -1815705371527563842
+    second: 123fs_50
+  - first:
+      213: 591063328157792951
+    second: 123fs_51
+  - first:
+      213: 7081412140142580806
+    second: 123fs_52
+  - first:
+      213: -1870633310095556557
+    second: 123fs_53
+  - first:
+      213: -2949008671642560213
+    second: 123fs_54
+  - first:
+      213: -2657538075670514546
+    second: 123fs_55
+  - first:
+      213: 4330317392832857707
+    second: 123fs_56
+  - first:
+      213: -2441142224724826138
+    second: 123fs_57
+  - first:
+      213: -7083322981811732968
+    second: 123fs_58
+  - first:
+      213: 8669697956107169204
+    second: 123fs_59
+  - first:
+      213: -6101061428088728612
+    second: 123fs_60
+  - first:
+      213: -7447666923380609975
+    second: 123fs_61
+  - first:
+      213: 8664284164733849566
+    second: 123fs_62
+  - first:
+      213: 2495040718483015979
+    second: 123fs_63
+  - first:
+      213: -4471795195321822582
+    second: 123fs_64
+  - first:
+      213: 4575079605903796642
+    second: 123fs_65
+  - first:
+      213: 970566314566506729
+    second: 123fs_66
+  - first:
+      213: -6322944923122156
+    second: 123fs_67
+  - first:
+      213: 3045042485173830824
+    second: 123fs_68
+  - first:
+      213: -6968159184269604992
+    second: 123fs_69
+  - first:
+      213: 3391589234082335334
+    second: 123fs_70
+  - first:
+      213: 4640290375676467417
+    second: 123fs_71
+  - first:
+      213: 5751033911928985466
+    second: 123fs_72
+  - first:
+      213: -5126502622989264677
+    second: 123fs_73
+  - first:
+      213: 2368669231977375892
+    second: 123fs_74
+  - first:
+      213: 5279199385769582759
+    second: 123fs_75
+  - first:
+      213: -7305222649242121106
+    second: 123fs_76
+  - first:
+      213: 3176873768377488719
+    second: 123fs_77
+  - first:
+      213: 376312723542491199
+    second: 123fs_78
+  - first:
+      213: -6959875956138880149
+    second: 123fs_79
+  - first:
+      213: -959484991761161037
+    second: 123fs_80
+  - first:
+      213: 4967039744237029520
+    second: 123fs_81
+  - first:
+      213: 727116696666514557
+    second: 123fs_82
+  - first:
+      213: -9202403940576875769
+    second: 123fs_83
+  - first:
+      213: 6537045510663183379
+    second: 123fs_84
+  - first:
+      213: -8280469048459349202
+    second: 123fs_85
+  - first:
+      213: 2148206627114668953
+    second: 123fs_86
+  - first:
+      213: -5844905311260558001
+    second: 123fs_87
+  - first:
+      213: -1556514470696195774
+    second: 123fs_88
+  - first:
+      213: 6903647040652505528
+    second: 123fs_89
+  - first:
+      213: -4053591994141099328
+    second: 123fs_90
+  - first:
+      213: 7546531136853540273
+    second: 123fs_91
+  - first:
+      213: -8296276686118656199
+    second: 123fs_92
+  - first:
+      213: -6877032380895690631
+    second: 123fs_93
+  - first:
+      213: -7028781617063521501
+    second: 123fs_94
+  - first:
+      213: -8781049905633414963
+    second: 123fs_95
+  - first:
+      213: 3484433686509970068
+    second: 123fs_96
+  - first:
+      213: 1219082731118206095
+    second: 123fs_97
+  - first:
+      213: 2777010847551209673
+    second: 123fs_98
+  - first:
+      213: 184251810280225753
+    second: 123fs_99
+  - first:
+      213: -5548135893856246446
+    second: 123fs_100
+  - first:
+      213: -4933645253050551239
+    second: 123fs_101
+  - first:
+      213: -990328940873053572
+    second: 123fs_102
+  - first:
+      213: 2669935682455195913
+    second: 123fs_103
+  - first:
+      213: -1154854666443244666
+    second: 123fs_104
+  - first:
+      213: -8609980649261510890
+    second: 123fs_105
+  - first:
+      213: 3350623094104298440
+    second: 123fs_106
+  - first:
+      213: -3419412780698448267
+    second: 123fs_107
+  - first:
+      213: 6710190180321615595
+    second: 123fs_108
+  - first:
+      213: 344928085103820894
+    second: 123fs_109
+  - first:
+      213: 8973051144881917614
+    second: 123fs_110
+  - first:
+      213: 6186269268752468996
+    second: 123fs_111
+  - first:
+      213: 377990740165341695
+    second: 123fs_112
+  - first:
+      213: 2197235997988058818
+    second: 123fs_113
+  - first:
+      213: 8451393869163962517
+    second: 123fs_114
+  - first:
+      213: 6065303686862566505
+    second: 123fs_115
+  - first:
+      213: 7546636759914931040
+    second: 123fs_116
+  - first:
+      213: -2095177663901675186
+    second: 123fs_117
+  - first:
+      213: 7167943032240981591
+    second: 123fs_118
+  - first:
+      213: -5504613316766755269
+    second: 123fs_119
+  - first:
+      213: -6126089034475908826
+    second: 123fs_120
+  - first:
+      213: 3180468340473031862
+    second: 123fs_121
+  - first:
+      213: -879517280019243399
+    second: 123fs_122
+  - first:
+      213: 6640206374513159148
+    second: 123fs_123
+  - first:
+      213: -552628909978881587
+    second: 123fs_124
+  - first:
+      213: -5459820373323289282
+    second: 123fs_125
+  - first:
+      213: -6759371255361069028
+    second: 123fs_126
+  - first:
+      213: 5357025116713138255
+    second: 123fs_127
+  - first:
+      213: 2528751795970706263
+    second: 123fs_128
+  - first:
+      213: -3221838176789639010
+    second: 123fs_129
+  - first:
+      213: 1533664045818772041
+    second: 123fs_130
+  - first:
+      213: -84681171510105649
+    second: 123fs_131
+  - first:
+      213: 6980498233583368356
+    second: 123fs_132
+  - first:
+      213: -697521896537502007
+    second: 123fs_133
+  - first:
+      213: -62825288459311105
+    second: 123fs_134
+  - first:
+      213: -6186368596920365188
+    second: 123fs_135
+  - first:
+      213: 5085243415580771621
+    second: 123fs_136
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 123fs_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 61
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9137435f11b8a0fc0800000000000000
+      internalID: -3527854448846802151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123fs_1
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 61
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 775b407b53e4f0e50800000000000000
+      internalID: 6777721956826658167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123fs_2
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 61
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf2f7f92a9cfd7ad0800000000000000
+      internalID: -2702726462293150981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123fs_3
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 61
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b6a37b41f392c2a0800000000000000
+      internalID: -6718645029521086793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123fs_4
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 61
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c1eff6688483fd30800000000000000
+      internalID: 4464057377032757697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123fs_5
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 61
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfade6a3e455b6760800000000000000
+      internalID: 7452143802890771197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123fs_6
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 61
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ea6cb7928e8688b0800000000000000
+      internalID: -5150272432308983070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123fs_7
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 61
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a9751fb3b3ac3b30800000000000000
+      internalID: 4268466539240716706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123fs_8
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 61
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edac3fc96a3600190800000000000000
+      internalID: -7998283370961057058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123fs_9
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 61
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff3f1f5b4a17c6480800000000000000
+      internalID: -8904617410977205249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123fs_10
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 61
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5ec163da47852f70800000000000000
+      internalID: 9161877772398874206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123fs_11
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 61
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 917ce4430692d9690800000000000000
+      internalID: -7593867903505610983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123fs_12
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 61
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a21ce543d00d2bf0800000000000000
+      internalID: -347620688826461529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123fs_13
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 61
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77f8fa55cd34b8d10800000000000000
+      internalID: 2128869862472126327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123fs_14
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 61
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fca71d74a8f13160800000000000000
+      internalID: 7003652280894860530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123fs_15
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 61
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30ee8919349c32b20800000000000000
+      internalID: 3108549459858484739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123fs_16
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 61
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ddf4a72bde005040800000000000000
+      internalID: 4634220350989991378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123fs_17
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 61
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baa83d33a73aef160800000000000000
+      internalID: 7061261011014355627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123fs_18
+      rect:
+        serializedVersion: 2
+        x: 1098
+        y: 61
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b96f948fb8aa0580800000000000000
+      internalID: -8860083776380769871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123fs_19
+      rect:
+        serializedVersion: 2
+        x: 1159
+        y: 61
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3426753b21f01f870800000000000000
+      internalID: 8714763326931296835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123fs_20
+      rect:
+        serializedVersion: 2
+        x: 1220
+        y: 61
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8dd3d09ebc284170800000000000000
+      internalID: 8162823521594236303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123fs_21
+      rect:
+        serializedVersion: 2
+        x: 1281
+        y: 61
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27e99b149583f1af0800000000000000
+      internalID: -423557883943608718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123fs_22
+      rect:
+        serializedVersion: 2
+        x: 1342
+        y: 61
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a26cf77871ec2fab0800000000000000
+      internalID: -4975688037838109142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123fs_23
+      rect:
+        serializedVersion: 2
+        x: 1403
+        y: 61
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 720dd972502ad9e30800000000000000
+      internalID: 4511940544718295079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123fs_24
+      rect:
+        serializedVersion: 2
+        x: 1464
+        y: 61
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fd6a607c8c7f4710800000000000000
+      internalID: 1679698128655773177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123fs_25
+      rect:
+        serializedVersion: 2
+        x: 1525
+        y: 61
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee25a5a24c49655d0800000000000000
+      internalID: -3074106125388721426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123fs_26
+      rect:
+        serializedVersion: 2
+        x: 1586
+        y: 61
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7dbe78fc5083f840800000000000000
+      internalID: 5256686326865902970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123fs_27
+      rect:
+        serializedVersion: 2
+        x: 1647
+        y: 61
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f80c82f46d00b10b0800000000000000
+      internalID: -5757006778211975025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123fs_28
+      rect:
+        serializedVersion: 2
+        x: 1708
+        y: 61
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dad1decfc5d3a6ba0800000000000000
+      internalID: -6094991676102861395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123fs_29
+      rect:
+        serializedVersion: 2
+        x: 1769
+        y: 61
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 602ebd0ca9f23e940800000000000000
+      internalID: 5324151526189163014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123fs_30
+      rect:
+        serializedVersion: 2
+        x: 1830
+        y: 61
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f90253e2e03eccd0800000000000000
+      internalID: -2536035789128463888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123fs_31
+      rect:
+        serializedVersion: 2
+        x: 1891
+        y: 61
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4175a51be4814db0800000000000000
+      internalID: -4809416781839634101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123fs_32
+      rect:
+        serializedVersion: 2
+        x: 1952
+        y: 61
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa71df0f2ca0415f0800000000000000
+      internalID: -786992202499942481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123fs_33
+      rect:
+        serializedVersion: 2
+        x: 2013
+        y: 61
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5301fcfdd2c98f170800000000000000
+      internalID: 8212485641352450101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123fs_34
+      rect:
+        serializedVersion: 2
+        x: 2074
+        y: 61
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7d09efe953e5cc70800000000000000
+      internalID: 8990842206531685754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123fs_35
+      rect:
+        serializedVersion: 2
+        x: 2135
+        y: 61
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54ef31a731e1db8b0800000000000000
+      internalID: -5134914931131154875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123fs_36
+      rect:
+        serializedVersion: 2
+        x: 2196
+        y: 61
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af6597c6202783960800000000000000
+      internalID: 7581935327413622522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123fs_37
+      rect:
+        serializedVersion: 2
+        x: 2257
+        y: 61
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94c8ac0d7e99e4f20800000000000000
+      internalID: 3408831188885474377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123fs_38
+      rect:
+        serializedVersion: 2
+        x: 2318
+        y: 61
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 020d317767b7fe760800000000000000
+      internalID: 7489340454074568736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123fs_39
+      rect:
+        serializedVersion: 2
+        x: 2379
+        y: 61
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f15c1ce589256090800000000000000
+      internalID: -8041975904431484427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123fs_40
+      rect:
+        serializedVersion: 2
+        x: 2440
+        y: 61
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a2c42780ff432680800000000000000
+      internalID: -8781086953964256606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123fs_41
+      rect:
+        serializedVersion: 2
+        x: 2501
+        y: 61
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9806b4f34383a34b0800000000000000
+      internalID: -5459989801181945719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123fs_42
+      rect:
+        serializedVersion: 2
+        x: 2562
+        y: 61
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a627733342c00200800000000000000
+      internalID: 144328781957899941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123fs_43
+      rect:
+        serializedVersion: 2
+        x: 2623
+        y: 61
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85ff52ce82621cc90800000000000000
+      internalID: -7151392776085176488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123fs_44
+      rect:
+        serializedVersion: 2
+        x: 2684
+        y: 61
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4563452aa2933f030800000000000000
+      internalID: 3527225788436067924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123fs_45
+      rect:
+        serializedVersion: 2
+        x: 2745
+        y: 61
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dd986e04b9e79e60800000000000000
+      internalID: 7969095025200504277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123fs_46
+      rect:
+        serializedVersion: 2
+        x: 2806
+        y: 61
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49ad2bb267c5cdb60800000000000000
+      internalID: 7772188719543671444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123fs_47
+      rect:
+        serializedVersion: 2
+        x: 2867
+        y: 61
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d0ab7599ed26f050800000000000000
+      internalID: 5833900848563593430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123fs_48
+      rect:
+        serializedVersion: 2
+        x: 2928
+        y: 61
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d793c50165964e000800000000000000
+      internalID: 64292113052612989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123fs_49
+      rect:
+        serializedVersion: 2
+        x: 2989
+        y: 61
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 081c624283c506420800000000000000
+      internalID: 2621196379324072320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123fs_50
+      rect:
+        serializedVersion: 2
+        x: 3050
+        y: 61
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb5b459a5915dc6e0800000000000000
+      internalID: -1815705371527563842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123fs_51
+      rect:
+        serializedVersion: 2
+        x: 3111
+        y: 61
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bafa9227f0e33800800000000000000
+      internalID: 591063328157792951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123fs_52
+      rect:
+        serializedVersion: 2
+        x: 3172
+        y: 61
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 644565192da364260800000000000000
+      internalID: 7081412140142580806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123fs_53
+      rect:
+        serializedVersion: 2
+        x: 3233
+        y: 61
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 330cdbe5aec2a06e0800000000000000
+      internalID: -1870633310095556557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123fs_54
+      rect:
+        serializedVersion: 2
+        x: 3294
+        y: 61
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b29d237dc340317d0800000000000000
+      internalID: -2949008671642560213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123fs_55
+      rect:
+        serializedVersion: 2
+        x: 3355
+        y: 61
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e84759e43378e1bd0800000000000000
+      internalID: -2657538075670514546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123fs_56
+      rect:
+        serializedVersion: 2
+        x: 3416
+        y: 61
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b668f7cc9b0681c30800000000000000
+      internalID: 4330317392832857707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123fs_57
+      rect:
+        serializedVersion: 2
+        x: 3477
+        y: 61
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e7e11194125f1ed0800000000000000
+      internalID: -2441142224724826138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123fs_58
+      rect:
+        serializedVersion: 2
+        x: 3538
+        y: 61
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81e30cfe64bf2bd90800000000000000
+      internalID: -7083322981811732968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123fs_59
+      rect:
+        serializedVersion: 2
+        x: 3599
+        y: 61
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bda2b76b54f05870800000000000000
+      internalID: 8669697956107169204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123fs_60
+      rect:
+        serializedVersion: 2
+        x: 3660
+        y: 61
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd31fe9b4fca45ba0800000000000000
+      internalID: -6101061428088728612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123fs_61
+      rect:
+        serializedVersion: 2
+        x: 3721
+        y: 61
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94ce872846294a890800000000000000
+      internalID: -7447666923380609975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123fs_62
+      rect:
+        serializedVersion: 2
+        x: 3782
+        y: 61
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edfc000ea88bd3870800000000000000
+      internalID: 8664284164733849566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123fs_63
+      rect:
+        serializedVersion: 2
+        x: 3843
+        y: 61
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b29c05d605a20a220800000000000000
+      internalID: 2495040718483015979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123fs_64
+      rect:
+        serializedVersion: 2
+        x: 3904
+        y: 61
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a825b8266fdf0f1c0800000000000000
+      internalID: -4471795195321822582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123fs_65
+      rect:
+        serializedVersion: 2
+        x: 3965
+        y: 61
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a9a70969a2fd7f30800000000000000
+      internalID: 4575079605903796642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123fs_66
+      rect:
+        serializedVersion: 2
+        x: 4026
+        y: 61
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e852babbe4287d00800000000000000
+      internalID: 970566314566506729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123fs_67
+      rect:
+        serializedVersion: 2
+        x: 4087
+        y: 61
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4164ce9a05989eff0800000000000000
+      internalID: -6322944923122156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123fs_68
+      rect:
+        serializedVersion: 2
+        x: 4148
+        y: 61
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a442c6c10a224a20800000000000000
+      internalID: 3045042485173830824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123fs_69
+      rect:
+        serializedVersion: 2
+        x: 4209
+        y: 61
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0870c3b04202c4f90800000000000000
+      internalID: -6968159184269604992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123fs_70
+      rect:
+        serializedVersion: 2
+        x: 4270
+        y: 61
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66a44816078511f20800000000000000
+      internalID: 3391589234082335334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123fs_71
+      rect:
+        serializedVersion: 2
+        x: 4331
+        y: 61
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d81cd8e28f956040800000000000000
+      internalID: 4640290375676467417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123fs_72
+      rect:
+        serializedVersion: 2
+        x: 4392
+        y: 61
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7790c36fd6cfcf40800000000000000
+      internalID: 5751033911928985466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123fs_73
+      rect:
+        serializedVersion: 2
+        x: 4453
+        y: 61
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd8dd9896010bd8b0800000000000000
+      internalID: -5126502622989264677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123fs_74
+      rect:
+        serializedVersion: 2
+        x: 4514
+        y: 61
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 498a862ed143fd020800000000000000
+      internalID: 2368669231977375892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123fs_75
+      rect:
+        serializedVersion: 2
+        x: 4575
+        y: 61
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a0a147fedb734940800000000000000
+      internalID: 5279199385769582759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123fs_76
+      rect:
+        serializedVersion: 2
+        x: 4636
+        y: 61
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6c09ca84b2ae9a90800000000000000
+      internalID: -7305222649242121106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123fs_77
+      rect:
+        serializedVersion: 2
+        x: 4697
+        y: 61
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f45956c4cd5861c20800000000000000
+      internalID: 3176873768377488719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123fs_78
+      rect:
+        serializedVersion: 2
+        x: 4758
+        y: 61
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f30c533ad6ee83500800000000000000
+      internalID: 376312723542491199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123fs_79
+      rect:
+        serializedVersion: 2
+        x: 4819
+        y: 61
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b635f8161bd896f90800000000000000
+      internalID: -6959875956138880149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123fs_80
+      rect:
+        serializedVersion: 2
+        x: 4880
+        y: 61
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b4e1cacb793fa2f0800000000000000
+      internalID: -959484991761161037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123fs_81
+      rect:
+        serializedVersion: 2
+        x: 4941
+        y: 61
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 098ce74b4587ee440800000000000000
+      internalID: 4967039744237029520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123fs_82
+      rect:
+        serializedVersion: 2
+        x: 5002
+        y: 61
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d74201f78cc371a00800000000000000
+      internalID: 727116696666514557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123fs_83
+      rect:
+        serializedVersion: 2
+        x: 5063
+        y: 61
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70ba24a5f5e7a4080800000000000000
+      internalID: -9202403940576875769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123fs_84
+      rect:
+        serializedVersion: 2
+        x: 5124
+        y: 61
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31c14a7d14048ba50800000000000000
+      internalID: 6537045510663183379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123fs_85
+      rect:
+        serializedVersion: 2
+        x: 5185
+        y: 61
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e23b6f0b54dd51d80800000000000000
+      internalID: -8280469048459349202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123fs_86
+      rect:
+        serializedVersion: 2
+        x: 5246
+        y: 61
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9935f41bb86ffcd10800000000000000
+      internalID: 2148206627114668953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123fs_87
+      rect:
+        serializedVersion: 2
+        x: 5307
+        y: 61
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4d35884699b2eea0800000000000000
+      internalID: -5844905311260558001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123fs_88
+      rect:
+        serializedVersion: 2
+        x: 5368
+        y: 61
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 249e56ee556266ae0800000000000000
+      internalID: -1556514470696195774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123fs_89
+      rect:
+        serializedVersion: 2
+        x: 5429
+        y: 61
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b1f4c8086eaecf50800000000000000
+      internalID: 6903647040652505528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123fs_90
+      rect:
+        serializedVersion: 2
+        x: 5490
+        y: 61
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ca3ad4ee8fbeb7c0800000000000000
+      internalID: -4053591994141099328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123fs_91
+      rect:
+        serializedVersion: 2
+        x: 5551
+        y: 61
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bd7492f51aaab860800000000000000
+      internalID: 7546531136853540273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123fs_92
+      rect:
+        serializedVersion: 2
+        x: 5612
+        y: 61
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 937ea8d3f44bddc80800000000000000
+      internalID: -8296276686118656199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123fs_93
+      rect:
+        serializedVersion: 2
+        x: 5673
+        y: 61
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9708ad35c7fdf80a0800000000000000
+      internalID: -6877032380895690631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123fs_94
+      rect:
+        serializedVersion: 2
+        x: 5734
+        y: 61
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 323122ffb50c47e90800000000000000
+      internalID: -7028781617063521501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123fs_95
+      rect:
+        serializedVersion: 2
+        x: 5795
+        y: 61
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc03eb382a1732680800000000000000
+      internalID: -8781049905633414963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123fs_96
+      rect:
+        serializedVersion: 2
+        x: 5856
+        y: 61
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 492e4dff9f13b5030800000000000000
+      internalID: 3484433686509970068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123fs_97
+      rect:
+        serializedVersion: 2
+        x: 5917
+        y: 61
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8c1d14f84d0be010800000000000000
+      internalID: 1219082731118206095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123fs_98
+      rect:
+        serializedVersion: 2
+        x: 5978
+        y: 61
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c042b117ace98620800000000000000
+      internalID: 2777010847551209673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123fs_99
+      rect:
+        serializedVersion: 2
+        x: 6039
+        y: 61
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dbb9f49b089e8200800000000000000
+      internalID: 184251810280225753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123fs_100
+      rect:
+        serializedVersion: 2
+        x: 6100
+        y: 61
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 255aa11cccf0103b0800000000000000
+      internalID: -5548135893856246446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123fs_101
+      rect:
+        serializedVersion: 2
+        x: 6161
+        y: 61
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 934312c28cb288bb0800000000000000
+      internalID: -4933645253050551239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123fs_102
+      rect:
+        serializedVersion: 2
+        x: 6222
+        y: 61
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7a09744315a142f0800000000000000
+      internalID: -990328940873053572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123fs_103
+      rect:
+        serializedVersion: 2
+        x: 6283
+        y: 61
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 901d1e57b548d0520800000000000000
+      internalID: 2669935682455195913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123fs_104
+      rect:
+        serializedVersion: 2
+        x: 6344
+        y: 61
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68bb27facc129ffe0800000000000000
+      internalID: -1154854666443244666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123fs_105
+      rect:
+        serializedVersion: 2
+        x: 6405
+        y: 61
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61fc7c59734338880800000000000000
+      internalID: -8609980649261510890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123fs_106
+      rect:
+        serializedVersion: 2
+        x: 6466
+        y: 61
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c39e44a3fdcf7e20800000000000000
+      internalID: 3350623094104298440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123fs_107
+      rect:
+        serializedVersion: 2
+        x: 6527
+        y: 61
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57ec90a513ecb80d0800000000000000
+      internalID: -3419412780698448267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123fs_108
+      rect:
+        serializedVersion: 2
+        x: 6588
+        y: 61
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bee5269ba626f1d50800000000000000
+      internalID: 6710190180321615595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123fs_109
+      rect:
+        serializedVersion: 2
+        x: 6649
+        y: 61
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e504ba1144e69c400800000000000000
+      internalID: 344928085103820894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123fs_110
+      rect:
+        serializedVersion: 2
+        x: 6710
+        y: 61
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eae491a997ea68c70800000000000000
+      internalID: 8973051144881917614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123fs_111
+      rect:
+        serializedVersion: 2
+        x: 6771
+        y: 61
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40c08e8af1b0ad550800000000000000
+      internalID: 6186269268752468996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123fs_112
+      rect:
+        serializedVersion: 2
+        x: 6832
+        y: 61
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff131f35394ee3500800000000000000
+      internalID: 377990740165341695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123fs_113
+      rect:
+        serializedVersion: 2
+        x: 6893
+        y: 61
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c677cbaf762e7e10800000000000000
+      internalID: 2197235997988058818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123fs_114
+      rect:
+        serializedVersion: 2
+        x: 6954
+        y: 61
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 590ae6452f1694570800000000000000
+      internalID: 8451393869163962517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123fs_115
+      rect:
+        serializedVersion: 2
+        x: 7015
+        y: 61
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9647f4e51994c2450800000000000000
+      internalID: 6065303686862566505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123fs_116
+      rect:
+        serializedVersion: 2
+        x: 7076
+        y: 61
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06362ab362a0bb860800000000000000
+      internalID: 7546636759914931040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123fs_117
+      rect:
+        serializedVersion: 2
+        x: 7137
+        y: 61
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e41dec1f30f6ce2e0800000000000000
+      internalID: -2095177663901675186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123fs_118
+      rect:
+        serializedVersion: 2
+        x: 7198
+        y: 61
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 756c5fed536a97360800000000000000
+      internalID: 7167943032240981591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123fs_119
+      rect:
+        serializedVersion: 2
+        x: 7259
+        y: 61
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b369b346a5fab93b0800000000000000
+      internalID: -5504613316766755269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123fs_120
+      rect:
+        serializedVersion: 2
+        x: 7320
+        y: 61
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 621d5a50b72cbfaa0800000000000000
+      internalID: -6126089034475908826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123fs_121
+      rect:
+        serializedVersion: 2
+        x: 7381
+        y: 61
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bc6545da1b432c20800000000000000
+      internalID: 3180468340473031862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123fs_122
+      rect:
+        serializedVersion: 2
+        x: 7442
+        y: 61
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97e92a691b35bc3f0800000000000000
+      internalID: -879517280019243399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123fs_123
+      rect:
+        serializedVersion: 2
+        x: 7503
+        y: 61
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceb242c2480c62c50800000000000000
+      internalID: 6640206374513159148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123fs_124
+      rect:
+        serializedVersion: 2
+        x: 7564
+        y: 61
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc1f8103feaa458f0800000000000000
+      internalID: -552628909978881587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123fs_125
+      rect:
+        serializedVersion: 2
+        x: 7625
+        y: 61
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3def9e3c42da34b0800000000000000
+      internalID: -5459820373323289282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123fs_126
+      rect:
+        serializedVersion: 2
+        x: 7686
+        y: 61
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c10a73be7a3e132a0800000000000000
+      internalID: -6759371255361069028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123fs_127
+      rect:
+        serializedVersion: 2
+        x: 7747
+        y: 61
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f48388ef5f9f75a40800000000000000
+      internalID: 5357025116713138255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123fs_128
+      rect:
+        serializedVersion: 2
+        x: 7808
+        y: 61
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75b07fb4c5ee71320800000000000000
+      internalID: 2528751795970706263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123fs_129
+      rect:
+        serializedVersion: 2
+        x: 7869
+        y: 61
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9059ac8f3bb943d0800000000000000
+      internalID: -3221838176789639010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123fs_130
+      rect:
+        serializedVersion: 2
+        x: 7930
+        y: 61
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94af0dfe25ba84510800000000000000
+      internalID: 1533664045818772041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123fs_131
+      rect:
+        serializedVersion: 2
+        x: 7991
+        y: 61
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc9e9f45ce623def0800000000000000
+      internalID: -84681171510105649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123fs_132
+      rect:
+        serializedVersion: 2
+        x: 8052
+        y: 61
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a87affb826bfd060800000000000000
+      internalID: 6980498233583368356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123fs_133
+      rect:
+        serializedVersion: 2
+        x: 8113
+        y: 61
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ce43ddd787e156f0800000000000000
+      internalID: -697521896537502007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123fs_134
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff7a876abbcc02ff0800000000000000
+      internalID: -62825288459311105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123fs_135
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 0
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7f0ee2b98a952aa0800000000000000
+      internalID: -6186368596920365188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 123fs_136
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 0
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 525061691f9629640800000000000000
+      internalID: 5085243415580771621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
