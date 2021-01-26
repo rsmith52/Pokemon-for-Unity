@@ -31,6 +31,10 @@ namespace Utilities
         public static readonly string POKEMON_MISSING_SPRITE = "000";
         public static readonly string POKEMON_ANIM_SPRITE_PATH = Path.Combine("Assets", "Resources", "Pokemon_Anim_Sprites");
 
+        // Audio Files
+        public static readonly string POKEMON_CRIES_PATH = Path.Combine("Assets", "Resources", "Pokemon_Cries");
+        public static readonly string POKEMON_CRY_SUFFIX = "Cry";
+
         // Data Files
         public static readonly string DATA_IMPORT_PATH = Path.Combine(Application.dataPath, "Resources", "Imports");
         public static readonly string ABILITIES_FILE_PATH = Path.Combine("Assets", "Resources", "Data", "Abilities");
