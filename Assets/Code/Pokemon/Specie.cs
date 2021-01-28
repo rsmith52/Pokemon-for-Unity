@@ -983,13 +983,21 @@ namespace Pokemon
         public static Sprite GetPokemonIcon(uint dex_number, int frame = 0, uint form_id = 0)
         {
             string poke_icon_path = Settings.POKEMON_ICON_PATH;
+            string local_path = Path.GetFileName(poke_icon_path);
 
             string formatted_number = dex_number.ToString().PadLeft(3, '0');
-            if (form_id != 0)
-                formatted_number += '_' + form_id.ToString();
-
             string file_name = Settings.POKEMON_ICON_PREFIX + formatted_number;
-            string local_path = Path.GetFileName(poke_icon_path);
+
+            // check for alt form
+            if (form_id != 0)
+            {
+                string alt_form_file_name = file_name + '_' + form_id.ToString();
+                string alt_form_file_path = Path.Combine(local_path, alt_form_file_name);
+                Sprite[] frames = Resources.LoadAll<Sprite>(alt_form_file_path);
+                if (frames.Length > 0)
+                    file_name += '_' + form_id.ToString();
+            } 
+
             string file_path = Path.Combine(local_path, file_name);
 
             try
@@ -1100,6 +1108,25 @@ namespace Pokemon
                 // Get static sprite
                 return new Sprite[] { GetPokemonSprite(dex_number, gender, is_shiny, is_back, form_id) };
             }
+        }
+
+        public static AudioClip GetPokemonCry(uint dex_number)
+        {
+            string poke_cry_path = Settings.POKEMON_CRIES_PATH;
+            string local_path = Path.GetFileName(poke_cry_path);
+
+            string file_name = dex_number.ToString().PadLeft(3, '0') + Settings.POKEMON_CRY_SUFFIX;
+            string file_path = Path.Combine(local_path, file_name);
+
+            try
+            {
+                return Resources.Load<AudioClip>(file_path);
+            }
+            catch
+            {
+                return null;
+            }
+            
         }
 
         #endregion

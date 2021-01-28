@@ -86,6 +86,7 @@ namespace UI
         #region Fields
 
         private UIManager ui_manager;
+        private AudioSource audio_source;
 
         [Header("General Components")]
         public Image ball_icon;
@@ -220,6 +221,7 @@ namespace UI
         {
             // Get references
             ui_manager = FindObjectOfType<UIManager>();
+            audio_source = GetComponent<AudioSource>();
             player = ui_manager.GetPlayerTrainer();
             party = player.party;
 
@@ -408,6 +410,11 @@ namespace UI
                         ribbon_details = true;
                         selected_ribbon = 0;
                         UpdateRibbonsScreen(current_pokemon);
+                    }
+                    else
+                    {
+                        audio_source.clip = Specie.GetPokemonCry(current_pokemon.GetSpecieData().national_dex);
+                        audio_source.Play();
                     }
                 }
                 else if (Input.GetKeyDown(KeyCode.X))
