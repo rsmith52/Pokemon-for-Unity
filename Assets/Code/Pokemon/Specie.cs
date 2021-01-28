@@ -1025,8 +1025,16 @@ namespace Pokemon
                 file_name += 's';
             if (is_back)
                 file_name += 'b';
+
+            // check for alternate form
             if (form_id != 0)
-                file_name += '_' + form_id.ToString();
+            {
+                string alt_form_file_name = file_name + '_' + form_id.ToString();
+                string alt_form_file_path = Path.Combine(local_path, alt_form_file_name);
+                Sprite[] frames = Resources.LoadAll<Sprite>(alt_form_file_path);
+                if (frames.Length > 0)
+                    file_name = alt_form_file_name;
+            }
 
             string file_path = Path.Combine(local_path, file_name);
 
@@ -1036,6 +1044,7 @@ namespace Pokemon
             }
             catch
             {
+                // Use default (missing) sprite
                 file_path = Path.Combine(local_path, Settings.POKEMON_MISSING_SPRITE);
                 if (is_shiny)
                     file_path += 's';
@@ -1067,8 +1076,16 @@ namespace Pokemon
                 file_name += 's';
             if (is_back)
                 file_name += 'b';
+
+            // check for alternate form
             if (form_id != 0)
-                file_name += '_' + form_id.ToString();
+            {
+                string alt_form_file_name = file_name + '_' + form_id.ToString();
+                string alt_form_file_path = Path.Combine(local_path, alt_form_file_name);
+                Sprite[] frames = Resources.LoadAll<Sprite>(alt_form_file_path);
+                if (frames.Length > 0)
+                    file_name = alt_form_file_name;
+            }
 
             string file_path = Path.Combine(local_path, file_name);
 
@@ -1080,6 +1097,7 @@ namespace Pokemon
             }
             catch
             {
+                // Get static sprite
                 return new Sprite[] { GetPokemonSprite(dex_number, gender, is_shiny, is_back, form_id) };
             }
         }
