@@ -59,12 +59,7 @@ namespace Eventing
     public struct EventEntry
     {
         public Effects effect;
-        public EventParams event_params;
-    }
 
-    [Serializable]
-    public struct EventParams
-    {
         public string message;
         public MoveableCharacter character;
         public ChoicePackage choice_package;
@@ -174,23 +169,23 @@ namespace Eventing
             for (int i = 0; i < event_entries.Length; i++)
             {
                 Effects effect = event_entries[i].effect;
-                EventParams event_params = event_entries[i].event_params;
+                EventEntry event_entry = event_entries[i];
                 effect_playing = true;
 
                 switch (effect)
                 {
                     case Effects.ShowMessage:
-                        StartCoroutine(ShowMessage(event_params.message)); break;
+                        StartCoroutine(ShowMessage(event_entry.message)); break;
                     case Effects.ShowChoices:
-                        StartCoroutine(ShowChoices(event_params.message, event_params.choice_package)); break;
+                        StartCoroutine(ShowChoices(event_entry.message, event_entry.choice_package)); break;
                     case Effects.ShowMessageBubble:
-                        StartCoroutine(ShowMessage(event_params.message)); break;
+                        StartCoroutine(ShowMessage(event_entry.message)); break;
                     case Effects.SetMoveRoute:
-                        StartCoroutine(SetMoveRoute(event_params.character, event_params.move_route_package)); break;
+                        StartCoroutine(SetMoveRoute(event_entry.character, event_entry.move_route_package)); break;
                     case Effects.SetPlayerMoveRoute:
-                        StartCoroutine(SetPlayerMoveRoute(event_params.move_route_package)); break;
+                        StartCoroutine(SetPlayerMoveRoute(event_entry.move_route_package)); break;
                     case Effects.AddPokemon:
-                        StartCoroutine(AddPokemon(event_params.pokemon_package)); break;
+                        StartCoroutine(AddPokemon(event_entry.pokemon_package)); break;
                     default:
                         Debug.Log("Unknown effect played: " + effect); break;
                 }

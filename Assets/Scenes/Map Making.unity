@@ -750,127 +750,117 @@ MonoBehaviour:
   local_variables: []
   event_entries:
   - effect: 0
-    event_params:
-      message: "Hi {PN}, would you like some Pok\xE9mon?"
-      character: {fileID: 0}
-      choice_package:
-        choices: []
-        starting_choice: 0
-        cancel_choice: 0
-      move_route_package:
-        move_route: 
-        wait_for_moves_completion: 0
-      pokemon_package:
-        species: 0
-        level: 0
-        form_id: 0
+    message: 
+    character: {fileID: 0}
+    choice_package:
+      choices: []
+      starting_choice: 0
+      cancel_choice: 0
+    move_route_package:
+      move_route: 
+      wait_for_moves_completion: 0
+    pokemon_package:
+      species: 0
+      level: 0
+      form_id: 0
   - effect: 1
-    event_params:
-      message: Accept the party?
-      character: {fileID: 0}
-      choice_package:
-        choices:
-        - Yes
-        - No
-        starting_choice: 0
-        cancel_choice: 1
-      move_route_package:
-        move_route: 
-        wait_for_moves_completion: 0
-      pokemon_package:
-        species: 4
-        level: 5
-        form_id: 0
+    message: 
+    character: {fileID: 0}
+    choice_package:
+      choices: []
+      starting_choice: 0
+      cancel_choice: 0
+    move_route_package:
+      move_route: 
+      wait_for_moves_completion: 0
+    pokemon_package:
+      species: 0
+      level: 0
+      form_id: 0
   - effect: 5
-    event_params:
-      message: 
-      character: {fileID: 0}
-      choice_package:
-        choices: []
-        starting_choice: 0
-        cancel_choice: 0
-      move_route_package:
-        move_route: 
-        wait_for_moves_completion: 0
-      pokemon_package:
-        species: 25
-        level: 10
-        form_id: 0
+    message: 
+    character: {fileID: 0}
+    choice_package:
+      choices: []
+      starting_choice: 0
+      cancel_choice: 0
+    move_route_package:
+      move_route: 
+      wait_for_moves_completion: 0
+    pokemon_package:
+      species: 0
+      level: 0
+      form_id: 0
   - effect: 5
-    event_params:
-      message: 
-      character: {fileID: 0}
-      choice_package:
-        choices: []
-        starting_choice: 0
-        cancel_choice: 0
-      move_route_package:
-        move_route: 
-        wait_for_moves_completion: 0
-      pokemon_package:
-        species: 1
-        level: 5
-        form_id: 0
+    message: 
+    character: {fileID: 0}
+    choice_package:
+      choices: []
+      starting_choice: 0
+      cancel_choice: 0
+    move_route_package:
+      move_route: 
+      wait_for_moves_completion: 0
+    pokemon_package:
+      species: 0
+      level: 0
+      form_id: 0
   - effect: 5
-    event_params:
-      message: 
-      character: {fileID: 0}
-      choice_package:
-        choices: []
-        starting_choice: 0
-        cancel_choice: 0
-      move_route_package:
-        move_route: 
-        wait_for_moves_completion: 0
-      pokemon_package:
-        species: 4
-        level: 5
-        form_id: 0
+    message: 
+    character: {fileID: 0}
+    choice_package:
+      choices: []
+      starting_choice: 0
+      cancel_choice: 0
+    move_route_package:
+      move_route: 
+      wait_for_moves_completion: 0
+    pokemon_package:
+      species: 0
+      level: 0
+      form_id: 0
   - effect: 5
-    event_params:
-      message: 
-      character: {fileID: 0}
-      choice_package:
-        choices: []
-        starting_choice: 0
-        cancel_choice: 0
-      move_route_package:
-        move_route: 
-        wait_for_moves_completion: 0
-      pokemon_package:
-        species: 7
-        level: 5
-        form_id: 0
+    message: 
+    character: {fileID: 0}
+    choice_package:
+      choices: []
+      starting_choice: 0
+      cancel_choice: 0
+    move_route_package:
+      move_route: 
+      wait_for_moves_completion: 0
+    pokemon_package:
+      species: 0
+      level: 0
+      form_id: 0
   - effect: 5
-    event_params:
-      message: 
-      character: {fileID: 0}
-      choice_package:
-        choices: []
-        starting_choice: 0
-        cancel_choice: 0
-      move_route_package:
-        move_route: 
-        wait_for_moves_completion: 0
-      pokemon_package:
-        species: 196
-        level: 20
-        form_id: 0
+    message: 
+    character: {fileID: 0}
+    choice_package:
+      choices: []
+      starting_choice: 0
+      cancel_choice: 0
+    move_route_package:
+      move_route: 
+      wait_for_moves_completion: 0
+    pokemon_package:
+      species: 0
+      level: 0
+      form_id: 0
   - effect: 5
-    event_params:
-      message: 
-      character: {fileID: 0}
-      choice_package:
-        choices: []
-        starting_choice: 0
-        cancel_choice: 0
-      move_route_package:
-        move_route: 
-        wait_for_moves_completion: 0
-      pokemon_package:
-        species: 491
-        level: 50
-        form_id: 0
+    message: 
+    character: {fileID: 0}
+    choice_package:
+      choices: []
+      starting_choice: 0
+      cancel_choice: 0
+    move_route_package:
+      move_route: 
+      wait_for_moves_completion: 0
+    pokemon_package:
+      species: 0
+      level: 0
+      form_id: 0
 --- !u!114 &1530079708
 MonoBehaviour:
   m_ObjectHideFlags: 0
