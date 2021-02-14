@@ -37,20 +37,37 @@ public class EventEntryEditor : PropertyDrawer
             if (effect_type == Effects.ShowMessage)
             {
                 // properties special for ShowMessage
-                var message_property = property.FindPropertyRelative("message");
+                SerializedProperty message_property = property.FindPropertyRelative("message");
                 message_property.stringValue = EditorGUI.TextField(position, "message", message_property.stringValue);
                 position.y += position.height;
             }
             else if (effect_type == Effects.ShowChoices)
             {
                 // properties special for ShowChoices
-                var message_property = property.FindPropertyRelative("message");
+                SerializedProperty message_property = property.FindPropertyRelative("message");
                 message_property.stringValue = EditorGUI.TextField(position, "message", message_property.stringValue);
                 position.y += position.height;
 
-                var choice_package_property = property.FindPropertyRelative("choice_package");
-                choice_package_property.objectReferenceValue = EditorGUI.ObjectField(position, choice_package_property.objectReferenceValue);
+                SerializedProperty choice_package_property = property.FindPropertyRelative("choice_package");
+                SerializedProperty choices_property = choice_package_property.FindPropertyRelative("choices");
+                SerializedProperty starting_choice_property = choice_package_property.FindPropertyRelative("starting_choice");
+                SerializedProperty cancel_choice_property = choice_package_property.FindPropertyRelative("cancel_choice");
+
+                //TODO: Array of choices display
+                starting_choice_property.intValue = EditorGUI.IntField(position, "starting choice", starting_choice_property.intValue);
                 position.y += position.height;
+                cancel_choice_property.intValue = EditorGUI.IntField(position, "cancel choice", cancel_choice_property.intValue);
+                position.y += position.height;
+            }
+            else if (effect_type == Effects.AddPokemon)
+            {
+                // properties for AddPokemon
+                SerializedProperty pokemon_package_property = property.FindPropertyRelative("pokemon_package");
+                SerializedProperty species_property = pokemon_package_property.FindPropertyRelative("species");
+                SerializedProperty level_property = pokemon_package_property.FindPropertyRelative("level");
+                SerializedProperty form_id_property = pokemon_package_property.FindPropertyRelative("form_id");
+
+                //TODO: Enum of species selected
             }
         }
     }
@@ -58,7 +75,7 @@ public class EventEntryEditor : PropertyDrawer
     //GetPropertyHeight is like getting the height of the whole box of script in the inspector before filling in
     public override float GetPropertyHeight(SerializedProperty property, GUIContent label)
     {
-        return property.isExpanded ? 20 * 3 : 20 * 1;
+        return property.isExpanded ? 20 * 4 : 20 * 1;
         //kind of inconvenient but works for now. If I have more variable I have to adjust these number myself.
     }
 }
