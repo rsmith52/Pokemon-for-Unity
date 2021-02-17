@@ -1,4 +1,5 @@
-﻿using UnityEditor;
+﻿/*
+using UnityEditor;
 using UnityEngine;
 using Eventing;
 
@@ -79,3 +80,4 @@ public class EventEntryEditor : PropertyDrawer
         //kind of inconvenient but works for now. If I have more variable I have to adjust these number myself.
     }
 }
+*/
