@@ -10,16 +10,6 @@ namespace Mapping
 
     }
 
-    public enum TerrainTags
-    {
-        None,
-        Ledge,
-        Grass,
-        StairUp,
-        StairLeft,
-        Ignore
-    }
-
     #endregion
 
     [CreateAssetMenu(fileName = "Map", menuName = "Pokemon/Map")]

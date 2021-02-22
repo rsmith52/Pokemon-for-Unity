@@ -98,6 +98,17 @@ namespace Trainers
             return true;
         }
 
+        public Pokemon.Pokemon GetFirstEligiblePokemon()
+        {
+            for (int i = 0; i < party.size; i++)
+            {
+                if (party.pokemon[i].current_HP > 0)
+                    return party.pokemon[i];
+            }
+
+            return null;
+        }
+
         #endregion
 
 
