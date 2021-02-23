@@ -16,7 +16,6 @@ namespace Utilities
         public bool data_loaded;
         public float load_time;
 
-        public string game_scene;
         public bool scene_loading;
 
         #endregion
@@ -45,7 +44,7 @@ namespace Utilities
             if (data_loaded && !scene_loading)
             {
                 Debug.Log("Load Time: " + (Time.time - load_time).ToString());
-                StartCoroutine(SceneLoader.LoadScene(game_scene));
+                StartCoroutine(SceneLoader.LoadScene(Settings.START_SCENE));
                 scene_loading = true;
             }
         }

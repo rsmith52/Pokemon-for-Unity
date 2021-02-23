@@ -5,6 +5,13 @@ namespace Utilities
 {
     public static class Settings
     {
+        #region Game
+
+        public static readonly string START_SCENE = Constants.MAP_MAKING_SCENE;
+
+        #endregion
+
+
         #region Pokemon
 
         public static readonly float SHINY_CHANCE = 16; // SHINY_CHANCE / 65536

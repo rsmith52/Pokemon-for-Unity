@@ -276,6 +276,19 @@ namespace Pokemon
             return abilities[ability_id];
         }
 
+        public static bool TriggersOnBattleStart(Abilities ability)
+        {
+            // TODO: Add all abilities that trigger on battle start
+            List<Abilities> battle_start_abilities = new List<Abilities>()
+            {
+                Abilities.Intimidate
+            };
+            if (battle_start_abilities.Contains(ability)) {
+                return true;
+            }
+            else return false;
+        }
+
         #endregion
 
     }

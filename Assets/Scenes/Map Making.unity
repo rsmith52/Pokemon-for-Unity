@@ -750,7 +750,7 @@ MonoBehaviour:
   local_variables: []
   event_entries:
   - effect: 0
-    message: Hi there {PN}! Would you like a party?
+    message: Hi there {PN}! Would you like to battle?
     character: {fileID: 0}
     choice_package:
       choices: []
@@ -763,7 +763,7 @@ MonoBehaviour:
       species: 0
       level: 0
       form_id: 0
-  - effect: 1
+  - effect: 6
     message: 
     character: {fileID: 0}
     choice_package:
@@ -776,92 +776,8 @@ MonoBehaviour:
       move_route: 
       wait_for_moves_completion: 0
     pokemon_package:
-      species: 0
-      level: 0
-      form_id: 0
-  - effect: 5
-    message: 
-    character: {fileID: 0}
-    choice_package:
-      choices: []
-      starting_choice: 0
-      cancel_choice: 0
-    move_route_package:
-      move_route: 
-      wait_for_moves_completion: 0
-    pokemon_package:
-      species: 1
-      level: 5
-      form_id: 0
-  - effect: 5
-    message: 
-    character: {fileID: 0}
-    choice_package:
-      choices: []
-      starting_choice: 0
-      cancel_choice: 0
-    move_route_package:
-      move_route: 
-      wait_for_moves_completion: 0
-    pokemon_package:
-      species: 4
-      level: 5
-      form_id: 0
-  - effect: 5
-    message: 
-    character: {fileID: 0}
-    choice_package:
-      choices: []
-      starting_choice: 0
-      cancel_choice: 0
-    move_route_package:
-      move_route: 
-      wait_for_moves_completion: 0
-    pokemon_package:
-      species: 7
-      level: 0
-      form_id: 0
-  - effect: 5
-    message: 
-    character: {fileID: 0}
-    choice_package:
-      choices: []
-      starting_choice: 0
-      cancel_choice: 0
-    move_route_package:
-      move_route: 
-      wait_for_moves_completion: 0
-    pokemon_package:
       species: 25
-      level: 15
-      form_id: 0
-  - effect: 5
-    message: 
-    character: {fileID: 0}
-    choice_package:
-      choices: []
-      starting_choice: 0
-      cancel_choice: 0
-    move_route_package:
-      move_route: 
-      wait_for_moves_completion: 0
-    pokemon_package:
-      species: 197
-      level: 25
-      form_id: 0
-  - effect: 5
-    message: 
-    character: {fileID: 0}
-    choice_package:
-      choices: []
-      starting_choice: 0
-      cancel_choice: 0
-    move_route_package:
-      move_route: 
-      wait_for_moves_completion: 0
-    pokemon_package:
-      species: 491
-      level: 50
+      level: 5
       form_id: 0
 --- !u!114 &1530079708
 MonoBehaviour:
@@ -7588,6 +7504,25 @@ PrefabInstance:
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 772d9dd6ee16f483ea933de0a5501e6f, type: 3}
+--- !u!1 &7138630002323732050 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7138630003285900662, guid: 772d9dd6ee16f483ea933de0a5501e6f,
+    type: 3}
+  m_PrefabInstance: {fileID: 7138630002323732049}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &7138630002323732051
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7138630002323732050}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50e7e7188ebb4442db71d132ceaecd22, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  in_battle: 0
 --- !u!1 &7144402529416961675
 GameObject:
   m_ObjectHideFlags: 0

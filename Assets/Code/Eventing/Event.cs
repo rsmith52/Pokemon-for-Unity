@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using Battle;
 using Pokemon;
 using Trainers;
 using UI;
@@ -38,6 +39,7 @@ namespace Eventing
         SetMoveRoute,
         SetPlayerMoveRoute,
         AddPokemon,
+        WildBattle
     }
 
     public enum Logics
@@ -107,6 +109,7 @@ namespace Eventing
 
         private EventManager event_manager;
         private UIManager ui_manager;
+        private BattleManager battle_manager;
 
         [Header("Event Settings")]
         public Conditions[] conditions;
@@ -136,6 +139,7 @@ namespace Eventing
         {
             event_manager = FindObjectOfType<EventManager>();
             ui_manager = FindObjectOfType<UIManager>();
+            battle_manager = FindObjectOfType<BattleManager>();
 
             event_playing = false;
             effect_playing = false;
@@ -186,6 +190,8 @@ namespace Eventing
                         StartCoroutine(SetPlayerMoveRoute(event_entry.move_route_package)); break;
                     case Effects.AddPokemon:
                         StartCoroutine(AddPokemon(event_entry.pokemon_package)); break;
+                    case Effects.WildBattle:
+                        StartCoroutine(WildBattle(event_entry.pokemon_package)); break;
                     default:
                         Debug.Log("Unknown effect played: " + effect); break;
                 }
@@ -272,6 +278,16 @@ namespace Eventing
             player.AddPokemonToParty(new_pokemon);
 
             yield return new WaitForSeconds(0.5f);
+
+            effect_playing = false;
+        }
+
+        public IEnumerator WildBattle(PokemonPackage package)
+        {
+            Pokemon.Pokemon wild_pokemon = new Pokemon.Pokemon(package.species, package.level);
+            StartCoroutine(battle_manager.WildBattle(wild_pokemon));
+
+            yield return new WaitUntil(() => !battle_manager.in_battle);
 
             effect_playing = false;
         }

@@ -4,6 +4,14 @@ namespace Utilities
 {
     public static class Constants
     {
+        #region Scenes
+
+        public static readonly string BATTLE_SCENE = "Battle";
+        public static readonly string MAP_MAKING_SCENE = "Map Making";
+
+        #endregion
+
+
         #region Movement
 
         // Movement Speeds and Turn Sensitivity

@@ -27,6 +27,9 @@ namespace Eventing
             Event[] all_events = FindObjectsOfType<Event>();
             foreach (Event e in all_events)
                 events.Add(e);
+
+            // Set Game Manager game object to not destroy on load
+            DontDestroyOnLoad(gameObject);
         }
 
         private void Update()

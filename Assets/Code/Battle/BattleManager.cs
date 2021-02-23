@@ -1,14 +1,25 @@
 ﻿using System.Collections;
 using Pokemon;
 using Trainers;
+using UI;
 using UnityEngine;
+using Utilities;
 
 namespace Battle
 {
     #region Enums
 
+    public enum BattleTypes
+    {
+        None,
+        Wild,
+        Trainer,
+        Safari
+    }
+
     public enum BattleStates
     {
+        None,
         Start,
         Command,
         Move,
@@ -27,19 +38,15 @@ namespace Battle
 
         private PlayerTrainer player_trainer;
         private Trainer enemy_trainer;
+        private UIManager ui_manager;
 
         private Pokemon.Pokemon player_pokemon;
         private Pokemon.Pokemon enemy_pokemon;
 
-        private BattleStates current_state;
-        private bool animation_playing;
-
-        [Header("Battle Components")]
-        public GameObject player_base;
-        public GameObject enemy_base;
-
-        public GameObject player_battler;
-        public GameObject enemy_battler;
+        public bool in_battle;
+        private BattleTypes battle_type;
+        private BattleStates battle_state;
+        private bool effect_playing;
 
         #endregion
 
@@ -53,6 +60,12 @@ namespace Battle
         private void Start()
         {
             player_trainer = FindObjectOfType<PlayerTrainer>();
+            ui_manager = FindObjectOfType<UIManager>();
+
+            in_battle = false;
+            battle_type = BattleTypes.None;
+            battle_state = BattleStates.None;
+            effect_playing = false;
         }
 
         private void Update()
@@ -63,17 +76,73 @@ namespace Battle
         #endregion
 
 
-        #region Battle Manager Methods
+        #region Battle Start Methods
 
         public IEnumerator WildBattle(Pokemon.Pokemon wild_pokemon)
         {
+            // Setup battle parameters for wild encounter
+            in_battle = true;
+            battle_type = BattleTypes.Wild;
+            battle_state = BattleStates.Start;
             enemy_trainer = null;
             player_pokemon = player_trainer.GetFirstEligiblePokemon();
             enemy_pokemon = wild_pokemon;
 
-            current_state = BattleStates.Start;
-            animation_playing = true;
+            // Call Wild Battle Intro Scene
+            effect_playing = true;
+            StartCoroutine(RunWildBattleIntro());
+            yield return new WaitUntil(() => !effect_playing);
+            StartCoroutine(BattleStart());
+        }
+
+        public IEnumerator TrainerBattle(Trainer trainer)
+        {
+            // Setup battle parameters for a trainer battle
+            in_battle = true;
+            battle_type = BattleTypes.Trainer;
+            battle_state = BattleStates.Start;
+            enemy_trainer = trainer;
+            player_pokemon = player_trainer.GetFirstEligiblePokemon();
+            enemy_pokemon = enemy_trainer.GetFirstEligiblePokemon();
+
+            // Call Trainer Battle Intro Scene
+            effect_playing = true;
+            StartCoroutine(RunTrainerBattleIntro());
+            yield return new WaitUntil(() => !effect_playing);
+            StartCoroutine(BattleStart());
+        }
+
+        public IEnumerator BattleStart()
+        {
+            // TODO: Implement this
+
+            // Check for start of battle abilities
+            /*
+             * Check for which pokemon is faster, then check each in speed order
+             * for start of battle triggering abilities using Ability.TriggersOnBattleStart(ability),
+             * doing the following
+             */
+
+            /*
+             * Start of battle abilities
+             */
+
+            yield return new WaitForSeconds(1);
+            battle_state = BattleStates.Command;
+        }
+
+        #endregion
+
+
+        #region Battle Scene Methods
+
+        private IEnumerator RunWildBattleIntro()
+        {
+            // TODO: Implement this
+
             /* 
+             * Use SceneLoader to transition to the battle scene, not destroying the game_manager (at minimum)
+             * 
              * Start opening animations, yielding as necessary for specific times or vars
              * - Black screen slides open as...
              *      - Bases slide into position with...
@@ -86,20 +155,31 @@ namespace Battle
              * - After input is received...
              *      - Message "Go Pokemon!" is displayed
              *      - Player animation of throwing
-             *      - Pokemon flies in
+             *      - Pokemon/pokeball flies in
              *      - Burst as battler appears
-             *      
-             * - Enemy
+             * - Definitely more...
             */
-            animation_playing = false;
+
+            StartCoroutine(SceneLoader.LoadScene(Constants.BATTLE_SCENE));
+            yield return new WaitUntil(() => !SceneLoader.loading_scene);
+
+            yield return new WaitForSeconds(1);
+            effect_playing = false;
+        }
+
+        private IEnumerator RunTrainerBattleIntro()
+        {
+            // TODO: Implement this
 
             /*
-             * Start of battle abilities
+             * 
              */
 
-            /*
-             * Go to command state
-             */
+            StartCoroutine(SceneLoader.LoadScene(Constants.BATTLE_SCENE));
+            yield return new WaitUntil(() => !SceneLoader.loading_scene);
+
+            yield return new WaitForSeconds(1);
+            effect_playing = false;
         }
 
         #endregion
