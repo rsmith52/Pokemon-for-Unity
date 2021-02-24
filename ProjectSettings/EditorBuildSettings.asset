@@ -6,17 +6,20 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Game Start.unity
+    guid: 79f0e12c7062e470bbaf5cee05e12408
+  - enabled: 1
+    path: Assets/Scenes/Overworld.unity
+    guid: 6819f8a0764464d3da799761551dc61e
+  - enabled: 1
+    path: Assets/Scenes/Battle.unity
+    guid: c6b71eaee34e4482ea4671559675a074
+  - enabled: 1
     path: Assets/Scenes/Data Importing.unity
     guid: f3e51b6eeb7e8441b858f9475c3d2590
   - enabled: 1
     path: Assets/Scenes/Map Making.unity
     guid: 28a4863d314a6419a98ffcf4cb4c5191
-  - enabled: 1
-    path: Assets/Scenes/Game Start.unity
-    guid: 79f0e12c7062e470bbaf5cee05e12408
-  - enabled: 1
-    path: Assets/Scenes/Battle.unity
-    guid: c6b71eaee34e4482ea4671559675a074
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: a0e2098c951ea4264a193be9488a5748,
       type: 2}

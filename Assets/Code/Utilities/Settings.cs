@@ -8,6 +8,7 @@ namespace Utilities
         #region Game
 
         public static readonly string START_SCENE = Constants.MAP_MAKING_SCENE;
+        public static readonly int START_MAP_ID = 0;
 
         #endregion
 
@@ -50,6 +51,7 @@ namespace Utilities
         public static readonly string MOVES_FILE_PATH = Path.Combine("Assets", "Resources", "Data", "Moves");
         public static readonly string SPECIES_FILE_PATH = Path.Combine("Assets", "Resources", "Data", "Species");
         public static readonly string TYPES_FILE_PATH = Path.Combine("Assets", "Resources", "Data", "Types");
+        public static readonly string MAPS_FILE_PATH = Path.Combine("Assets", "Resources", "Data", "Maps");
 
         #endregion
     }

@@ -7,36 +7,28 @@ namespace Mapping
 
     public enum Maps
     {
-
+        TestMap
     }
 
     #endregion
 
-    [CreateAssetMenu(fileName = "Map", menuName = "Pokemon/Map")]
-    public class Map : ScriptableObject
+    public class Map : MonoBehaviour
     {
         #region Fields
 
-        public Dictionary<Maps, Map> maps;
+        public static Dictionary<Maps, Map> maps;
 
         #endregion
 
 
-        #region Scriptable Object
-
-        new public string name;
-        public int map_id;
-        public GameObject map;
-
-        #endregion
-
+        #region Static Methods
 
         public static Map GetMapByID(int id)
         {
-            // TODO: iterate through maps to get map with matching id
-
-            return null;
+            return maps[(Maps)id];
         }
+
+        #endregion
 
     }
 }

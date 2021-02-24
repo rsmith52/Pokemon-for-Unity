@@ -22,6 +22,12 @@ namespace Eventing
 
         #region Mono Behavior
 
+        private void Awake()
+        {
+            // Set Player game object to not destroy on load
+            DontDestroyOnLoad(gameObject);
+        }
+
         private void Start()
         {
             player_mover = GetComponent<MoveableCharacter>();

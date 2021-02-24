@@ -1,6 +1,8 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
 using Trainers;
+using UnityEngine.SceneManagement;
+using Utilities;
 
 namespace Eventing
 {
@@ -11,13 +13,45 @@ namespace Eventing
         public List<Event> events;
 
         private PlayerController player;
+        public GameObject player_prefab;
 
         #endregion
 
 
         #region Mono Behavior
 
+        private void Awake()
+        {
+            // Set Game Manager game object to not destroy on load
+            DontDestroyOnLoad(gameObject);
+        }
+
         private void Start()
+        {
+            // Setup event manager automatically if in the map making scene
+            Scene current_scene = SceneManager.GetActiveScene();
+            string scene_name = current_scene.name;
+            if (scene_name == Constants.MAP_MAKING_SCENE)
+                Setup();
+            // Perform initial setup if this is the original overworld load
+            else if (SceneLoader.initial_overworld_load)
+            {
+                SpawnPlayer();
+                Setup();
+            }
+        }
+
+        private void Update()
+        {
+            // TODO: Update events on conditions... maybe every couple frames
+        }
+
+        #endregion
+
+
+        #region Event Manager Methods
+
+        private void Setup()
         {
             // Find and setup player
             player = FindObjectOfType<PlayerController>();
@@ -27,14 +61,11 @@ namespace Eventing
             Event[] all_events = FindObjectsOfType<Event>();
             foreach (Event e in all_events)
                 events.Add(e);
-
-            // Set Game Manager game object to not destroy on load
-            DontDestroyOnLoad(gameObject);
         }
 
-        private void Update()
+        private void SpawnPlayer()
         {
-            // TODO: Update events on conditions... maybe every couple frames
+            GameObject player = Instantiate(player_prefab);
         }
 
         #endregion

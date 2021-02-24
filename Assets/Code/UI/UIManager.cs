@@ -6,6 +6,7 @@ using Eventing;
 using Utilities;
 using System.Collections.Generic;
 using System.IO;
+using UnityEngine.SceneManagement;
 
 namespace UI
 {
@@ -26,6 +27,7 @@ namespace UI
         private PlayerTrainer player_trainer;
 
         private Canvas canvas;
+        public GameObject canvas_prefab;
         private GameObject message_panel;
         private GameObject choice_panel;
         public ChoicePackage choice_package;
@@ -70,7 +72,7 @@ namespace UI
         public GameObject prefab_pause_menu;
         public GameObject prefab_pokemon_menu;
         public GameObject prefab_summary_screen;
-        public GameObject prefab_options_menu;        
+        public GameObject prefab_options_menu;
 
         #endregion
 
@@ -79,9 +81,55 @@ namespace UI
 
         private void Start()
         {
+            // Setup ui manager automatically if in the map making scene
+            Scene current_scene = SceneManager.GetActiveScene();
+            string scene_name = current_scene.name;
+            if (scene_name == Constants.MAP_MAKING_SCENE)
+                Setup();
+            // Perform initial setup if this is the original overworld load
+            else if (SceneLoader.initial_overworld_load)
+            {
+                CreateCanvas();
+                Setup();
+            }
+        }
+
+        #endregion
+
+
+        #region UI Manager Methods
+
+        private void Setup()
+        {
             player_trainer = FindObjectOfType<PlayerTrainer>();
             canvas = FindObjectOfType<Canvas>();
             GetWindowskins();
+        }
+
+        private void CreateCanvas()
+        {
+            GameObject ui_canvas = Instantiate(canvas_prefab);
+        }
+
+        private void GetWindowskins()
+        {
+            message_frame_files = new List<string>();
+            menu_frame_files = new List<string>();
+
+            string windowskins_path = Settings.WINDOWSKINS_PATH;
+            string[] windowskin_files = Directory.GetFiles(windowskins_path, "*.png");
+            foreach (string file in windowskin_files)
+            {
+                string file_name = Path.GetFileNameWithoutExtension(file);
+                string local_path = Path.GetFileName(windowskins_path);
+                string file_path = Path.Combine(local_path, file_name);
+
+                string[] parts = file_name.Split('_');
+                if (parts[0] == Settings.MESSAGE_SKIN_PREFIX)
+                    message_frame_files.Add(file_path);
+                else if (parts[0] == Settings.MENU_SKIN_PREFIX)
+                    menu_frame_files.Add(file_path);
+            }
         }
 
         #endregion
@@ -261,32 +309,6 @@ namespace UI
         public void ClosedOptionsMenu()
         {
             in_options_menu = false;
-        }
-
-        #endregion
-
-
-        #region UI Manager Methods
-
-        private void GetWindowskins()
-        {
-            message_frame_files = new List<string>();
-            menu_frame_files = new List<string>();
-
-            string windowskins_path = Settings.WINDOWSKINS_PATH;
-            string[] windowskin_files = Directory.GetFiles(windowskins_path, "*.png");
-            foreach (string file in windowskin_files)
-            {
-                string file_name = Path.GetFileNameWithoutExtension(file);
-                string local_path = Path.GetFileName(windowskins_path);
-                string file_path = Path.Combine(local_path, file_name);
-
-                string[] parts = file_name.Split('_');
-                if (parts[0] == Settings.MESSAGE_SKIN_PREFIX)
-                    message_frame_files.Add(file_path);
-                else if (parts[0] == Settings.MENU_SKIN_PREFIX)
-                    menu_frame_files.Add(file_path);
-            }
         }
 
         #endregion

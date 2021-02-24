@@ -3,9 +3,9 @@ using System.IO;
 using UnityEngine;
 using Items;
 using Pokemon;
-using Utilities;
 using System;
 using System.Text.RegularExpressions;
+using Mapping;
 
 namespace Utilities
 {
@@ -35,6 +35,7 @@ namespace Utilities
             LoadItems();
             LoadSpecies();
             LoadAltForms();
+            LoadMaps();
 
             data_loaded = true;
         }
@@ -44,7 +45,7 @@ namespace Utilities
             if (data_loaded && !scene_loading)
             {
                 Debug.Log("Load Time: " + (Time.time - load_time).ToString());
-                StartCoroutine(SceneLoader.LoadScene(Settings.START_SCENE));
+                StartCoroutine(SceneLoader.InitialLoadOverworldScene());
                 scene_loading = true;
             }
         }
@@ -196,6 +197,28 @@ namespace Utilities
 
             Form.forms = forms;
             Debug.Log(forms_loaded.ToString() + " Form files loaded.");
+        }
+
+        private static void LoadMaps()
+        {
+            // TODO: This
+            Debug.Log("Loading Maps...");
+            Dictionary<Maps, Map> maps = new Dictionary<Maps, Map>();
+            string maps_path = Settings.MAPS_FILE_PATH;
+
+            string[] map_files = Directory.GetFiles(maps_path, "*.prefab");
+            foreach (string file in map_files)
+            {
+                string local_path = Path.Combine(Path.GetFileName(Path.GetDirectoryName(maps_path)), Path.GetFileName(maps_path));
+                string file_path = Path.Combine(local_path, Path.GetFileNameWithoutExtension(file));
+                GameObject map_obj = Resources.Load<GameObject>(file_path);
+                string map_name = FileNameToEnumEntry(map_obj.name);
+                Maps map = (Maps)Enum.Parse(typeof(Maps), map_name, true);
+                maps[map] = map_obj.GetComponent<Map>();
+            }
+
+            Map.maps = maps;
+            Debug.Log(Map.maps.Count.ToString() + " Map files loaded.");
         }
 
         #endregion

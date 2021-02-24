@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Tilemaps;
 using Eventing;
+using UnityEngine.SceneManagement;
+using Utilities;
+using Cinemachine;
 
 namespace Mapping
 {
@@ -12,8 +15,10 @@ namespace Mapping
 
         public List<Tilemap> tilemaps;
         public Map current_map;
-
         private Grid map_grid;
+
+        private CinemachineVirtualCamera virtual_cam;
+        private bool player_found;
 
         #endregion
 
@@ -29,10 +34,61 @@ namespace Mapping
 
         private void Start()
         {
+            Scene current_scene = SceneManager.GetActiveScene();
+            string scene_name = current_scene.name;
+
+            // Setup map manager automatically if in the map making scene
+            if (scene_name == Constants.MAP_MAKING_SCENE)
+                Setup();
+            // Perform initial setup if this is the original overworld load
+            else if (SceneLoader.initial_overworld_load)
+            {
+                LoadMap(Map.GetMapByID(Settings.START_MAP_ID));
+                Setup();
+            }
+        }
+
+        private void Update()
+        {
+            // Await player spawn to set camera follow
+            if (!player_found)
+            {
+                PlayerController player = FindObjectOfType<PlayerController>();
+                if (player != null)
+                {
+                    SetCameraFollow(player.transform);
+                    player_found = true;
+                }
+            }
+        }
+
+        #endregion
+
+
+        #region Map Manager Methods
+
+        private void Setup()
+        {
             Tilemap[] all_tilemaps = FindObjectsOfType<Tilemap>();
             foreach (Tilemap t in all_tilemaps)
                 tilemaps.Add(t);
             map_grid = FindObjectOfType<Grid>();
+
+            virtual_cam = FindObjectOfType<CinemachineVirtualCamera>();
+            player_found = false;
+        }
+
+        private void LoadMap(Map map)
+        {
+            // Destroy previous map
+            if (current_map != null)
+            {
+                Destroy(current_map.gameObject);
+            }
+
+            // Setup new map
+            current_map = map;
+            GameObject map_obj = Instantiate(map.gameObject);
         }
 
         #endregion
@@ -149,9 +205,14 @@ namespace Mapping
 
         #region Map Effects
 
+        public void SetCameraFollow(Transform transform)
+        {
+            virtual_cam.Follow = transform;
+        }
+
         public IEnumerator GrassRustle(Vector3 pos)
         {
-            GameObject grass_rustle = GameObject.Instantiate(prefab_grass_rustle, map_grid.transform);
+            GameObject grass_rustle = Instantiate(prefab_grass_rustle, map_grid.transform);
             grass_rustle.transform.position += pos;
 
             yield return new WaitForSeconds(0.5f);

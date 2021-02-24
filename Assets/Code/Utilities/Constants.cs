@@ -6,7 +6,11 @@ namespace Utilities
     {
         #region Scenes
 
+        public static readonly string GAME_START_SCENE = "Game Start";
+        public static readonly string OVERWORLD_SCENE = "Overworld";
         public static readonly string BATTLE_SCENE = "Battle";
+
+        public static readonly string DATA_IMPORTING_SCENE = "Data Importing";
         public static readonly string MAP_MAKING_SCENE = "Map Making";
 
         #endregion
