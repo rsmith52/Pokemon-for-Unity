@@ -80,8 +80,8 @@ namespace UI
             player = ui_manager.GetPlayerTrainer();
 
             // Pause Game
-            ui_manager.DisablePlayerControl();
-            // TODO Pause all Events on Map... something in EventManager for sure
+            event_manager.DisablePlayerControl();
+            event_manager.DisableAllEvents();
 
             // Set Windowskin and Text Color
             panel.sprite = ui_manager.GetCurrentMenuSkin();
@@ -204,8 +204,8 @@ namespace UI
         public void CloseMenu()
         {
             ui_manager.pause_menu_selection = menu_options[current_selection];
-            ui_manager.EnablePlayerControl();
-            // TODO: reenable map events, something in EventManager
+            event_manager.EnablePlayerControl();
+            event_manager.EnableAllEvents();
             GameObject.Destroy(this.gameObject);
         }
 

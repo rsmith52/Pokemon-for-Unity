@@ -9,6 +9,16 @@ using Mapping;
 
 namespace Utilities
 {
+    #region Enums
+
+    public enum GameEnvironments
+    {
+        MapMaking,
+        GameStart
+    }
+
+    #endregion
+
     public class DataLoader : MonoBehaviour
     {
         #region Fields
@@ -17,6 +27,9 @@ namespace Utilities
         public float load_time;
 
         public bool scene_loading;
+
+        [Header("Game Environment")]
+        public GameEnvironments game_environment;
 
         #endregion
 
@@ -44,9 +57,24 @@ namespace Utilities
         {
             if (data_loaded && !scene_loading)
             {
-                Debug.Log("Load Time: " + (Time.time - load_time).ToString());
-                StartCoroutine(SceneLoader.InitialLoadOverworldScene());
-                scene_loading = true;
+                switch(game_environment)
+                {
+                    case GameEnvironments.GameStart:
+                        Debug.Log("Load Time: " + (Time.time - load_time).ToString());
+                        StartCoroutine(SceneLoader.InitialLoadOverworldScene());
+                        scene_loading = true;
+                        break;
+
+                    case GameEnvironments.MapMaking:
+                        MapManager map_manager = FindObjectOfType<MapManager>();
+                        map_manager.current_map = FindObjectOfType<Map>();
+                        Destroy(this);
+                        break;
+
+                    default:
+                        break;
+                }
+                
             }
         }
 

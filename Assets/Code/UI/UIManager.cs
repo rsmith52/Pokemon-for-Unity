@@ -25,6 +25,7 @@ namespace UI
         #region Fields
 
         private PlayerTrainer player_trainer;
+        private bool player_found;
 
         private Canvas canvas;
         public GameObject canvas_prefab;
@@ -94,6 +95,19 @@ namespace UI
             }
         }
 
+        private void Update()
+        {
+            // Await player spawn to get reference to trainer
+            if (!player_found)
+            {
+                player_trainer = FindObjectOfType<PlayerTrainer>();
+                if (player_trainer != null)
+                {
+                    player_found = true;
+                }
+            }
+        }
+
         #endregion
 
 
@@ -101,7 +115,7 @@ namespace UI
 
         private void Setup()
         {
-            player_trainer = FindObjectOfType<PlayerTrainer>();
+            player_found = false;
             canvas = FindObjectOfType<Canvas>();
             GetWindowskins();
         }

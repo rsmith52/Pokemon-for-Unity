@@ -12,7 +12,7 @@ namespace Eventing
 
         public List<Event> events;
 
-        private PlayerController player;
+        public PlayerController player;
         public GameObject player_prefab;
 
         #endregion
@@ -60,7 +60,12 @@ namespace Eventing
             // Get events in scene
             Event[] all_events = FindObjectsOfType<Event>();
             foreach (Event e in all_events)
-                events.Add(e);
+            {
+                // Only add non-player events
+                PlayerController player_controller = e.GetComponent<PlayerController>();
+                if (player_controller == null)
+                    events.Add(e);
+            }
         }
 
         private void SpawnPlayer()
@@ -115,12 +120,31 @@ namespace Eventing
 
         public void DisableEvent(Event e)
         {
-            // TODO
+            e.enabled = false;
+            MoveableCharacter moveable_character = e.GetComponent<MoveableCharacter>();
+            moveable_character.enabled = false;
         }
 
         public void DisableAllEvents()
         {
-            // TODO call DisableEvent() on all events
+            foreach (Event e in events) {
+                DisableEvent(e);
+            }
+        }
+
+        public void EnableEvent(Event e)
+        {
+            e.enabled = true;
+            MoveableCharacter moveable_character = e.GetComponent<MoveableCharacter>();
+            moveable_character.enabled = true;
+        }
+
+        public void EnableAllEvents()
+        {
+            foreach (Event e in events)
+            {
+                EnableEvent(e);
+            }
         }
 
         #endregion

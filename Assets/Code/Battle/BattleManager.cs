@@ -1,4 +1,5 @@
 ﻿using System.Collections;
+using Eventing;
 using Pokemon;
 using Trainers;
 using UI;
@@ -38,8 +39,10 @@ namespace Battle
         #region Fields
 
         private PlayerTrainer player_trainer;
+        private bool player_found;
         private Trainer enemy_trainer;
         private UIManager ui_manager;
+        private EventManager event_manager;
 
         private Pokemon.Pokemon player_pokemon;
         private Pokemon.Pokemon enemy_pokemon;
@@ -74,7 +77,15 @@ namespace Battle
 
         private void Update()
         {
-
+            // Await player spawn to get reference to trainer
+            if (!player_found)
+            {
+                player_trainer = FindObjectOfType<PlayerTrainer>();
+                if (player_trainer != null)
+                {
+                    player_found = true;
+                }
+            }
         }
 
         #endregion
@@ -84,8 +95,9 @@ namespace Battle
 
         private void Setup()
         {
-            player_trainer = FindObjectOfType<PlayerTrainer>();
+            player_found = false;
             ui_manager = FindObjectOfType<UIManager>();
+            event_manager = FindObjectOfType<EventManager>();
 
             in_battle = false;
             battle_type = BattleTypes.None;
@@ -100,6 +112,10 @@ namespace Battle
 
         public IEnumerator WildBattle(Pokemon.Pokemon wild_pokemon)
         {
+            // Pause overworld
+            event_manager.DisablePlayerControl();
+            event_manager.DisableAllEvents();
+
             // Setup battle parameters for wild encounter
             in_battle = true;
             battle_type = BattleTypes.Wild;
@@ -117,6 +133,10 @@ namespace Battle
 
         public IEnumerator TrainerBattle(Trainer trainer)
         {
+            // Pause overworld
+            event_manager.DisablePlayerControl();
+            event_manager.DisableAllEvents();
+
             // Setup battle parameters for a trainer battle
             in_battle = true;
             battle_type = BattleTypes.Trainer;
