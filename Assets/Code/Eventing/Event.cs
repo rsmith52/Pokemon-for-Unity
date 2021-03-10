@@ -112,6 +112,7 @@ namespace Eventing
         private BattleManager battle_manager;
 
         [Header("Event Settings")]
+        public bool is_player;
         public Conditions[] conditions;
         public Triggers trigger;
         public bool passable;

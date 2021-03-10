@@ -61,9 +61,7 @@ namespace Eventing
             Event[] all_events = FindObjectsOfType<Event>();
             foreach (Event e in all_events)
             {
-                // Only add non-player events
-                PlayerController player_controller = e.GetComponent<PlayerController>();
-                if (player_controller == null)
+                if (!e.is_player)
                     events.Add(e);
             }
         }
