@@ -61,8 +61,7 @@ namespace Eventing
             Event[] all_events = FindObjectsOfType<Event>();
             foreach (Event e in all_events)
             {
-                if (!e.is_player)
-                    events.Add(e);
+                events.Add(e);
             }
         }
 
@@ -126,7 +125,8 @@ namespace Eventing
         public void DisableAllEvents()
         {
             foreach (Event e in events) {
-                DisableEvent(e);
+                if (!e.is_player)
+                    DisableEvent(e);
             }
         }
 
@@ -141,7 +141,8 @@ namespace Eventing
         {
             foreach (Event e in events)
             {
-                EnableEvent(e);
+                if (!e.is_player)
+                    EnableEvent(e);
             }
         }
 
