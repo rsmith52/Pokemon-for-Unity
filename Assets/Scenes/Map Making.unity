@@ -758,6 +758,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4840ca1b0b5404b7ea6b39ec701bdd5d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  is_player: 0
   conditions: 
   trigger: 0
   passable: 0
@@ -765,7 +766,7 @@ MonoBehaviour:
   local_variables: []
   event_entries:
   - effect: 0
-    message: Hi there {PN}! Would you like to battle?
+    message: Hi there {PN}! Would you like a Pokemon?
     character: {fileID: 0}
     choice_package:
       choices: []
@@ -778,7 +779,7 @@ MonoBehaviour:
       species: 0
       level: 0
       form_id: 0
-  - effect: 6
+  - effect: 5
     message: 
     character: {fileID: 0}
     choice_package:
@@ -791,7 +792,7 @@ MonoBehaviour:
       move_route: 
       wait_for_moves_completion: 0
     pokemon_package:
-      species: 25
+      species: 613
       level: 5
       form_id: 0
 --- !u!114 &1530079708
